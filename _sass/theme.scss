@@ -1,0 +1,105 @@
+@layer theme {
+  :root {
+    --font-base-size: clamp(1rem, 0.8rem + 0.75vw, 1.375rem);
+    --font-scale-ratio: 1.25;
+
+    --color-grey-50: oklch(98.14% 0.001 286.38);
+    --color-grey-100: oklch(91.34% 0.003 286.35);
+    --color-grey-200: oklch(83.09% 0.006 286.28);
+    --color-grey-300: oklch(73.99% 0.009 286.19);
+    --color-grey-400: oklch(65.59% 0.012 286.07);
+    --color-grey-500: oklch(55.86% 0.014 285.95);
+    --color-grey-600: oklch(47.36% 0.011 285.97);
+    --color-grey-700: oklch(37.33% 0.008 285.98);
+    --color-grey-800: oklch(27.39% 0.005 286.03);
+    --color-grey-900: oklch(15.95% 0.002 286.16);
+    --color-grey-950: oklch(10.91% 0.003 286.03);
+
+    --color-info-50: oklch(98.34% 0.02 200.65);
+    --color-info-100: oklch(97.05% 0.035 200.94);
+    --color-info-200: oklch(94.01% 0.07 201.54);
+    --color-info-300: oklch(91.82% 0.098 201.16);
+    --color-info-400: oklch(89.65% 0.123 201.63);
+    --color-info-500: oklch(88.09% 0.137 202.5);
+    --color-info-600: oklch(86.53% 0.148 204.02);
+    --color-info-700: oklch(70.48% 0.12 203.91);
+    --color-info-800: oklch(51.9% 0.088 204.04);
+    --color-info-900: oklch(33.12% 0.056 202);
+    --color-info-950: oklch(20.99% 0.036 201.16);
+
+    --color-warning-50: oklch(97.76% 0.025 86.87);
+    --color-warning-100: oklch(95.6% 0.049 86.35);
+    --color-warning-200: oklch(91.46% 0.095 86);
+    --color-warning-300: oklch(87.64% 0.134 84.75);
+    --color-warning-400: oklch(83.99% 0.16 81.18);
+    --color-warning-500: oklch(81.24% 0.17 76.39);
+    --color-warning-600: oklch(68.48% 0.144 75.76);
+    --color-warning-700: oklch(55.69% 0.116 77.27);
+    --color-warning-800: oklch(41.91% 0.087 78.88);
+    --color-warning-900: oklch(26.85% 0.055 82.97);
+    --color-warning-950: oklch(18.29% 0.037 88.42);
+
+    --color-error-50: oklch(93.22% 0.034 17.78);
+    --color-error-100: oklch(86.89% 0.07 18.6);
+    --color-error-200: oklch(75.29% 0.149 21.22);
+    --color-error-300: oklch(66.66% 0.22 25.5);
+    --color-error-400: oklch(62.99% 0.256 28.99);
+    --color-error-500: oklch(53.08% 0.218 29.23);
+    --color-error-600: oklch(44.93% 0.184 29.23);
+    --color-error-700: oklch(36.39% 0.149 29.23);
+    --color-error-800: oklch(27.54% 0.113 29.23);
+    --color-error-900: oklch(17.64% 0.072 29.23);
+    --color-error-950: oklch(12.01% 0.049 29.23);
+
+    --color-text: var(--color-grey-900);
+    --color-text-secondary: var(--color-grey-600);
+    --color-background: var(--color-grey-50);
+    --color-background-code: var(--color-info-950);
+    --color-background-inline-code: var(--color-grey-100);
+    --color-background-thead: var(--color-grey-100);
+    --color-link-active: var(--color-grey-700);
+    --color-link-hover: var(--color-grey-600);
+
+    --font-size-sm: calc(var(--font-base-size) / var(--font-scale-ratio));
+    --font-size-md: var(--font-base-size);
+    --font-size-lg: calc(var(--font-size-md) * var(--font-scale-ratio));
+    --font-size-xl: calc(var(--font-size-lg) * var(--font-scale-ratio));
+    --font-size-2xl: calc(var(--font-size-xl) * var(--font-scale-ratio));
+    --font-size-3xl: calc(var(--font-size-2xl) * var(--font-scale-ratio));
+    --font-size-4xl: calc(var(--font-size-2xl) * var(--font-scale-ratio));
+
+    --space-unit: 1rem;
+    --space-xxs: calc(0.25 * var(--space-unit));
+    --space-xs: calc(0.5 * var(--space-unit));
+    --space-sm: calc(0.75 * var(--space-unit));
+    --space-md: calc(1 * var(--space-unit));
+    --space-lg: calc(1.5 * var(--space-unit));
+    --space-xl: calc(2 * var(--space-unit));
+    --space-2xl: calc(3.25 * var(--space-unit));
+    --space-3xl: calc(5.25 * var(--space-unit));
+
+    --border-radius-sm: 5px;
+    --border-radius-md: 10px;
+  }
+
+  @font-face {
+    font-family: "Rubik";
+    src:
+      local("Rubik"),
+      url("/assets/fonts/Rubik.woff2") format("woff2 supports variations"),
+      url("/assets/fonts/Rubik.woff2") format("woff2-variations");
+    font-weight: 1 999;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: "Space Mono";
+    src:
+      local("Space Mono"),
+      url("/assets/fonts/SpaceMono.woff2") format("woff2 supports variations"),
+      url("/assets/fonts/SpaceMono.woff2") format("woff2-variations");
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+  }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="preload" href="{{ "/assets/css/main.css" | relative_url }}" as="style">
+    <link
+      rel="preload"
+      href="{{ "/assets/fonts/Rubik.woff2" | relative_url }}"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    >
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+      <div class="nav__links">
+        <a href="{{ "/meetups/" | relative_url }}">Meetups</a>
+      </div>
+    </nav>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </body>
+</html>

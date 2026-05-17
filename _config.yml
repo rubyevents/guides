@@ -1,0 +1,11 @@
+url: ""
+baseurl: ""
+title: "Ruby Community Guides"
+description: "Practical guides for starting and running Ruby communities."
+
+exclude:
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
