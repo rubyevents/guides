@@ -3,6 +3,8 @@ layout: default
 title: Running Ruby Meetups
 ---
 
+<div class="page-content">
+
 # Running Ruby Meetups
 
 A practical guide for starting and running local Ruby meetups, from the first awkward event to a sustainable community.
@@ -70,3 +72,5 @@ Code of conduct, tone-setting, and making the meetup welcoming in practice.
 ## Growing & Evolving
 
 When to grow, when not to, spin-offs, and connecting to the wider Ruby world.
+
+</div>

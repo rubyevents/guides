@@ -1,36 +1,11 @@
-@media (prefers-color-scheme: dark) {
-  @layer theme {
-    :root {
-      --color-text: var(--color-grey-50);
-      --color-text-secondary: var(--color-grey-200);
-      --color-background: var(--color-grey-900);
-      --color-background-inline-code: var(--color-info-950);
-      --color-link-active: var(--color-grey-200);
-      --color-link-hover: var(--color-grey-300);
-    }
-  }
+// =============================================================================
+// Responsive Layout — breakpoint overrides only
+// Tokens never live here. This file is strictly for layout behaviour changes
+// at different viewport widths.
+// =============================================================================
 
-  @layer components {
-    .notice {
-      &--info {
-        --color-background-inline-code: var(--color-info-950);
-        background-color: var(--color-info-900);
-        border-color: var(--color-info-100);
-      }
-
-      &--warning {
-        --color-background-inline-code: var(--color-warning-900);
-        background-color: var(--color-warning-800);
-        border-color: var(--color-warning-100);
-      }
-
-      &--error {
-        --color-background-inline-code: var(--color-error-900);
-        background-color: var(--color-error-700);
-        border-color: var(--color-error-100);
-      }
-    }
-  }
-}
-
-
+// Breakpoints (for reference — use in @media rules below)
+// sm:  375px  mobile
+// md:  768px  tablet
+// lg:  1024px small desktop
+// xl:  1280px desktop

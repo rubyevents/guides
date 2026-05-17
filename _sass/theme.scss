@@ -1,103 +1,208 @@
+// =============================================================================
+// Design Tokens — Ruby Community Guides
+// Aesthetic: Literary/editorial field guide
+// Derived from: RubyEvents visual identity (Inter + Nunito, crimson primary)
+// Adapted for: Long-form reading, Jekyll + plain SCSS
+//
+// Font loading: Inter and Nunito loaded via Google Fonts in default.html.
+// Space Mono is self-hosted at /assets/fonts/SpaceMono.woff2.
+// =============================================================================
+
 @layer theme {
+  // ── Light mode (default) ───────────────────────────────────────────────────
+
   :root {
-    --font-base-size: clamp(1rem, 0.8rem + 0.75vw, 1.375rem);
-    --font-scale-ratio: 1.25;
+    // Typography
+    --font-display: "Nunito", sans-serif;
+    --font-body: "InterVariable", "Inter", sans-serif;
+    --font-mono: "Space Mono", monospace;
 
-    --color-grey-50: oklch(98.14% 0.001 286.38);
-    --color-grey-100: oklch(91.34% 0.003 286.35);
-    --color-grey-200: oklch(83.09% 0.006 286.28);
-    --color-grey-300: oklch(73.99% 0.009 286.19);
-    --color-grey-400: oklch(65.59% 0.012 286.07);
-    --color-grey-500: oklch(55.86% 0.014 285.95);
-    --color-grey-600: oklch(47.36% 0.011 285.97);
-    --color-grey-700: oklch(37.33% 0.008 285.98);
-    --color-grey-800: oklch(27.39% 0.005 286.03);
-    --color-grey-900: oklch(15.95% 0.002 286.16);
-    --color-grey-950: oklch(10.91% 0.003 286.03);
+    --font-size-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.8125rem);
+    --font-size-sm: clamp(0.875rem, 0.82rem + 0.28vw, 0.9375rem);
+    --font-size-base: clamp(1rem, 0.93rem + 0.35vw, 1.0625rem);
+    --font-size-md: clamp(1rem, 0.93rem + 0.35vw, 1.125rem);
+    --font-size-lg: clamp(1.125rem, 1rem + 0.6vw, 1.3125rem);
+    --font-size-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+    --font-size-2xl: clamp(1.5rem, 1.3rem + 1vw, 1.875rem);
+    --font-size-3xl: clamp(1.875rem, 1.5rem + 1.875vw, 2.5rem);
+    --font-size-4xl: clamp(2.25rem, 1.75rem + 2.5vw, 3.25rem);
 
-    --color-info-50: oklch(98.34% 0.02 200.65);
-    --color-info-100: oklch(97.05% 0.035 200.94);
-    --color-info-200: oklch(94.01% 0.07 201.54);
-    --color-info-300: oklch(91.82% 0.098 201.16);
-    --color-info-400: oklch(89.65% 0.123 201.63);
-    --color-info-500: oklch(88.09% 0.137 202.5);
-    --color-info-600: oklch(86.53% 0.148 204.02);
-    --color-info-700: oklch(70.48% 0.12 203.91);
-    --color-info-800: oklch(51.9% 0.088 204.04);
-    --color-info-900: oklch(33.12% 0.056 202);
-    --color-info-950: oklch(20.99% 0.036 201.16);
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
 
-    --color-warning-50: oklch(97.76% 0.025 86.87);
-    --color-warning-100: oklch(95.6% 0.049 86.35);
-    --color-warning-200: oklch(91.46% 0.095 86);
-    --color-warning-300: oklch(87.64% 0.134 84.75);
-    --color-warning-400: oklch(83.99% 0.16 81.18);
-    --color-warning-500: oklch(81.24% 0.17 76.39);
-    --color-warning-600: oklch(68.48% 0.144 75.76);
-    --color-warning-700: oklch(55.69% 0.116 77.27);
-    --color-warning-800: oklch(41.91% 0.087 78.88);
-    --color-warning-900: oklch(26.85% 0.055 82.97);
-    --color-warning-950: oklch(18.29% 0.037 88.42);
+    --line-height-tight: 1.2;
+    --line-height-snug: 1.35;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75; // prose
+    --line-height-loose: 1.9;
 
-    --color-error-50: oklch(93.22% 0.034 17.78);
-    --color-error-100: oklch(86.89% 0.07 18.6);
-    --color-error-200: oklch(75.29% 0.149 21.22);
-    --color-error-300: oklch(66.66% 0.22 25.5);
-    --color-error-400: oklch(62.99% 0.256 28.99);
-    --color-error-500: oklch(53.08% 0.218 29.23);
-    --color-error-600: oklch(44.93% 0.184 29.23);
-    --color-error-700: oklch(36.39% 0.149 29.23);
-    --color-error-800: oklch(27.54% 0.113 29.23);
-    --color-error-900: oklch(17.64% 0.072 29.23);
-    --color-error-950: oklch(12.01% 0.049 29.23);
+    --letter-spacing-tight: -0.03em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.04em;
+    --letter-spacing-caps: 0.08em;
 
-    --color-text: var(--color-grey-900);
-    --color-text-secondary: var(--color-grey-600);
-    --color-background: var(--color-grey-50);
-    --color-background-code: var(--color-info-950);
-    --color-background-inline-code: var(--color-grey-100);
-    --color-background-thead: var(--color-grey-100);
-    --color-link-active: var(--color-grey-700);
-    --color-link-hover: var(--color-grey-600);
+    // Color palette — primitives
+    // Warm neutrals (hue ~65): subtle linen warmth, not yellow
+    --palette-warm-50: oklch(98.5% 0.005 68);
+    --palette-warm-100: oklch(96% 0.007 68);
+    --palette-warm-200: oklch(91% 0.009 67);
+    --palette-warm-300: oklch(82% 0.011 65);
+    --palette-warm-400: oklch(70% 0.012 63);
+    --palette-warm-500: oklch(57% 0.012 62);
+    --palette-warm-600: oklch(45% 0.01 60);
+    --palette-warm-700: oklch(35% 0.009 58);
+    --palette-warm-800: oklch(25% 0.008 55);
+    --palette-warm-850: oklch(19% 0.008 52);
+    --palette-warm-900: oklch(14% 0.007 50);
+    --palette-warm-950: oklch(10% 0.005 50);
 
-    --font-size-sm: calc(var(--font-base-size) / var(--font-scale-ratio));
-    --font-size-md: var(--font-base-size);
-    --font-size-lg: calc(var(--font-size-md) * var(--font-scale-ratio));
-    --font-size-xl: calc(var(--font-size-lg) * var(--font-scale-ratio));
-    --font-size-2xl: calc(var(--font-size-xl) * var(--font-scale-ratio));
-    --font-size-3xl: calc(var(--font-size-2xl) * var(--font-scale-ratio));
-    --font-size-4xl: calc(var(--font-size-2xl) * var(--font-scale-ratio));
+    // Ruby/crimson (derived from RubyEvents primary #DC143C, hue ~27)
+    --palette-ruby-200: oklch(80% 0.12 27);
+    --palette-ruby-300: oklch(68% 0.17 27);
+    --palette-ruby-400: oklch(57% 0.21 27);
+    --palette-ruby-500: oklch(47.5% 0.212 27); // ≈ #DC143C
+    --palette-ruby-600: oklch(39% 0.18 27);
+    --palette-ruby-700: oklch(31% 0.14 27);
 
-    --space-unit: 1rem;
-    --space-xxs: calc(0.25 * var(--space-unit));
-    --space-xs: calc(0.5 * var(--space-unit));
-    --space-sm: calc(0.75 * var(--space-unit));
-    --space-md: calc(1 * var(--space-unit));
-    --space-lg: calc(1.5 * var(--space-unit));
-    --space-xl: calc(2 * var(--space-unit));
-    --space-2xl: calc(3.25 * var(--space-unit));
-    --space-3xl: calc(5.25 * var(--space-unit));
+    // Semantic color tokens
+    --color-bg: var(--palette-warm-50);
+    --color-bg-secondary: var(--palette-warm-100);
+    --color-bg-tertiary: var(--palette-warm-200);
+    --color-bg-inverse: var(--palette-warm-900);
 
-    --border-radius-sm: 5px;
-    --border-radius-md: 10px;
+    --color-text: var(--palette-warm-900);
+    --color-text-secondary: var(--palette-warm-600);
+    --color-text-tertiary: var(--palette-warm-400);
+    --color-text-inverse: var(--palette-warm-50);
+
+    // Links: near-black at rest, crimson on interaction — literary, not hyperlink-blue
+    --color-link: var(--palette-warm-850);
+    --color-link-hover: var(--palette-ruby-500);
+    --color-link-active: var(--palette-ruby-600);
+
+    --color-border: var(--palette-warm-200);
+    --color-border-subtle: var(--palette-warm-100);
+    --color-border-focus: var(--palette-ruby-500);
+
+    --color-accent: var(--palette-ruby-500); // nav title, strong emphasis
+    --color-accent-hover: var(--palette-ruby-600);
+    --color-accent-active: var(--palette-ruby-700);
+
+    // Guide — inline interview quote
+    --color-quote-border: var(--palette-ruby-500);
+    --color-quote-bg: var(--palette-warm-100);
+    --color-quote-text: var(--palette-warm-800);
+    --color-quote-cite: var(--palette-warm-500);
+
+    // Guide — side table of contents
+    --color-toc-text: var(--palette-warm-500);
+    --color-toc-text-hover: var(--palette-warm-800);
+    --color-toc-text-active: var(--palette-warm-900);
+    --color-toc-border: var(--palette-warm-200);
+    --color-toc-marker: var(--palette-ruby-500);
+
+    // Spacing (8px base, editorial scale)
+    --space-1: 0.25rem; //  4px
+    --space-2: 0.5rem; //  8px
+    --space-3: 0.75rem; // 12px
+    --space-4: 1rem; // 16px
+    --space-5: 1.5rem; // 24px
+    --space-6: 2rem; // 32px
+    --space-7: 3rem; // 48px
+    --space-8: 4rem; // 64px
+    --space-9: 6rem; // 96px
+    --space-10: 8rem; // 128px
+
+    // Layout
+    --max-width-prose: 70ch;
+    --max-width-content: 72rem;
+    --max-width-page: 90rem;
+    --toc-width: 14rem;
+    --toc-gap: var(--space-8);
+
+    // Borders & radii
+    --border-radius-sm: 3px;
+    --border-radius-md: 6px;
+    --border-radius-lg: 10px;
+    --border-radius-full: 9999px;
+
+    // Shadows
+    --shadow-sm: 0 1px 2px oklch(0% 0 0 / 0.05);
+    --shadow-md: 0 2px 8px oklch(0% 0 0 / 0.08);
+    --shadow-focus: 0 0 0 3px oklch(47.5% 0.212 27 / 0.35);
+
+    // Motion
+    --duration-instant: 50ms;
+    --duration-fast: 150ms;
+    --duration-normal: 250ms;
+    --duration-slow: 400ms;
+    --easing-default: cubic-bezier(0.4, 0, 0.2, 1);
+    --easing-out: cubic-bezier(0, 0, 0.2, 1);
   }
 
-  @font-face {
-    font-family: "Rubik";
-    src:
-      local("Rubik"),
-      url("/assets/fonts/Rubik.woff2") format("woff2 supports variations"),
-      url("/assets/fonts/Rubik.woff2") format("woff2-variations");
-    font-weight: 1 999;
-    font-display: optional;
+  // ── Dark mode ─────────────────────────────────────────────────────────────
+  // Supports system preference AND explicit [data-theme="dark"] for manual toggle.
+  // Override only what changes — palette primitives are inherited.
+
+  @mixin dark {
+    --color-bg: var(--palette-warm-900);
+    --color-bg-secondary: var(--palette-warm-850);
+    --color-bg-tertiary: var(--palette-warm-800);
+    --color-bg-inverse: var(--palette-warm-100);
+
+    --color-text: var(--palette-warm-50);
+    --color-text-secondary: var(--palette-warm-300);
+    --color-text-tertiary: var(--palette-warm-500);
+    --color-text-inverse: var(--palette-warm-900);
+
+    --color-link: var(--palette-warm-200);
+    --color-link-hover: var(--palette-ruby-300);
+    --color-link-active: var(--palette-ruby-400);
+
+    --color-border: var(--palette-warm-700);
+    --color-border-subtle: var(--palette-warm-800);
+    --color-border-focus: var(--palette-ruby-300);
+
+    --color-accent: var(--palette-ruby-300);
+    --color-accent-hover: var(--palette-ruby-400);
+    --color-accent-active: var(--palette-ruby-500);
+
+    --color-quote-border: var(--palette-ruby-400);
+    --color-quote-bg: var(--palette-warm-850);
+    --color-quote-text: var(--palette-warm-200);
+    --color-quote-cite: var(--palette-warm-400);
+
+    --color-toc-text: var(--palette-warm-400);
+    --color-toc-text-hover: var(--palette-warm-200);
+    --color-toc-text-active: var(--palette-warm-50);
+    --color-toc-border: var(--palette-warm-700);
+    --color-toc-marker: var(--palette-ruby-400);
+
+    --shadow-sm: 0 1px 2px oklch(0% 0 0 / 0.3);
+    --shadow-md: 0 2px 8px oklch(0% 0 0 / 0.5);
+    --shadow-focus: 0 0 0 3px oklch(68% 0.17 27 / 0.4);
   }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      @include dark;
+    }
+  }
+
+  [data-theme="dark"] {
+    @include dark;
+  }
+
+  // ── Font loading ──────────────────────────────────────────────────────────
 
   @font-face {
     font-family: "Space Mono";
     src:
       local("Space Mono"),
-      url("/assets/fonts/SpaceMono.woff2") format("woff2 supports variations"),
-      url("/assets/fonts/SpaceMono.woff2") format("woff2-variations");
+      url("/assets/fonts/SpaceMono.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: optional;

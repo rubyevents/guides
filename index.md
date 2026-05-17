@@ -3,7 +3,8 @@ layout: default
 title: Ruby Community Guides
 ---
 
-<section class="page hero">
+<div class="page-content">
+<section class="hero">
   <p class="eyebrow">Living resources for organizers</p>
   <h1 class="title">Ruby Community Guides</h1>
   <p class="lede">Practical, experience-backed guides for people who want to start and sustain local Ruby communities.</p>

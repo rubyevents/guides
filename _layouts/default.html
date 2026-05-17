@@ -3,27 +3,42 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="{{ "/assets/css/main.css" | relative_url }}" as="style">
-    <link
-      rel="preload"
-      href="{{ "/assets/fonts/Rubik.woff2" | relative_url }}"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    >
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    <nav class="nav" aria-label="Main navigation">
-      <a class="nav__title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-      <div class="nav__links">
-        <a href="{{ "/meetups/" | relative_url }}">Meetups</a>
-      </div>
-    </nav>
 
-    <main class="content">
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav__title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        <div class="nav__links">
+          <a href="{{ "/meetups/" | relative_url }}"
+             {% if page.url contains '/meetups/' %}aria-current="page"{% endif %}>
+            Meetups
+          </a>
+          <a href="{{ "/conferences/" | relative_url }}"
+             {% if page.url contains '/conferences/' %}aria-current="page"{% endif %}>
+            Conferences
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
       {{ content }}
     </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>© {{ site.time | date: "%Y" }} Ruby Community Guides</span>
+        <span>Part of <a href="https://rubyevents.org">RubyEvents</a></span>
+      </div>
+    </footer>
+
   </body>
 </html>

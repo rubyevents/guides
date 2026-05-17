@@ -11,468 +11,204 @@ Cirdes' Linkedin: <https://www.linkedin.com/in/cirdesh>
 
 Tropical on Rails: <https://www.tropicalonrails.com>
 
-### Transcript
+## Transcript
 
-Travis Dockter: Well, thank you. Serious for joining me for my kind of
+**Travis Dockter:** Well, thank you, Cirdes, for joining me for my casual, unprofessional conference chats that I'm doing to record some of the knowledge of conference organizers, especially in the Ruby and Rails space, and put them all on a blog so that other people organizing conferences can see them and it can help them out.
 
-Travis Dockter: casual unprofessional conference chats that I'm doing to kind of try to record some of the knowledge of conference organizers especially in the in the ruby and rails space
+You actually wrote a really great blog post after your first time organizing Tropical on Rails. I read that, and I have a ton of questions for you. But the first one, actually, I want to go back before that, because you had some conference experience before you did Tropical on Rails specifically, because you had an event startup. Can you tell us about that, and what your experience was before getting to Tropical on Rails?
 
-Travis Dockter: and put them all on a blog so that other people organizing conferences can see them, and it can help them out.
+**Cirdes Henrique:** Sure. And first, thank you for doing that. I wish I had that content before I started Tropical on Rails.
 
-Travis Dockter: you actually wrote a really great blog post after your 1st time organizing tropical on rails. And I read that, and I have a ton of questions for you. But the 1st one, actually, I kind of want to go back
+I had a company before that was called Eventick. It was an Eventbrite for Brazilian markets, so we had a lot of tech conferences as clients. I went to BrazilJS, the largest JS conference in the world that is being held here in Brazil. I had the opportunity to go to a lot of Ruby events here, a lot of front-end events, and I also had the opportunity to go to international conferences. There was one conference that Heroku used to organize in the US.
 
-Travis Dockter: before that, because you kind of had some conference experience before you did tropical on rails specifically, because you had a like an event startup. Can you kind of tell us about that? And what your experience was before getting to tropical on rails?
+So I was lucky to have the opportunity to go to a lot of events, and not only as an attendee, but as someone that was helping the organizers to onboard all the attendees there. So I was able to sneak peek inside the organization phase of those conferences, so that helped me a little bit.
 
-cirdes: Sure. And first, st thank you for being doing that. I wish I had that content before I started tropical on rails. So
+**Travis Dockter:** Nice. One of the things that really blew me away is that you guys sold out your tickets in the first three days for your first conference. Can you tell me how you think you achieved that? Because I feel like that's really unique and really impressive. I want to see if you have any insights on how you think you achieved that.
 
-cirdes: yeah, I I had a company before that was called Aventic. It was a even bright for Brazilian markets, so we had a lot of tech conference as a client. So I went to
+**Cirdes Henrique:** Yeah, that was unexpected. I wasn't aware that it was going to happen. But looking back, I believe that what made the event sell out so quickly is because I did something in a certain way. For example, usually I go to other events and try to find the keynotes, and I did that on the first edition. We managed to have awesome keynotes like Aaron, like Eileen, that are the keynotes for Rails World, for example.
 
-cirdes: Brazil, Js. The largest Js. Conference in the world that is being held here in Brazil. I had the opportunity to go to a lot of ruby events here a lot of front end events. And I also had the the opportunity to to go to international conference like there was a 1\. It was a conference that Heroku used to to organize in us. So
+So I had them on my webpage before I had a button to buy the tickets. Also, I was lucky enough to have Rafael França as a friend of mine, and he was able to step in and help me out with the event. Because he's so well known inside the community, people got aware of the event, and he also was responsible for bringing Aaron and bringing Eileen to a new conference here in Brazil.
 
-cirdes: I was lucky to have the opportunity to go to a lot of events, and not only as an attendee, but as someone that was helping the organizers to on board all this the attendees there. So I was able to sneak pick inside the organization phase of the those conference, so that
+And then, when I had that on a webpage, I spent, I think, six months going to other events to speak there. I was talking about the conference. I was trying to post about the conference. I was trying to create social media content to say, oh, we're going to bring Tropical back. Be prepared.
 
-cirdes: help me a little bit.
+So I spoke with a lot of regional Ruby events organized inside Brazil, because we have a huge community. I talked with almost every one of them. I reached some influencers from the Ruby community, like Juliana Diaz, who is very popular on Twitter and Telegram, and I brought her close. She helped us organize the first edition also. Deborah did the same. But I started to create a formal, "oh, we're going to have that. That will be huge."
 
-Travis Dockter: Nice. Yeah,
+And everyone was already talking about Tropical before we released the tickets, before we put a link that people could go there and be able to acquire a ticket. So we spent months doing that. When we released the sales, we usually have a promotional lot. So when people started buying and people started to see that that promotional lot was sold out, people were willing to say to their friends, "Oh, man, go there and buy your tickets, because we don't know. Maybe we're going to miss that."
 
-Travis Dockter: so one of the things that kind of really blew me away is that you guys sold out your tickets in the 1st 3 days for your 1st conference. Can you tell me kind of
+That's what happened. Everyone was going there, and we had the promotional lot, the first lot, the second lot, and people started to feel that the event would be sold out. So that's what led to that. It was a mix of trying to release content, trying to announce the keynotes before things happen, trying to be present on social media, and trying to connect with people that could help us spread the word about the conference.
 
-Travis Dockter: how you think you achieved that? Because I I feel like that's really unique. And really impressive. So yeah, I just wanna see if you if you have any insights on how you think you achieve that.
+**Travis Dockter:** What I actually wanted to do is get a timeline from you. As I was reading your blog post, I noticed that you did some things in a different order than I'm thinking about things right now, and I think that how you did it was actually pretty smart. I want to get a timeline for that.
 
-cirdes: Yeah, that was unexpected. I was. I wasn't aware that it will gonna happen. But
+So before that first one we were just talking about, how you did this marketing push before opening up ticket sales: when did you really start thinking about actually doing the conference? And then when did you start doing the marketing? How long before your first conference was that?
 
-cirdes: I think, looking back, I believe that what made the
+**Cirdes Henrique:** Okay. First thing, that conference used to be organized 10 years before in the northeast of Brazil, and that's why we call it Tropical. Right now we are doing the conference in São Paulo, not tropical that much, but we used to have that conference back then 10 years before. We stopped doing that because the main organizer of the conference lost a lot of money during the first conference.
 
-cirdes: event to sold out so quickly is because I did something in a certain way, like, for example.
+Then we used to have here in Brazil RubyConf Brazil. It was the main Ruby conference here, and after the pandemic they decided not to organize the conference anymore. So I have a company here as well, and I love working with Ruby and Rails. I realized that we were in a bad, I think, not in a good spot. We weren't seeing that much of people talking about Ruby, talking about Rails. So I was worried that I would have to go to another stack.
 
-cirdes: usually I go to other events and try to find the keynotes, and I did that on the 1st edition we managed to to have
+I realized, one year before I did the conference, that something needed to be done. I had the experience of running conferences, because I helped to organize Tropical past editions. I had the network, because I knew Rafael França. I knew a lot of Rubyists here in Brazil. And I was lucky that I had my own company that was willing to pay for the bill if I couldn't raise enough money to organize the conference.
 
-cirdes: awesome keynotes like Aaron, like Lean. That are the keynotes for resort, for example. So I had them on my web page before I had a button to buy the tickets also. I was lucky enough to have Raphael Franco as a friend of mine, and he was
+So I realized that I was kind of the right person to push a new conference, to bring the conference back. It was a year before. A few months later, we had the first Rails World. When I saw that, the first thing I did was call Rafael and say, "Hey, man, we need to do that. People are not talking about Rails here in Brazil anymore. People seem to be depressed. Let's bring the energy back that we used to have 10 years before, when we used to run the first edition of the conference."
 
-cirdes: able to step in and helping me out with the
+So Rafael said, okay, let's do it. And the first thing that I did was to buy a ticket to Rails World. When I decided to go to Rails World, I printed a lot of T-shirts like that one, but purple ones. I put a lot of T-shirts in my bag and went straight to Rails World, and I started giving away the T-shirts and asking, "Oh, man, do you like a Tropical conference T-shirt? Please do me a favor: wear this at the event."
 
-cirdes: event. So, because he's so well known inside the community. We got unaware of the event, and also he he was responsible for bring Aaron for bringing the link to to a new conference here in Brazil, and then, when I had that on a web page.
+Then everyone was using a purple nice T-shirt with our huge Ruby logo on that, and people started asking, "Oh, what's that? What's that T-shirt?" "Oh, it's a conference in Brazil, Tropical, blah blah." That was in September, and the conference was in April, so a lot of months before the conference.
 
-cirdes: I spent, I think, 6 months going to another event to speak there and then I was talking about the conference I was trying to
+So that was how I brought that international attention to the conference, where I had approached Aaron and Eileen. I brought them cachaça. That's a beverage from Brazil. I brought a small gift to them. "Man, you should go to Brazil. It would be awesome. Let's go there. The community really wants you guys to be there." Rafael helped me out, and we convinced them to come to Brazil next year. So the straight answer is that I started preparing for the first edition of the conference one year before the event.
 
-cirdes: post about the conference I was trying to, you know.
+**Travis Dockter:** Okay. And was that first one in April?
 
-cirdes: creating social media contents to to say, Oh, we're gonna bring. We are going to bringing back
+**Cirdes Henrique:** Yeah.
 
-cirdes: tropical. Be prepared. So I spoke with a lot of regional
+**Travis Dockter:** Okay. So you started one year before that. When did you open up ticket sales?
 
-cirdes: ruby events organized inside Brazil, because we have a huge community. So I talk with almost every one of them. I reach some kind of influencers from the ruby community like
+**Cirdes Henrique:** Usually I follow the same schedule. I go to Rails World, and just after Rails World I close the keynotes, and then I release the website with the keynotes live by the end of October. I open the ticket sales because I already have everyone on the website, and everything is prepared.
 
-cirdes: Juliana Diaz that is very popular on Twitter on the telegram, and I brought her clothes. She helped us to organize the 1st edition also. Deborah did the same, but
+Just after the sales, then I start thinking about sponsors, because another thing that I learned by other experience is that sometimes, when you approach companies, at least here in Brazil, they want to bargain a lot. "Oh, please let me be platinum paying the silver," that kind of stuff.
 
-cirdes: I started to, you know, making to create a formal oh, we're gonna have that. That will be huge. And everyone was already talking about tropical before we release the tickets, before we put a link that to, people could go there and be able to, you know, acquire a ticket. So we I spent months doing that. So when the
+So I was looking for some kind of leverage. "Oh, I have all tickets sold out. Do you want to send your employees to the conference? I have that badge reserved for sponsors. Do you want to promote your branding for Ruby developers? That would be the best place, because I already have a lot of attendees there."
 
-cirdes: when I we release the the sales, we usually have a promotional, a lot. So
+I got that leverage because I was not willing to bargain, because that's so hard, man. I'm not a salesperson. I don't want to negotiate with companies where they usually send me sales guys on the other side. They are much better than me to negotiate. So my strategy was, I will not negotiate. That's not for profit. That's something that I'm planning, that I want to do for the community. They want that terms or not. So that's one of the trickiest parts that I had to deal with.
 
-cirdes: when people start to buying and people start to see that that promotional lot is, you know, it's sold out. People are
+**Travis Dockter:** Yeah. When did you have your CFP?
 
-cirdes: willing to say to the friends, Oh, man, go go there and buy your tickets, because.
+**Cirdes Henrique:** After that.
 
-cirdes: we don't know. Maybe we are, gonna miss that. So I don't know. So that's what happened. Everyone was going there, and we had the promotional lot, the 1st lot, the second lot, and people started to feel that the event will be sold out. So that's what led to to that, you know, was a mix of
+**Travis Dockter:** Oh, okay.
 
-cirdes: trying to release content, trying to announce the keynotes before things happen, and trying to be present on social medias, and trying to connect with people that could help us to spread the word about the conference.
+**Cirdes Henrique:** Yeah, between November, I open the CFP. And I usually announce the other speakers by mid-January.
 
-Travis Dockter: what I actually wanted to do is get like a a timeline from you. Because, as I was reading your blog post.
+**Travis Dockter:** Okay, wow. So you did first the keynote speakers, then selling all the tickets, then getting sponsors, then doing your CFP to get your other speakers. That makes sense, though.
 
-Travis Dockter: I noticed that you did some things in a different order than I'm I'm thinking about things right now, and I think that how you did it was actually pretty smart, and I kind of want to get a timeline for that. So before that 1st one we we were just talking about. How you kind of did this marketing push before opening up ticket sales. So when did you really start thinking about
+**Cirdes Henrique:** Because I can't do everything at once. I had to take priority.
 
-Travis Dockter: Actually doing the conference? And then when did you start doing the marketing like? How long before your 1st conference was that.
+**Travis Dockter:** Yeah.
 
-cirdes: Okay? So 1st thing, first, st that conference used to be
+**Cirdes Henrique:** I would like to start talking about sponsors much earlier or open the CFP earlier, but I don't have time to do everything at once. So that was the way that I found to be the best order for us.
 
-cirdes: organized 10 years before at the northeast of Brazil, and that's why we call it propco
+**Travis Dockter:** Yeah. My strategy is to get as much money because I don't have a company backing this, right? So if I lose money, it's my money. My thinking was, oh, I'm going to try to go get sponsors now so that I'll know how much money I have to do stuff like T-shirts, or paying for speakers' travel and stuff like that, to try to create a budget before I plan the rest of the conference because I want to try to mitigate losing money.
 
-cirdes: right now we are doing the conference in Sao Paulo. Not tropical that much, but we used to have that conference back then 10 years before. So we stopped doing that because that was the main organizer of the conference. He lost a lot of money during the 1st conference, and and then we used to have here in Brazil, the Rubicon, Brazil.
+But I see your strategy, and it makes a lot of sense to create the conference first in order to use that as leverage to get the sponsors and to get the ticket sales as well. It seems like higher risk in my mind, but it does make a lot of sense.
 
-cirdes: and it was the main ruby conference here, and after the pandemic they decided not to organize the conference anymore. So
+**Cirdes Henrique:** Yeah, you're right. It's maybe high risk. But if you are thinking as a sponsor, it's the first edition of an event. They don't know if that event will be good or not, who will be willing to travel to that event.
 
-cirdes: I have a company here as well. And I love working with ruby rails. So I realized that we were in a you know, a bad
+**Travis Dockter:** Yeah.
 
-cirdes: I think not in a good spot. We wasn't seeing that much of people talking about ruby talking about rails. So I was worried that I would have to go to another stack. So I realized, and it was
+**Cirdes Henrique:** It would be much harder, in the sponsor's perspective, to support an event when they don't have any information about it. People are willing to go there, who will be the keynotes. But you are right. The financial risk is there, and it's the most challenging part of organizing a conference: how to handle the financial risk.
 
-cirdes: one year before I did the conference that something needed to be done, and I had the experience of running conference because I helped to organize through call past editions. I had the network
+The thing that I try to do is to increase the spending just when I receive enough sponsorship. For example, I didn't have T-shirts at the beginning, but I was lucky to raise enough money. So one month before the event, I decided to go for T-shirts. T-shirts are really nice, because it's free advertising about the conference. People are wearing them, and people are proud that they went to a conference. It's really nice, but I wasn't planning to do that.
 
-cirdes: because I knew Raphael Franca. I knew a lot of Ruby's here in Brazil, and
+I wasn't planning to pay for speaker travel, and I know that I saw another interview that you made. I know that some organizers believe that's a must. But it's so hard, because if you don't raise enough money, you're going to have a problem. Usually companies are willing to pay for their employees to go to the conference, so stepping up and saying, "I will pay for your expenses," will be a burden for the organizers. That I personally try to avoid as much as possible because of the financial risk of the operation.
 
-cirdes: I was lucky that I had my own company that was willing to pay for the bill if I couldn't raise enough money to organize the conference. So I realized that I was kind of the right person to push
+**Travis Dockter:** Yeah. You said you went on a lot of podcasts and stuff like that for the marketing. How early did you start that? Did you start that right after Rails World, or when was that?
 
-cirdes: a new conference to bring the conference back. So it was a year before, even before we even just few months later, we had the 1st resort. So when I saw that the 1st thing that I did was to call Raphael and say, Hey, man! We need to do that.
+**Cirdes Henrique:** Actually, I used Rails World to be able to have content to talk about it here in Brazil, because we don't have that many Brazilians going to Rails World, because it's very expensive. So I came back to Brazil, and I reached the most well-known tech podcast in Brazil. I told them, "Hey, I just came back from Rails World. Do you want to host me, and maybe Rafael França from the core team?" And they said, okay, come. Then I started talking on podcasts, going to meetups, and talking about the conference. So it was just after Rails World.
 
-cirdes: people are not talking about rails here in Brazil anymore. People seems to be depressed. Let's
+**Travis Dockter:** Gotcha. Do you know your first year, what percentage of the attendees were from Brazil versus international?
 
-cirdes: bring the energy back that we are used to have
+**Cirdes Henrique:** I don't know for sure, but most of them are from Brazil. In terms of speakers, usually half of the speakers are from Brazil, and half of the speakers are from abroad. But I have a lot of people coming from Argentina, from countries close to Brazil, because then Brazil is more accessible to them.
 
-cirdes: 10 years before, when we used to run the the 1st edition of the conference. So, Rafael, okay, let's do it. And the 1st thing that I did was to bought a ticket to rails work.
+**Travis Dockter:** Okay.
 
-cirdes: and when I decided to go to the resort, I have printed a lot of T-shirts like that one but purple ones, you know, and I put on my bag a lot of T-shirts and went straight to Tropical, and I started to giving away the T-shirts and ask, Oh, man, do you like a tropical conference T-shirt.
+**Cirdes Henrique:** Coming from abroad, we do have, but sometimes it's a long travel to come to Brazil. From the US, from Europe, it's an 11-hour flight. Usually, sometimes they don't have a direct flight, so that's a problem. But I'm always saying to people that we do have live translation. When someone from abroad comes to Brazil for the conference, they will be able to listen in English to every talk, because we do live translation here.
 
-cirdes: please do me a favor where this on the event, and and then everyone was using a purple nice t-shirt with our huge ruby logo on that. And people start asking, Oh, what's that? What's that? T-shirt? Oh, it's a conference in Brazil, tropical blah blah!
+**Travis Dockter:** Yeah, that's really cool. How big? How many tickets did you sell the first year? How many attendees were there?
 
-cirdes: And that
+**Cirdes Henrique:** 350. Yeah.
 
-cirdes: and that was in September, and the Conference was in April, so lot of months before the the Conference. So that.
+**Travis Dockter:** Okay. And then how big was it last year?
 
-cirdes: That was how I
+**Cirdes Henrique:** It was 650.
 
-cirdes: brought that international attention to to the conference in where I had approached Aaron in the lane. I
+**Travis Dockter:** Wow. Okay. Are you planning to go bigger next year, or are you going to keep it at that size? 600?
 
-cirdes: I brought them cachasa. That's a Barry from Brazil. I brought, you know, a small gift to them. And, man, you should go to Brazil. It would be awesome. Let's go there. And the community really want you guys to be there. So Rafael helped me out, and we convinced them to to bring to to come to Brazil next year. So
+**Cirdes Henrique:** Yeah, it's a lot. And if I want, I can increase the number of attendees, but I don't want. And that brings on a subject that, if you want, I can bring: why I'm doing the conference and why I'm doing the conference the way I'm doing.
 
-cirdes: the straight answers is that I start being preparing for the 1st edition of Conference one year before the events.
+I went to a lot of events because of my first company, so in some sense I have a taste of what a good conference means for me. When I started to do Tropical, I was thinking, I will be creating a conference that I would like to go to, not any kind of conference. That's why we are a single-track conference. I personally don't like multiple-track conferences, because the talk ends and you have to break for 15 minutes. You have to decide, oh, should I stay? Should I go where?
 
-Travis Dockter: Okay? And so when the was that the 1st one in April.
+**Travis Dockter:** Yeah.
 
-cirdes: Yeah.
+**Cirdes Henrique:** I hate those kind of things. Later on, when you start talking with another person: "Oh, that talk was really nice." "Oh, I missed that because I was in the other conference." I don't like that.
 
-Travis Dockter: Okay? And then, so you started like, one year before that.
+But the other side is that I have just a small number of speakers, because we only have one track. So that's a kind of problem, but it's the kind of conference that I like. I like to say that it's the omakase experience for conferences. That's what you're going to receive, what I'm, Rafael, and the other organizers have been preparing for you. You are not able to decide between talks. You are able to decide, "Oh, I don't want to see that talk, and I'm going to leave." But that's the program.
 
-Travis Dockter: When did you open up ticket sales?
+I really like that kind of experience. I'm trying to create Tropical as kind of a show. We have huge screens there. My team prepares a lot of videos to show to the people, to motivate the people, loud music and lights going on. I like that kind of stuff. It's my way of trying to do the conference. It's a lot how I like it.
 
-cirdes: Usually I follow the same schedule. I go to resort, and just after resort I use. I close the keynotes, and then I release the website with the keynotes live
+I'm sure that I don't want to increase the number of attendees, because it will make it a different conference. When you pass a certain threshold, the conference changes a lot, and I don't want to go into that. The most important part now is that I found a place. I found the vendors that I need to just replicate the conference that I did last year with a little less effort.
 
-cirdes: between October by the end of October. I'm open the ticket sales, you know, because.
+I'm planning for the future. I want to make Tropical for 10 years. In order to be able to do that, I need something that is easier to replicate every year.
 
-Travis Dockter: Okay.
+**Travis Dockter:** Yeah. So you think you'll keep it around that 600 people?
 
-cirdes: Already have everyone on the website, and everything is prepared. And just after the sales. Then
+**Cirdes Henrique:** Yeah. I think 700. I think I can reach 700 because it will fit in the venue, but yeah, I want to keep that way.
 
-cirdes: I start thinking about sponsors, because other thing that I learned is that sometime by other experience, when you approach companies at least here in Brazil they want to bargain a lot. Oh, please let me be platinum paying the silver. You know that kind of stuff. So I was
+**Travis Dockter:** And did you sell out last year at that 650 mark?
 
-cirdes: looking for some kind of leverage, you know. Oh, I have, all tickets sold out. So do you want? Send your employees to the conference? I have that badge reserved for sponsors. Oh, do you want to promote your branding for Ruby develops. That would be the best place, because I already have a lot of attendees there. So I was really.
+**Cirdes Henrique:** Yeah, it was six hours. Even faster.
 
-cirdes: how can I say I? I got that leverage because I'm not. I was not willing to bargain, you know, because that's so hard, man. I'm not a salesperson, you know. I I don't want to, you know, negotiate with
+**Travis Dockter:** Wow. Awesome. So you talked a little bit about the production of the conference. I really like a lot of the effort that you guys put into the videos and everything like that. Do you have someone specifically on the team that's doing all the marketing, or do you split that up between people?
 
-cirdes: companies that they usually they send me sales guys on the other side. They are much better than me to negotiate. So my strategy was I will not negotiate. That's not for profit. That's, you know, something that I'm planning that I want to do for the community. They want that terms or not, you know. So that's the the one of the trickiest part that I had to to deal with.
+**Cirdes Henrique:** Yeah, it's funny. On the first edition, I hired a friend to create everything related to AV, to record. He does something that is really nice: after the day, he does some kind of same-day video editing. So we are able to present what happened during that day, and people are mind blown. "Oh, I can't believe you guys had the time to do that already."
 
-Travis Dockter: Yeah, when did you
+**Travis Dockter:** Yeah.
 
-Travis Dockter: When did you have your Cfp.
+**Cirdes Henrique:** He did an amazing job, and I ended up hiring him to my own company. So right now he works for my company, and during Tropical he helps us with that AV kind of thing. I also hired someone else to handle the social, to be posting on LinkedIn and on Twitter, to create a strategy for what kind of posts they should be creating. So this is a separate team. On the day, that social team is there to try to engage with everyone through social media. So those are the AV, the social team, and the guys that we hired to make everything happen with mics and cameras and everything else.
 
-cirdes: After that, you know.
+**Travis Dockter:** Yeah, I saw that you did Tropicalflix. It was like a Netflix kind of play on a series, and you had all the speakers. I thought that was really clever.
 
-Travis Dockter: Oh, okay.
+Kind of going back to the sponsors really quick, do you have all the packages laid out of exactly what you offer each one? What are some of the things that you offer sponsors? And do you do anything special there that you think other conferences don't do, or that you do best?
 
-cirdes: Yeah, between November and I open the Cfp. And I usually announce the other speakers by mid of January.
+**Cirdes Henrique:** Okay, so that's really hard, right? Sponsorship. Because everyone—right now my cat is with me here. So that's very hard, because what I learned is that every company is willing to sponsor for a different reason. Some companies, like Signal Roy, are sponsoring conferences just because they believe that it's a good thing to do, kind of giving back. I try to say, "Hey, hi, Roy, let's try to do something here," and it's okay, it's fine. Just take money, knowing that you are doing a good thing. That's the best kind of sponsors.
 
-Travis Dockter: Okay, wow, okay. So you kind of had
+But others are going there because they want to sell for developers. Others are US companies that are trying to hire Brazilians. That's something that I found out was really good, because they're willing to come to Brazil to find developers, and developers in Brazil want to work for American companies. So that's a match.
 
-Travis Dockter: you kind of did. 1st the getting the keynote speakers, then the selling all the tickets then getting sponsors, then doing your Cfp to get your other speakers.
+**Travis Dockter:** Yeah.
 
-Travis Dockter: Yeah, that makes sense, though.
+**Cirdes Henrique:** Every year I'm trying to speak with them and ask, "Hey, man, how can I provide more value to sponsors?" One of the things that I heard last year was from Brawl, from Southern Code, and they said, "Oh, man, I wish I could talk with other sponsors, because I felt that I was there alone." So I got that feedback, and I did something different this year.
 
-cirdes: Because I I can't do everything at once. So I had to take priority so that.
+The speaker dinners that every conference has, I opened for sponsors as well, with a limited number of tickets. If you are silver, you have one ticket. If you are platinum, you have three, four seats at that dinner. I heard a lot of good feedback about that, because now, as a sponsor, you're able to have dinner with Chris Oliver, to talk with other consultant companies that are sponsoring, and share some experience.
 
-Travis Dockter: Yeah, well.
+So that's something that I don't know if anyone does that. I don't know how Ruby Central or Rails Foundation does, but I did that here, and it was really good. I'm planning to do the same next year.
 
-cirdes: I I would like to start talking about sponsors much earlier, or open this Cfp earlier, but I don't have.
+**Travis Dockter:** That's really cool. That's an awesome idea. I might steal that one. That is cool. I was trying to think of things to offer more value to sponsors, and it's hard too, because, like you said, different sponsors are there for different reasons. So that's a cool one that I had not heard. I don't know anybody else that is doing that. I really like that one.
 
-cirdes: you know, time to do everything at once. So that was the way that I find to be the best order for us.
+**Cirdes Henrique:** Yeah. And I also do, for example, for speakers. I don't have the money to pay them to come to Brazil, but I was with Marco Roth, and said, "Man, give me some feedback. What are we doing here? Is it what we're expecting?" And he said, "Oh, man, you are going above and beyond."
 
-Travis Dockter: Yeah. So I guess I was, because my strategy
+For every speaker that doesn't speak Portuguese, me myself, I go to the airport, and I wait for the speakers to arrive in Brazil, put them in a car, and drop them at the conference hotel. I know that people may become insecure because they don't speak the language, and they are coming here to Brazil. So I do that for almost everyone when I can. If I can't go there, I send someone from my team to pick them up and drop them at the hotel.
 
-Travis Dockter: is to get as much money because I don't have a a company backing this right? So if I lose money, it's my money. So my thinking was, Oh, I'm gonna try to go get sponsors now, so that I'll know how much money I have to do stuff like
+We usually prepare a lot of gifts for the speakers, some for sponsors. I was trying to do those kinds of things so they can feel good about coming to the conference, about coming to Brazil. That's another thing that is important. It's not going to a conference. It's going to a different place. I was in Philly for the first time, and it was awesome, the city and the guy there just organized a walking tour to the city. It's the whole city experience and the whole "come to Brazil" experience.
 
-Travis Dockter: T-shirts, or like paying for for speakers. Travel and stuff like that to kind of try to create a budget before I plan the rest of the conference, because I you know I try. I want to try to mitigate losing money, but
+So I try to provide Brazilian food for the speakers, for the sponsors, in the meeting room outside. I try to engage with them. I have one guy, Tiago, that's a friend of mine for a long date, and he was organizing the conference back then as well. He's responsible for hanging out with everyone. His role is to go to a restaurant, to go to have dinner, to prepare a lot of events for the people that are coming to Brazil for the first time. I believe it's one of the most important roles, because it's not just the conference. It's the whole travel experience.
 
-Travis Dockter: I I see your strategy, and it makes a lot of sense to to kind of create the conference first, st in order to use that as leverage, to get the sponsors and to get the the ticket sales as well. It's
+**Travis Dockter:** Yeah, definitely. Kind of along those lines, can you think of something that you did that maybe had an unexpected impact? Maybe it was something that you thought was small at the time, but afterwards people would come up to you and say, "Oh, I'm so glad you did this." Something like that.
 
-Travis Dockter: it seems like higher risk in my mind, but it it does make a lot of sense.
+**Cirdes Henrique:** Yeah. For example, when people came to Brazil, I bought the plug adapter, the international plug adapter. I brought a lot of them, and I put them in the gift for the speakers because I knew that they were not expecting the Brazilian energy adapter. I gave one to everyone, and a few months later I heard Amanda Perino on podcasts saying, "Oh, the guys from Tropical are so thoughtful. They gave us an adapter because they are worried about the little details with our whole experience."
 
-cirdes: Yeah, you're right. It's it's maybe high risk. But it's
+So that was awesome. I wasn't expecting that she would be talking to others that we did that. It's always so cheap. It's just $2 or $3 that I had to spend to give to the speakers, but they felt like we had been taking care of them. So that was nice.
 
-cirdes: if you are thinking as I sponsor, it's the 1st edition of an event. They don't know if that event will be good or not, who will be willing to travel to that event. So.
+**Travis Dockter:** Awesome. That is really good. Is there anything that you did at your conference that you feel really proud of, or something that you feel like you do at your conference that nobody else does? Maybe one or two things that you're really proud of?
 
-Travis Dockter: Yeah.
+**Cirdes Henrique:** I think, looking for the Brazilian community, I try to engage not just the attendees that are willing to go to the conference, but I was very worried about the local meetups. Something that Ruby Central does: I reached every local meetup organizer and talked with them. "Man, it's time to bring back small meetups," because I knew that if people are going to local meetups, they will be willing to go to another city to a huge event.
 
-cirdes: It would be much harder in look for the sponsors perspective to support an event that they don't have any information about it. You know people are willing to go there who will be the keynotes, you know. So yeah, but you are right. The the financial risk is there, and it's the most challenging part of organizing a conference is how to handle the financial risk. And
+So I brought them together in a WhatsApp channel, and we started talking with each other. I saw that a lot of regional meetups came back. It's not because of Tropical, but we helped them bring the energy back to organizing events. I saw a lot of events coming back all over Brazil, in a lot of cities.
 
-cirdes: the thing that I trying to do is to increase the spending just when I receive
+On the first edition, I invited everyone who had organized a local meetup on the stage to give a gift to them and to make everyone in the audience aware that they had small meetups during the whole year around. They don't have to wait for a year to go to São Paulo to go to Tropical. So that's something I'm proud of, because I'm really into it. I learned Ruby in my local meetup in my city. When I was going to that local meetup, I had contact with Ruby. So that's why I'm so deeply connected with community, because I learned that way.
 
-cirdes: enough sponsorship, for example, I didn't have T-shirts at the beginning, but I was lucky to, you know, raise enough money. So one month before the event, I decided to go, for T-shirts and T-shirts are really nice, because it's a free
+**Travis Dockter:** Awesome. If you could give yourself one piece of advice before doing your first conference, what would it be?
 
-cirdes: advertising about the conference people are wearing, and people are, you know, proud that he went to a console. It's really nice, but I wasn't planning to do that. I wasn't planning to pay for
+**Cirdes Henrique:** I think it's hard. After the first edition, I was burned out. I was so worried about the details, that everything should be in place, because, like I told you, I have a specific taste for a conference. I want everything to be that specific way. So I didn't enjoy much the conference myself. I didn't go out with the speakers, the sponsors after the conference, because I was completely burned out.
 
-cirdes: speak of travel travels, and I know that I saw other interview that you made. And
+So for the second edition, my goal was to have more people helping me, but not any kind of people: people that were aligned with the goal that I was looking for. So I was able to enjoy it a little bit more. Like I said, I don't want just to make a conference for one or two years. I want to push it forward for a while, so in order that I would be able to make it happen for a while, I have to optimize for my happiness as well. I have to be happy in doing that. I'm seeing the conference, and I'm loving doing that. I love to hang out with everyone at the conference. So I have to find room for enjoying the conference myself. During the first edition, I didn't. So that was a mistake.
 
-cirdes: yeah, I know that some some organizers are
+**Travis Dockter:** Gotcha. Definitely good to remember that. So before we wrap up here, have you started planning for 2026? Is there anything that you can reveal that you're excited for?
 
-cirdes: the believe that that's a must. But you know, it's so hard because we we don't have
+**Cirdes Henrique:** Actually, I didn't start yet. I'm planning to start at Rails World. I'm going there.
 
-cirdes: if you don't raise enough money. So we're gonna have problem and usually companies
+**Travis Dockter:** Oh, yeah.
 
-cirdes: are willing to pay for their employees to go to to the conference. So stepping up and say, Oh, I will pay for your expenses will be a burden for the organizers. You know that I personally try to avoid. You know as much as possible because of the financial risk of the operation.
+**Cirdes Henrique:** We're going to meet in person. But what I'm doing for this year is that I will start a podcast here in Brazil, in Portuguese, because we have a lot of great podcasts talking about Ruby, and there are a lot of them popping up recently. But we don't have one in Portuguese. I want to bring one in Portuguese, and my thesis is that it will help me to engage with speakers, with sponsors. So it will be something like having a little bit of Tropical during the whole year. That's why I bought that nice microphone, and light, and a good camera. Because I'm trying to start a podcast to help the Tropical event as a whole.
 
-Travis Dockter: Yeah, yeah,
+**Travis Dockter:** Awesome. I love it. All right. Well, thank you so much for your time and your knowledge. I got a lot of good ideas, a lot of stuff that I'm going to borrow from Tropical, I think. I appreciate you being so generous. Hopefully, one day I can make it to Tropical. It is a long trip, but I've heard so many good things about your conference that I would love to see in person. Thank you.
 
-Travis Dockter: you said, you went on like a lot of like podcasts and and stuff like that for the marketing. How early. Did you start that? Did you start that like right after rails world? Or when was that.
+**Cirdes Henrique:** Nice, man. Thank you so much for having me. I love it. I saw that you have interviewed the best event organizers, Ruby events organizers in the world. So it's an honor to be invited as well. Please come to Brazil. I will be very happy to receive you here.
 
-cirdes: Yeah, actually, I use the rails world to be able to have content to talk about it here in Brazil, because, we don't have that much Brazilians going to rails world because it's very expensive. So I came back to Brazil, and I reached the most well known
-
-cirdes: tech podcast in Brazil. And I told them, Hey.
-
-cirdes: I just came back to resort. Do you want to host me? And maybe half that's a core from the core team and okay, come. And then I start talking about in podcast going to meetups and talking about the Conference. Yeah. So it was just after the resort.
-
-Travis Dockter: Gotcha do you know your 1st year, what percentage of the attendees were
-
-Travis Dockter: from Brazil versus from international.
-
-cirdes: I I don't know for sure, but most of them are from Brazil.
-
-cirdes: In terms of speakers. Usually we have. Half of the speakers are from Brazil, and half of speakers are from abroad. But I have a lot of people coming from Argentina, from worldwide. The countries you know, close to Brazil, because then Brazil's, it's more accessible to them. But.
-
-Travis Dockter: Okay.
-
-cirdes: Coming from abroad. We do have, but
-
-cirdes: sometimes our long travel, you know, to to come by, to come to Brazil from us from Europe's 11 h flight. Usually, probably sometimes they don't have a direct flight, so that.
-
-Travis Dockter: Oh, yeah.
-
-cirdes: That's a problem. But I also, I'm always saying to people that we do have live translation. So when someone from abroad come to to Brazil for the conference. They will be able to listen in English every talk, because we do live translation, you know. Here.
-
-Travis Dockter: Yeah, that's really cool.
-
-Travis Dockter: Did you?
-
-Travis Dockter: what? I had a question
-
-Travis Dockter: oh, how how big? How many tickets did you sell the 1st year. How many attendees were there.
-
-cirdes: Yours? 350\. Yeah.
-
-Travis Dockter: Okay. And then how big was it last year?
-
-cirdes: It was 650\. Yeah.
-
-Travis Dockter: Wow! Okay, are you planning to go bigger next year, or are you gonna keep it at that size? 600.
-
-cirdes: Yeah, yeah, it's a lot. And if I want, I can
-
-cirdes: number of attendees. But I don't want. And and that brings on subject that if you want I can. Brings that. Why I'm doing the conference and why I'm doing the conference the way I'm doing. Because
-
-cirdes: some I. I went to a lot of events because of my 1st company, so in some sense
-
-cirdes: I have a taste of what a good conference means for me, you know, and when I started to do the tropical, I was thinking, I will be creating a conference that I would like to to go, not any kind of conference. So that's why we are a single track conference. Because I, personally don't like multiple track conference, because
-
-cirdes: talk ends and you have to break for 15 min. You have to to decide. Oh, should I stay? Should I go where.
-
-Travis Dockter: Yeah.
-
-cirdes: I hate those kind of things, and later on, when you start talking with another person. Oh.
-
-cirdes: talk was really nice. Oh, I missed that because I was in the other conference, and.
-
-Travis Dockter: Yeah, yeah.
-
-cirdes: I don't like. I don't like that, I but the other side is that I have just
-
-cirdes: a small number of speakers, because we only have 1 1 track. So that's a kind of problem. But it's the kind of conference that I like. I like the I like to say that it's the Omakasi experience for conference, you know. That's what you're gonna receive, what I'm
-
-cirdes: and Raphael and the others organizers are
-
-cirdes: been preparing for. You. You are not able to to decide, you know, between talks you are able to decide. Oh, I don't want to see that talk, and I'm gonna leave. But that's the program, you know. So I really like that that kind of experience I really like.
-
-cirdes: I trying to create Troco as kind of a show, you know, like, we have huge
-
-cirdes: huge screens there. My team has been pre. Usually they prepare a lot of videos, you know, to
-
-cirdes: to show to the people to motivate the people, loud music and lights going on. I like that kind of stuff, you know. It's my. It's my way of trying to to do the conference. It's a lot how I like it. And
-
-cirdes: I'm sure that I don't. Wanna, you know, increase the number of attendees, because it will make it
-
-cirdes: a different conference. You know. If, when you pass a certain threshold, the conference changed a lot, and I don't want to go into that in the most important part. Now I found a place. Now I found the vendors that I need
-
-cirdes: to just replicate the conference that I did last year with a little less effort, you know. So it's very hard when I
-
-cirdes: decide to increase the number of attendees I had to move the venue, and I had to start over because every venue has the AV guy that other. The other venue, has another guy for food. So it's starting over the events. And I'm
-
-cirdes: planning for the future. I want to make tropical for 10 years. So in order to be able to do that I need something that are more easy to replicate every year. You know.
-
-Travis Dockter: Yeah, yeah, yeah. So you you think you'll, you'll keep it. Around that 600 people.
-
-cirdes: Yeah, so.
-
-Travis Dockter: Loud.
-
-cirdes: I think 100.
-
-cirdes: Yeah, I I think I can reach 700 because it will fit on the the venue. But yeah, I wanna keep that way.
-
-Travis Dockter: And did you sell out last year at that 650 mark.
-
-cirdes: Yeah, it was 6 h even faster.
-
-Travis Dockter: Wow! Awesome.
-
-Travis Dockter: so you talked a little bit about like the production of the the conference. I really like, you know a lot of the the effort that you guys put into like the videos and everything like that. Do you have someone specifically on the team that's doing all the marketing. Or do you kind of split that up between people.
-
-cirdes: Yeah, it's funny. On the 1st edition I I hired a friend
-
-cirdes: to be able to, you know, create everything related to AV, to record to he do. He does something that is really nice that he's able to
-
-cirdes: after the day doing some kind of same day. Video editing, you know. So we are able to present what happens during that day. And people are mind blowing, you know. Oh, I can believe you guys had the time to do that already. So.
-
-Travis Dockter: Yeah.
-
-cirdes: And he did amazing job.
-
-cirdes: and I end up hiring him to my own company. So right now he works to my company, and during tropical. He helped us with that AV kind of thing. I also hired someone else to handle the social to be posting on Linkedin on Twitter to write, to create a strategy, to how.
-
-cirdes: what kind of post they should be creating. So this is a separate team. And on the day that team. The social teams is there to try to engage with everyone through social medias. So
-
-cirdes: that
-
-cirdes: are the AV the social team and the guys that we hired for, you know, make everything happens with Mike and and camera and everything else.
-
-Travis Dockter: Yeah, I really like I saw that you did like a tropical flicks. It was like a Netflix kind of play on a series, and you had all the speakers. I thought that was really really clever.
-
-Travis Dockter: Kind of going back to the sponsors. Really quick, do you have, like all the packages laid out of what? Exactly you offer each one, and like, what are some of the things that you offer sponsors? And do you do anything special there that you think other conferences don't do, or that you do best.
-
-cirdes: Okay, so that's really hard, right? Sponsorship. Because everyone right now, my cat is on my
-
-cirdes: with me here. So that's very hard, because what I learned is that every company are willing to sponsor for a different reason. You know some companies like Signal Roy. They are sponsoring conference just because they believe that it's a good thing to do. Kind of a give it back, you know, he.
-
-cirdes: I try to. Hey? Hi, Roy, let's try to do something here and it, you know, it's okay. It's fine. Just take money, and I'm knowing that you are doing a good thing. So that's the the best kind of sponsors, you know, but others are going there because they want to sell for developers. Others are. You know, us companies that
-
-cirdes: are trying to hire Brazilian. So that's a good
-
-cirdes: it's something that I find. I found out that was really good, because they coming to, they're willing to come to Brazil to to find developers and develops in Brazil. I want to work for American company. So that's a match, you know.
-
-Travis Dockter: Yeah.
-
-cirdes: And every year I'm trying to speak with them and asking, Hey, man, how can I
-
-cirdes: provide more value to sponsors? And one of the things that I heard last year. It was from brawl, from Southern code, and they said, Oh, man, I wish I could, you know talk with others sponsors, you know, because I felt that I was there alone. So I I got that feedback, and I did something different this year. The dinners they? They speaker dinners that every conference has.
-
-cirdes: I have open 4 sponsors as well, with a limited number of tickets, you know. If you are a silver, you have one ticket, you are platinum. You have 3, 4 seats on that dinner, and
-
-cirdes: I heard a lot of good feedbacks about that, you know, because now you are sponsors, you as a sponsor. You'll be able to have dinner with Chris Oliver, you know, to talk with another consultant companies that I sponsoring, and you know,
-
-cirdes: share some experience. So that's something that I I don't know. If some, if anyone does that I don't know how hope, central or real foundation does. But I did that here, and it was really good. I'm planning to to do the same next year.
-
-Travis Dockter: That's really cool. That's an awesome idea. I I might steal that one. That is, that is cool. Yeah, I was trying to think of like things.
-
-Travis Dockter: to try to offer more value to sponsors. And it it's hard, too, because, like you said, different sponsors are there for different reasons. So yeah, that's a that's a cool one that I had not heard. I don't know any of anybody else that that is doing that. So I I really like that one.
-
-cirdes: Yeah. And I also do. I also do.
-
-cirdes: For example, 4 speakers. I don't have the money to to pay them to come to Brazil, but I was with Marco. Marco. Rod and man.
-
-cirdes: give me some
-
-cirdes: feedbacks what we are doing here. It's what we're expecting, and and he was. Oh, man, you are going, and beyond, because
-
-cirdes: for every speakers that doesn't speak Portuguese, me myself, I go to the airport, and I waiting for I'd be waiting for the speakers to arrive in Brazil. Put them in a car, and I drop him on the Conference Hotel, you know, because I know that
-
-cirdes: people may become insecure because they don't speak the language, and they will.
-
-Travis Dockter: Yeah.
-
-cirdes: Here to to Brazil. So I
-
-cirdes: do that for almost everyone when I can. If I can't go there, I send someone from my team to go to pick them up and to drop in the hotel. So I usually we prepare a lot of gifts, you know, for the speakers, some for sponsors. So I was trying to those that kind of things, you know, so they can feel good about coming to the conference about coming to Brazil, because
-
-cirdes: that's another thing that is important. It's not going to a conference. It's going to a different place. I was in Philly for the 1st time, and it was awesome. The city and and the guy there just organized and walking to tour to the city. And it's the whole city experience and the whole, you know, come to Brazil experience. So I try to provide Brazilian food for the speaker, for the sponsors in
-
-cirdes: meeting room outside. So I trying to engage with them? I have one guy that it's Tiago that's a friend of mine for long date, and he was organizing the conference back then as well, and he's responsible for make
-
-cirdes: for hangout with everyone you know. Role is to go to a restaurant, to go to have dinner, to have. Let's prepare a lot of you know events for the persons that are coming to Brazil for the 1st time. So that's our his role. And I do believe it's 1 of the most important roles, because
-
-cirdes: it's not just the conference. The whole travel experience, you know.
-
-Travis Dockter: Yeah, yeah, definitely,
-
-Travis Dockter: kind of along those lines. Can you think of something that you did? That maybe had an unexpected impact like, maybe it was something that you thought was small at the time, but afterwards people would come up to you and say, Oh, I'm so glad you did this?
-
-Travis Dockter: yeah, like that.
-
-cirdes: Yeah. I, for example, when people came to Brazil I bought you know the
-
-cirdes: the plug adapter. I I don't know the International plug adapter. So I brought a lot of them, and I put on the gift for the speakers, you know, because I knew that they, you know, were not expecting the Brazilian energy adapter. So I put I gave one for everyone, and
-
-cirdes: a few months later I heard Amanda Perino on both guys saying, oh, the guys from tropical are so so thoughtful. They gave us AV adapter because they are worried about the little details with our whole experience. So that was awesome. I wasn't expecting that, you know she was
-
-cirdes: that you could be talking to others that we did that in. It's it's always it's so cheap, you know, it's I, just, you know, 2, $3 that I had to to spend to to gave to to the speakers. But you know they just they they they felt like we we are have been taking care of them. So that was nice.
-
-Travis Dockter: Awesome that is really good.
-
-Travis Dockter: What is is there anything that you did
-
-Travis Dockter: at at your conference that you feel really proud of, or something that you feel like you do at your conference, that nobody else does like it, like maybe one or 2 things that you you're really proud of.
-
-cirdes: And I think, looking for the Brazilian community. I I try to engage, you know, not just the
-
-cirdes: attendees that are willing to go to the conference, but I was very worried about the local meetup. Something that group center does. I have reached every local meetup organizer and talk with them, and man is the time to to bring him back
-
-cirdes: small meetups, because I knew that if people are going to local meetup they will be willing to go to another city to a huge event. So
-
-cirdes: I brought them together in a Whatsapp channel, and we start to talking with which with other, and I saw that a lot of regional meetups
-
-cirdes: gaming back. You know.
-
-cirdes: I I it's not because of the tropical, but we we help them, you know, to to be
-
-cirdes: to bring the energy back to organizing events. So I saw a lot of events coming back in all over Brazil in a lot of all a lot of cities, and on the 1st edition I invited
-
-cirdes: everyone who had organizing a local meetup on the stage to to give a gift to them and to, you know, make everyone on the audience to be aware that they had small
-
-cirdes: meet ups during the whole year around. Then they just don't have to wait for a year to go to Sao Paulo to go to tropical. So that's something I'm I'm proud of, of, you know, because
-
-cirdes: I'm really into. I learned Ruby on my local meetup in in my city, you know. When I went I was
-
-cirdes: going to that local meetup, and I had content with Ruby. So that's why I'm so deep connected with community. Because I learned that way, you know.
-
-Travis Dockter: Yeah, yeah. Awesome. Okay. If you could give yourself
-
-Travis Dockter: one piece of advice before doing your 1st conference, what would it be.
-
-cirdes: I think it's it's hard, you know. I
-
-cirdes: I think after the 1st edition I was burned out, you know I was so worried about the details that everything should be in place, because, like I told you, I have a specific taste for a conference. So I want everything to be that specific way. So I didn't enjoy much the conference myself. You know I didn't, went out with
-
-cirdes: the speakers, the sponsors after the conference, because I was completely burn it out, you know. So for the second edition.
-
-cirdes: my goal was to have
-
-cirdes: more people helping me, but not any kind of people people that were aligned with the goal that I was looking for. So I was able to enjoy in a little bit more, because, like, I said. I don't want just to, you know. Make a conference for 1, 2 years. I want to push it forward for a while, so, in order
-
-cirdes: that I would be able to
-
-cirdes: make it happen for a while. I have to optimize for my happiness as well. You know I have to be, you know, happy in doing that. I'm I'm seeing the conference, and I'm loving, doing that. I I love to hang out with everyone of the conference. So I have to find room for enjoying the conference myself. And during the 1st edition
-
-cirdes: I didn't, you know. So that was a mistake.
-
-Travis Dockter: Gotcha. Yeah, definitely good to good to remember that.
-
-Travis Dockter: So I guess before we wrap up here, have you started planning for 2026\. Is there anything that you can reveal that you're excited for.
-
-cirdes: Actually
-
-cirdes: I didn't start it yet.
-
-cirdes: I'm planning to start on rails world. I'm going there. I don't know.
-
-Travis Dockter: Oh, yeah.
-
-cirdes: To go. We we're gonna met that in person. But what I'm doing for this year is that I will start a podcast here in Brazil, in Portuguese, because we have a lot of great podcast talking about ruby, and there is a lot lot of them popping up recently. But we don't have in Portuguese, you know, so I want to bring one in Portuguese, and that will.
-
-cirdes: My thesis is that it will help me to engage with speakers with sponsors, so it will be something like
-
-cirdes: having a little bit of tropical during the whole year. That's why I bought that nice microphone and light and and a good camera. Because I'm trying to start a podcast to help the tropical event as a whole.
-
-Travis Dockter: Awesome, awesome. I love it all right. Well, thank you so much for your time and and your knowledge, I got a lot of good ideas, a lot of stuff that I'm gonna borrow from from tropical, I think. And yeah, I I appreciate you being so generous.
-
-Travis Dockter: And yeah, hopefully, one day I can make it to to tropical. It is
-
-cirdes: Yeah.
-
-Travis Dockter: A long trip. But yeah, I've I've so many good things about your conference that I would love to see in person. So thank you.
-
-cirdes: Nice man. Thank you so much for having me. I love it. I saw that you have interviewed the best event organizers, ruby events, organizing the world. So it's an honor to to be invited as well. And yeah, please come to Brazil. I will be very happy to receive you here.
-
-Travis Dockter: Awesome. Sounds good. Thank you.
+**Travis Dockter:** Awesome. Sounds good. Thank you.
