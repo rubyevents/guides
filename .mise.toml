@@ -1,2 +1,5 @@
 [tools]
-ruby = "4.0.4"
+# Picked up from .ruby-version
+
+[settings]
+experimental = true

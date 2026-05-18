@@ -794,6 +794,38 @@ figure.highlight pre.highlight {
   color: #a8e1fe;
 }
 
+@media (max-width: 640px) {
+  .nav {
+    flex-wrap: wrap;
+    padding: var(--space-3) var(--space-4);
+    gap: var(--space-2);
+  }
+  .nav__title {
+    flex: 1 0 100%;
+    font-size: var(--font-size-base);
+  }
+  .nav__links {
+    gap: var(--space-4);
+  }
+  .page-content {
+    padding-inline: var(--space-4);
+    padding-block: var(--space-6) var(--space-8);
+  }
+  .guide-layout {
+    padding-inline: var(--space-4);
+    padding-block: var(--space-6) var(--space-8);
+  }
+  .guide-content h2 {
+    margin-top: var(--space-6);
+    margin-bottom: var(--space-3);
+  }
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+    padding: var(--space-4);
+  }
+}
 @media (min-width: 1024px) {
   .guide-layout {
     grid-template-columns: var(--toc-width) 1fr;
