@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="guide-layout">
+  {% if page.chapters %}
+  <nav class="toc" aria-label="Guide contents">
+    <ol class="toc__list">
+      {% for chapter in page.chapters %}
+      <li class="toc__item">
+        <a class="toc__link" href="#{{ chapter.id }}">{{ chapter.title }}</a>
+      </li>
+      {% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+
+  <article class="guide-content">{{ content }}</article>
+</div>

@@ -9,3 +9,71 @@
 // md:  768px  tablet
 // lg:  1024px small desktop
 // xl:  1280px desktop
+
+// Mobile (up to 640px)
+// ─────────────────────────────────────────────────────────────────────────────
+
+@media (max-width: 640px) {
+  // Nav: smaller title, tighter padding, prevent 3-line wrap
+  .nav {
+    padding: var(--space-4) var(--space-4);
+
+    &__title {
+      font-size: var(--font-size-base);
+      flex-shrink: 1;
+      min-width: 0;
+    }
+
+    &__links {
+      gap: var(--space-4);
+      flex-shrink: 0;
+    }
+  }
+
+  // Page content: tighter horizontal padding on small screens
+  .page-content {
+    padding-inline: var(--space-4);
+    padding-block: var(--space-6) var(--space-8);
+  }
+
+  // Guide: tighter chapter spacing on mobile
+  .guide-layout {
+    padding-inline: var(--space-4);
+    padding-block: var(--space-6) var(--space-8);
+  }
+
+  .guide-content {
+    h2 {
+      margin-top: var(--space-6);
+      margin-bottom: var(--space-3);
+    }
+  }
+
+  // Footer: stack on very small screens
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+    padding: var(--space-4);
+  }
+}
+
+// Guide layout: activate two-column grid at desktop width
+@media (min-width: 1024px) {
+  .guide-layout {
+    grid-template-columns: var(--toc-width) 1fr;
+    gap: var(--toc-gap);
+    align-items: start;
+  }
+
+  .toc {
+    display: block;
+    position: sticky;
+    top: var(--space-8);
+    max-height: calc(100vh - var(--space-10));
+    overflow-y: auto;
+    // Subtle scrollbar
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+}

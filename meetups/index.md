@@ -1,37 +1,32 @@
 ---
-layout: default
+layout: guide
 title: Running Ruby Meetups
+chapters:
+  - title: Why Bother
+    id: why-bother
+  - title: Starting From Zero
+    id: starting-from-zero
+  - title: Finding Your Format
+    id: finding-your-format
+  - title: Getting People in the Room
+    id: getting-people-in-the-room
+  - title: Speakers & Talks
+    id: speakers--talks
+  - title: Money & Sponsors
+    id: money--sponsors
+  - title: The Logistics Nobody Talks About
+    id: the-logistics-nobody-talks-about
+  - title: Keeping It Going
+    id: keeping-it-going
+  - title: Building Culture
+    id: building-culture
+  - title: Growing & Evolving
+    id: growing--evolving
 ---
-
-<div class="page-content">
 
 # Running Ruby Meetups
 
 A practical guide for starting and running local Ruby meetups, from the first awkward event to a sustainable community.
-
-## Contents
-
-- [Why Bother](#why-bother)
-- [Starting From Zero](#starting-from-zero)
-- [Finding Your Format](#finding-your-format)
-- [Getting People in the Room](#getting-people-in-the-room)
-- [Speakers & Talks](#speakers--talks)
-- [Money & Sponsors](#money--sponsors)
-- [The Logistics Nobody Talks About](#the-logistics-nobody-talks-about)
-- [Keeping It Going](#keeping-it-going)
-- [Building Culture](#building-culture)
-- [Growing & Evolving](#growing--evolving)
-
-## Quick start
-
-Borrow the six-part shape from Evil Martians' meetup guide and get one event into the calendar:
-
-1. **Place** — find a venue first; an office with unused evening space is usually enough.
-2. **Platform** — publish the date somewhere people can RSVP, but do not expect the platform to promote it for you.
-3. **Talks** — line up one to three short talks and leave room for people to talk to each other.
-4. **Food and sponsors** — keep it simple: pizza, soft drinks, and a sponsor who understands the audience.
-5. **Promotion** — post repeatedly, ask Ruby newsletters/calendars to list it, and invite local Rubyists directly.
-6. **Surprise** — add one memorable detail that makes the night feel cared for.
 
 ## Why Bother
 
@@ -72,5 +67,3 @@ Code of conduct, tone-setting, and making the meetup welcoming in practice.
 ## Growing & Evolving
 
 When to grow, when not to, spin-offs, and connecting to the wider Ruby world.
-
-</div>
