@@ -10,6 +10,54 @@
 // lg:  1024px small desktop
 // xl:  1280px desktop
 
+// Mobile guide header (up to tablet)
+// ─────────────────────────────────────────────────────────────────────────────
+
+@media (max-width: 767px) {
+  .mobile-sticky-header {
+    position: fixed;
+    z-index: 20;
+    inset-block-start: var(--space-3);
+    inset-inline: var(--space-3);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    column-gap: var(--space-3);
+    padding: var(--space-3);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-lg);
+    background: var(--color-bg);
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(calc(-1 * var(--space-6)));
+    transition:
+      opacity var(--duration-normal) var(--easing-out),
+      transform var(--duration-normal) var(--easing-out);
+  }
+
+  .mobile-sticky-header[data-visible] {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .mobile-sticky-header__menu[hidden] {
+    display: none;
+  }
+
+  .mobile-sticky-header__menu .toc__list {
+    max-height: min(55vh, 28rem);
+    overflow-y: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-sticky-header {
+    transition: none;
+  }
+}
+
 // Mobile (up to 640px)
 // ─────────────────────────────────────────────────────────────────────────────
 

@@ -10,6 +10,7 @@
     <link rel="preload" href="{{ "/assets/css/main.css" | relative_url }}" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="{{ "/js/mobile-sticky-header.js" | relative_url }}" defer></script>
   </head>
   <body>
 
@@ -28,6 +29,29 @@
         </div>
       </nav>
     </header>
+
+    {% if page.chapters %}
+    <header class="mobile-sticky-header" data-mobile-sticky-header>
+      <a class="mobile-sticky-header__title" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+      <button class="mobile-sticky-header__toggle" type="button" aria-expanded="false" aria-controls="mobile-sticky-menu" data-mobile-menu-toggle>
+        <span class="mobile-sticky-header__toggle-icon" aria-hidden="true"></span>
+        <span class="mobile-sticky-header__toggle-label">Menu</span>
+      </button>
+      <div class="mobile-sticky-header__menu" id="mobile-sticky-menu" data-mobile-menu hidden>
+        <nav class="mobile-sticky-header__links" aria-label="Guide navigation">
+          <a href="{{ "/meetups/" | relative_url }}"
+             {% if page.url contains '/meetups/' %}aria-current="page"{% endif %}>
+            Meetups
+          </a>
+          <a href="{{ "/conferences/" | relative_url }}"
+             {% if page.url contains '/conferences/' %}aria-current="page"{% endif %}>
+            Conferences
+          </a>
+        </nav>
+        {% include toc.html variant="sticky" %}
+      </div>
+    </header>
+    {% endif %}
 
     <main>
       {{ content }}

@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,jekyll,ruby,vim
 
 ### Jekyll ###
-_site/
+/_site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
@@ -231,4 +231,3 @@ tags
 # End of https://www.toptal.com/developers/gitignore/api/node,jekyll,ruby,vim
 .design
 .agents
-_site

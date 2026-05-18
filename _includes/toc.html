@@ -1,7 +1,7 @@
 {% assign toc_variant = include.variant | default: "desktop" %} {% if
 page.chapters %}
 <nav class="toc toc--{{ toc_variant }}" aria-label="Guide contents">
-  {% if toc_variant == "mobile" %}
+  {% if toc_variant == "mobile" or toc_variant == "sticky" %}
   <p class="toc__heading">Contents</p>
   {% endif %}
   <ol class="toc__list">
