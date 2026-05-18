@@ -31,11 +31,11 @@
     </header>
 
     {% if page.chapters %}
-    <header class="mobile-sticky-header" data-mobile-sticky-header>
-      <a class="mobile-sticky-header__title" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+    <div class="mobile-sticky-header" aria-label="Guide contents menu" data-mobile-sticky-header>
+      <a class="mobile-sticky-header__title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
       <button class="mobile-sticky-header__toggle" type="button" aria-expanded="false" aria-controls="mobile-sticky-menu" data-mobile-menu-toggle>
         <span class="mobile-sticky-header__toggle-icon" aria-hidden="true"></span>
-        <span class="mobile-sticky-header__toggle-label">Menu</span>
+        <span class="mobile-sticky-header__toggle-label">Contents</span>
       </button>
       <div class="mobile-sticky-header__menu" id="mobile-sticky-menu" data-mobile-menu hidden>
         <nav class="mobile-sticky-header__links" aria-label="Guide navigation">
@@ -50,7 +50,7 @@
         </nav>
         {% include toc.html variant="sticky" %}
       </div>
-    </header>
+    </div>
     {% endif %}
 
     <main>

@@ -1,25 +1,34 @@
 # Design Review — Mobile Sticky Guide Header
 
+Reviewed against: `.design/ruby-community-guides/DESIGN_BRIEF.md`  
+Date: 2026-05-18
+
 ## Screenshots captured
 
-- `screenshots/review-meetups-mobile-top-375.png`
-- `screenshots/review-meetups-mobile-sticky-closed-375.png`
-- `screenshots/review-meetups-mobile-sticky-open-375.png`
-- `screenshots/review-meetups-tablet-768.png`
-- `screenshots/review-meetups-desktop-1280.png`
+Saved under `.design/ruby-community-guides/screenshots/`:
+
+- `review-meetups-desktop-1280-before.png`
+- `review-meetups-tablet-768-before.png`
+- `review-meetups-mobile-top-375-before.png`
+- `review-meetups-mobile-sticky-closed-375-before.png`
+- `review-meetups-mobile-sticky-open-375-before.png`
+- `review-meetups-desktop-1280-after.png`
+- `review-meetups-tablet-768-after.png`
+- `review-meetups-mobile-top-375-after.png`
+- `review-meetups-mobile-sticky-closed-375-after.png`
+- `review-meetups-mobile-sticky-open-375-after.png`
 
 ## Result
 
-Pass. The sticky header appears only on mobile after scrolling, preserves the editorial style, and the burger menu exposes both guide-switching links and the page TOC.
+Fixed. The sticky header/menu still works on mobile, but now uses the site’s editorial language: quiet borders, lighter radius/shadow, typographic guide links, clearer outer spacing, and a “Contents” label instead of a generic “Menu.”
 
-## Checks
+## Changes made
 
-- Visual hierarchy: header is compact and visible without overpowering the article.
-- Responsive behavior: hidden at 768px/tablet and desktop; active at 375px mobile.
-- Interaction states: menu opens/closes, link clicks close it, Escape/outside click close it.
-- Accessibility: uses a real button with `aria-expanded`/`aria-controls`; menu links remain semantic navigation.
-- Motion: respects `prefers-reduced-motion`.
+- Replaced the duplicate semantic `<header>` with a neutral sticky container in `_layouts/default.html`.
+- Renamed the toggle label from “Menu” to “Contents.”
+- Restyled the sticky header in `_sass/components.scss` and `_sass/media.scss` to remove the app-like nested card/pill treatment.
+- Added an expanded close-icon state and reduced-motion handling.
 
-## Notes
+## Remaining notes
 
-No must-fix issues found in the captured states.
+No must-fix issues remain for the reviewed states.

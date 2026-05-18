@@ -17,23 +17,30 @@
   .mobile-sticky-header {
     position: fixed;
     z-index: 20;
-    inset-block-start: var(--space-3);
-    inset-inline: var(--space-3);
+    inset-block-start: max(var(--space-3), env(safe-area-inset-top));
+    inset-inline: var(--space-4);
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
     column-gap: var(--space-3);
-    padding: var(--space-3);
-    border: 1px solid var(--color-border-subtle);
-    border-radius: var(--border-radius-lg);
-    background: var(--color-bg);
-    box-shadow: var(--shadow-md);
+    padding: var(--space-2) var(--space-3);
+    border-block: 1px solid var(--color-border);
+    border-inline: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md);
+    background: color-mix(in oklch, var(--color-bg) 96%, transparent);
+    box-shadow: var(--shadow-sm);
     opacity: 0;
     pointer-events: none;
     transform: translateY(calc(-1 * var(--space-6)));
     transition:
       opacity var(--duration-normal) var(--easing-out),
       transform var(--duration-normal) var(--easing-out);
+  }
+
+  @supports (backdrop-filter: blur(8px)) {
+    .mobile-sticky-header {
+      backdrop-filter: blur(8px);
+    }
   }
 
   .mobile-sticky-header[data-visible] {
@@ -53,7 +60,10 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .mobile-sticky-header {
+  .mobile-sticky-header,
+  .mobile-sticky-header__toggle-icon,
+  .mobile-sticky-header__toggle-icon::before,
+  .mobile-sticky-header__toggle-icon::after {
     transition: none;
   }
 }
