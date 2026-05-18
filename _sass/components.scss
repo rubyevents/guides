@@ -91,11 +91,33 @@
   }
 
   // ── Homepage guide index ──────────────────────────────────────────────────
-  // Styles the guide link + description pairs on the homepage.
-  // Uses the natural markdown output: h2 section heading, then a paragraph
-  // containing the link, then a description paragraph.
+  // Same geometry as guide pages: primary content column + right rail.
 
-  .page-content {
+  .index-layout {
+    max-width: var(--max-width-content);
+    margin-inline: auto;
+    padding-inline: var(--space-6);
+    padding-block: var(--space-8) var(--space-10);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .index-content {
+    max-width: var(--max-width-prose);
+    min-width: 0;
+
+    h1 {
+      margin-bottom: var(--space-5);
+    }
+
+    h2 {
+      margin-top: var(--space-8);
+      margin-bottom: var(--space-4);
+      padding-bottom: var(--space-3);
+      border-bottom: 1px solid var(--color-border-subtle);
+    }
+
     // Guide link paragraphs: make the guide link prominent
     h2 + p > a:only-child {
       font-family: var(--font-display);
@@ -110,25 +132,13 @@
       }
     }
 
-    // Spacing between sections
-    h2 {
-      margin-top: var(--space-8);
-      margin-bottom: var(--space-4);
-      padding-bottom: var(--space-3);
-      border-bottom: 1px solid var(--color-border-subtle);
-    }
-
-    h1 {
-      margin-bottom: var(--space-5);
-    }
-
     // Voices list
     h2 ~ ul {
       list-style: none;
       padding: 0;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
-      gap: var(--space-2) var(--space-6);
+      grid-template-columns: 1fr;
+      gap: var(--space-2);
 
       li {
         margin: 0;
@@ -138,6 +148,10 @@
         border-bottom: 1px solid var(--color-border-subtle);
       }
     }
+  }
+
+  .index-aside {
+    display: none;
   }
 
   // ── Guide layout ──────────────────────────────────────────────────────────
@@ -155,16 +169,29 @@
 
   .guide-content {
     min-width: 0; // prevent overflow in grid
+    max-width: var(--max-width-prose);
 
     h1 {
-      margin-bottom: var(--space-5);
+      font-size: var(--font-size-3xl);
+      letter-spacing: var(--letter-spacing-tight);
+      margin-bottom: var(--space-4);
+    }
+
+    // Lead paragraph immediately after h1
+    h1 + p {
+      font-size: var(--font-size-lg);
+      color: var(--color-text-secondary);
+      line-height: var(--line-height-normal);
+      margin-bottom: var(--space-7);
     }
 
     h2 {
-      margin-top: var(--space-8);
+      margin-top: var(--space-9);
       margin-bottom: var(--space-4);
-      padding-top: var(--space-4);
+      padding-top: var(--space-5);
       border-top: 1px solid var(--color-border-subtle);
+      font-size: var(--font-size-2xl);
+      letter-spacing: var(--letter-spacing-tight);
     }
 
     h3 {
@@ -172,10 +199,8 @@
       margin-bottom: var(--space-3);
     }
 
-    p,
-    ul,
-    ol {
-      max-width: var(--max-width-prose);
+    p {
+      line-height: var(--line-height-relaxed);
     }
   }
 

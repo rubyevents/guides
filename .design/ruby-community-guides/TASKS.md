@@ -37,11 +37,11 @@ Date: 2026-05-17
 
 ## Responsive & Polish
 
-- [ ] **Responsive pass on `media.scss`**: Add breakpoint rules for the guide layout (TOC column collapse at tablet/mobile), nav wrapping, homepage guide-links stacking on mobile. No tokens here — only layout behaviour changes at breakpoints. _New content in `media.scss`._
+- [x] **Responsive pass on `media.scss`**: Add breakpoint rules for the guide layout (TOC column collapse at tablet/mobile), nav wrapping, homepage guide-links stacking on mobile. No tokens here — only layout behaviour changes at breakpoints. _New content in `media.scss`._
 
-- [ ] **Typography polish pass on `base.scss`**: Review heading hierarchy, paragraph spacing, blockquote styling, and link underline behaviour across all three pages in a browser. Tune `--space-*` values between chapters, tighten or loosen where reading rhythm feels off. _Modifies `base.scss`._
+- [x] **Typography polish pass on `base.scss`**: Review heading hierarchy, paragraph spacing, blockquote styling, and link underline behaviour across all three pages in a browser. Tune `--space-*` values between chapters, tighten or loosen where reading rhythm feels off. _Modifies `base.scss`._
 
-- [ ] **Accessibility pass**: Verify focus styles on all interactive elements using `--color-border-focus` / `--shadow-focus`. Check heading hierarchy on all three pages. Confirm TOC is keyboard-navigable. Add `aria-current="page"` to active nav link. Verify `prefers-reduced-motion` is respected for any transitions. _Touches `base.scss`, `components.scss`, layout files._
+- [x] **Accessibility pass**: Verify focus styles on all interactive elements using `--color-border-focus` / `--shadow-focus`. Check heading hierarchy on all three pages. Confirm TOC is keyboard-navigable. Add `aria-current="page"` to active nav link. Verify `prefers-reduced-motion` is respected for any transitions. _Touches `base.scss`, `components.scss`, layout files._
 
 ---
 

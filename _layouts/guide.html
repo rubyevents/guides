@@ -3,6 +3,8 @@ layout: default
 ---
 
 <div class="guide-layout">
+  <article class="guide-content">{{ content }}</article>
+
   {% if page.chapters %}
   <nav class="toc" aria-label="Guide contents">
     <ol class="toc__list">
@@ -14,6 +16,4 @@ layout: default
     </ol>
   </nav>
   {% endif %}
-
-  <article class="guide-content">{{ content }}</article>
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Ruby Community Guides
 ---
 

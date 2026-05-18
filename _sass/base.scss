@@ -83,10 +83,13 @@
     &:active {
       color: var(--color-link-active);
     }
+    // Visible focus ring for keyboard users — outline instead of box-shadow
+    // so it works on all backgrounds including dark mode
     &:focus-visible {
-      outline: none;
-      box-shadow: var(--shadow-focus);
+      outline: 2px solid var(--color-border-focus);
+      outline-offset: 3px;
       border-radius: var(--border-radius-sm);
+      text-decoration: none;
     }
   }
 

@@ -36,8 +36,9 @@
     padding-block: var(--space-6) var(--space-8);
   }
 
-  // Guide: tighter chapter spacing on mobile
-  .guide-layout {
+  // Page layouts: tighter spacing on mobile
+  .guide-layout,
+  .index-layout {
     padding-inline: var(--space-4);
     padding-block: var(--space-6) var(--space-8);
   }
@@ -60,10 +61,15 @@
 
 // Guide layout: activate two-column grid at desktop width
 @media (min-width: 1024px) {
-  .guide-layout {
-    grid-template-columns: var(--toc-width) 1fr;
+  .guide-layout,
+  .index-layout {
+    grid-template-columns: minmax(0, 1fr) var(--toc-width);
     gap: var(--toc-gap);
     align-items: start;
+  }
+
+  .index-aside {
+    display: block;
   }
 
   .toc {

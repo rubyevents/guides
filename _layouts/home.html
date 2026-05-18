@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="index-layout">
+  <article class="index-content">{{ content }}</article>
+
+  <aside class="index-aside" aria-label="Supplementary information">
+    {% if page.aside %} {{ page.aside | markdownify }} {% endif %}
+  </aside>
+</div>
