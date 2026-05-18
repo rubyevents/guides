@@ -5,15 +5,9 @@ layout: default
 <div class="guide-layout">
   <article class="guide-content">{{ content }}</article>
 
-  {% if page.chapters %}
-  <nav class="toc" aria-label="Guide contents">
-    <ol class="toc__list">
-      {% for chapter in page.chapters %}
-      <li class="toc__item">
-        <a class="toc__link" href="#{{ chapter.id }}">{{ chapter.title }}</a>
-      </li>
-      {% endfor %}
-    </ol>
-  </nav>
-  {% endif %}
+  {% include toc.html variant="desktop" %}
 </div>
+
+{% if page.chapters %}
+<script src="{{ "/js/guide-toc.js" | relative_url }}"></script>
+{% endif %}

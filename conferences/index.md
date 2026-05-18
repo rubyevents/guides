@@ -6,6 +6,8 @@ description: A guide for organizers who want to start and run Ruby conferences, 
 
 # Running Ruby Conferences
 
-This guide is being written from organizer interviews and community experience. It will cover the full arc of running a Ruby conference — from deciding to do it, through venue contracts, CFP, speakers, ticketing, day-of operations, and making it sustainable.
+<p class="status-note">In progress</p>
 
-In the meantime, the [Running Ruby Meetups](/meetups/) guide is complete and may be a useful starting point, since many conference organizers started with meetups.
+This guide is being written from organizer interviews and community experience. It will cover the full arc of running a Ruby conference - deciding whether to do it, finding a venue, shaping the program, working with speakers, ticketing, sponsors, day-of operations, and making the event sustainable.
+
+In the meantime, the [Running Ruby Meetups](/meetups/) guide is complete and may be a useful starting point. Many conference organizers started with meetups, and the same instincts still apply: keep the shape clear, reduce risk, and make it easy for people to show up.
