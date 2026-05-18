@@ -59,10 +59,12 @@
   }
 }
 
-// Guide layout: activate two-column grid at desktop width
+// Guide layout: activate two-column grid at desktop width.
+// For index-layout (homepage), only apply 2-col when an aside is present;
+// otherwise the homepage gets the full content width with no empty rail.
 @media (min-width: 1024px) {
   .guide-layout,
-  .index-layout {
+  .index-layout:has(.index-aside) {
     grid-template-columns: minmax(0, 1fr) var(--toc-width);
     gap: var(--toc-gap);
     align-items: start;

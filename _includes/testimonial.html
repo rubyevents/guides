@@ -1,0 +1,29 @@
+<figure class="testimonial">
+  <blockquote class="testimonial__quote">
+    <p>&ldquo;{{ include.quote }}&rdquo;</p>
+  </blockquote>
+
+  <figcaption class="testimonial__person">
+    {% if include.avatar %}
+    <img
+      class="testimonial__avatar"
+      src="{{ include.avatar | relative_url }}"
+      alt=""
+      width="32"
+      height="32"
+      loading="lazy"
+    />
+    {% else %}
+    <span
+      class="testimonial__avatar testimonial__avatar--initials"
+      aria-hidden="true"
+      >{{ include.initials }}</span
+    >
+    {% endif %}
+
+    <span class="testimonial__byline">
+      <span class="testimonial__name">{{ include.name }}</span>
+      <span class="testimonial__conference">{{ include.conference }}</span>
+    </span>
+  </figcaption>
+</figure>

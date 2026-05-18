@@ -1,0 +1,54 @@
+- name: Jeremy Smith
+  conference: Blue Ridge Ruby
+  initials: JS
+  image: https://rubyconferenceproject.com/images/jeremy.jpg
+
+- name: Spike Ilacqua
+  conference: Rocky Mountain Ruby
+  initials: SI
+  image: https://rubyconferenceproject.com/images/spike.jpg
+
+- name: Marty Haught
+  conference: Rocky Mountain Ruby
+  initials: MH
+  image: https://rubyconferenceproject.com/images/marty.jpg
+
+- name: Jason Charnes
+  conference: Southeast Ruby
+  initials: JC
+  image: https://rubyconferenceproject.com/images/jasonc.png
+
+- name: Jason Swett
+  conference: Sin City Ruby
+  initials: JS
+  image: https://rubyconferenceproject.com/images/jasons.jpg
+
+- name: Adrian Marin
+  conference: Friendly.rb
+  initials: AM
+  image: https://rubyconferenceproject.com/images/adrian.jpg
+
+- name: Andy Croll
+  conference: Brighton Ruby
+  initials: AC
+  image: https://rubyconferenceproject.com/images/andy.jpg
+
+- name: Cirdes Henrique
+  conference: Tropical on Rails
+  initials: CH
+  image: https://rubyconferenceproject.com/images/cirdes.jpeg
+
+- name: Hana Harencarova
+  conference: Helvetic Ruby
+  initials: HH
+  image: https://rubyconferenceproject.com/images/hana.jpeg
+
+- name: Amanda Perino
+  conference: Rails World
+  initials: AP
+  image: https://rubyconferenceproject.com/images/amanda.jpg
+
+- name: Irina Nazarova
+  conference: SF Ruby Conference
+  initials: IN
+  image: https://rubyconferenceproject.com/images/irina.webp

@@ -1,5 +1,5 @@
-url: ""
-baseurl: ""
+url: "https://hansschnedlitz.com"
+baseurl: "/rubyevents-guides"
 title: "Ruby Community Guides"
 description: "Practical guides for starting and running Ruby communities."
 
