@@ -7,16 +7,11 @@ title: Ruby Community Guides
 
 # Ruby Community Guides
 
-Everything you need to start and run a Ruby community —
-written by people who've done it.
+Everything you need to start and run a Ruby community — written by people who've done it.
 
-You don't need a big budget, a large following, or years of event experience.
-You need a room, a few willing people, and the willingness to keep showing up.
+You don't need a big budget, a large following, or years of event experience. You need a room, a few friendly people, and the willingness to keep showing up.
 
-These guides were built from conversations with organizers around the world —
-people who booked their first venue not knowing what they were doing,
-cold-emailed their first speaker, and found out what actually matters
-when you get a room full of Rubyists together.
+These guides were built from conversations with organizers around the world — people who booked their first venue not knowing what they were doing, cold-emailed their first speaker, and somehow ended up building lifelong connections.
 
 {% include testimonial.html
   quote="There are rare times that you get a lot of people in a community together. It's a rare time for people to have face-to-face interaction and build health and deeper connection together. You need the technical content, because that's the affinity that draws us together. But that's not how you build relationships."
