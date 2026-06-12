@@ -47,9 +47,9 @@ If you're shooting for spring or fall, give yourself plenty of runway on either 
 
 Once you have possible dates, find the venue. This is not step three or four — it is step two. Everything else, including your budget and your ticket price, depends on what the venue costs and what it includes.
 
-The venues that work best for 100-200 person single-track conferences are usually not hotels. They are theaters, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and nice staff. 
+The venues that work best for 100-200 person single-track conferences are usually not hotels. They are theaters, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and nice staff.
 
-Hotels are the obvious choice and almost always the wrong one for a first conference at this scale. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up. 
+Hotels are the obvious choice and almost always the wrong one for a first conference at this scale. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up.
 
 Hotels are also slow to respond, difficult to negotiate with, and often have catering requirements that eliminate the most effective cost-cutting option available to you: skipping lunch. If you must evaluate them, get crystal clear on the room block terms and the F&B minimum before any deposit changes hands.
 
@@ -101,7 +101,7 @@ Single track also simplifies your job considerably. One room, one schedule, one 
 
 ### How many days
 
-For your first conference, aim for either one or two days. One day is lower financial risk, requires less from attendees in terms of travel commitment, and is easier to program. Two days gives more room for the hallway track to develop, allows for a mix of formats (workshops on day one, talks on day two, for example), and makes the trip feel more worthwhile to people who have traveled far. 
+For your first conference, aim for either one or two days. One day is lower financial risk, requires less from attendees in terms of travel commitment, and is easier to program. Two days gives more room for the hallway track to develop, allows for a mix of formats (workshops on day one, talks on day two, for example), and makes the trip feel more worthwhile to people who have traveled far.
 
 For a first conference, one day is the safer choice. You can always add a second day in year two.
 
@@ -119,16 +119,15 @@ This is more important than it sounds. A conference with a clear identity — a 
 
 Blue Ridge Ruby is explicitly tied to Asheville: the food scene, the mountain setting, the post-conference river tubing. Friendly.rb in Bucharest leans into its European location with city walking tours and a mountain day trip on the third day. Rocky Mountain Ruby is a tight community conference in Boulder for people who want good talks and long breaks to talk to each other.
 
-Your city, your venue, your aesthetic - these are not decoration. They are part of what you are selling. Adrian Marin, who runs Friendly.rb, said it clearly: be intentional about what you're trying to do, and tell people about it. Don't accidentally build a generic conference when you could build one that feels like it belongs somewhere specific.
+Your city, your venue, your aesthetic - these are not decoration. They are part of what you are selling. Don't accidentally build a generic conference when you could build one that feels like it belongs somewhere specific.
 
 {% include testimonial.html
-  quote="Brighton Ruby has been a one-day single-track conference for over a decade and now draws 450 people. I tried tried expanding it and stepped back every time. I can't do two days. I don't have the energy to do a two-day version. And the one-day version works."
-  name="Andy Croll"
-  conference="Brighton Ruby"
-  avatar="/assets/images/avatars/andy.jpg"
-  initials="AC"
+  quote="Be intentional about what you're trying to do, and tell people about it."
+  name="Adrian Marin"
+  conference="Friendly.rb"
+  avatar="/assets/images/avatars/adrian.jpg"
+  initials="AM"
 %}
-
 
 ---
 
@@ -154,7 +153,7 @@ Your base budget is the minimum required to run the event: venue, basic AV, spea
 
 This stretch-goal framing does two things. It keeps you from over-committing before you know your revenue, and it lets you communicate honestly with attendees about what's coming.
 
-Marty Haught, who ran Rocky Mountain Ruby for years before handing it off, described a total budget for a 150-200 person regional conference in the range of $30,000-$40,000. Your situation will vary, but that order of magnitude is a useful anchor. Work backwards from there: if your venue costs $8,000, your speakers need $500 each and you have ten speakers, your AV runs $3,000, and your insurance is $400, you know your base before you sell a single ticket.
+For a 150-200 person regional conference, a total budget in the range of $30,000-$40,000 is a useful anchor. Your situation will vary, but that order of magnitude helps. Work backwards from there: if your venue costs $8,000, your speakers need $500 each and you have ten speakers, your AV runs $3,000, and your insurance is $400, you know your base before you sell a single ticket.
 
 ### Ticket pricing
 
@@ -194,7 +193,15 @@ Coffee and pastries in the morning are worth it. A catered sit-down lunch usuall
 
 Recording talks is often treated as non-negotiable. Reconsider it. Professional conference recording costs real money — ConFreaks, the company many Ruby conferences use, charges enough to be the second-largest expense after venue. The quality difference between professional recording and a hired wedding photographer with no conference experience is enormous. If you record, use someone who has done it before.
 
-But you can also choose not to record in year one. Andy Croll has run Brighton Ruby for over a decade and is thoughtful about when and how he publishes video: "You don't need video. That's a huge cost. And honestly, the people who watch conference videos on YouTube rounds to zero." If your budget is tight, video is a stretch goal, not a baseline requirement.
+But you can also choose not to record in year one. If your budget is tight, video is a stretch goal, not a baseline requirement.
+
+{% include testimonial.html
+  quote="You don't need video. That's a huge cost. And honestly, the people who watch conference videos on YouTube rounds to zero."
+  name="Andy Croll"
+  conference="Brighton Ruby"
+  avatar="/assets/images/avatars/andy.jpg"
+  initials="AC"
+%}
 
 ---
 
@@ -220,7 +227,7 @@ Speakers are doing real work. A 30-minute conference talk typically represents 3
 
 The regional conference norm for an honorarium is roughly $300-500. This doesn't cover much of a flight, but it's a gesture of respect. Many speakers don't take it, particularly if their company is paying for travel — in that case, offer to list their company as a sponsor in lieu of the cash. Spike Ilacqua makes this offer explicitly at Rocky Mountain Ruby.
 
-If you can cover hotel, do it, especially for speakers coming from far away. If you can't cover travel, be honest about that upfront so people can make an informed decision. Andy Croll covers both travel and hotel for all Brighton Ruby speakers, which he notes is unusual at this scale — but it comes back in the quality and loyalty of his speaker relationships.
+If you can cover hotel, do it, especially for speakers coming from far away. If you can't cover travel, be honest about that upfront so people can make an informed decision. Covering both travel and hotel is unusual at this scale, but it can come back in the quality and loyalty of your speaker relationships.
 
 {% include testimonial.html
   quote="These people are putting themselves out there. Without the speakers, there is no show."
@@ -236,7 +243,15 @@ A speaker dinner the night before the conference is worth more than it costs. It
 
 If someone has never given a conference talk before and is in your lineup, they need more from you than an experienced speaker does. Ask to see a draft of their slides a few weeks out. Ask what they're nervous about. Offer a practice run if that's useful to them.
 
-Andy Croll has built speaker mentorship into Brighton Ruby over the years: "The investment I put through with the speakers before the talks — helping them finesse their presentations — I think makes a real difference." Not every organizer has the time or the expertise to do this. But even a quick conversation a week before the event, asking how the talk is coming and whether they have everything they need, goes a long way.
+Not every organizer has the time or the expertise to build full speaker mentorship into the conference. But even a quick conversation a week before the event, asking how the talk is coming and whether they have everything they need, goes a long way.
+
+{% include testimonial.html
+  quote="The investment I put through with the speakers before the talks — helping them finesse their presentations — I think makes a real difference."
+  name="Andy Croll"
+  conference="Brighton Ruby"
+  avatar="/assets/images/avatars/andy.jpg"
+  initials="AC"
+%}
 
 {% include testimonial.html
   quote="If you go and speak for 20 minutes, no one has ever been sad that a talk was too short."
@@ -292,7 +307,7 @@ If you have a mix of experienced and first-time speakers, spread them across the
 
 ### Beyond the talks
 
-The best thing you can add to a conference is not a talk. It is time and structure for people to actually be together. Adrian Marin, who runs Friendly.rb in Bucharest, describes his goal as creating environments for people to open up — and he builds deliberate structure around that: city walking tours between conference days, a full-day mountain trip on the day after, long fluid breaks with no fixed endpoints.
+The best thing you can add to a conference is not a talk. It is time and structure for people to actually be together. Build deliberate structure around that: city walking tours between conference days, a full-day trip on the day after, long fluid breaks with no fixed endpoints.
 
 {% include testimonial.html
   quote="When would I get to meet Jeremy Smith and talk to him about his family, and how we do things, and how he does things? You're never going to have that for a full day."
@@ -306,7 +321,7 @@ Post-conference activities — a bar night, a hike, a day trip — work especial
 
 ### Code of conduct
 
-Read it aloud. Not the legalese version — your version. Andy Croll does this at every Brighton Ruby, taking ten minutes at the start of the day to explain what the code of conduct actually means: what behavior is expected, what it looks like when behavior is wrong, and what people should do if they see or experience something.
+Read it aloud. Not the legalese version — your version. Take ten minutes at the start of the day to explain what the code of conduct actually means: what behavior is expected, what it looks like when behavior is wrong, and what people should do if they see or experience something.
 
 {% include testimonial.html
   quote="I put my own personal phone number on the board. I go through what I expect in terms of behavior, and I go through the sort of behavior that you might be tempted to excuse... I invariably get somebody come up during the day and go, thank you so much for that."
@@ -354,7 +369,7 @@ Sponsors at regional conferences generally fall into a few categories:
 
 The standard approach is tiered packages with names (Gold, Silver, Bronze, or themed variants like gem names). This is fine, but it creates work: ten sponsors at small amounts means ten relationships to manage, ten logos to update, ten sets of expectations to track.
 
-Andy Croll keeps Brighton Ruby to three or four sponsors, each paying a meaningful amount, and can give each of them real attention. Spike Ilacqua started with gem-themed tiers but explicitly says to be flexible: if a sponsor wants a custom arrangement, make it work.
+Keeping the conference to three or four sponsors, each paying a meaningful amount, lets you give each of them real attention. If you use tiers, keep them flexible: if a sponsor wants a custom arrangement, make it work.
 
 Adrian Marin took a different approach entirely at Friendly.rb's first year: one package, one price ($1,250), ten spots. No decisions for sponsors to make, no tiers to compare.
 
@@ -376,7 +391,7 @@ The most interesting sponsors are the ones who want to do something, not just ap
 
 ## Volunteers & Team
 
-You cannot run a conference alone. You can try, but you will make yourself miserable, and the conference will be worse for it. Every experienced organizer says some version of this, and every first-time organizer who ignored it wishes they hadn't.
+You cannot run a conference alone. You can try, but you will make yourself miserable, and the conference will be worse for it. Treat that as a hard requirement, not optional advice.
 
 ### What volunteers actually do
 
@@ -400,7 +415,7 @@ On the day itself, you need people at registration, people keeping an eye on spe
 
 ### Delegating when you don't know the job
 
-The hardest part of delegation for first-time conference organizers is that you often don't know what the job looks like well enough to explain it to someone else. Jeremy Smith, who self-describes as someone who has spent years optimizing to do things himself, described this problem directly:
+The hardest part of delegation for first-time conference organizers is that you often don't know what the job looks like well enough to explain it to someone else.
 
 {% include testimonial.html
   quote="If you've never done the job and you haven't seen it done well, how do you even know what needs to be done?"
@@ -448,9 +463,15 @@ This applies just as much to a 150-person event as to an 800-person one. The rat
 
 The first thing attendees experience is registration. It is also, paradoxically, where a lot of conferences are still figuring out the logistics on the morning of. Don't be that conference.
 
-Print a backup attendee list. Have pens. Have someone whose only job is registration until it's done. Andy Croll spent three hours with a hole punch the night before one Brighton Ruby, punching 500 badges, because someone had noted in the previous year's feedback that registration had been slow. "It was described as the smoothest registration she had ever worked on."
+Print a backup attendee list. Have pens. Have someone whose only job is registration until it's done. The small details at registration set the tone for the day.
 
-The small details at registration set the tone for the day.
+{% include testimonial.html
+  quote="I spent three hours with a hole punch the night before, punching 500 badges, because someone had noted in the previous year's feedback that registration had been slow. It was described as the smoothest registration she had ever worked on."
+  name="Andy Croll"
+  conference="Brighton Ruby"
+  avatar="/assets/images/avatars/andy.jpg"
+  initials="AC"
+%}
 
 ### Code of conduct, in person
 
@@ -460,7 +481,7 @@ The people who most need this to be said are exactly the people who most need it
 
 ### What will go wrong
 
-Something will go wrong. Every organizer who has run more than one conference says this without hesitation. A speaker will be stuck at the airport. The AV will have a problem at the start of the first talk. A caterer will be late or bring the wrong order. A person will be rude to another person in a way that you have to address.
+Something will go wrong. A speaker will be stuck at the airport. The AV will have a problem at the start of the first talk. A caterer will be late or bring the wrong order. A person will be rude to another person in a way that you have to address.
 
 The goal is not to prevent all of this. The goal is to have someone to call and a response prepared.
 
@@ -518,7 +539,7 @@ This question usually answers itself. If the event went reasonably well — peop
 
 The second year is meaningfully different from the first. You have a track record. Sponsors have seen it exist. Attendees who came once will decide whether to come back. You have real data on ticket sales timing (most people buy late, but not as late as you fear; plan accordingly). You know what you over-prepared for and what surprised you.
 
-Spike Ilacqua describes the second year as "a little easier" — not easy, but easier, because the unknowns had become knowns. That incremental reduction in uncertainty is the reward for doing the first one.
+The second year is a little easier — not easy, but easier, because the unknowns have become knowns. That incremental reduction in uncertainty is the reward for doing the first one.
 
 ---
 
@@ -546,7 +567,7 @@ An LLC works for most early-stage conferences. A nonprofit is worth considering 
 
 The paperwork for nonprofit status is significant. Most regional conference organizers start as LLCs and revisit the nonprofit question once the event has established itself. Some may never need to make the change.
 
-Ruby Central has expressed interest in helping community conferences with both legal structure and sponsor connections. If you are running a Ruby conference and haven't talked to Ruby Central, it is worth a conversation.
+If you are running a Ruby conference, it is worth talking to Ruby Central about legal structure and sponsor connections.
 
 ### What sustainability actually looks like
 
