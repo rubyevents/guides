@@ -29,19 +29,17 @@ chapters:
 
 # Running Ruby Conferences
 
-A practical guide for organizing your first regional Ruby conference — from the decision to commit to the room full of people who came because of you.
+A practical guide for organizing your first regional Ruby conference — from the decision to commit to the room full of people who came because you made it happen.
 
 {% include toc.html variant="mobile" %}
 
 ## Why a Conference
 
-A meetup gets people in a room for two hours, once a month, and that is genuinely valuable. A conference gets the same people — and people who drove or flew in — into a room for an entire day or two. The conversations are longer. The connections go deeper. You have time to actually finish a thought.
+A meetup gets people in a room for a couple of hours on a regular basis, and that is valuable. A conference gets the same people — and people who drove or flew in — into a room for an entire day or two. The conversations are longer and the connections go deeper. 
 
-That difference matters more than it sounds. People who meet at a meetup might exchange names. People who spend a full day together, go to lunch, sit next to each other through talks, and share a drink afterwards tend to actually become friends. For a lot of developers, regional conferences are how their professional network got built — not by attending RailsConf or Rails World, but by going to a 150-person event in a city they could reach without a transatlantic flight.
+That difference matters more than you think. People who meet at a meetup might exchange names. People who spend a full day together, go to lunch, sit next to each other through talks, and share a drink afterwards tend to actually become friends. For a lot of developers, regional conferences are how their professional network got built — not by attending RailsConf or Rails World, but by going to a 100-person event in a city they could reach without a transatlantic flight.
 
-There is also something that happens to a community when it has a recurring conference. The meetup people come. The remote workers who have no local group come. The people who have been lurking on Twitter for years but haven't met anyone in person come. A conference creates a moment of mass gravity that a monthly meetup rarely achieves.
-
-That said, you should be honest with yourself about what you are signing up for. A first-time conference of 100-150 people will take somewhere in the range of 250 hours of your time — and that estimate, from Blue Ridge Ruby organizer Jeremy Smith, covers only his hours, not his volunteers. You will spend evenings chasing venues, weekends reviewing talk proposals, late nights doing things that should have been done earlier. You will probably not make money on the first one. You might lose some.
+That said, you should be honest with yourself about what you are signing up for. A first-time conference of 100-150 people will take up a lot of your time. You will spend evenings chasing venues, weekends reviewing talk proposals, late nights doing things that should have been done earlier. You will probably not make money on the first one. You might lose some.
 
 {% include testimonial.html
   quote="You need talks, because otherwise why would your boss let you go? But I do think there's value out of the tech stuff you learn — you're going to make connections that are going to be useful to have in your career, or are just going to be fun. I now know all these people from doing this I didn't know before. My circle has greatly expanded."
@@ -51,7 +49,7 @@ That said, you should be honest with yourself about what you are signing up for.
   initials="SI"
 %}
 
-The reason people do it anyway is that the thing you create — the room, the day, the shared experience — belongs to your community in a way that nothing else does. Someone came to your city because of you. They met someone they're still talking to two years later because you put them in the same room. That is genuinely difficult to replicate any other way.
+The reason people do it anyway is that the thing you create belongs to your community in a way that nothing else does. Someone came to your city because of you and they met someone they're still talking to two years later because you put them in the same room. You don't get that any other way.
 
 If that sounds worth it to you, keep reading.
 
@@ -59,19 +57,17 @@ If that sounds worth it to you, keep reading.
 
 ## Before You Commit
 
-The single best thing you can do before announcing your conference is get the fundamentals locked down first. Not just thought about — actually decided and signed. Date, venue, rough budget. Everything downstream depends on those three things, and announcing before you have them in place creates pressure without any of the infrastructure to support it.
+Before announcing your conference get the fundamentals locked down. Not just thought about — actually decided and signed. Date, venue, rough budget. Everything downstream depends on those three things, and announcing before you have them in place creates pressure without any of the infrastructure to support it.
 
 ### Find your date first
 
-Your date is more constrained than you think. You need to avoid local marathons, ironman events, and major sports weekends — any of those can wipe out hotel availability and drive prices up. Check for major Jewish holidays if you want to be inclusive of your community. Look at what other Ruby or Rails conferences are happening nearby on the calendar; Rocky Mountain Ruby's first year accidentally overlapped with Rails World the week before and Thai Ruby on the same weekend, gutting their keynote options.
+Your date is more constrained than you think. You need to avoid major local events. Any of those can wipe out hotel availability and drive prices up. Look at which other Ruby or Rails conferences are happening nearby on the calendar. Take holidays - both local and international - into account.
 
-University towns present a specific challenge: home football games can make it impossible to book a hotel room. Boulder, Colorado — home of Rocky Mountain Ruby — essentially has to work around the Colorado Buffaloes schedule.
-
-If you're shooting for spring or fall, give yourself plenty of runway on either side of the major US conference anchors. Start with a date range of two or three candidate weekends, then run each of those through the filter before committing.
+If you're shooting for spring or fall, give yourself plenty of runway on either side of the major conference anchors. Start with a date range of two or three candidate weekends and proceed with those.
 
 ### Venue is the first real decision
 
-Once you have a candidate date, find the venue. This is not step three or four — it is step two. Everything else, including your budget and your ticket price, depends on what the venue costs and what it includes.
+Once you have possible dates, find the venue. This is not step three or four — it is step two. Everything else, including your budget and your ticket price, depends on what the venue costs and what it includes.
 
 The venues that work best for 100-200 person single-track conferences are usually not hotels. They are theaters, converted churches, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and staff who are not hostile to non-catering events. Boulder Theater was Rocky Mountain Ruby's original home; eTown Hall, an old church converted into a radio studio and performance space, is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple in Asheville. These are not conference centers. They are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
 

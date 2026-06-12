@@ -390,6 +390,104 @@
     }
   }
 
+  // ── Inline tip callout ────────────────────────────────────────────────────
+
+  .tip {
+    --color-tip-border: var(--color-tip-ideas-border);
+    --color-tip-bg: var(--color-tip-ideas-bg);
+    --color-tip-icon: var(--color-tip-ideas-icon);
+    --color-tip-text: var(--color-tip-ideas-text);
+    --color-tip-link-hover: var(--color-tip-ideas-link-hover);
+    --color-tip-link-focus: var(--color-tip-ideas-link-focus);
+
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: var(--space-4);
+    align-items: start;
+    margin-block: var(--space-6);
+    padding: var(--space-4) var(--space-5);
+    border: 2px solid var(--color-tip-border);
+    border-radius: var(--border-radius-lg);
+    background: var(--color-tip-bg);
+    color: var(--color-tip-text);
+  }
+
+  .tip--tools {
+    --color-tip-border: var(--color-tip-tools-border);
+    --color-tip-bg: var(--color-tip-tools-bg);
+    --color-tip-icon: var(--color-tip-tools-icon);
+    --color-tip-text: var(--color-tip-tools-text);
+    --color-tip-link-hover: var(--color-tip-tools-link-hover);
+    --color-tip-link-focus: var(--color-tip-tools-link-focus);
+  }
+
+  .tip--ideas {
+    --color-tip-border: var(--color-tip-ideas-border);
+    --color-tip-bg: var(--color-tip-ideas-bg);
+    --color-tip-icon: var(--color-tip-ideas-icon);
+    --color-tip-text: var(--color-tip-ideas-text);
+    --color-tip-link-hover: var(--color-tip-ideas-link-hover);
+    --color-tip-link-focus: var(--color-tip-ideas-link-focus);
+  }
+
+  .tip__icon {
+    display: inline-grid;
+    place-items: center;
+    inline-size: 2.25rem;
+    block-size: 2.25rem;
+    color: var(--color-tip-icon);
+
+    svg {
+      inline-size: 100%;
+      block-size: 100%;
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2;
+    }
+  }
+
+  .tip__description {
+    min-width: 0;
+    color: var(--color-tip-text);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+
+    a:hover,
+    a:active {
+      color: var(--color-tip-link-hover);
+    }
+
+    a:focus-visible {
+      outline-color: var(--color-tip-link-focus);
+    }
+
+    ul,
+    ol {
+      margin-top: var(--space-3);
+      margin-bottom: 0;
+      padding-left: var(--space-5);
+    }
+
+    code {
+      background-color: color-mix(
+        in oklch,
+        var(--color-tip-bg) 72%,
+        var(--color-bg)
+      );
+      border-color: color-mix(
+        in oklch,
+        var(--color-tip-border) 45%,
+        transparent
+      );
+    }
+  }
+
   // ── Eyebrow label ─────────────────────────────────────────────────────────
 
   .eyebrow {

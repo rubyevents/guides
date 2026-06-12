@@ -7,18 +7,18 @@ chapters:
     id: why-bother
   - title: "Starting From Zero"
     id: starting-from-zero
-  - title: "Finding Your Format"
-    id: finding-your-format
-  - title: "Getting People in the Room"
-    id: getting-people-in-the-room
+  - title: "Your Format"
+    id: your-format
+  - title: "Promotion"
+    id: promotion
   - title: "Speakers & Talks"
     id: speakers--talks
   - title: "Money & Sponsors"
     id: money--sponsors
   - title: "The Logistics Nobody Talks About"
     id: the-logistics-nobody-talks-about
-  - title: "Keeping It Going"
-    id: keeping-it-going
+  - title: "Keeping It Fun"
+    id: keeping-it-fun
   - title: "Building Culture"
     id: building-culture
   - title: "Growing & Evolving"
@@ -33,11 +33,13 @@ A practical guide for starting and sustaining a local Ruby meetup — from findi
 
 ## Why Bother
 
-Ruby is more than a programming language - it's a community. 
+Ruby is more than a programming language - it's a community.
 
-Meetups are what keeps this community alive. An active meetup scene produces the people who later travel to conferences, give talks, build open source libraries, and bring others in. 
+Meetups are what keeps this community alive. An active meetup scene produces the people who later travel to conferences, give talks, build open source libraries, and bring others in.
 
 A local meetup is where junior developers get to see what more experienced developers actually think about. Where someone gets a job because they handed out a sticker and had a conversation. Where someone on a bad project hears a talk that reframes what they have been struggling with. None of those things happen online.
+
+You do not need a big reason to start a meetup. You just need to want one to exist.
 
 {% include testimonial.html
   quote="I learned Ruby in my local meetup in my city. When I was going to that local meetup, I had contact with Ruby. So that's why I'm so deeply connected with community — because I learned that way."
@@ -46,8 +48,6 @@ A local meetup is where junior developers get to see what more experienced devel
   avatar="/assets/images/avatars/cirdes.jpeg"
   initials="CH"
 %}
-
-You do not need a big reason to start a meetup. You just need to want one to exist.
 
 ---
 
@@ -61,21 +61,28 @@ Secure a venue for a specific date. Everything else can be figured out on the fl
 
 The best first venue for a tech meetup is an office. After the pandemic, most companies have meeting rooms and common spaces sitting empty in the evenings. A Ruby or Rails shop is the obvious first call, but any tech company with a suitable space will often say yes. They get their name mentioned to a room full of developers; you get a free room.
 
+A university, a co-working space, or even a bar can all work for a first event. All you need is enough chairs for the people you expect, somewhere to plug in a laptop, and ideally a wall or screen to project on.
+
 {% include testimonial.html
-  quote="When I started these meetups, my first call was to one of my former employers. They are a Ruby show, and I knew they had a pretty nice meeting room."
+  quote="When I started these meetups, my first call was to one of my former employers. They are a Ruby shop, and I knew they had a pretty nice meeting room."
   name="Hans Schnedlitz"
   conference="Vienna.rb"
   avatar="/assets/images/avatars/hans.png"
   initials="HS"
 %}
 
-A university, a co-working space, or even a bar can all work for a first event. All you need is enough chairs for the people you expect, somewhere to plug in a laptop, and ideally a wall or screen to project on.
-
 ### Create an event
 
-Once you have a venue, pick a date and create an event. [Luma](https://luma.com/) works well in most cities; [Meetup.com](https://www.meetup.com/home/) has the benefit of an existing audience but requires payment. Do not expect the platform to promote the event for you — it will not.
+Once you have a venue, pick a date and create an event listing. The event listing needs only the basics: date, time, location, a sentence or two about what the meetup is. You can add speakers or other program details as they are confirmed.
 
-The event listing needs only the basics: date, time, location, a sentence or two about what the meetup is. You can add speakers or other program details as they are confirmed.
+{% capture event_hosting_tip %}
+When choosing an event hosting platform, there's really only two options.
+
+**[Luma](https://luma.com/)** is lightweight and works well when you already know how you will promote the event. **[Meetup.com](https://www.meetup.com/home/)** costs money, but can help people who search for local groups discover you.
+
+Do not expect these platform to promote the event for you they will not.
+  {% endcapture %}
+  {% include tip.html type="tools" description=event_hosting_tip %}
 
 ### Tell people
 
@@ -101,7 +108,7 @@ That said, some formats are more common than others.
 
 The most common meetup format is two or three talks followed by — or interspersed with — time for people to hang out and talk to each other. It works because talks give people something to react to. They create shared context that makes starting conversations easier. "What did you think of that talk?" is a much lower-stakes opening than "So, what do you work on?"
 
-For talk length, shorter is almost always better. A talk that runs long eats into the time people came for: seeing each other and talking. 
+For talk length, shorter is almost always better. A talk that runs long eats into the time people came for: seeing each other and talking.
 
 Talks may be the reason people come to the meetup, but the conversations are the reason they come back.
 
@@ -117,7 +124,7 @@ A **hangout** format, where the focus is on the community. No talks, no workshop
 
 ## Promotion
 
-If you have a meetup, and nobody is around to hear about it, are you actually having a meetup? 
+If you have a meetup, and nobody is around to hear about it, are you actually having a meetup?
 
 Promotion isn't fun for a lot of developers. But to get people into a room, you simply can't go without it. The good news is, marketing is not as bad as it seems at first glance.
 
@@ -147,7 +154,7 @@ This word-of-mouth growth cannot be accelerated by posting more or spending mone
 
 ## Speakers & Talks
 
-Getting speakers for a local meetup is less daunting than it seems, but it requires active effort. Sometimes you get lucky and you get volunteers - but you shouldn't rely on that. 
+Getting speakers for a local meetup is less daunting than it seems, but it requires active effort. Sometimes you get lucky and you get volunteers - but you shouldn't rely on that.
 
 ### Ask directly
 
@@ -173,13 +180,16 @@ Some meetups run with no budget at all: attendees find the venue, nobody eats or
 
 If you want to offer food and drink — which makes evenings more social and encourages people to stay longer — you will need either a small budget or a sponsor.
 
-
 ### The food-sponsor arrangement
 
 The most common model for meetup food is to find a single sponsor who covers the cost of pizza and soft drinks in exchange for a short mention or presentation at the start of the event. This is a clean exchange that has worked for decades. The sponsor gets their name and logo in front of a room of developers for a few minutes. You get $200 to $500 worth of food without fronting the money yourself.
 
 The most natural sponsors are the same people who host your venue. Keep the sponsor arrangement simple: food covered in exchange for a brief mention and their logo on the event page. You find sponsors much the same way you find speakers or venues - search in your local circle for matching companies and reach out to them.
 
+{% capture companies %}
+Looking for sponsors? Use [usingrails.com](https://usingrails.com/) to find companies using Ruby on Rails in your area.
+  {% endcapture %}
+  {% include tip.html type="tools" description=companies %}
 
 ---
 
@@ -189,7 +199,7 @@ The logistics of a meetup are not complicated, but the ones that go wrong tend t
 
 ### Beamers are Evil
 
-Bring an HDMI adapter, and a USB-C to HDMI adapter for good measure. Confirm before the event that the venue's projector or TV is accessible. Know where the input selector is. Know how to turn up the volume. None of this is interesting, and all of it matters. The question is not if you'll have AV problems - but when. 
+Bring an HDMI adapter, and a USB-C to HDMI adapter for good measure. Confirm before the event that the venue's projector or TV is accessible. Know where the input selector is. Know how to turn up the volume. None of this is interesting, and all of it matters. The question is not if you'll have AV problems - but when.
 
 If the venue has no projection setup, a large TV screen that speakers can connect to directly often works fine for a small room. For a room over thirty people, some form of projection becomes important — people in the back can't see a laptop screen.
 
@@ -210,7 +220,6 @@ Start the event within ten minutes of the announced start time, even if not ever
 This is a small thing that signals something: you are organized, you respect people's time, and the meetup is a real event, not an informal hangout that drifts.
 
 ### Code of Conduct
-
 
 ---
 
@@ -266,7 +275,6 @@ A meetup where regulars exclusively talk to each other is not welcoming, even if
 
 You set the tone by what you model and what you permit. If you treat speakers with visible respect, attendees follow. If you shut down a dismissive comment in the Q&A, you signal what the community values. If you publicly thank the people who do unglamorous work — booking the venue, buying the food, setting up chairs — you reinforce that those contributions matter.
 
-
 You don't need a manifesto or an elaborate onboarding process. You need to show, consistently, what kind of room this is.
 
 ---
@@ -285,7 +293,7 @@ Grow when you are turning people away, when you have found a venue that supports
 
 Your meetup does not exist in isolation. Ruby Central, which supports meetups and conferences globally, can connect you with other organizers, grant funding, and sponsor relationships. Joining the Ruby Central Slack and the Ruby meetup organizers' group gives you access to people who have already solved the problems you are encountering.
 
-Connecting with regional conference organizers is also worth doing. Many conferences — Rocky Mountain Ruby, Blue Ridge Ruby, Helvetic Ruby, Tropical on Rails — have explicit relationships with local meetup communities. They promote each other. They share audiences. Some conferences have emerged directly from meetups: Irina Nazarova started a monthly Ruby meetup in San Francisco, which eventually became the foundation for SF Ruby Conference.
+Connecting with regional conference organizers is also worth doing. Many conferences — Rocky Mountain Ruby, Blue Ridge Ruby, Helvetic Ruby, Tropical on Rails — have explicit relationships with local meetup communities. They promote each other and share audiences. Some conferences have emerged directly from meetups. Irina Nazarova started a monthly Ruby meetup in San Francisco, which eventually became the foundation for SF Ruby Conference.
 
 {% include testimonial.html
   quote="I was running a monthly meetup, and I thought, well, we need this kind of extra event for the meetup to also, once in a while, become something bigger... something more noticeable."
