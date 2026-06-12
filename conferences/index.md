@@ -2,40 +2,18 @@
 layout: guide
 title: "Running Ruby Conferences"
 description: "A practical guide for organizing your first regional Ruby conference — from the decision to commit to the room full of people who came because of you."
-chapters:
-  - title: "Why a Conference"
-    id: why-a-conference
-  - title: "Before You Commit"
-    id: before-you-commit
-  - title: "Format & Identity"
-    id: format--identity
-  - title: "Money: The Real Talk"
-    id: money-the-real-talk
-  - title: "Finding & Supporting Speakers"
-    id: finding--supporting-speakers
-  - title: "The Program"
-    id: the-program
-  - title: "Sponsors & Partnerships"
-    id: sponsors--partnerships
-  - title: "Volunteers & Team"
-    id: volunteers--team
-  - title: "On The Day"
-    id: on-the-day
-  - title: "After The Conference"
-    id: after-the-conference
-  - title: "Long-term Sustainability"
-    id: long-term-sustainability
+toc: true
 ---
 
 # Running Ruby Conferences
 
 A practical guide for organizing your first regional Ruby conference — from the decision to commit to the room full of people who came because you made it happen.
 
-{% include toc.html variant="mobile" %}
+<nav class="toc toc--mobile" aria-label="Guide contents"><p class="toc__heading">Contents</p><!--toc--></nav>
 
 ## Why a Conference
 
-A meetup gets people in a room for a couple of hours on a regular basis, and that is valuable. A conference gets the same people — and people who drove or flew in — into a room for an entire day or two. The conversations are longer and the connections go deeper. 
+A meetup gets people in a room for a couple of hours on a regular basis, and that is valuable. A conference gets the same people — and people who drove or flew in — into a room for an entire day or two. The conversations are longer and the connections go deeper.
 
 That difference matters more than you think. People who meet at a meetup might exchange names. People who spend a full day together, go to lunch, sit next to each other through talks, and share a drink afterwards tend to actually become friends. For a lot of developers, regional conferences are how their professional network got built — not by attending RailsConf or Rails World, but by going to a 100-person event in a city they could reach without a transatlantic flight.
 
@@ -59,17 +37,28 @@ If that sounds worth it to you, keep reading.
 
 Before announcing your conference get the fundamentals locked down. Not just thought about — actually decided and signed. Date, venue, rough budget. Everything downstream depends on those three things, and announcing before you have them in place creates pressure without any of the infrastructure to support it.
 
-### Find your date first
+### Find your date
 
 Your date is more constrained than you think. You need to avoid major local events. Any of those can wipe out hotel availability and drive prices up. Look at which other Ruby or Rails conferences are happening nearby on the calendar. Take holidays - both local and international - into account.
 
 If you're shooting for spring or fall, give yourself plenty of runway on either side of the major conference anchors. Start with a date range of two or three candidate weekends and proceed with those.
 
-### Venue is the first real decision
+### Find a Venue
 
 Once you have possible dates, find the venue. This is not step three or four — it is step two. Everything else, including your budget and your ticket price, depends on what the venue costs and what it includes.
 
-The venues that work best for 100-200 person single-track conferences are usually not hotels. They are theaters, converted churches, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and staff who are not hostile to non-catering events. Boulder Theater was Rocky Mountain Ruby's original home; eTown Hall, an old church converted into a radio studio and performance space, is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple in Asheville. These are not conference centers. They are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
+The venues that work best for 100-200 person single-track conferences are usually not hotels. They are theaters, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and nice staff. 
+Hotels are the obvious choice and almost always the wrong one for a first conference at this scale. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up. The organizer of Sin City Ruby described settling up with the MGM Grand after his third event as a bill in the neighborhood of $20,000, on top of the conference itself. Hotels are also slow to respond, difficult to negotiate with, and often have catering requirements that eliminate the most effective cost-cutting option available to you: skipping lunch.
+
+If you must evaluate hotels, get crystal clear on the room block terms and the F&B minimum before any deposit changes hands.
+
+When you visit venues, ask about: what's included in the day rate, AV setup and internet access, setup and teardown time before and after the event, catering exclusivity requirements, and what their staff handles versus what falls to you.
+
+{% capture venue %}
+Boulder Theater was Rocky Mountain Ruby's original home; eTown Hall, an old church converted into a radio studio and performance space, is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple. Balkan Ruby latest venue a geology museum. These are not conference centers. They are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
+
+  {% endcapture %}
+  {% include tip.html description=venue %}
 
 {% include testimonial.html
   quote="Venue is a really important piece of the process, and I recommend you do that first once you get clarity about what you want. Because if you don't know what you want, then as you look at venues, it may crystallize."
@@ -78,12 +67,6 @@ The venues that work best for 100-200 person single-track conferences are usuall
   avatar="/assets/images/avatars/marty.jpg"
   initials="MH"
 %}
-
-Hotels are the obvious choice and almost always the wrong one for a first conference at this scale. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up. The organizer of Sin City Ruby described settling up with the MGM Grand after his third event as a bill in the neighborhood of $20,000, on top of the conference itself. Hotels are also slow to respond, difficult to negotiate with, and often have catering requirements that eliminate the most effective cost-cutting option available to you: skipping lunch.
-
-If you must evaluate hotels, get crystal clear on the room block terms and the F&B minimum before any deposit changes hands.
-
-When you visit venues, ask about: what's included in the day rate, AV setup and internet access, setup and teardown time before and after the event, catering exclusivity requirements, and what their staff handles versus what falls to you.
 
 ### Legal structure and insurance
 

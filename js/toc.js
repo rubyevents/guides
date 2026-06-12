@@ -1,4 +1,4 @@
-function initGuideToc() {
+function initToc() {
   const headings = [...document.querySelectorAll(".guide-content h2[id]")];
   const links = [...document.querySelectorAll(".toc__link")];
 
@@ -46,4 +46,4 @@ function initGuideToc() {
   setActiveLink(headings[0].id);
 }
 
-initGuideToc();
+initToc();

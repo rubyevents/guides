@@ -33,7 +33,7 @@
       </nav>
     </header>
 
-    {% if page.chapters %}
+    {% if page.toc %}
     <div class="mobile-sticky-header" aria-label="Guide contents menu" data-mobile-sticky-header>
       <a class="mobile-sticky-header__title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
       <button class="mobile-sticky-header__toggle" type="button" aria-expanded="false" aria-controls="mobile-sticky-menu" data-mobile-menu-toggle>
@@ -51,7 +51,7 @@
             Conferences
           </a>
         </nav>
-        {% include toc.html variant="sticky" %}
+        <nav class="toc toc--sticky" aria-label="Guide contents"><p class="toc__heading">Contents</p><!--toc--></nav>
       </div>
     </div>
     {% endif %}

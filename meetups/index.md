@@ -2,34 +2,14 @@
 layout: guide
 title: "Running Ruby Meetups"
 description: "A practical guide for starting and sustaining a local Ruby meetup — from finding your first venue to keeping it going years later."
-chapters:
-  - title: "Why Bother"
-    id: why-bother
-  - title: "Starting From Zero"
-    id: starting-from-zero
-  - title: "Your Format"
-    id: your-format
-  - title: "Promotion"
-    id: promotion
-  - title: "Speakers & Talks"
-    id: speakers--talks
-  - title: "Money & Sponsors"
-    id: money--sponsors
-  - title: "The Logistics Nobody Talks About"
-    id: the-logistics-nobody-talks-about
-  - title: "Keeping It Fun"
-    id: keeping-it-fun
-  - title: "Building Culture"
-    id: building-culture
-  - title: "Growing & Evolving"
-    id: growing--evolving
+toc: true
 ---
 
 # Running Ruby Meetups
 
 A practical guide for starting and sustaining a local Ruby meetup — from finding your first venue to keeping it going years later.
 
-{% include toc.html variant="mobile" %}
+<nav class="toc toc--mobile" aria-label="Guide contents"><p class="toc__heading">Contents</p><!--toc--></nav>
 
 ## Why Bother
 
@@ -81,8 +61,8 @@ When choosing an event hosting platform, there's really only two options.
 **[Luma](https://luma.com/)** is lightweight and works well when you already know how you will promote the event. **[Meetup.com](https://www.meetup.com/home/)** costs money, but can help people who search for local groups discover you.
 
 Do not expect these platform to promote the event for you they will not.
-  {% endcapture %}
-  {% include tip.html type="tools" description=event_hosting_tip %}
+{% endcapture %}
+{% include tip.html type="tools" description=event_hosting_tip %}
 
 ### Tell people
 
@@ -188,8 +168,8 @@ The most natural sponsors are the same people who host your venue. Keep the spon
 
 {% capture companies %}
 Looking for sponsors? Use [usingrails.com](https://usingrails.com/) to find companies using Ruby on Rails in your area.
-  {% endcapture %}
-  {% include tip.html type="tools" description=companies %}
+{% endcapture %}
+{% include tip.html type="tools" description=companies %}
 
 ---
 
