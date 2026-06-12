@@ -19,6 +19,10 @@ That difference matters more than you think. People who meet at a meetup might e
 
 That said, you should be honest with yourself about what you are signing up for. A first-time conference of 100-150 people will take up a lot of your time. You will spend evenings chasing venues, weekends reviewing talk proposals, late nights doing things that should have been done earlier. You will probably not make money on the first one. You might lose some.
 
+The reason people do it anyway is that the thing you create belongs to your community in a way that nothing else does. Someone came to your city because of you and they met someone they're still talking to two years later because you put them in the same room. You don't get that any other way.
+
+If that sounds worth it to you, keep reading.
+
 {% include testimonial.html
   quote="You need talks, because otherwise why would your boss let you go? But I do think there's value out of the tech stuff you learn — you're going to make connections that are going to be useful to have in your career, or are just going to be fun. I now know all these people from doing this I didn't know before. My circle has greatly expanded."
   name="Spike Ilacqua"
@@ -26,10 +30,6 @@ That said, you should be honest with yourself about what you are signing up for.
   avatar="/assets/images/avatars/spike.jpg"
   initials="SI"
 %}
-
-The reason people do it anyway is that the thing you create belongs to your community in a way that nothing else does. Someone came to your city because of you and they met someone they're still talking to two years later because you put them in the same room. You don't get that any other way.
-
-If that sounds worth it to you, keep reading.
 
 ---
 
@@ -43,22 +43,23 @@ Your date is more constrained than you think. You need to avoid major local even
 
 If you're shooting for spring or fall, give yourself plenty of runway on either side of the major conference anchors. Start with a date range of two or three candidate weekends and proceed with those.
 
-### Find a Venue
+### Find a venue
 
 Once you have possible dates, find the venue. This is not step three or four — it is step two. Everything else, including your budget and your ticket price, depends on what the venue costs and what it includes.
 
 The venues that work best for 100-200 person single-track conferences are usually not hotels. They are theaters, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and nice staff. 
-Hotels are the obvious choice and almost always the wrong one for a first conference at this scale. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up. The organizer of Sin City Ruby described settling up with the MGM Grand after his third event as a bill in the neighborhood of $20,000, on top of the conference itself. Hotels are also slow to respond, difficult to negotiate with, and often have catering requirements that eliminate the most effective cost-cutting option available to you: skipping lunch.
 
-If you must evaluate hotels, get crystal clear on the room block terms and the F&B minimum before any deposit changes hands.
+Hotels are the obvious choice and almost always the wrong one for a first conference at this scale. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up. 
 
-When you visit venues, ask about: what's included in the day rate, AV setup and internet access, setup and teardown time before and after the event, catering exclusivity requirements, and what their staff handles versus what falls to you.
+Hotels are also slow to respond, difficult to negotiate with, and often have catering requirements that eliminate the most effective cost-cutting option available to you: skipping lunch. If you must evaluate them, get crystal clear on the room block terms and the F&B minimum before any deposit changes hands.
+
+When you visit venues, ask about what's included in the day rate, AV setup and internet access, setup and teardown time before and after the event, catering exclusivity requirements, and what their staff handles versus what falls to you.
 
 {% capture venue %}
-Boulder Theater was Rocky Mountain Ruby's original home; eTown Hall, an old church converted into a radio studio and performance space, is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple. Balkan Ruby latest venue a geology museum. These are not conference centers. They are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
+Boulder Theater was Rocky Mountain Ruby's original home. eTown Hall - an old church converted into a radio studio and performance space - is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple. Balkan Ruby latest venue a geology museum. These are not conference centers - they are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
 
-  {% endcapture %}
-  {% include tip.html description=venue %}
+{% endcapture %}
+{% include tip.html description=venue %}
 
 {% include testimonial.html
   quote="Venue is a really important piece of the process, and I recommend you do that first once you get clarity about what you want. Because if you don't know what you want, then as you look at venues, it may crystallize."
@@ -70,17 +71,13 @@ Boulder Theater was Rocky Mountain Ruby's original home; eTown Hall, an old chur
 
 ### Legal structure and insurance
 
-You do not legally need an LLC to run a conference. The venue will happily sign a contract with you as an individual and take your personal check. But if you plan to run the event more than once, or if you are running it with other people, setting up an LLC is worth the small overhead. It keeps the finances separate, creates a clean entity for sponsors to pay, and means the conference has a legal identity that can survive you stepping back.
-
-In most US states, forming an LLC costs under $100. After that, open a dedicated bank account and wire the seed money into it. All conference income and expenses should flow through that account, not your personal finances. This makes tax time significantly less painful and keeps your books clean for sponsors.
-
-Get event insurance. The venue will likely require it, and even if they don't, you want it. Costs are typically a few hundred dollars for a one-day event. Ask other regional conference organizers what they use.
+You do not legally need a company to run a conference. The venue will happily sign a contract with you as an individual and take your personal check. But if you plan to run the event more than once, or if you are running it with other people, setting up a company is worth the small overhead. It keeps the finances separate, creates a clean entity for sponsors to pay, and means the conference has a legal identity that can survive you stepping back.
 
 ### Give yourself a year
 
 A first conference needs roughly twelve months from decision to event. That may feel like a long time, but it disappears quickly. Venues book up — especially good ones. Sponsors have annual budgets that are often allocated months in advance. Attendees plan travel. A CFP needs time to run, evaluate, and notify speakers. Swag needs to be ordered earlier than you think.
 
-Six months is doable but stressful. Less than six months is possible but not recommended for a first-time organizer. Build in the buffer.
+Six months is doable but stressful. Less than six months is possible but not recommended for a first-time organizer.
 
 ---
 
@@ -88,9 +85,11 @@ Six months is doable but stressful. Less than six months is possible but not rec
 
 Before you start selling tickets, you need to know what kind of conference you are running. Not just the logistics — the shape of the thing. Single track or multi? One day or two? What kind of event is this, and why would someone spend a day or more of their time coming to it?
 
-### Single track, almost certainly
+### Single track
 
-For a regional conference in the 100-200 person range, single track is almost always the right answer. Multi-track requires more space, more coordination, more speakers, and forces attendees to make choices that fragment the shared experience. The whole point of a small conference is that everyone is in the same room together. When half the room goes left and half goes right for every session, you lose the shared frame of reference that makes the hallway conversations work.
+For a regional conference in the 100-200 person range, single track is almost always the right answer. Multi-track events requires more space, more coordination, more speakers, and forces attendees to make choices that fragment the shared experience. The whole point of a small conference is that everyone is in the same room together. When half the room goes left and half goes right for every session, you lose the shared frame of reference that makes the hallway conversations work.
+
+Single track also simplifies your job considerably. One room, one schedule, one speaker in the slot at a time.
 
 {% include testimonial.html
   quote="The advantage of a small conference like Rocky Mountain Ruby is we can do both — we have lots of time, and everyone sees the same talks. I think there's something to people in a single-track conference all seeing the same talks. They all have the same frame of reference when they're talking in between."
@@ -100,15 +99,19 @@ For a regional conference in the 100-200 person range, single track is almost al
   initials="SI"
 %}
 
-Single track also simplifies your job considerably. One room, one schedule, one speaker in the slot at a time.
+### How many days
 
-### One day or two
-
-Both work. One day is lower financial risk, requires less from attendees in terms of travel commitment, and is easier to program. Brighton Ruby has been a one-day single-track conference for over a decade and now draws 450 people. Its organizer, Andy Croll, has tried expanding it and stepped back every time: "I can't do two days. I don't have the energy to do a two-day version. And the one-day version works."
-
-Two days gives more room for the hallway track to develop, allows for a mix of formats (workshops on day one, talks on day two, for example), and makes the trip feel more worthwhile to people who have traveled far. Southeast Ruby ran two days. Rocky Mountain Ruby runs two days.
+For your first conference, aim for either one or two days. One day is lower financial risk, requires less from attendees in terms of travel commitment, and is easier to program. Two days gives more room for the hallway track to develop, allows for a mix of formats (workshops on day one, talks on day two, for example), and makes the trip feel more worthwhile to people who have traveled far. 
 
 For a first conference, one day is the safer choice. You can always add a second day in year two.
+
+{% include testimonial.html
+  quote="Brighton Ruby has been a one-day single-track conference for over a decade and now draws 450 people. I tried tried expanding it and stepped back every time. I can't do two days. I don't have the energy to do a two-day version. And the one-day version works."
+  name="Andy Croll"
+  conference="Brighton Ruby"
+  avatar="/assets/images/avatars/andy.jpg"
+  initials="AC"
+%}
 
 ### Know what your event is
 
@@ -116,7 +119,16 @@ This is more important than it sounds. A conference with a clear identity — a 
 
 Blue Ridge Ruby is explicitly tied to Asheville: the food scene, the mountain setting, the post-conference river tubing. Friendly.rb in Bucharest leans into its European location with city walking tours and a mountain day trip on the third day. Rocky Mountain Ruby is a tight community conference in Boulder for people who want good talks and long breaks to talk to each other.
 
-Your city, your venue, your aesthetic — these are not decoration. They are part of what you are selling. Adrian Marin, who runs Friendly.rb, said it clearly: be intentional about what you're trying to do, and tell people about it. Don't accidentally build a generic conference when you could build one that feels like it belongs somewhere specific.
+Your city, your venue, your aesthetic - these are not decoration. They are part of what you are selling. Adrian Marin, who runs Friendly.rb, said it clearly: be intentional about what you're trying to do, and tell people about it. Don't accidentally build a generic conference when you could build one that feels like it belongs somewhere specific.
+
+{% include testimonial.html
+  quote="Brighton Ruby has been a one-day single-track conference for over a decade and now draws 450 people. I tried tried expanding it and stepped back every time. I can't do two days. I don't have the energy to do a two-day version. And the one-day version works."
+  name="Andy Croll"
+  conference="Brighton Ruby"
+  avatar="/assets/images/avatars/andy.jpg"
+  initials="AC"
+%}
+
 
 ---
 

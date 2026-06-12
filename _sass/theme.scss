@@ -75,12 +75,13 @@
     --palette-sky-700: oklch(38% 0.12 232);
     --palette-sky-850: oklch(20% 0.05 232);
 
-    // Amber/gold for idea callouts
-    --palette-amber-100: oklch(96% 0.045 82);
-    --palette-amber-300: oklch(82% 0.14 82);
-    --palette-amber-500: oklch(63% 0.16 72);
-    --palette-amber-700: oklch(42% 0.11 66);
-    --palette-amber-850: oklch(22% 0.055 66);
+    // Steel blue-grey for practical tool callouts
+    --palette-steel-100: oklch(95% 0.018 235);
+    --palette-steel-200: oklch(88% 0.028 235);
+    --palette-steel-400: oklch(63% 0.045 235);
+    --palette-steel-600: oklch(43% 0.055 235);
+    --palette-steel-700: oklch(34% 0.05 235);
+    --palette-steel-850: oklch(20% 0.035 235);
 
     // Semantic color tokens
     --color-bg: var(--palette-warm-50);
@@ -113,19 +114,19 @@
     --color-quote-cite: var(--palette-warm-500);
 
     // Guide — typed tip callouts
-    --color-tip-tools-border: var(--palette-sky-500);
-    --color-tip-tools-bg: var(--palette-sky-100);
-    --color-tip-tools-icon: var(--palette-sky-500);
+    --color-tip-tools-border: var(--palette-steel-400);
+    --color-tip-tools-bg: var(--palette-steel-100);
+    --color-tip-tools-icon: var(--palette-steel-600);
     --color-tip-tools-text: var(--palette-warm-800);
-    --color-tip-tools-link-hover: var(--palette-sky-700);
-    --color-tip-tools-link-focus: var(--palette-sky-500);
+    --color-tip-tools-link-hover: var(--palette-steel-700);
+    --color-tip-tools-link-focus: var(--palette-steel-600);
 
-    --color-tip-ideas-border: var(--palette-amber-500);
-    --color-tip-ideas-bg: var(--palette-amber-100);
-    --color-tip-ideas-icon: var(--palette-amber-700);
+    --color-tip-ideas-border: var(--palette-sky-400);
+    --color-tip-ideas-bg: var(--palette-sky-100);
+    --color-tip-ideas-icon: var(--palette-sky-500);
     --color-tip-ideas-text: var(--palette-warm-800);
-    --color-tip-ideas-link-hover: var(--palette-amber-700);
-    --color-tip-ideas-link-focus: var(--palette-amber-500);
+    --color-tip-ideas-link-hover: var(--palette-sky-700);
+    --color-tip-ideas-link-focus: var(--palette-sky-500);
 
     // Guide — side table of contents
     --color-toc-text: var(--palette-warm-500);
@@ -205,27 +206,27 @@
     --color-quote-text: var(--palette-warm-200);
     --color-quote-cite: var(--palette-warm-400);
 
-    --color-tip-tools-border: var(--palette-sky-400);
+    --color-tip-tools-border: var(--palette-steel-400);
     --color-tip-tools-bg: color-mix(
       in oklch,
-      var(--palette-sky-850) 72%,
+      var(--palette-steel-850) 74%,
       var(--palette-warm-900)
     );
-    --color-tip-tools-icon: var(--palette-sky-400);
+    --color-tip-tools-icon: var(--palette-steel-200);
     --color-tip-tools-text: var(--palette-warm-200);
-    --color-tip-tools-link-hover: var(--palette-sky-200);
-    --color-tip-tools-link-focus: var(--palette-sky-400);
+    --color-tip-tools-link-hover: var(--palette-steel-200);
+    --color-tip-tools-link-focus: var(--palette-steel-400);
 
-    --color-tip-ideas-border: var(--palette-amber-300);
+    --color-tip-ideas-border: var(--palette-sky-400);
     --color-tip-ideas-bg: color-mix(
       in oklch,
-      var(--palette-amber-850) 70%,
+      var(--palette-sky-850) 70%,
       var(--palette-warm-900)
     );
-    --color-tip-ideas-icon: var(--palette-amber-300);
+    --color-tip-ideas-icon: var(--palette-sky-200);
     --color-tip-ideas-text: var(--palette-warm-200);
-    --color-tip-ideas-link-hover: var(--palette-amber-100);
-    --color-tip-ideas-link-focus: var(--palette-amber-300);
+    --color-tip-ideas-link-hover: var(--palette-sky-200);
+    --color-tip-ideas-link-focus: var(--palette-sky-400);
 
     --color-toc-text: var(--palette-warm-400);
     --color-toc-text-hover: var(--palette-warm-200);

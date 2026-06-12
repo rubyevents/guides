@@ -430,7 +430,8 @@
     color: var(--color-tip-text);
   }
 
-  .tip--tools {
+  .tip--tools,
+  .tip--tool {
     --color-tip-border: var(--color-tip-tools-border);
     --color-tip-bg: var(--color-tip-tools-bg);
     --color-tip-icon: var(--color-tip-tools-icon);
@@ -439,7 +440,8 @@
     --color-tip-link-focus: var(--color-tip-tools-link-focus);
   }
 
-  .tip--ideas {
+  .tip--ideas,
+  .tip--idea {
     --color-tip-border: var(--color-tip-ideas-border);
     --color-tip-bg: var(--color-tip-ideas-bg);
     --color-tip-icon: var(--color-tip-ideas-icon);

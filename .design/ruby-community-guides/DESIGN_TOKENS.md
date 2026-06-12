@@ -20,19 +20,21 @@
 
 ## Colors
 
-| Token                     | Light                      | Dark                     | Use                         |
-| ------------------------- | -------------------------- | ------------------------ | --------------------------- |
-| `--color-bg`              | warm-50 (linen near-white) | warm-900 (warm charcoal) | Page background             |
-| `--color-text`            | warm-900                   | warm-50                  | Body text                   |
-| `--color-text-secondary`  | warm-600                   | warm-300                 | Captions, secondary prose   |
-| `--color-link`            | warm-850                   | warm-200                 | Default link — near-black   |
-| `--color-link-hover`      | ruby-500 (#DC143C)         | ruby-300                 | Hover — crimson appears     |
-| `--color-accent`          | ruby-500                   | ruby-300                 | Nav title, strong emphasis  |
-| `--color-quote-border`    | ruby-500                   | ruby-400                 | Interview quote left border |
-| `--color-quote-bg`        | warm-100                   | warm-850                 | Interview quote background  |
-| `--color-toc-text`        | warm-500                   | warm-400                 | TOC chapter links           |
-| `--color-toc-text-active` | warm-900                   | warm-50                  | Active/current chapter      |
-| `--color-toc-marker`      | ruby-500                   | ruby-400                 | Active chapter indicator    |
+| Token                     | Light                      | Dark                     | Use                                                    |
+| ------------------------- | -------------------------- | ------------------------ | ------------------------------------------------------ |
+| `--color-bg`              | warm-50 (linen near-white) | warm-900 (warm charcoal) | Page background                                        |
+| `--color-text`            | warm-900                   | warm-50                  | Body text                                              |
+| `--color-text-secondary`  | warm-600                   | warm-300                 | Captions, secondary prose                              |
+| `--color-link`            | warm-850                   | warm-200                 | Default link — near-black                              |
+| `--color-link-hover`      | ruby-500 (#DC143C)         | ruby-300                 | Hover — crimson appears                                |
+| `--color-accent`          | ruby-500                   | ruby-300                 | Nav title, strong emphasis                             |
+| `--color-quote-border`    | ruby-500                   | ruby-400                 | Interview quote left border                            |
+| `--color-quote-bg`        | warm-100                   | warm-850                 | Interview quote background                             |
+| `--color-toc-text`        | warm-500                   | warm-400                 | TOC chapter links                                      |
+| `--color-toc-text-active` | warm-900                   | warm-50                  | Active/current chapter                                 |
+| `--color-toc-marker`      | ruby-500                   | ruby-400                 | Active chapter indicator                               |
+| `--color-tip-ideas-*`     | sky family                 | sky family               | Idea callouts; RubyEvents accent, open and exploratory |
+| `--color-tip-tools-*`     | steel family               | steel family             | Tool callouts; pragmatic utility                       |
 
 ## Spacing
 
