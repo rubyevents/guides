@@ -122,21 +122,13 @@
   }
 }
 
-// Guide layout: activate two-column grid at desktop width.
-// For index-layout (homepage), only apply 2-col when an aside is present;
-// otherwise the homepage gets the full content width with no empty rail.
+// Guide layout: activate the two-column grid (prose + side TOC) at desktop
+// width. The homepage stays a single centered column at every width.
 @media (min-width: 1024px) {
-  .guide-layout,
-  .index-layout:has(.index-aside) {
+  .guide-layout {
     grid-template-columns: minmax(0, 1fr) var(--toc-width);
     gap: var(--toc-gap);
     align-items: start;
-  }
-
-  // Homepage rail is wider than the guide TOC so the contribute card's copy
-  // can breathe across its own lines (icon-left, like the Rails guides).
-  .index-layout:has(.index-aside) {
-    grid-template-columns: minmax(0, 1fr) 22rem;
   }
 
   .guide-links {
@@ -151,15 +143,6 @@
       border-top: 1px solid var(--color-border-subtle);
       margin-top: 0;
     }
-  }
-
-  // Desktop: show the rail card, hide the inline intro copy.
-  .index-aside {
-    display: block;
-  }
-
-  .contribute-inline {
-    display: none;
   }
 
   .toc--mobile {

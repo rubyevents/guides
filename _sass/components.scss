@@ -249,20 +249,16 @@
   }
 
   // ── Homepage guide index ──────────────────────────────────────────────────
-  // Same geometry as guide pages: primary content column + right rail.
+  // Single column at the nav's container width so its edges align with the nav.
 
   .index-layout {
     max-width: var(--max-width-content);
     margin-inline: auto;
     padding-inline: var(--space-6);
     padding-block: var(--space-8) var(--space-10);
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0;
   }
 
   .index-content {
-    max-width: var(--max-width-prose);
     min-width: 0;
 
     h1 {
@@ -594,12 +590,7 @@
     color: var(--color-text-secondary);
   }
 
-  // Homepage right rail. On mobile it flows below the content as a full-width
-  // card; on desktop it becomes the sticky side rail (see media.scss).
-  .index-aside {
-    display: none; // becomes the right rail at desktop width (see media.scss)
-  }
-
+  // Contribute callout sits inline in the homepage intro at every width.
   .contribute-inline {
     margin-block: var(--space-7);
   }
