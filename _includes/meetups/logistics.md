@@ -24,6 +24,4 @@ Start the event within ten minutes of the announced start time, even if not ever
 
 This is a small thing that signals something: you are organized, you respect people's time, and the meetup is a real event, not an informal hangout that drifts.
 
-### Code of Conduct
-
 ---
