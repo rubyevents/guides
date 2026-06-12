@@ -5,9 +5,7 @@ layout: default
 <div class="index-layout">
   <article class="index-content">{{ content }}</article>
 
-  {% if page.aside %}
-  <aside class="index-aside" aria-label="Supplementary information">
-    {{ page.aside | markdownify }}
+  <aside class="index-aside" aria-label="About these guides">
+    {% include contribute-aside.html %}
   </aside>
-  {% endif %}
 </div>

@@ -13,6 +13,10 @@ You don't need a big budget, a large following, or years of event experience. Yo
 
 These guides were built from conversations with organizers around the world — people who booked their first venue not knowing what they were doing, cold-emailed their first speaker, and somehow ended up building lifelong connections.
 
+<div class="contribute-inline">
+{% include contribute-aside.html %}
+</div>
+
 {% include testimonial.html
   quote="There are rare times that you get a lot of people in a community together. It's a rare time for people to have face-to-face interaction and build health and deeper connection together. You need the technical content, because that's the affinity that draws us together. But that's not how you build relationships."
   name="Jeremy Smith"
@@ -49,7 +53,7 @@ These guides were built from conversations with organizers around the world — 
 {% for voice in site.data.voices %}
   <li class="voice">
     {% if voice.image %}
-    <img class="voice__avatar" src="{{ voice.image }}" alt="" width="32" height="32" loading="lazy">
+    <img class="voice__avatar" src="{{ voice.image | relative_url }}" alt="" width="32" height="32" loading="lazy">
     {% else %}
     <span class="voice__avatar voice__avatar--initials" aria-hidden="true">{{ voice.initials }}</span>
     {% endif %}

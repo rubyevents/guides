@@ -117,9 +117,9 @@ For a first conference, one day is the safer choice. You can always add a second
 
 This is more important than it sounds. A conference with a clear identity — a specific city, a specific vibe, a specific sense of what kind of community it is for — is easier to sell and easier to run than one trying to be everything.
 
-Blue Ridge Ruby is explicitly tied to Asheville: the food scene, the mountain setting, the post-conference river tubing. Friendly.rb in Bucharest leans into its European location with city walking tours and a mountain day trip on the third day. Rocky Mountain Ruby is a tight community conference in Boulder for people who want good talks and long breaks to talk to each other.
+Blue Ridge Ruby is explicitly tied to Asheville - the food scene, the mountain setting, the post-conference river tubing. Friendly.rb in Bucharest leans into its European location with city walking tours and a mountain day trip on the third day. Rocky Mountain Ruby is a tight community conference in Boulder for people who want good talks and long breaks to talk to each other. RubyConf Austria did a blend of Ruby and classical music - featuring piano performance and a choir opening the conference.
 
-Your city, your venue, your aesthetic - these are not decoration. They are part of what you are selling. Don't accidentally build a generic conference when you could build one that feels like it belongs somewhere specific.
+This is not about aesthetics, these concerns are part of what you are selling. Don't accidentally build a generic conference when you could build one that feels like something special.
 
 {% include testimonial.html
   quote="Be intentional about what you're trying to do, and tell people about it."
@@ -131,17 +131,109 @@ Your city, your venue, your aesthetic - these are not decoration. They are part 
 
 ---
 
-## Money: The Real Talk
+## Website & Marketing
 
-There is a version of the conference budget conversation that is optimistic and abstract. This is not that version.
+Marketing is conference work. It is not the thing you do after the real work is finished. If this is a new event, almost nobody knows it exists. They will not find the site by accident, remember the date, convince their boss, and buy a ticket because you posted once. You have to keep making the case.
 
-The first thing to understand is that you are likely to lose money on your first conference, or barely break even. That is normal. Jeremy Smith broke even at Blue Ridge Ruby's first edition. Jason Swett lost about $2,000 on the first Sin City Ruby. Jason Charnes and his wife lost close to $10,000 on the first Southeast Ruby. Going in expecting to profit is the fastest way to make decisions that will make the finances worse.
+Give marketing an owner the same way you give sponsors or speakers an owner. Otherwise it becomes the job everyone knows matters and nobody does until it is late and stressful.
 
-The second thing to understand is that the conference budget is not one number. It is two.
+### Your website is the source of truth
+
+As soon as you have a date and venue, put up a simple website. It does not need a complicated design. It needs to make the conference feel real.
+
+At minimum, the site should say when and where the conference is, who it is for, why someone should come, how tickets work, whether the CFP is open, how sponsors can get in touch, and how to contact the organizers. Add the code of conduct early. Add travel basics as soon as you can: nearest airport or train station, what part of town to stay in, whether there is a hotel recommendation, and anything attendees need to know about accessibility.
+
+The website is for more than attendees. Sponsors use it to decide whether you look credible. Speakers use it to decide whether submitting is worth their time. Someone forwarding the event to their manager needs one page that explains the value without requiring a personal explanation from you.
+
+{% include testimonial.html
+  quote="Build a website and put up your sponsor sheet... Once you have a site and you have a sponsor sheet, that's when I started reaching out to people."
+  name="Spike Ilacqua"
+  conference="Rocky Mountain Ruby"
+  avatar="/assets/images/avatars/spike.jpg"
+  initials="SI"
+%}
+
+### What you are selling
+
+You are selling talks, but not only talks. You are selling a reason to travel, a room full of people worth meeting, and a local experience that feels worth leaving home for. Before the lineup is ready, talk about the city, the venue, nearby restaurants, the after-party, the hike, the river, the theater, the neighborhood. Show people what the day will feel like.
+
+Once speakers are announced, the marketing gets easier. Now you can talk about who is speaking, what their talks are about, and why the program fits the conference you are trying to run. If you have a keynote or a known speaker, use that as an early anchor. If the strongest draw is the city and the community, lead with that.
+
+{% include testimonial.html
+  quote="Before you even know who the speakers are, what am I going to experience in this place? It's figuring out: there are cool breweries in this town, there are really good restaurants, and the venue looks really nice. Then you do the CFP, and then you announce speakers."
+  name="Jeremy Smith"
+  conference="Blue Ridge Ruby"
+  avatar="/assets/images/avatars/jeremy.jpg"
+  initials="JS"
+%}
+
+### Where to tell people
+
+Start where Rubyists already are. Post in Ruby Central Slack or Discord, local meetup Slacks, regional Ruby groups, RubyFlow, Reddit, newsletters, and rubyconferences.org. Ask other conferences and meetups to cross-promote. If you speak at another event, mention yours. If another event has a community table, bring flyers or stickers.
+
+Do the unglamorous direct work too. Tell people one-to-one. Ask local Ruby/Rails companies to share the event internally, even if they are not sponsoring. Ask people in nearby cities to post about it in their own words. For a 100-person conference, five personal invitations that turn into tickets matter.
+
+Several organizers called out LinkedIn as more useful than expected. Twitter/X is fragmented, Bluesky and Mastodon may or may not reach your people, but LinkedIn still has local professional graphs. A post from someone in Denver, Zurich, or Bucharest may reach exactly the people who can drive or take a train to your event.
+
+Email is still worth doing. Start collecting addresses early. Social posts disappear. Email gives you a way to announce the CFP, early bird deadline, speaker lineup, travel notes, and last-call ticket reminders without hoping an algorithm feels generous.
+
+Paid ads are rarely the first lever for a small Ruby conference. Spend the time on community outreach before spending money on generic traffic.
+
+{% include testimonial.html
+  quote="One of the things where I noticed a big bump of ticket sales was LinkedIn... Think about getting folks who are in places that people might drive to your conference from to share it. Not just reshare, but actually share it."
+  name="Spike Ilacqua"
+  conference="Rocky Mountain Ruby"
+  avatar="/assets/images/avatars/spike.jpg"
+  initials="SI"
+%}
+
+### Keep giving people reasons
+
+One announcement is not a marketing plan. You need a steady drumbeat: save the date, CFP open, tickets on sale, early bird ending, speakers announced, venue photos, local guide, after-party, sponsor thanks, travel reminders, final tickets.
+
+This will feel repetitive to you because you are living inside the conference every day. Everyone else is not. Many people will miss the first five announcements. Some will see them and not be ready to act. Some will need the speaker lineup before they can ask their boss. Some will buy only when the deadline is close.
+
+That is normal. Keep going.
+
+{% include testimonial.html
+  quote="My key learning is there was not enough marketing, really... The way I would approach marketing, and I think I will, is: every week, we have to have a new idea. We have, let's say, 40 weeks out. Every week counts."
+  name="Irina Nazarova"
+  conference="SF Ruby"
+  avatar="/assets/images/avatars/irina.webp"
+  initials="IN"
+%}
+
+### Give attendees something to share
+
+The best promotion usually does not come from the conference account. Make it easy for speakers, attendees, sponsors, and friends to say they are coming. Speaker cards help. So do "I'm attending" images, a short copy-paste blurb, venue photos, and short clips of the city. Do not overthink it. Give people something better than a naked link.
+
+SF Ruby experimented with personalized generated images for attendees. Blue Ridge Ruby made a simple trailer video around Asheville. Tropical.rb built months of anticipation through podcasts, meetups, keynote announcements, and social content before ticket sales opened. None of that requires a production studio. It requires material that makes the event feel alive.
+
+{% include testimonial.html
+  quote="It was a mix of trying to release content, trying to announce the keynotes before things happen, trying to be present on social media, and trying to connect with people that could help us spread the word about the conference."
+  name="Cirdes Henrique"
+  conference="Tropical.rb"
+  avatar="/assets/images/avatars/cirdes.jpeg"
+  initials="CH"
+%}
+
+### Marketing is also trust
+
+In year one, promotion is proof that the event is real. A quiet website and one lonely announcement can make people wonder whether the conference is still happening. Regular updates reassure attendees that travel is safe to book, sponsors that you are executing, and speakers that they are joining something active.
+
+When something is done, say so: venue booked, CFP open, first sponsor joined, first speakers confirmed, after-party announced, tickets halfway sold. People like watching something come together. Let them.
+
+---
+
+## Money
+
+The first thing to understand is that you are likely to lose money on your first conference, or barely break even. That is normal. Going in expecting to profit is the fastest way to make decisions that will make the finances worse.
+
+The second thing to understand is that the conference budget is not one number but rather two.
 
 ### Base budget and stretch goals
 
-Your base budget is the minimum required to run the event: venue, basic AV, speaker honorarium if you're offering one, liability insurance, and whatever platform you use to sell tickets. This is the number you have to hit with ticket sales alone, assuming you get zero sponsorship. If you can sell enough tickets to cover this number, the event can happen. Everything else — t-shirts, catered breakfast, recorded video, swag — goes on a separate list.
+Your base budget is the minimum required to run the event. It includes venue, basic AV, speaker honorarium if you're offering one, and whatever platform you use to sell tickets. This is the number you have to hit with ticket sales alone, assuming you get zero sponsorship. If you can sell enough tickets to cover this number, the event can happen. Everything else — t-shirts, catered breakfast, recorded video, swag — goes on a separate list.
 
 {% include testimonial.html
   quote="We went with stretch goals. If we sell this many tickets, we will have t-shirts. If we sell this many tickets, we will have breakfast. If we really go all the way and sell all the tickets, we will record the conference and post the videos."
@@ -161,15 +253,24 @@ Build your ticket price from your budget, not from what other conferences charge
 
 Think through the scenarios: what happens if only 50 tickets sell? 80? 100? At what number do you cover your base costs? At what number do you feel comfortable announcing the stretch goals? These are not hypotheticals — they are the questions that let you price with confidence.
 
-Early bird pricing is standard and genuinely helps: it gives you real signal on demand before you're deep into logistics, and it rewards the people willing to commit early.
+Early bird pricing is standard and genuinely helps. It gives you real signal on demand before you're deep into logistics, and it rewards the people willing to commit early. Be wary though - ticket sales are not spaced equally over time. Most tickets are sold in the last weeks before the conference.
 
-### Avoid these two mistakes
+{% capture ticketing %}
+[Tito](https://ti.to/) is the common Ruby conference default. RubyConf, RubyKaigi, Brighton Ruby, Helvetic Ruby, Haggis Ruby, and tiny ruby #{conf} have all used it. It handles the normal conference chores - ticket tiers, discount codes, attendee questions, receipts, transfers, and check-in - without making you build your own system.
 
-The most common expensive mistakes for first-time conference organizers are hotel room blocks and catering. Both feel professional. Both can sink you.
+Other platforms worth checking are [Luma](https://luma.com/) (used by Rails World and SF Ruby), [pretix](https://pretix.eu/) (used by Baltic Ruby), [Eventbrite](https://www.eventbrite.com/) (used by RubyConf 2023), [Ticket Tailor](https://www.tickettailor.com/), and [Stripe Payment Links](https://stripe.com/payments/payment-links) for very small events where you are willing to manage more of the admin yourself.
+
+Before choosing, test the boring parts: refunds, transfers, discount codes, invoices, tax/VAT handling, payout timing, custom attendee questions, and day-of check-in. Fees and payment support vary by country, so check them before you announce tickets.
+{% endcapture %}
+{% include tip.html type="tools" description=ticketing %}
+
+### Expensive mistakes
+
+The most common expensive mistakes for first-time conference organizers are hotel room blocks and catering. Both feel professional but can sink you.
 
 Hotel room blocks require you to guarantee a certain number of rooms and make up the difference if they don't fill. If you expect 100 attendees and negotiate a block of 80 rooms at $200 per night for two nights, and only 60 rooms fill, you just paid $8,000 in empty hotel rooms. The risk grows if the hotel also has a food-and-beverage minimum.
 
-Catering feels like a hospitality decision. It is actually a financial one. Food for 150 people is expensive, logistically complicated, and frequently bad. People don't come to a conference for the box lunch. If your venue is in a walkable area with restaurants nearby, skip catering and give attendees a long lunch break. They will prefer it, and you will save potentially thousands of dollars.
+Catering feels like a hospitality decision. It is actually a financial one. Food for 150 people is expensive and logistically complicated. If your venue is in a walkable area with restaurants nearby, consider skipping catering and give attendees a long lunch break.
 
 {% include testimonial.html
   quote="The food in Detroit was amazing. But the food budget for RailsConf is like five years of Brighton Ruby. Just the food. That's scary and terrifying to me."
@@ -187,13 +288,9 @@ Catering feels like a hospitality decision. It is actually a financial one. Food
   initials="JS"
 %}
 
-Coffee and pastries in the morning are worth it. A catered sit-down lunch usually isn't.
-
 ### Video recording
 
-Recording talks is often treated as non-negotiable. Reconsider it. Professional conference recording costs real money — ConFreaks, the company many Ruby conferences use, charges enough to be the second-largest expense after venue. The quality difference between professional recording and a hired wedding photographer with no conference experience is enormous. If you record, use someone who has done it before.
-
-But you can also choose not to record in year one. If your budget is tight, video is a stretch goal, not a baseline requirement.
+Recording talks is often treated as hard requirement - it's not. Professional conference recording can be pricey. If your budget is tight, video is a stretch goal, not a baseline requirement.
 
 {% include testimonial.html
   quote="You don't need video. That's a huge cost. And honestly, the people who watch conference videos on YouTube rounds to zero."
@@ -207,27 +304,65 @@ But you can also choose not to record in year one. If your budget is tight, vide
 
 ## Finding & Supporting Speakers
 
-Getting speakers for a regional Ruby conference is usually not as hard as first-time organizers fear. The Ruby community has a strong culture of speaking at community events. When Blue Ridge Ruby ran its first CFP, Jeremy Smith received 55 proposals for 10 slots. That kind of response is not universal, but it is not unusual either.
+Getting speakers for a regional Ruby conference is usually not as hard as first-time organizers fear. The Ruby community has a strong culture of speaking at community events. When you run your first CFP, you will get more proposals than you have room for. That kind of response is not universal, but it is not unusual either.
 
 ### CFP or curated?
 
-Both are legitimate. Both have trade-offs.
+A CFP opens the door to people you don't know, which is valuable — especially for a first-time organizer without a wide network. You will get proposals from people you wouldn't have thought to contact, and some of those will be your best talks. A CFP also signals a fair, community-oriented process, which matters to some speakers and attendees.
 
-A CFP opens the door to people you don't know, which is genuinely valuable — especially for a first-time organizer without a wide network. You will get proposals from people you wouldn't have thought to contact, and some of those will be your best talks. A CFP also signals a fair, community-oriented process, which matters to some speakers and attendees.
+Curating your lineup means reaching out directly to people you want to speak. Jason Swett did this at every Sin City Ruby, building his program around people he thought would draw an audience and give good talks. If you want invited keynotes on top of a CFP, approach those conversations early — before you announce the CFP — so you can open with at least one confirmed name that gives people a reason to submit.
 
-Curating your lineup means reaching out directly to people you want to speak. Jason Swett did this at every Sin City Ruby, building his program around people he thought would draw an audience and give good talks. Andy Croll does a mix at Brighton Ruby: a core of invited speakers he has planned months ahead, plus a CFP for the rest.
+### How to run a CFP
 
-For a first conference, a CFP is probably safer. It gets you more options, reduces the pressure on your existing network, and produces a more diverse slate of talks than your immediate circle is likely to generate.
+A CFP is more than a form. It is outreach, deadlines, review, selection, and a lot of email. If you treat it as "open form, wait, pick talks," you will make the hard decisions too late.
 
-If you want invited keynotes on top of a CFP, approach those conversations early — before you announce the CFP — so you can open with at least one confirmed name that gives people a reason to submit.
+Start by deciding what kind of program you want before proposals arrive. Do you want mostly technical talks? A couple of non-technical talks? Local speakers? First-time speakers? Talks from people who do not already speak at every Ruby event? Write that down. It does not have to become a public manifesto, but the organizers should know what they are selecting for.
 
-### What speakers actually need
+The CFP page should say what you are looking for, how long talks are, who the audience is, whether talks need to be original, what support you can offer, when the CFP closes, and when speakers will hear back. If first-time speakers are welcome, say that plainly. If you can help someone shape a proposal, say that too.
 
-Speakers are doing real work. A 30-minute conference talk typically represents 30-80 hours of preparation. The minimum you can offer is a free ticket, a clear answer to every logistical question before they have to ask it, and a response when they email you.
+### Build a CFP committee
 
-The regional conference norm for an honorarium is roughly $300-500. This doesn't cover much of a flight, but it's a gesture of respect. Many speakers don't take it, particularly if their company is paying for travel — in that case, offer to list their company as a sponsor in lieu of the cash. Spike Ilacqua makes this offer explicitly at Rocky Mountain Ruby.
+Do not review everything alone if you can avoid it. Three to five reviewers is enough for a small conference. You want people who understand Ruby, understand the audience, and will actually read the proposals before the deadline. That last part is not a joke.
 
-If you can cover hotel, do it, especially for speakers coming from far away. If you can't cover travel, be honest about that upfront so people can make an informed decision. Covering both travel and hotel is unusual at this scale, but it can come back in the quality and loyalty of your speaker relationships.
+Give reviewers a simple rubric: clarity, relevance, audience fit, originality, and how well the talk fits the program you are trying to build. Blind review can help, but it is not magic. Some proposals are identifiable from the topic alone. The important thing is that reviewers share enough context to make consistent decisions.
+
+When review is done, assemble the program as a whole. Do not blindly take the highest scores. Two great talks on the same narrow subject may be worse than one of those talks plus something that changes the shape of the day. A conference schedule is a composition, unfortunately.
+
+{% include testimonial.html
+  quote="We always did the CFP together. We also had some help doing the CFPs... we didn't necessarily want it to just be me and Ernie doing it. We wanted more input."
+  name="Jason Charnes"
+  conference="Southeast Ruby"
+  avatar="/assets/images/avatars/jasonc.png"
+  initials="JC"
+%}
+
+### Give the CFP enough time
+
+For a first conference, open the CFP four to six months before the event if you can. Keep it open for a few weeks, remind people while it is open, then close it when you said you would. Give reviewers a week or two. Notify accepted speakers before you announce anything publicly, and tell declined speakers promptly. Leaving people in limbo is a bad look and makes it harder for them to plan their own year.
+
+CFP marketing is separate from attendee marketing. Post it in speaker communities. Ask meetup organizers to share it. Personally encourage people whose perspective you want in the room. If you want underrepresented voices, do more than put "everyone is welcome" on the page and hope the right people see it.
+
+{% include testimonial.html
+  quote="When opening the CFP, it was always important for us to reach different groups of people... support or motivate people from underrepresented groups, or voices which are not always heard that much, that they also submit talks."
+  name="Hana Harencarova"
+  conference="Helvetic Ruby"
+  avatar="/assets/images/avatars/hana.jpeg"
+  initials="HH"
+%}
+
+### Accepted, declined, and waitlisted speakers
+
+Accepted speakers should get one clear email with the talk title, talk length, event date, speaker benefits, travel or hotel details, slide or rehearsal deadlines, and what you need from them next. Declined speakers deserve a clear answer too. You may not be able to give detailed feedback to everyone, but you can at least not leave them wondering.
+
+Keep a short waitlist. Speakers cancel. Travel falls through. Life happens. A waitlist only helps if waitlisted speakers know where they stand and when you will make the final call.
+
+### What speakers need
+
+Speakers are putting in work to speak at your event. A 30-minute conference talk can represent between 30-80 hours of preparation. The minimum you can offer is a free ticket, a clear answer to every logistical question before they have to ask it, and a response when they email you.
+
+You may also consider a honorarium. Even if it does not cover much of a flight, it is a gesture of respect. Many speakers don't take it, particularly if their company is paying for travel — in that case, offer to list their company as a sponsor in lieu of the cash.
+
+If you can cover hotel, do it, especially for speakers coming from far away. If you can't cover travel, be honest about that upfront so people can make an informed decision.
 
 {% include testimonial.html
   quote="These people are putting themselves out there. Without the speakers, there is no show."
@@ -253,27 +388,15 @@ Not every organizer has the time or the expertise to build full speaker mentorsh
   initials="AC"
 %}
 
-{% include testimonial.html
-  quote="If you go and speak for 20 minutes, no one has ever been sad that a talk was too short."
-  name="Jason Swett"
-  conference="Sin City Ruby"
-  avatar="/assets/images/avatars/jasons.jpg"
-  initials="JS"
-%}
-
-Tell speakers this. First-timers especially tend to pad talks to fill the slot rather than saying what they have to say and getting off stage.
-
 ---
 
 ## The Program
 
-The program is more than a schedule. It is the rhythm of the day — when people are sitting and listening, when they are standing and talking, when they eat, when they get outside. Getting that rhythm right makes a conference feel spacious and human. Getting it wrong makes it feel like a corporate training event.
+The program is the rhythm of the day — when people are sitting and listening, when they are standing and talking, when they eat, when they get outside. Getting that rhythm right makes a conference feel spacious and human.
 
 ### The 30-30 format
 
-The most-copied format in the regional Ruby conference scene is 30 minutes of talk, 30 minutes of break, repeat. This came from Keep Ruby Weird in Austin, was adopted by Jason Charnes for Southeast Ruby, passed to Jeremy Smith and Spike Ilacqua, and spread from there.
-
-The breaks are long enough to actually finish a conversation. People don't cut off mid-sentence to rush to the next room. They find a person they want to talk to and they talk. The format also makes the schedule forgiving: if a talk runs a few minutes over, the break absorbs it.
+The most-copied format in the regional Ruby conference scene is 30 minutes of talk, 30 minutes of break, repeat. The breaks are long enough to actually finish a conversation. The format also makes the schedule forgiving. If a talk runs a few minutes over, the break absorbs it.
 
 {% include testimonial.html
   quote="If anybody talked to me about Southeast Ruby, it was always: I love how much time there is to talk to people."
@@ -287,9 +410,7 @@ For a one-day conference with six to eight talks, this gives you roughly four to
 
 ### Lunch
 
-Don't cater lunch if you can avoid it. Find a venue in a walkable area with restaurants nearby, block out a full two hours at midday, and let people go find their own food. The logistics argument for catering is that it keeps everyone together. The reality is that everyone scatters anyway — and the people who wander out to a restaurant together have a completely different conversation than the one they'd have standing in a buffet line.
-
-Rocky Mountain Ruby and Blue Ridge Ruby both do this. Boulder and Asheville both have good food scenes that support it. If you are choosing a venue, the surrounding neighborhood matters: a venue in a walkable urban area with real restaurant options is worth more than a cheaper space in an office park.
+You don't have to cater lunch. It's fine to find a venue in a walkable area with restaurants nearby, block out a full two hours at midday, and let people go find their own food. The logistics argument for catering is that it keeps everyone together. If you can find good catering it can elevate the conference, but having people who wander out to a restaurant together can also lead to memorable experiences.
 
 {% include testimonial.html
   quote="We just do open lunch. We have a two-hour block. Just go out in the world and have lunch. We have a list of restaurants... It's also great for the budget, because catering lunch is expensive and usually not great."
@@ -307,7 +428,11 @@ If you have a mix of experienced and first-time speakers, spread them across the
 
 ### Beyond the talks
 
-The best thing you can add to a conference is not a talk. It is time and structure for people to actually be together. Build deliberate structure around that: city walking tours between conference days, a full-day trip on the day after, long fluid breaks with no fixed endpoints.
+The best thing you can add to a conference is not a talk. It is time and structure for people to actually be together.
+
+Post-conference activities — a bar night, a hike, a day trip — work especially well because people have already broken the ice during the conference itself. By day two or after day one, conversations are warmer, the ice has thawed, and people are actually ready to connect.
+
+Jeremy Smith organized post-conference river tubing at Blue Ridge Ruby. Adrian Marin took attendees to the Transylvanian mountains after FriendlyRB. Muhamed organized a treasure hunt throughout Vienna during RubyConf Austria. These moments are often what people remember when they think about the conference years later.
 
 {% include testimonial.html
   quote="When would I get to meet Jeremy Smith and talk to him about his family, and how we do things, and how he does things? You're never going to have that for a full day."
@@ -317,11 +442,27 @@ The best thing you can add to a conference is not a talk. It is time and structu
   initials="AM"
 %}
 
-Post-conference activities — a bar night, a hike, a day trip — work especially well because people have already broken the ice during the conference itself. By day two or after day one, conversations are warmer, the ice has thawed, and people are actually ready to connect. Jeremy Smith organized post-conference river tubing at Blue Ridge Ruby. Adrian took attendees to the Transylvanian mountains. These moments are often what people remember when they think about the conference years later.
+### The MC
+
+The MC is not a decorative role you assign the morning of the conference. They are the person who holds the room together. They welcome people, introduce speakers, explain breaks, repeat practical information, thank sponsors, and handle schedule changes without making everyone anxious.
+
+Choose someone warm, calm, and comfortable on stage. It does not have to be the organizer. In fact, if you are already carrying venue, sponsor, speaker, and volunteer responsibility, having someone else host the stage can be a relief.
+
+Prepare them properly. Give them the schedule, speaker bios, pronunciation notes, sponsor acknowledgements, code-of-conduct language, emergency announcements, and a plan for what to do if the schedule slips. They should know who to signal if AV breaks, a speaker is missing, or a code-of-conduct issue comes up.
+
+Do not underestimate how much the MC shapes the room. A rushed, confused MC makes the event feel rushed and confused. A prepared MC makes the day feel cared for.
+
+{% include testimonial.html
+  quote="Then I reached out again and asked, look, would you come, and would you be the MC? And she agreed. That was a big highlight for me, a huge one, really."
+  name="Irina Nazarova"
+  conference="SF Ruby"
+  avatar="/assets/images/avatars/irina.webp"
+  initials="IN"
+%}
 
 ### Code of conduct
 
-Read it aloud. Not the legalese version — your version. Take ten minutes at the start of the day to explain what the code of conduct actually means: what behavior is expected, what it looks like when behavior is wrong, and what people should do if they see or experience something.
+Take ten minutes at the start of the day to explain what the code of conduct actually means, what behavior is expected, what it looks like when behavior is wrong, and what people should do if they see or experience something.
 
 {% include testimonial.html
   quote="I put my own personal phone number on the board. I go through what I expect in terms of behavior, and I go through the sort of behavior that you might be tempted to excuse... I invariably get somebody come up during the day and go, thank you so much for that."
@@ -337,13 +478,13 @@ Doing this shifts the event's atmosphere in a way that no policy page on the web
 
 ## Sponsors & Partnerships
 
-Sponsors are genuinely useful. Their money can fund the video recording you couldn't afford on ticket sales alone, or cover speaker travel, or pay for the morning coffee. But they are also a source of complexity, and the first-year conference organizer who pins the entire budget on sponsor revenue is setting themselves up for a bad experience.
+Sponsors are great. Their money can fund the video recording you couldn't afford on ticket sales alone, or cover speaker travel, or pay for the morning coffee. But they are also a source of complexity, and the first-year conference organizer who pins the entire budget on sponsor revenue is setting themselves up for a bad experience.
 
-### Your first year: lower your expectations
+### Lower your expectations
 
-Most sponsors allocate conference budgets in advance — sometimes by the previous November for the following year. If you announce a new conference in February for a May event, many sponsors you approach will already have spent their budget. You will hear "we'd love to, but not this year" often, and that answer is honest, not polite rejection.
+Most sponsors allocate conference budgets in advance — sometimes by the previous November for the following year. If you announce a new conference in February for a May event, many sponsors you approach will already have spent their budget. You will hear "we'd love to, but not this year" often.
 
-The sponsors most likely to say yes to a first-time conference are companies with a personal connection to you or to someone on your team. Jeremy Smith's first three sponsors at Blue Ridge Ruby were there largely on personal trust, not because he had a track record.
+The sponsors most likely to say yes to a first-time conference are companies with a personal connection to you or to someone on your team.
 
 {% include testimonial.html
   quote="Especially when you're starting out, your brand, or the conference itself, is not what you're selling. You're selling you. You have to convince them that you are going to pull this off."
@@ -355,23 +496,26 @@ The sponsors most likely to say yes to a first-time conference are companies wit
 
 Go to sponsors with this framing, not the pitch deck framing. Ask them what success looks like for them. Ask what you'd need to do to make the sponsorship worth it. Then do that.
 
+{% capture sponsors %}
+Look at other (tech) events in your area and who sponsors them. Chances are the same companies would be willing to sponsor you. [RubyEvents](https://www.rubyevents.org/organizations) has a full index of companies sponsoring Ruby events - use it!
+{% endcapture %}
+{% include tip.html type="tools" description=sponsors %}
+
 ### What sponsors actually want
 
-Sponsors at regional conferences generally fall into a few categories:
+Sponsors at regional conferences generally fall into a few categories.
 
-**Hiring sponsors** want to get their logo and their humans in front of working Ruby developers. For them, the value is simple: if they make one hire from people they met at your conference and that hire would have otherwise cost $20,000 in recruiter fees, the $3,000 sponsorship paid for itself several times over.
+**Hiring sponsors** want to get their logo and their humans in front of working Ruby developers. For them, the value is simple. If they make one hire from people they met at your conference and that hire would have otherwise cost $20,000 in recruiter fees, the $3,000 sponsorship paid for itself several times over.
 
 **Tools and infrastructure companies** are often sponsoring for brand reasons — keeping their name visible in the community, signaling that they care about Ruby. They are not expecting direct ROI in the same way. AppSignal, Honeybadger, and DNSimple appear across multiple Ruby conference sponsor lists for this reason.
 
-**Community sponsors** are often individuals or small companies who just want the conference to exist. Adrian Marin at Friendly.rb got one of his first sponsors via a Stripe payment with no prior outreach: someone found out about the conference and sent money because they believed in it.
+**Community sponsors** are often individuals or small companies who just want the conference to exist. These are people that found out about the conference and sent money because they believed in it.
 
 ### Package design
 
-The standard approach is tiered packages with names (Gold, Silver, Bronze, or themed variants like gem names). This is fine, but it creates work: ten sponsors at small amounts means ten relationships to manage, ten logos to update, ten sets of expectations to track.
+The standard approach is tiered packages with names (Gold, Silver, Bronze, or themed variants like gem names). This is fine, but it creates work. Ten sponsors at small amounts means ten relationships to manage, ten logos to update, ten sets of expectations to track.
 
-Keeping the conference to three or four sponsors, each paying a meaningful amount, lets you give each of them real attention. If you use tiers, keep them flexible: if a sponsor wants a custom arrangement, make it work.
-
-Adrian Marin took a different approach entirely at Friendly.rb's first year: one package, one price ($1,250), ten spots. No decisions for sponsors to make, no tiers to compare.
+Keeping the conference to three or four sponsors, each paying a meaningful amount, lets you give each of them real attention. If you use tiers, keep them flexible. If a sponsor wants a custom arrangement, make it work.
 
 {% include testimonial.html
   quote="Making it simpler and affordable — that was, I think, why it worked. Five companies said yes."
@@ -391,17 +535,19 @@ The most interesting sponsors are the ones who want to do something, not just ap
 
 ## Volunteers & Team
 
-You cannot run a conference alone. You can try, but you will make yourself miserable, and the conference will be worse for it. Treat that as a hard requirement, not optional advice.
+You cannot run a conference alone. You can try, but you will make yourself miserable, and the conference will be worse for it.
 
 ### What volunteers actually do
 
-Volunteers are not just door greeters. In the planning phase, they are the people who handle the specific tasks that would otherwise be on your plate at 11pm when you have twelve other things to do. Spike Ilacqua found his first Rocky Mountain Ruby volunteer team from the Boulder Ruby meetup Slack. What emerged:
+Volunteers are your buddies. In the planning phase, they are the people who handle the specific tasks that you can't take care of right now. You'll find volunteers naturally - through your network or local Ruby communities. Your team might look like this:
 
-- One person took social media and is still doing it years later.
-- One person took catering logistics — finding vendors, tracking orders.
-- One person took swag: shirts, stickers, badges.
+- One person takes care of social media and marketing.
+- One person manages catering logistics — finding vendors, tracking orders.
+- One person deals with design and swag such as shirts, stickers, badges.
+- One person owns speaker coordination and CFP logistics.
+- One person is the MC or stage host, or coordinates closely with whoever is.
 
-Each person owned a domain. Spike did not have to manage every detail of each domain — he had someone accountable for it.
+Each person owns a domain. You don't have to manage every detail of each domain if you have someone accountable for it.
 
 {% include testimonial.html
   quote="My biggest advice is: get all the volunteers you can. I could not have done it without them."
@@ -413,7 +559,7 @@ Each person owned a domain. Spike did not have to manage every detail of each do
 
 On the day itself, you need people at registration, people keeping an eye on speaker timing, people who can answer "where's the nearest vegan restaurant" without interrupting you. These can be different people from your planning-phase volunteers — they just need to show up, know the plan, and be willing to respond when something goes wrong.
 
-### Delegating when you don't know the job
+### Delegating
 
 The hardest part of delegation for first-time conference organizers is that you often don't know what the job looks like well enough to explain it to someone else.
 
@@ -427,23 +573,21 @@ The hardest part of delegation for first-time conference organizers is that you 
 
 The honest answer is that you learn by doing, and your volunteers learn alongside you. The important thing is to start early enough that mistakes can be corrected before the event rather than during it.
 
-### Building the team before the day
+### Building the team
 
-One thing that pays off disproportionately: getting your volunteer team to know each other before the conference. A weekly or bi-weekly call in the months leading up to the event, even if it's short, means that on the day itself people know how each other communicate, who handles what, and who to go to when something unexpected happens. Strangers meeting in a lobby an hour before doors open are not a team.
+One thing that pays off disproportionately is getting your volunteer team to know each other before the conference. A weekly or bi-weekly call in the months leading up to the event, even if it's short, means that on the day itself people know how each other communicate, who handles what, and who to go to when something unexpected happens.
 
 ### Your co-organizer
 
-The person who takes on the most work, delivers on it reliably, and keeps going often turns into a co-organizer. This is how Spike ended up with Bekki Freeman as Rocky Mountain Ruby's co-organizer — she volunteered for swag, did that well, kept doing other things, and it became clear that she was a co-organizer in practice long before she had the title.
-
-If you can find a co-organizer before you start, do it. The burden is meaningfully lighter with two people. Emotionally, practically, logistically — having one other person who is as invested in the outcome as you are changes everything about the experience.
+The person who takes on the most work, delivers on it reliably, and keeps going often turns into a co-organizer. If you can find a co-organizer before you start, do it. The burden is meaningfully lighter with two people. Having one other person who is as invested in the outcome as you are changes everything about the experience.
 
 ---
 
 ## On The Day
 
-Everything before the event is planning. The day itself is execution, and the skill it requires is different. You are no longer making decisions; you are running a system you built and trusting the people you prepared.
+Everything before the event is planning. The day itself is execution. You are running a system you built and trusting the people you prepared.
 
-### What to delegate before you arrive
+### Before you arrive
 
 By the time the day comes, as much as possible should already be someone else's problem. Registration should have a person running it who doesn't need you. Catering pickup (if you're doing it) should have a person. Speaker coordination — who is in the green room, who needs a water bottle before they go on stage — should have a person.
 
@@ -459,11 +603,9 @@ Your job on the day is to be the person who sees the whole room, notices what's 
 
 This applies just as much to a 150-person event as to an 800-person one. The ratio of complexity to scale is not linear.
 
-### Registration and the first impression
+### Registration
 
-The first thing attendees experience is registration. It is also, paradoxically, where a lot of conferences are still figuring out the logistics on the morning of. Don't be that conference.
-
-Print a backup attendee list. Have pens. Have someone whose only job is registration until it's done. The small details at registration set the tone for the day.
+The first thing attendees experience is registration. It is also, funnily, where a lot of conferences are still figuring out the logistics on the morning of. Print a attendee list. Have pens. Have someone whose only job is registration until it's done. The small details at registration set the tone for the day.
 
 {% include testimonial.html
   quote="I spent three hours with a hole punch the night before, punching 500 badges, because someone had noted in the previous year's feedback that registration had been slow. It was described as the smoothest registration she had ever worked on."
@@ -473,7 +615,7 @@ Print a backup attendee list. Have pens. Have someone whose only job is registra
   initials="AC"
 %}
 
-### Code of conduct, in person
+### Code of conduct
 
 If you are opening the day with remarks — and you should be — include a real code of conduct moment. Not "the code of conduct is on the website." A brief, personal explanation of what you expect and what people should do if something happens. Your phone number or email on the screen.
 
@@ -495,15 +637,11 @@ The goal is not to prevent all of this. The goal is to have someone to call and 
 
 Having a co-organizer or a steady volunteer who can absorb the emotional weight of a bad moment while you handle the logistics is not a luxury. It is close to a necessity.
 
-### Speaker care on the day
+### Speaker care
 
-Confirm with every speaker when and where they need to be. Know who goes on when. Have water backstage. Know their AV requirements. Know if they are nervous. Know whether they want anyone to check in before they go on or whether they prefer to be left alone.
+Confirm with every speaker when and where they need to be. Know who goes on when. Have water on stage. Know their AV requirements. Know if they are nervous. Know whether they want anyone to check in before they go on or whether they prefer to be left alone.
 
 A printed one-page itinerary with each speaker's schedule for the day, given to them at check-in, is a small thing that lands well. Speakers are managing their own anxiety and their own logistics; anything you can do to reduce the cognitive load is appreciated.
-
-### The first beer
-
-When the last session ends, the speakers have cleared out, and the venue is being tidied — take a breath. The people around you who helped make it happen are the people to have that first drink with. It will likely be the best beer of the year.
 
 ---
 

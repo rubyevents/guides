@@ -543,8 +543,10 @@
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-4);
+    // Intrinsically responsive: 1 column on mobile, up to 3 on the prose
+    // column — no breakpoint needed, and names never overflow their track.
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: var(--space-4) var(--space-5);
   }
 
   .voice {
@@ -562,6 +564,12 @@
     block-size: 2rem;
     border-radius: var(--border-radius-full);
     object-fit: cover;
+    // Neutral placeholder so a missing photo shows a quiet disc, not a red blob.
+    background: var(--color-bg-tertiary);
+  }
+
+  // Ruby badge only for the initials fallback, never for <img> avatars.
+  .voice__avatar--initials {
     background: var(--color-accent);
     color: var(--color-text-inverse);
     font-size: var(--font-size-xs);
@@ -586,8 +594,99 @@
     color: var(--color-text-secondary);
   }
 
+  // Homepage right rail. On mobile it flows below the content as a full-width
+  // card; on desktop it becomes the sticky side rail (see media.scss).
   .index-aside {
-    display: none;
+    display: none; // becomes the right rail at desktop width (see media.scss)
+  }
+
+  .contribute-inline {
+    margin-block: var(--space-7);
+  }
+
+  // ── Contribute / work-in-progress aside card ───────────────────────────────
+
+  .contribute {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: var(--space-2) var(--space-4);
+    align-items: start;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-lg);
+    background: var(--color-bg-secondary);
+    padding: var(--space-5);
+  }
+
+  .contribute__icon {
+    display: inline-grid;
+    place-items: center;
+    flex: 0 0 auto;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    margin-block-start: 2px; // optically align with the title cap height
+    color: var(--color-accent);
+
+    svg {
+      inline-size: 100%;
+      block-size: 100%;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  }
+
+  .contribute__body {
+    min-width: 0;
+  }
+
+  .contribute__title {
+    margin-bottom: var(--space-2);
+    font-family: var(--font-display);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-snug);
+    color: var(--color-text);
+  }
+
+  .contribute__text {
+    margin-bottom: var(--space-4);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-normal);
+  }
+
+  .contribute__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-accent);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
+
+    svg {
+      flex: 0 0 auto;
+      transition: transform var(--duration-fast) var(--easing-out);
+    }
+
+    &:hover {
+      color: var(--color-accent-hover);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+
+      svg {
+        transform: translateX(2px);
+      }
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-border-focus);
+      outline-offset: 3px;
+      border-radius: var(--border-radius-sm);
+    }
   }
 
   // ── Guide layout ──────────────────────────────────────────────────────────
