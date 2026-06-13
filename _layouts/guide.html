@@ -6,7 +6,7 @@ layout: default
   <article class="guide-content">{{ content }}</article>
 
   {% if page.toc %}
-  <nav class="toc toc--desktop" aria-label="Guide contents"><!--toc--></nav>
+  {% include toc.html variant="toc--desktop" %}
   {% endif %}
 </div>
 

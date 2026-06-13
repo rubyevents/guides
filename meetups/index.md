@@ -9,7 +9,7 @@ toc: true
 
 A practical guide for starting and sustaining a local Ruby meetup — from finding your first venue to keeping it going years later.
 
-<nav class="toc toc--mobile" aria-label="Guide contents"><p class="toc__heading">Contents</p><!--toc--></nav>
+{% include toc.html variant="toc--mobile" heading="Contents" %}
 
 ## Why Bother
 
@@ -22,11 +22,8 @@ A local meetup is where junior developers get to see what more experienced devel
 You do not need a big reason to start a meetup. You just need to want one to exist.
 
 {% include testimonial.html
-  quote="I learned Ruby in my local meetup in my city. When I was going to that local meetup, I had contact with Ruby. So that's why I'm so deeply connected with community — because I learned that way."
   name="Cirdes Henrique"
-  conference="Tropical on Rails"
-  avatar="/assets/images/avatars/cirdes.jpeg"
-  initials="CH"
+  content="I learned Ruby in my local meetup in my city. When I was going to that local meetup, I had contact with Ruby. So that's why I'm so deeply connected with community — because I learned that way."
 %}
 
 ---
@@ -44,11 +41,8 @@ The best first venue for a tech meetup is an office. After the pandemic, most co
 A university, a co-working space, or even a bar can all work for a first event. All you need is enough chairs for the people you expect, somewhere to plug in a laptop, and ideally a wall or screen to project on.
 
 {% include testimonial.html
-  quote="When I started these meetups, my first call was to one of my former employers. They are a Ruby shop, and I knew they had a pretty nice meeting room."
   name="Hans Schnedlitz"
-  conference="Vienna.rb"
-  avatar="/assets/images/avatars/hans.png"
-  initials="HS"
+  content="When I started these meetups, my first call was to one of my former employers. They are a Ruby shop, and I knew they had a pretty nice meeting room."
 %}
 
 ### Create an event
@@ -210,11 +204,8 @@ The hardest part of organizing a meetup is not the first event. It is the tenth,
 Running a meetup on whichever frequency is a commitment that costs time and energy regardless of how much you enjoy it. The preparation, the communication with speakers and venues, the promotion, the evening itself — all of this adds up. Most organizers who burn out do so quietly. They skip one month, then find a reason to skip another, and just like that the meetup stops happening.
 
 {% include testimonial.html
-  quote="For me, running the meetup every quarter is the perfect frequency. It gives me enough time to prepare, but is regular enough to become a sort of constant in Vienna. Doing it more often would burn me out, and doing it less often would just lead to it fizzling out I think."
   name="Hans Schnedlitz"
-  conference="Vienna.rb"
-  avatar="/assets/images/avatars/hans.png"
-  initials="HS"
+  content="For me, running the meetup every quarter is the perfect frequency. It gives me enough time to prepare, but is regular enough to become a sort of constant in Vienna. Doing it more often would burn me out, and doing it less often would just lead to it fizzling out I think."
 %}
 
 The best prevention is to not organize the meetup alone.
@@ -274,11 +265,8 @@ Your meetup does not exist in isolation. Ruby Central, which supports meetups an
 Connecting with regional conference organizers is also worth doing. Many conferences — Rocky Mountain Ruby, Blue Ridge Ruby, Helvetic Ruby, Tropical on Rails — have explicit relationships with local meetup communities. They promote each other and share audiences. Some conferences have emerged directly from meetups. Irina Nazarova started a monthly Ruby meetup in San Francisco, which eventually became the foundation for SF Ruby Conference.
 
 {% include testimonial.html
-  quote="I was running a monthly meetup, and I thought, well, we need this kind of extra event for the meetup to also, once in a while, become something bigger... something more noticeable."
   name="Irina Nazarova"
-  conference="SF Ruby Conference"
-  avatar="/assets/images/avatars/irina.webp"
-  initials="IN"
+  content="I was running a monthly meetup, and I thought, well, we need this kind of extra event for the meetup to also, once in a while, become something bigger... something more noticeable."
 %}
 
 A meetup that stays connected to the broader Ruby community — through newsletters, Slack groups, conference cross-promotion, and relationships with other organizers — is less isolated when things get hard. And when things go well, that connection is how your local community becomes part of something larger.

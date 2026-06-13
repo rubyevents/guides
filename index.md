@@ -18,19 +18,13 @@ These guides were built from conversations with organizers around the world — 
 </div>
 
 {% include testimonial.html
-  quote="There are rare times that you get a lot of people in a community together. It's a rare time for people to have face-to-face interaction and build health and deeper connection together. You need the technical content, because that's the affinity that draws us together. But that's not how you build relationships."
   name="Jeremy Smith"
-  conference="Blue Ridge Ruby"
-  avatar="/assets/images/avatars/jeremy.jpg"
-  initials="JS"
+  content="There are rare times that you get a lot of people in a community together. It's a rare time for people to have face-to-face interaction and build health and deeper connection together. You need the technical content, because that's the affinity that draws us together. But that's not how you build relationships."
 %}
 
 {% include testimonial.html
-  quote="I now know all these people from doing this I didn't know before. My circle has greatly expanded, and these are people I can reach out to and ask when I have a question, or help me with a job search or help them. It's really nice to have a community."
   name="Spike Ilacqua"
-  conference="Rocky Mountain Ruby"
-  avatar="/assets/images/avatars/spike.jpg"
-  initials="SI"
+  content="I now know all these people from doing this I didn't know before. My circle has greatly expanded, and these are people I can reach out to and ask when I have a question, or help me with a job search or help them. It's really nice to have a community."
 %}
 
 ## Start Here
