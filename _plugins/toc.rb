@@ -18,7 +18,9 @@ require "nokogiri"
 # manual `chapters:` front matter to keep in sync.
 module Jekyll
   module Toc
-    MARKER = "<!--toc-->"
+    # Tolerate whitespace inside the comment (e.g. "<!-- toc -->") so that
+    # HTML/Liquid formatters like Prettier can't silently break the marker.
+    MARKER = /<!--\s*toc\s*-->/
 
     # Only chapters (h2) appear in the contents, matching the guide design.
     HEADING_SELECTOR = "h2[id]"
@@ -42,8 +44,8 @@ end
 
 Jekyll::Hooks.register([:pages, :documents], :post_render) do |doc|
   output = doc.output
-  next unless output&.include?(Jekyll::Toc::MARKER)
+  next unless output&.match?(Jekyll::Toc::MARKER)
 
   list = Jekyll::Toc.build(output)
-  doc.output = output.gsub(Jekyll::Toc::MARKER, list)
+  doc.output = output.gsub(Jekyll::Toc::MARKER) { list }
 end
