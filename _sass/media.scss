@@ -64,7 +64,9 @@
   .mobile-sticky-header__toggle-icon,
   .mobile-sticky-header__toggle-icon::before,
   .mobile-sticky-header__toggle-icon::after,
-  .contribute__cta svg {
+  .contribute__cta svg,
+  .disclosure__summary,
+  .disclosure__summary::before {
     transition: none;
   }
 }

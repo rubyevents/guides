@@ -1,5 +1,9 @@
 [tools]
-# Picked up from .ruby-version
+# Picked up from .ruby-version and .node-version
 
 [settings]
 experimental = true
+
+[hooks]
+# Installs the pnpm version specified in package.json's packageManager field
+postinstall = "npx corepack enable"

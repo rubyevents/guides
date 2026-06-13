@@ -1,32 +1,39 @@
 {%- comment -%}
-  Renders an inline tip callout.
-
-  Parameters:
-    type        – visual style: "tool(s)" or "idea(s)" (optional, default: "ideas")
-    description – Markdown-formatted body copy (required; supports captured multi-line strings)
+  Renders an inline "field note" tip callout: an unfilled, ruled
+  aside led by an uppercase rubric, in the warm editorial system (no boxed
+  admonition). Parameters: type – rubric: "tools" or "ideas" (optional, default:
+  "ideas") label – override the rubric label text (optional) description –
+  Markdown body copy (required; supports captured multi-line strings)
 {%- endcomment -%}
-{%- assign tip_type = include.type | default: "ideas" -%}
-{%- assign tip_description = include.description | default: "" -%}
+{%- assign tip_type = include.type | default: 'ideas' -%}
+{%- assign tip_description = include.description | default: '' -%}
+{%- case tip_type -%}
+  {%- when 'tools', 'tool' -%}
+    {%- assign tip_label = 'Tools' -%}
+  {%- else -%}
+    {%- assign tip_label = 'Ideas' -%}
+{%- endcase -%}
+{%- assign tip_label = include.label | default: tip_label -%}
 
 <div class="tip tip--{{ tip_type | slugify }}">
-  <div class="tip__icon" aria-hidden="true">
-    <svg viewBox="0 0 24 24" focusable="false">
-      {%- case tip_type -%}
-        {%- when "tools", "tool" -%}
-          <path d="M20.5 6.5 17 10l-3-3 3.5-3.5a5.5 5.5 0 0 0-6.9 6.9l-7.2 7.2a2.1 2.1 0 1 0 3 3l7.2-7.2a5.5 5.5 0 0 0 6.9-6.9Z" />
-        {%- when "ideas", "idea" -%}
-          <path d="M9 18h6" />
-          <path d="M10 22h4" />
-          <path d="M8.6 14.7a6 6 0 1 1 6.8 0c-.8.5-1.4 1.4-1.4 2.3h-4c0-.9-.6-1.8-1.4-2.3Z" />
+  <p class="tip__head">
+    <span class="tip__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" focusable="false">
+        {%- case tip_type -%} {%- when "tools", "tool" -%}
+        <path
+          d="M20.5 6.5 17 10l-3-3 3.5-3.5a5.5 5.5 0 0 0-6.9 6.9l-7.2 7.2a2.1 2.1 0 1 0 3 3l7.2-7.2a5.5 5.5 0 0 0 6.9-6.9Z"
+        />
         {%- else -%}
-          <path d="M9 18h6" />
-          <path d="M10 22h4" />
-          <path d="M8.6 14.7a6 6 0 1 1 6.8 0c-.8.5-1.4 1.4-1.4 2.3h-4c0-.9-.6-1.8-1.4-2.3Z" />
-      {%- endcase -%}
-    </svg>
-  </div>
+        <path d="M9 18h6" />
+        <path d="M10 22h4" />
+        <path
+          d="M8.6 14.7a6 6 0 1 1 6.8 0c-.8.5-1.4 1.4-1.4 2.3h-4c0-.9-.6-1.8-1.4-2.3Z"
+        />
+        {%- endcase -%}
+      </svg>
+    </span>
+    <span class="tip__label">{{ tip_label }}</span>
+  </p>
 
-  <div class="tip__description">
-    {{ tip_description | markdownify }}
-  </div>
+  <div class="tip__description">{{ tip_description | markdownify }}</div>
 </div>

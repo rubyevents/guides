@@ -1,17 +1,23 @@
 {%- comment -%}
-  Renders a native disclosure widget with Markdown-formatted content.
-
-  Parameters:
-    summary – summary text shown as the disclosure trigger (optional, default: "Show details")
-    content – Markdown-formatted body copy (required; supports captured multi-line strings)
-    open    – render expanded by default when true (optional)
+  Renders a native disclosure widget with Markdown-formatted
+  content. Parameters: summary – summary text shown as the disclosure trigger
+  (optional, default: "Show details") content – Markdown-formatted body copy
+  (required; supports captured multi-line strings) open – render expanded by
+  default when true (optional)
 {%- endcomment -%}
-{%- assign disclosure_summary = include.summary | default: "Show details" -%}
-{%- assign disclosure_content = include.content | default: "" -%}
+{%- assign disclosure_summary = include.summary | default: 'Show details' -%}
+{%- assign disclosure_content = include.content | default: '' -%}
 
-<details{% if include.open %} open{% endif %}>
-  <summary>{{ disclosure_summary | markdownify | remove: "<p>" | remove: "</p>" | strip }}</summary>
-  <div>
-    {{ disclosure_content | markdownify }}
-  </div>
+<details
+  class="disclosure"
+  {% if include.open %}
+    open
+  {% endif %}
+>
+  <summary class="disclosure__summary">
+    {{ disclosure_summary | markdownify | remove: '
+    <p>' | remove: '</p>
+    ' | strip }}
+  </summary>
+  <div class="disclosure__body">{{ disclosure_content | markdownify }}</div>
 </details>

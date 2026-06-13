@@ -470,56 +470,41 @@
     color: var(--color-text-secondary);
   }
 
-  // ── Inline tip callout ────────────────────────────────────────────────────
+  // ── Inline tip callout — "field note" ─────────────────────────────────────
+  // Unfilled aside, ruled top and bottom, led by an uppercase rubric. Reads as
+  // an editorial column rather than a boxed docs admonition, and stays in the
+  // warm + ruby system so it never competes with the interview quotes.
 
   .tip {
-    --color-tip-border: var(--color-tip-ideas-border);
-    --color-tip-bg: var(--color-tip-ideas-bg);
-    --color-tip-icon: var(--color-tip-ideas-icon);
-    --color-tip-text: var(--color-tip-ideas-text);
-    --color-tip-link-hover: var(--color-tip-ideas-link-hover);
-    --color-tip-link-focus: var(--color-tip-ideas-link-focus);
-
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    gap: var(--space-4);
-    align-items: start;
-    margin-block: var(--space-6);
-    padding: var(--space-4) var(--space-5);
-    border: 2px solid var(--color-tip-border);
-    border-radius: var(--border-radius-lg);
-    background: var(--color-tip-bg);
-    color: var(--color-tip-text);
+    margin-block: var(--space-7);
+    padding-block: var(--space-5);
+    border-block: 1px solid var(--color-border);
   }
 
-  .tip--tools,
-  .tip--tool {
-    --color-tip-border: var(--color-tip-tools-border);
-    --color-tip-bg: var(--color-tip-tools-bg);
-    --color-tip-icon: var(--color-tip-tools-icon);
-    --color-tip-text: var(--color-tip-tools-text);
-    --color-tip-link-hover: var(--color-tip-tools-link-hover);
-    --color-tip-link-focus: var(--color-tip-tools-link-focus);
+  .tip__head {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin: 0 0 var(--space-3);
+    // Ideas speak in the ruby accent; tools are a quieter, utilitarian rubric.
+    color: var(--color-accent);
   }
 
-  .tip--ideas,
-  .tip--idea {
-    --color-tip-border: var(--color-tip-ideas-border);
-    --color-tip-bg: var(--color-tip-ideas-bg);
-    --color-tip-icon: var(--color-tip-ideas-icon);
-    --color-tip-text: var(--color-tip-ideas-text);
-    --color-tip-link-hover: var(--color-tip-ideas-link-hover);
-    --color-tip-link-focus: var(--color-tip-ideas-link-focus);
+  .tip--tools .tip__head,
+  .tip--tool .tip__head {
+    color: var(--color-text-secondary);
   }
 
   .tip__icon {
     display: inline-grid;
     place-items: center;
-    inline-size: 2.25rem;
-    block-size: 2.25rem;
-    color: var(--color-tip-icon);
+    inline-size: 1.05rem;
+    block-size: 1.05rem;
+    flex: 0 0 auto;
+    color: inherit;
 
     svg {
+      display: block;
       inline-size: 100%;
       block-size: 100%;
       fill: none;
@@ -530,9 +515,17 @@
     }
   }
 
+  .tip__label {
+    color: inherit;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: var(--letter-spacing-caps);
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
   .tip__description {
-    min-width: 0;
-    color: var(--color-tip-text);
+    color: var(--color-text);
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
 
@@ -542,11 +535,11 @@
 
     a:hover,
     a:active {
-      color: var(--color-tip-link-hover);
+      color: var(--color-accent);
     }
 
     a:focus-visible {
-      outline-color: var(--color-tip-link-focus);
+      outline-color: var(--color-border-focus);
     }
 
     ul,
@@ -555,19 +548,65 @@
       margin-bottom: 0;
       padding-left: var(--space-5);
     }
+  }
 
-    code {
-      background-color: color-mix(
-        in oklch,
-        var(--color-tip-bg) 72%,
-        var(--color-bg)
-      );
-      border-color: color-mix(
-        in oklch,
-        var(--color-tip-border) 45%,
-        transparent
-      );
-    }
+  // ── Disclosure (details/summary) ──────────────────────────────────────────
+  // Quiet editorial toggle: a chevron that rotates on open and a summary that
+  // behaves like the site's other small controls (link-colour → ruby on hover).
+
+  .disclosure {
+    margin-top: var(--space-3);
+  }
+
+  .disclosure__summary {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    width: fit-content;
+    cursor: pointer;
+    color: var(--color-link);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    border-radius: var(--border-radius-sm);
+    transition: color var(--duration-fast) var(--easing-out);
+    // Remove the native disclosure triangle (Firefox + WebKit/Blink).
+    list-style: none;
+  }
+
+  .disclosure__summary::-webkit-details-marker {
+    display: none;
+  }
+
+  // CSS chevron — points right when closed, rotates down when open.
+  .disclosure__summary::before {
+    content: "";
+    inline-size: 0.4em;
+    block-size: 0.4em;
+    flex: 0 0 auto;
+    margin-inline-start: 0.1em;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg);
+    transition: transform var(--duration-fast) var(--easing-out);
+  }
+
+  .disclosure[open] .disclosure__summary::before {
+    transform: rotate(45deg);
+  }
+
+  .disclosure__summary:hover,
+  .disclosure__summary:active {
+    color: var(--color-accent);
+  }
+
+  .disclosure__summary:focus-visible {
+    outline: 2px solid var(--color-border-focus);
+    outline-offset: 3px;
+  }
+
+  .disclosure__body {
+    margin-top: var(--space-3);
   }
 
   // ── Eyebrow label ─────────────────────────────────────────────────────────

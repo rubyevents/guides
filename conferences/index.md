@@ -17,7 +17,7 @@ A meetup gets people in a room for a couple of hours on a regular basis, and tha
 
 That difference matters more than you think. People who meet at a meetup might exchange names. People who spend a full day together, go to lunch, sit next to each other through talks, and share a drink afterwards tend to actually become friends. For a lot of developers, regional conferences are how their professional network got built — not by attending RailsConf or Rails World, but by going to a 100-person event in a city they could reach without a transatlantic flight.
 
-That said, you should be honest with yourself about what you are signing up for. A first-time conference of 100-150 people will take up a lot of your time. You will spend evenings chasing venues, weekends reviewing talk proposals, late nights doing things that should have been done earlier. You will probably not make money on the first one. You might lose some.
+That said, you should be honest with yourself about what you are signing up for. A first-time conference of 100–150 people will take up a lot of your time. You will spend evenings chasing venues, weekends reviewing talk proposals, late nights doing things that should have been done earlier. You will probably not make money on the first one. You might lose some.
 
 The reason people do it anyway is that the thing you create belongs to your community in a way that nothing else does. Someone came to your city because of you and they met someone they're still talking to two years later because you put them in the same room. You don't get that any other way.
 
@@ -32,11 +32,11 @@ If that sounds worth it to you, keep reading.
 
 ## Before You Commit
 
-Before announcing your conference get the fundamentals locked down. Not just thought about — actually decided and signed. Date, venue, rough budget. Everything downstream depends on those three things, and announcing before you have them in place creates pressure without any of the infrastructure to support it.
+Before announcing your conference, get the fundamentals locked down. Not just thought about — actually decided and signed. Date, venue, rough budget. Everything downstream depends on those three things, and announcing before you have them in place creates pressure without any of the infrastructure to support it.
 
 ### Find your date
 
-Your date is more constrained than you think. You need to avoid major local events. Any of those can wipe out hotel availability and drive prices up. Look at which other Ruby or Rails conferences are happening nearby on the calendar. Take holidays - both local and international - into account.
+Your date is more constrained than you think. You need to avoid major local events. Any of those can wipe out hotel availability and drive prices up. Look at which other Ruby or Rails conferences are happening nearby on the calendar. Take holidays — both local and international — into account.
 
 If you're shooting for spring or fall, give yourself plenty of runway on either side of the major conference anchors. Start with a date range of two or three candidate weekends and proceed with those.
 
@@ -44,7 +44,7 @@ If you're shooting for spring or fall, give yourself plenty of runway on either 
 
 Once you have possible dates, find the venue. This is not step three or four — it is step two. Everything else, including your budget and your ticket price, depends on what the venue costs and what it includes.
 
-The venues that work best for 100-200 person single-track conferences are usually not hotels. They are theaters, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and nice staff.
+The venues that work best for 100–200 person single-track conferences are usually not hotels. They are theaters, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and nice staff.
 
 Hotels are the obvious choice and almost always the wrong one for a first conference at this scale. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up.
 
@@ -53,7 +53,7 @@ Hotels are also slow to respond, difficult to negotiate with, and often have cat
 When you visit venues, ask about what's included in the day rate, AV setup and internet access, setup and teardown time before and after the event, catering exclusivity requirements, and what their staff handles versus what falls to you.
 
 {% capture venue %}
-Boulder Theater was Rocky Mountain Ruby's original home. eTown Hall - an old church converted into a radio studio and performance space - is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple. Balkan Ruby latest venue a geology museum. These are not conference centers - they are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
+Boulder Theater was Rocky Mountain Ruby's original home. eTown Hall — an old church converted into a radio studio and performance space — is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple. Balkan Ruby's latest venue is a geology museum. These are not conference centers — they are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
 
 {% endcapture %}
 {% include tip.html description=venue %}
@@ -81,7 +81,7 @@ Before you start selling tickets, you need to know what kind of conference you a
 
 ### Single track
 
-For a regional conference in the 100-200 person range, single track is almost always the right answer. Multi-track events requires more space, more coordination, more speakers, and forces attendees to make choices that fragment the shared experience. The whole point of a small conference is that everyone is in the same room together. When half the room goes left and half goes right for every session, you lose the shared frame of reference that makes the hallway conversations work.
+For a regional conference in the 100–200 person range, single track is almost always the right answer. Multi-track events require more space, more coordination, and more speakers, and they force attendees to make choices that fragment the shared experience. The whole point of a small conference is that everyone is in the same room together. When half the room goes left and half goes right for every session, you lose the shared frame of reference that makes the hallway conversations work.
 
 Single track also simplifies your job considerably. One room, one schedule, one speaker in the slot at a time.
 
@@ -98,16 +98,16 @@ For a first conference, one day is the safer choice. You can always add a second
 
 {% include testimonial.html
   name="Andy Croll"
-  content="Brighton Ruby has been a one-day single-track conference for over a decade and now draws 450 people. I tried tried expanding it and stepped back every time. I can't do two days. I don't have the energy to do a two-day version. And the one-day version works."
+  content="Brighton Ruby has been a one-day single-track conference for over a decade and now draws 450 people. I tried expanding it and stepped back every time. I can't do two days. I don't have the energy to do a two-day version. And the one-day version works."
 %}
 
 ### Know what your event is
 
 This is more important than it sounds. A conference with a clear identity — a specific city, a specific vibe, a specific sense of what kind of community it is for — is easier to sell and easier to run than one trying to be everything.
 
-Blue Ridge Ruby is explicitly tied to Asheville - the food scene, the mountain setting, the post-conference river tubing. Friendly.rb in Bucharest leans into its European location with city walking tours and a mountain day trip on the third day. Rocky Mountain Ruby is a tight community conference in Boulder for people who want good talks and long breaks to talk to each other. RubyConf Austria did a blend of Ruby and classical music - featuring piano performance and a choir opening the conference.
+Blue Ridge Ruby is explicitly tied to Asheville — the food scene, the mountain setting, the post-conference river tubing. Friendly.rb in Bucharest leans into its European location with city walking tours and a mountain day trip on the third day. Rocky Mountain Ruby is a tight community conference in Boulder for people who want good talks and long breaks to talk to each other. RubyConf Austria blended Ruby and classical music — featuring a piano performance and a choir opening the conference.
 
-This is not about aesthetics, these concerns are part of what you are selling. Don't accidentally build a generic conference when you could build one that feels like something special.
+This is not about aesthetics — these concerns are part of what you are selling. Don't accidentally build a generic conference when you could build one that feels like something special.
 
 {% include testimonial.html
   name="Adrian Marin"
@@ -118,7 +118,7 @@ This is not about aesthetics, these concerns are part of what you are selling. D
 
 ## Website & Marketing
 
-Marketing is vital - and it's also what a lot of first-time conference organizers struggle with. When you start out, almost nobody knows your event exists. They will not find your site by accident, remember the date, convince their boss, and buy a ticket because you posted once. You have to keep making the case.
+Marketing is vital — and it's also what a lot of first-time conference organizers struggle with. When you start out, almost nobody knows your event exists. They will not find your site by accident, remember the date, convince their boss, and buy a ticket because you posted once. You have to keep making the case.
 
 Give marketing an owner the same way you give sponsors or speakers an owner. Otherwise it becomes the job everyone knows matters and nobody does until it is late and stressful.
 
@@ -164,6 +164,7 @@ Paid ads are rarely the first lever for a small Ruby conference. Spend the time 
 %}
 
 {% capture marketing_tip_list %}
+
 - Slack: [Ruby Central](https://join.slack.com/t/rubycentralcommunity/shared_invite/zt-2uh1lvotg-227RO9FJYT_C9RLNiA8Bng)
 - Discord: [Ruby](https://discord.com/invite/ruby-518658712081268738), [Ruby Europe](https://discord.com/invite/VQpDWPpBZe)
 - Reddit: [r/ruby](https://www.reddit.com/r/ruby/), [r/rails](https://www.reddit.com/r/rails/)
@@ -171,14 +172,13 @@ Paid ads are rarely the first lever for a small Ruby conference. Spend the time 
 - [RubyFlow](https://rubyflow.com/)
 - [LinkedIn](https://www.linkedin.com/)
 - [Twitter](https://x.com/home), [Bluesky](https://bsky.app/), [Mastodon](https://ruby.social/)
-{% endcapture %}
-{% capture marketing_tip %}
-Not sure where to promote your event? Here are some places to get you started..
+  {% endcapture %}
+  {% capture marketing_tip %}
+  Not sure where to promote your event? Here are some places to get you started.
 
 {% include disclosure.html summary="Show the full list." content=marketing_tip_list %}
 {% endcapture %}
 {% include tip.html type="tools" description=marketing_tip %}
-
 
 ### Keep giving people reasons
 
@@ -227,7 +227,7 @@ Your base budget is the minimum required to run the event. It includes venue, ba
 
 This stretch-goal framing does two things. It keeps you from over-committing before you know your revenue, and it lets you communicate honestly with attendees about what's coming.
 
-For a 150-200 person regional conference, a total budget in the range of $30,000-$40,000 is a useful anchor. Your situation will vary, but that order of magnitude helps. Work backwards from there: if your venue costs $8,000, your speakers need $500 each and you have ten speakers, your AV runs $3,000, and your insurance is $400, you know your base before you sell a single ticket.
+For a 150–200 person regional conference, a total budget in the range of $30,000–$40,000 is a useful anchor. Your situation will vary, but that order of magnitude helps. Work backwards from there: if your venue costs $8,000, your speakers need $500 each and you have ten speakers, your AV runs $3,000, and your insurance is $400, you know your base before you sell a single ticket.
 
 ### Ticket pricing
 
@@ -235,10 +235,10 @@ Build your ticket price from your budget, not from what other conferences charge
 
 Think through the scenarios: what happens if only 50 tickets sell? 80? 100? At what number do you cover your base costs? At what number do you feel comfortable announcing the stretch goals? These are not hypotheticals — they are the questions that let you price with confidence.
 
-Early bird pricing is standard and genuinely helps. It gives you real signal on demand before you're deep into logistics, and it rewards the people willing to commit early. Be wary though - ticket sales are not spaced equally over time. Most tickets are sold in the last weeks before the conference.
+Early bird pricing is standard and genuinely helps. It gives you real signal on demand before you're deep into logistics, and it rewards the people willing to commit early. Be wary though — ticket sales are not spaced equally over time. Most tickets are sold in the last weeks before the conference.
 
 {% capture ticketing %}
-[Tito](https://ti.to/) is the common Ruby conference default. RubyConf, Brighton Ruby, Helvetic Ruby, and many more have all used it. It handles the normal conference chores - ticket tiers, discount codes, attendee questions, receipts, transfers, and check-in - without making you build your own system.
+[Tito](https://ti.to/) is the common Ruby conference default. RubyConf, Brighton Ruby, Helvetic Ruby, and many more have all used it. It handles the normal conference chores — ticket tiers, discount codes, attendee questions, receipts, transfers, and check-in — without making you build your own system.
 
 Other platforms worth checking are [Luma](https://luma.com/) and [pretix](https://pretix.eu/) (used by Baltic Ruby)
 {% endcapture %}
@@ -253,18 +253,13 @@ Hotel room blocks require you to guarantee a certain number of rooms and make up
 Catering feels like a hospitality decision. It is actually a financial one. Food for 150 people is expensive and logistically complicated. If your venue is in a walkable area with restaurants nearby, consider skipping catering and give attendees a long lunch break.
 
 {% include testimonial.html
-  name="Andy Croll"
-  content="The food in Detroit was amazing. But the food budget for RailsConf is like five years of Brighton Ruby. Just the food. That's scary and terrifying to me."
-%}
-
-{% include testimonial.html
   name="Jeremy Smith"
   content="I really am happy I didn't do catered meals, and I didn't do a hotel block rate. I would recommend that to every first-time conference, and maybe for most conferences."
 %}
 
 ### Video recording
 
-Recording talks is often treated as hard requirement - it's not. Professional conference recording can be pricey. If your budget is tight, video is a stretch goal, not a baseline requirement.
+Recording talks is often treated as a hard requirement — it's not. Professional conference recording can be pricey. If your budget is tight, video is a stretch goal, not a baseline requirement.
 
 {% include testimonial.html
   name="Andy Croll"
@@ -297,7 +292,7 @@ Do not review everything alone if you can avoid it. Three to five reviewers is e
 
 Give reviewers a simple rubric. Clarity, relevance, audience fit, originality, and how well the talk fits the program you are trying to build. Consider anonymizing submissions. The important thing is that reviewers share enough context to make consistent decisions.
 
-When review is done, assemble the program as a whole. It's not all about the score. Two great talks on the same narrow subject may be worse than one of those talks plus something that changes the shape of the day. A conference schedule is a composition, unfortunately.
+When review is done, assemble the program as a whole. It's not all about the score. Two great talks on the same narrow subject may be worse than one of those talks plus something that changes the shape of the day. A conference schedule is a composition, not a leaderboard.
 
 {% include testimonial.html
   name="Jason Charnes"
@@ -308,7 +303,7 @@ When review is done, assemble the program as a whole. It's not all about the sco
 
 Open the CFP four to six months before the event if you can. Keep it open for a few weeks, remind people while it is open, then close it when you said you would. Give reviewers a week or two. Notify accepted speakers before you announce anything publicly, and tell declined speakers promptly. Leaving people in limbo is a bad look and makes it harder for them to plan their own year.
 
-CFP marketing is separate from attendee marketing. Post it in speaker communities. Ask meetup organizers to share it. List your CFP on [rubyevents.org](https://www.rubyevents.org/cfp). Personally encourage people whose perspective you want in the room. If you want underrepresented voices, you need to do more than put "everyone is welcome" on your website page and hope the right people see it.
+CFP marketing is separate from attendee marketing. Post it in speaker communities. Ask meetup organizers to share it. List your CFP on [rubyevents.org](https://www.rubyevents.org/cfp). Personally encourage people whose perspective you want in the room. If you want underrepresented voices, you need to do more than put "everyone is welcome" on your website and hope the right people see it.
 
 {% include testimonial.html
   name="Hana Harencarova"
@@ -316,7 +311,7 @@ CFP marketing is separate from attendee marketing. Post it in speaker communitie
 %}
 
 {% capture speakers %}
-If you're looking for ~hot~ great speakers in your area then [RubyEvents](https://www.rubyevents.org/speakers) has you covered. Look for recent speakers that were active in your geographic region and don't be afraid to reach out to them directly.
+Looking for <del>hot</del> great speakers in your area? [RubyEvents](https://www.rubyevents.org/speakers) has you covered. Look for recent speakers that were active in your geographic region. Don't be afraid to reach out to them directly.
 {% endcapture %}
 {% include tip.html type="tools" description=speakers %}
 
@@ -324,18 +319,13 @@ If you're looking for ~hot~ great speakers in your area then [RubyEvents](https:
 
 Accepted speakers should get one clear email with the talk title, talk length, event date, speaker benefits, travel or hotel details, slide or rehearsal deadlines, and what you need from them next. Declined speakers deserve a clear answer too. You may not be able to give detailed feedback to everyone, but you can at least not leave them wondering.
 
-Keep a short waitlist. Speakers cancel more often then you'd think. A waitlist only helps if waitlisted speakers know where they stand and when you will make the final call.
+Keep a short waitlist. Speakers cancel more often than you'd think. A waitlist only helps if waitlisted speakers know where they stand and when you will make the final call.
 
-{% capture speaker_email_template %}
-Here's an email template you can use to get you started. 
-
-TODO
-{% endcapture %}
-{% include tip.html type="tools" description=speaker_email_template %}
+{% comment %} TODO: add email template to contact speakers {% endcomment %}
 
 ### What speakers need
 
-Speakers are putting in work to speak at your event. A 30-minute conference talk can represent between 30-80 hours of preparation. The minimum you can offer is a free ticket, a clear answer to every logistical question before they have to ask it, and a response when they email you.
+Speakers are putting in work to speak at your event. A 30-minute conference talk can represent 30 to 80 hours of preparation. The minimum you can offer is a free ticket, a clear answer to every logistical question before they have to ask it, and a response when they email you.
 
 You may also consider a honorarium. Even if it does not cover much of a flight, it is a gesture of respect. Many speakers don't take it, particularly if their company is paying for travel — in that case, offer to list their company as a sponsor in lieu of the cash.
 
@@ -397,7 +387,7 @@ The best thing you can add to a conference is not a talk. It is time and structu
 
 Post-conference activities — a bar night, a hike, a day trip — work especially well because people have already broken the ice during the conference itself. By day two or after day one, conversations are warmer, the ice has thawed, and people are actually ready to connect.
 
-Jeremy Smith organized post-conference river tubing at Blue Ridge Ruby. Adrian Marin took attendees to the Transylvanian mountains after FriendlyRB. Muhamed organized a treasure hunt throughout Vienna during RubyConf Austria. These moments are often what people remember when they think about the conference years later.
+Jeremy Smith organized post-conference river tubing at Blue Ridge Ruby. Adrian Marin took attendees to the Transylvanian mountains after Friendly.rb. Muhamed organized a treasure hunt throughout Vienna during RubyConf Austria. These moments are often what people remember when they think about the conference years later.
 
 {% include testimonial.html
   name="Adrian Marin"
@@ -406,7 +396,7 @@ Jeremy Smith organized post-conference river tubing at Blue Ridge Ruby. Adrian M
 
 ### The MC
 
-The MC is not a decorative role you assign the morning of the conference. They are the person who holds the room together. They welcome people, introduce speakers, explain breaks, repeat practical information, thank sponsors, and handle schedule changes without making everyone anxious. 
+The MC is not a decorative role you assign the morning of the conference. They are the person who holds the room together. They welcome people, introduce speakers, explain breaks, repeat practical information, thank sponsors, and handle schedule changes without making everyone anxious.
 
 Choose someone who is comfortable on stage and prepare them properly. Give them the schedule, speaker bios, pronunciation notes, sponsor acknowledgements, code-of-conduct language, emergency announcements, and a plan for what to do if the schedule slips. They should know who to signal if AV breaks, a speaker is missing, or a code-of-conduct issue comes up.
 
@@ -448,7 +438,7 @@ The sponsors most likely to say yes to a first-time conference are companies wit
 Go to sponsors with this framing, not the pitch deck framing. Ask them what success looks like for them. Ask what you'd need to do to make the sponsorship worth it. Then do that.
 
 {% capture sponsors %}
-Look at other (tech) events in your area and who sponsors them. Chances are the same companies would be willing to sponsor you. [RubyEvents](https://www.rubyevents.org/organizations) has a full index of companies sponsoring Ruby events - use it!
+Look at other (tech) events in your area and who sponsors them. Chances are the same companies would be willing to sponsor you. [RubyEvents](https://www.rubyevents.org/organizations) has a full index of companies sponsoring Ruby events — use it!
 {% endcapture %}
 {% include tip.html type="tools" description=sponsors %}
 
@@ -460,7 +450,7 @@ Sponsors at regional conferences generally fall into a few categories.
 
 **Tools and infrastructure companies** are often sponsoring for brand reasons — keeping their name visible in the community, signaling that they care about Ruby. They are not expecting direct ROI in the same way. AppSignal, Honeybadger, and DNSimple appear across multiple Ruby conference sponsor lists for this reason.
 
-**Community sponsors** are often individuals or small companies who just want the conference to exist. These are people that found out about the conference and sent money because they believed in it.
+**Community sponsors** are often individuals or small companies who just want the conference to exist. These are people who found out about the conference and sent money because they believed in it.
 
 ### Package design
 
@@ -487,7 +477,7 @@ You cannot run a conference alone. You can try, but you will make yourself miser
 
 ### What volunteers actually do
 
-Volunteers are your buddies. In the planning phase, they are the people who handle the specific tasks that you can't take care of right now. You'll find volunteers naturally - through your network or local Ruby communities. Your team might look like this:
+Volunteers are your buddies. In the planning phase, they are the people who handle the specific tasks that you can't take care of right now. You'll find volunteers naturally — through your network or local Ruby communities. Your team might look like this:
 
 - One person takes care of social media and marketing.
 - One person manages catering logistics — finding vendors, tracking orders.
@@ -544,7 +534,7 @@ This applies just as much to a 150-person event as to an 800-person one. The rat
 
 ### Registration
 
-The first thing attendees experience is registration. It is also, funnily, where a lot of conferences are still figuring out the logistics on the morning of. Print a attendee list. Have pens. Have someone whose only job is registration until it's done. The small details at registration set the tone for the day.
+The first thing attendees experience is registration. It is also, funnily enough, where a lot of conferences are still figuring out the logistics on the morning of the event. Print an attendee list. Have pens. Have someone whose only job is registration until it's done. The small details at registration set the tone for the day.
 
 {% include testimonial.html
   name="Andy Croll"
@@ -561,7 +551,7 @@ The people who most need this to be said are exactly the people who most need it
 
 Something will go wrong. A speaker will be stuck at the airport. The AV will have a problem at the start of the first talk. A caterer will be late or bring the wrong order. A person will be rude to another person in a way that you have to address.
 
-The goal is not to prevent all of this - you just can't. The goal is to have someone to call and a response prepared. 
+The goal is not to prevent all of this — you just can't. The goal is to have someone to call and a response prepared.
 
 Having a co-organizer or a steady volunteer who can absorb the emotional weight of a bad moment while you handle the logistics definitely helps.
 
@@ -569,7 +559,6 @@ Having a co-organizer or a steady volunteer who can absorb the emotional weight 
   name="Jeremy Smith"
   content="The hardest part for me was dealing with people who were upset... it was high anxiety for me. I found I'd really messed up and not knowing what to do with myself. That's again where having someone like Mark, who was pretty steady, really helped."
 %}
-
 
 ---
 

@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
 <div class="guide-layout">
   <article class="guide-content">{{ content }}</article>
 
   {% if page.toc %}
-  {% include toc.html variant="toc--desktop" %}
+    {% include toc.html variant="toc--desktop" %}
   {% endif %}
 </div>
 
 {% if page.toc %}
-<script src="{{ "/js/toc.js" | relative_url }}"></script>
+  <script src="{{ "/js/toc.js" | relative_url }}"></script>
 {% endif %}
