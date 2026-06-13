@@ -122,13 +122,58 @@
   }
 }
 
-// Guide layout: activate the two-column grid (prose + side TOC) at desktop
-// width. The homepage stays a single centered column at every width.
+// Guide and homepage layouts: activate the two-column grid (prose + side rail)
+// at desktop width. Below this they stack into a single reading column.
 @media (min-width: 1024px) {
   .guide-layout {
     grid-template-columns: minmax(0, 1fr) var(--toc-width);
     gap: var(--toc-gap);
     align-items: start;
+  }
+
+  // Homepage: reading column on the left (intro above body), persistent rail on
+  // the right spanning both rows. The rail's guide list replaces the in-content
+  // mobile links.
+  .index-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) var(--toc-width);
+    grid-template-areas:
+      "intro rail"
+      "body  rail";
+    column-gap: var(--toc-gap);
+    row-gap: var(--space-7);
+    align-items: start;
+  }
+
+  .index-intro {
+    grid-area: intro;
+  }
+
+  .index-body {
+    grid-area: body;
+    margin-top: 0;
+  }
+
+  .index-rail {
+    grid-area: rail;
+    margin-top: 0;
+    position: sticky;
+    top: var(--space-6);
+  }
+
+  .index-rail__guides {
+    display: block;
+  }
+
+  .index-mobile-guides {
+    display: none;
+  }
+
+  // With the guide list above it, the note gains a quiet divider.
+  .index-note {
+    margin-top: var(--space-7);
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--color-border-subtle);
   }
 
   .guide-links {

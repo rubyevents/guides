@@ -1,18 +1,15 @@
-{%- comment -%}
-  Renders an organizer testimonial.
+{%- comment -%} Renders an organizer testimonial. Parameters: name – voice name
+from _data/voices.yml (required) content – testimonial text (required) {%-
+endcomment -%} {%- assign matching_voices = site.data.voices | where: "name",
+include.name -%} {%- assign voice = matching_voices | first -%} {%- assign
+quote_content = include.content | default: include.quote -%} {%- assign
+conference = voice.conference | default: include.conference -%} {%- assign
+avatar = voice.image | default: include.avatar -%} {%- assign initials =
+voice.initials | default: include.initials -%}
 
-  Parameters:
-    name    – voice name from _data/voices.yml (required)
-    content – testimonial text (required)
-{%- endcomment -%}
-{%- assign matching_voices = site.data.voices | where: "name", include.name -%}
-{%- assign voice = matching_voices | first -%}
-{%- assign quote_content = include.content | default: include.quote -%}
-{%- assign conference = voice.conference | default: include.conference -%}
-{%- assign avatar = voice.image | default: include.avatar -%}
-{%- assign initials = voice.initials | default: include.initials -%}
-
-<figure class="testimonial">
+<figure
+  class="testimonial{% if include.class %} {{ include.class }}{% endif %}"
+>
   <blockquote class="testimonial__quote">
     <p>&ldquo;{{ quote_content }}&rdquo;</p>
   </blockquote>

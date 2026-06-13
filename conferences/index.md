@@ -163,13 +163,28 @@ Paid ads are rarely the first lever for a small Ruby conference. Spend the time 
   content="One of the things where I noticed a big bump of ticket sales was LinkedIn... Think about getting folks who are in places that people might drive to your conference from to share it. Not just reshare, but actually share it."
 %}
 
+{% capture marketing_tip_list %}
+- Slack: [Ruby Central](https://join.slack.com/t/rubycentralcommunity/shared_invite/zt-2uh1lvotg-227RO9FJYT_C9RLNiA8Bng)
+- Discord: [Ruby](https://discord.com/invite/ruby-518658712081268738), [Ruby Europe](https://discord.com/invite/VQpDWPpBZe)
+- Reddit: [r/ruby](https://www.reddit.com/r/ruby/), [r/rails](https://www.reddit.com/r/rails/)
+- Newsletters: [Ruby Weekly](https://rubyweekly.com/), [Short Ruby Newsletter](https://newsletter.shortruby.com/)
+- [RubyFlow](https://rubyflow.com/)
+- [LinkedIn](https://www.linkedin.com/)
+- [Twitter](https://x.com/home), [Bluesky](https://bsky.app/), [Mastodon](https://ruby.social/)
+{% endcapture %}
+{% capture marketing_tip %}
+Not sure where to promote your event? Here are some places to get you started..
+
+{% include disclosure.html summary="Show the full list." content=marketing_tip_list %}
+{% endcapture %}
+{% include tip.html type="tools" description=marketing_tip %}
+
+
 ### Keep giving people reasons
 
-One announcement is not a marketing plan. You need a steady drumbeat: save the date, CFP open, tickets on sale, early bird ending, speakers announced, venue photos, local guide, after-party, sponsor thanks, travel reminders, final tickets.
+One announcement is not a marketing plan. You need a steady drumbeat. Save the date, CFP open, tickets on sale, early bird ending, speakers announced, venue photos, local guide, after-party, sponsor thanks, travel reminders, final tickets.
 
-This will feel repetitive to you because you are living inside the conference every day. Everyone else is not. Many people will miss the first five announcements. Some will see them and not be ready to act. Some will need the speaker lineup before they can ask their boss. Some will buy only when the deadline is close.
-
-That is normal. Keep going.
+This will feel repetitive to you because you are living inside the conference every day. Everyone else is not. Many people will miss the first five announcements. Some will see them and not be ready to act. Some will need the speaker lineup before they can ask their boss. And some will literally buy only days before the conference.
 
 {% include testimonial.html
   name="Irina Nazarova"
@@ -178,16 +193,16 @@ That is normal. Keep going.
 
 ### Give attendees something to share
 
-The best promotion usually does not come from the conference account. Make it easy for speakers, attendees, sponsors, and friends to say they are coming. Speaker cards help. So do "I'm attending" images, a short copy-paste blurb, venue photos, and short clips of the city. Do not overthink it. Give people something better than a naked link.
+The best promotion usually does not come from the conference account. Make it easy for speakers, attendees, sponsors, and friends to say they are coming. Speaker cards help. So do "I'm attending" images, a short copy-paste blurb, venue photos, and short clips of the city. Give people something better than a naked link.
 
-SF Ruby experimented with personalized generated images for attendees. Blue Ridge Ruby made a simple trailer video around Asheville. Tropical.rb built months of anticipation through podcasts, meetups, keynote announcements, and social content before ticket sales opened. None of that requires a production studio. It requires material that makes the event feel alive.
+{% include tip.html description="SF Ruby experimented with personalized generated images for attendees. Blue Ridge Ruby made a simple trailer video around Asheville. Tropical.rb built months of anticipation through podcasts, meetups, keynote announcements, and social content before ticket sales opened. You just need material that makes the event feel alive." %}
 
 {% include testimonial.html
   name="Cirdes Henrique"
   content="It was a mix of trying to release content, trying to announce the keynotes before things happen, trying to be present on social media, and trying to connect with people that could help us spread the word about the conference."
 %}
 
-### Marketing is also trust
+### Marketing is trust
 
 In year one, promotion is proof that the event is real. A quiet website and one lonely announcement can make people wonder whether the conference is still happening. Regular updates reassure attendees that travel is safe to book, sponsors that you are executing, and speakers that they are joining something active.
 
@@ -223,11 +238,9 @@ Think through the scenarios: what happens if only 50 tickets sell? 80? 100? At w
 Early bird pricing is standard and genuinely helps. It gives you real signal on demand before you're deep into logistics, and it rewards the people willing to commit early. Be wary though - ticket sales are not spaced equally over time. Most tickets are sold in the last weeks before the conference.
 
 {% capture ticketing %}
-[Tito](https://ti.to/) is the common Ruby conference default. RubyConf, RubyKaigi, Brighton Ruby, Helvetic Ruby, Haggis Ruby, and tiny ruby #{conf} have all used it. It handles the normal conference chores - ticket tiers, discount codes, attendee questions, receipts, transfers, and check-in - without making you build your own system.
+[Tito](https://ti.to/) is the common Ruby conference default. RubyConf, Brighton Ruby, Helvetic Ruby, and many more have all used it. It handles the normal conference chores - ticket tiers, discount codes, attendee questions, receipts, transfers, and check-in - without making you build your own system.
 
-Other platforms worth checking are [Luma](https://luma.com/) (used by Rails World and SF Ruby), [pretix](https://pretix.eu/) (used by Baltic Ruby), [Eventbrite](https://www.eventbrite.com/) (used by RubyConf 2023), [Ticket Tailor](https://www.tickettailor.com/), and [Stripe Payment Links](https://stripe.com/payments/payment-links) for very small events where you are willing to manage more of the admin yourself.
-
-Before choosing, test the boring parts: refunds, transfers, discount codes, invoices, tax/VAT handling, payout timing, custom attendee questions, and day-of check-in. Fees and payment support vary by country, so check them before you announce tickets.
+Other platforms worth checking are [Luma](https://luma.com/) and [pretix](https://pretix.eu/) (used by Baltic Ruby)
 {% endcapture %}
 {% include tip.html type="tools" description=ticketing %}
 
@@ -274,39 +287,51 @@ Curating your lineup means reaching out directly to people you want to speak. Ja
 
 A CFP is more than a form. It is outreach, deadlines, review, selection, and a lot of email. If you treat it as "open form, wait, pick talks," you will make the hard decisions too late.
 
-Start by deciding what kind of program you want before proposals arrive. Do you want mostly technical talks? A couple of non-technical talks? Local speakers? First-time speakers? Talks from people who do not already speak at every Ruby event? Write that down. It does not have to become a public manifesto, but the organizers should know what they are selecting for.
+Start by deciding what kind of program you want before proposals arrive. Do you want mostly technical talks? A couple of non-technical talks? Local speakers? First-time speakers? Talks from people who do not already speak at every Ruby event? Write that down. It does not have to become a public manifesto, but you should be clear on what you are selecting for.
 
-The CFP page should say what you are looking for, how long talks are, who the audience is, whether talks need to be original, what support you can offer, when the CFP closes, and when speakers will hear back. If first-time speakers are welcome, say that plainly. If you can help someone shape a proposal, say that too.
+Your website should share this information. Tell people how long talks are, who the audience is, whether talks need to be original, what support you can offer, when the CFP closes, and when speakers will hear back. If first-time speakers are welcome, say that plainly. If you can help someone shape a proposal, say that too.
 
 ### Build a CFP committee
 
-Do not review everything alone if you can avoid it. Three to five reviewers is enough for a small conference. You want people who understand Ruby, understand the audience, and will actually read the proposals before the deadline. That last part is not a joke.
+Do not review everything alone if you can avoid it. Three to five reviewers is enough for a small conference. You want people who understand Ruby, understand the audience, and will actually read the proposals before the deadline. That last part is especially important.
 
-Give reviewers a simple rubric: clarity, relevance, audience fit, originality, and how well the talk fits the program you are trying to build. Blind review can help, but it is not magic. Some proposals are identifiable from the topic alone. The important thing is that reviewers share enough context to make consistent decisions.
+Give reviewers a simple rubric. Clarity, relevance, audience fit, originality, and how well the talk fits the program you are trying to build. Consider anonymizing submissions. The important thing is that reviewers share enough context to make consistent decisions.
 
-When review is done, assemble the program as a whole. Do not blindly take the highest scores. Two great talks on the same narrow subject may be worse than one of those talks plus something that changes the shape of the day. A conference schedule is a composition, unfortunately.
+When review is done, assemble the program as a whole. It's not all about the score. Two great talks on the same narrow subject may be worse than one of those talks plus something that changes the shape of the day. A conference schedule is a composition, unfortunately.
 
 {% include testimonial.html
   name="Jason Charnes"
   content="We always did the CFP together. We also had some help doing the CFPs... we didn't necessarily want it to just be me and Ernie doing it. We wanted more input."
 %}
 
-### Give the CFP enough time
+### When to CFP
 
-For a first conference, open the CFP four to six months before the event if you can. Keep it open for a few weeks, remind people while it is open, then close it when you said you would. Give reviewers a week or two. Notify accepted speakers before you announce anything publicly, and tell declined speakers promptly. Leaving people in limbo is a bad look and makes it harder for them to plan their own year.
+Open the CFP four to six months before the event if you can. Keep it open for a few weeks, remind people while it is open, then close it when you said you would. Give reviewers a week or two. Notify accepted speakers before you announce anything publicly, and tell declined speakers promptly. Leaving people in limbo is a bad look and makes it harder for them to plan their own year.
 
-CFP marketing is separate from attendee marketing. Post it in speaker communities. Ask meetup organizers to share it. Personally encourage people whose perspective you want in the room. If you want underrepresented voices, do more than put "everyone is welcome" on the page and hope the right people see it.
+CFP marketing is separate from attendee marketing. Post it in speaker communities. Ask meetup organizers to share it. List your CFP on [rubyevents.org](https://www.rubyevents.org/cfp). Personally encourage people whose perspective you want in the room. If you want underrepresented voices, you need to do more than put "everyone is welcome" on your website page and hope the right people see it.
 
 {% include testimonial.html
   name="Hana Harencarova"
   content="When opening the CFP, it was always important for us to reach different groups of people... support or motivate people from underrepresented groups, or voices which are not always heard that much, that they also submit talks."
 %}
 
+{% capture speakers %}
+If you're looking for ~hot~ great speakers in your area then [RubyEvents](https://www.rubyevents.org/speakers) has you covered. Look for recent speakers that were active in your geographic region and don't be afraid to reach out to them directly.
+{% endcapture %}
+{% include tip.html type="tools" description=speakers %}
+
 ### Accepted, declined, and waitlisted speakers
 
 Accepted speakers should get one clear email with the talk title, talk length, event date, speaker benefits, travel or hotel details, slide or rehearsal deadlines, and what you need from them next. Declined speakers deserve a clear answer too. You may not be able to give detailed feedback to everyone, but you can at least not leave them wondering.
 
-Keep a short waitlist. Speakers cancel. Travel falls through. Life happens. A waitlist only helps if waitlisted speakers know where they stand and when you will make the final call.
+Keep a short waitlist. Speakers cancel more often then you'd think. A waitlist only helps if waitlisted speakers know where they stand and when you will make the final call.
+
+{% capture speaker_email_template %}
+Here's an email template you can use to get you started. 
+
+TODO
+{% endcapture %}
+{% include tip.html type="tools" description=speaker_email_template %}
 
 ### What speakers need
 
@@ -381,11 +406,9 @@ Jeremy Smith organized post-conference river tubing at Blue Ridge Ruby. Adrian M
 
 ### The MC
 
-The MC is not a decorative role you assign the morning of the conference. They are the person who holds the room together. They welcome people, introduce speakers, explain breaks, repeat practical information, thank sponsors, and handle schedule changes without making everyone anxious.
+The MC is not a decorative role you assign the morning of the conference. They are the person who holds the room together. They welcome people, introduce speakers, explain breaks, repeat practical information, thank sponsors, and handle schedule changes without making everyone anxious. 
 
-Choose someone warm, calm, and comfortable on stage. It does not have to be the organizer. In fact, if you are already carrying venue, sponsor, speaker, and volunteer responsibility, having someone else host the stage can be a relief.
-
-Prepare them properly. Give them the schedule, speaker bios, pronunciation notes, sponsor acknowledgements, code-of-conduct language, emergency announcements, and a plan for what to do if the schedule slips. They should know who to signal if AV breaks, a speaker is missing, or a code-of-conduct issue comes up.
+Choose someone who is comfortable on stage and prepare them properly. Give them the schedule, speaker bios, pronunciation notes, sponsor acknowledgements, code-of-conduct language, emergency announcements, and a plan for what to do if the schedule slips. They should know who to signal if AV breaks, a speaker is missing, or a code-of-conduct issue comes up.
 
 Do not underestimate how much the MC shapes the room. A rushed, confused MC makes the event feel rushed and confused. A prepared MC makes the day feel cared for.
 
@@ -429,7 +452,7 @@ Look at other (tech) events in your area and who sponsors them. Chances are the 
 {% endcapture %}
 {% include tip.html type="tools" description=sponsors %}
 
-### What sponsors actually want
+### What sponsors want
 
 Sponsors at regional conferences generally fall into a few categories.
 
@@ -534,24 +557,19 @@ If you are opening the day with remarks — and you should be — include a real
 
 The people who most need this to be said are exactly the people who most need it said out loud. And the people who would never cause a problem will feel better knowing you take it seriously.
 
-### What will go wrong
+### Emergencies
 
 Something will go wrong. A speaker will be stuck at the airport. The AV will have a problem at the start of the first talk. A caterer will be late or bring the wrong order. A person will be rude to another person in a way that you have to address.
 
-The goal is not to prevent all of this. The goal is to have someone to call and a response prepared.
+The goal is not to prevent all of this - you just can't. The goal is to have someone to call and a response prepared. 
+
+Having a co-organizer or a steady volunteer who can absorb the emotional weight of a bad moment while you handle the logistics definitely helps.
 
 {% include testimonial.html
   name="Jeremy Smith"
   content="The hardest part for me was dealing with people who were upset... it was high anxiety for me. I found I'd really messed up and not knowing what to do with myself. That's again where having someone like Mark, who was pretty steady, really helped."
 %}
 
-Having a co-organizer or a steady volunteer who can absorb the emotional weight of a bad moment while you handle the logistics is not a luxury. It is close to a necessity.
-
-### Speaker care
-
-Confirm with every speaker when and where they need to be. Know who goes on when. Have water on stage. Know their AV requirements. Know if they are nervous. Know whether they want anyone to check in before they go on or whether they prefer to be left alone.
-
-A printed one-page itinerary with each speaker's schedule for the day, given to them at check-in, is a small thing that lands well. Speakers are managing their own anxiety and their own logistics; anything you can do to reduce the cognitive load is appreciated.
 
 ---
 
