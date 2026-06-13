@@ -1,29 +1,45 @@
+{%- comment -%}
+  Renders an organizer testimonial.
+
+  Parameters:
+    name    – voice name from _data/voices.yml (required)
+    content – testimonial text (required)
+{%- endcomment -%}
+{%- assign matching_voices = site.data.voices | where: "name", include.name -%}
+{%- assign voice = matching_voices | first -%}
+{%- assign quote_content = include.content | default: include.quote -%}
+{%- assign conference = voice.conference | default: include.conference -%}
+{%- assign avatar = voice.image | default: include.avatar -%}
+{%- assign initials = voice.initials | default: include.initials -%}
+
 <figure class="testimonial">
   <blockquote class="testimonial__quote">
-    <p>&ldquo;{{ include.quote }}&rdquo;</p>
+    <p>&ldquo;{{ quote_content }}&rdquo;</p>
   </blockquote>
 
   <figcaption class="testimonial__person">
-    {% if include.avatar %}
+    {% if avatar %}
     <img
       class="testimonial__avatar"
-      src="{{ include.avatar | relative_url }}"
+      src="{{ avatar | relative_url }}"
       alt=""
       width="32"
       height="32"
       loading="lazy"
     />
-    {% else %}
+    {% elsif initials %}
     <span
       class="testimonial__avatar testimonial__avatar--initials"
       aria-hidden="true"
-      >{{ include.initials }}</span
+      >{{ initials }}</span
     >
     {% endif %}
 
     <span class="testimonial__byline">
-      <span class="testimonial__name">{{ include.name }}</span
-      ><span class="testimonial__conference">{{ include.conference }}</span>
+      <span class="testimonial__name">{{ include.name }}</span>
+      {% if conference %}
+      <span class="testimonial__conference">{{ conference }}</span>
+      {% endif %}
     </span>
   </figcaption>
 </figure>

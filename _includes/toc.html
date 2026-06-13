@@ -1,0 +1,16 @@
+{%- comment -%}
+  Renders a guide table of contents placeholder.
+
+  Parameters:
+    variant - additional toc modifier class, e.g. "toc--mobile" (optional)
+    heading - visible heading text (optional)
+{%- endcomment -%}
+{%- assign toc_class = "toc" -%}
+{%- if include.variant -%}
+  {%- assign toc_class = toc_class | append: " " | append: include.variant -%}
+{%- endif -%}
+<nav class="{{ toc_class }}" aria-label="Guide contents">
+  {%- if include.heading -%}
+  <p class="toc__heading">{{ include.heading }}</p>
+  {%- endif -%}<!--toc-->
+</nav>
