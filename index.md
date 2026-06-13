@@ -5,7 +5,8 @@ title: Ruby Community Guides
 
 <div class="index-intro" markdown="1">
 
-<p class="eyebrow">Living resources for organizers</p>
+Living resources for organizers
+{: .eyebrow }
 
 # Ruby Community Guides
 

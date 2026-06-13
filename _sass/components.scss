@@ -430,7 +430,7 @@
   .testimonial__person {
     display: flex;
     align-items: center;
-    gap: var(--space-3);
+    gap: var(--space-4);
     color: var(--color-text-secondary);
     font-size: var(--font-size-sm);
     line-height: var(--line-height-snug);
@@ -438,8 +438,8 @@
 
   .testimonial__avatar {
     display: block; // override base img rule so flex sizing works
-    inline-size: 2rem;
-    block-size: 2rem;
+    inline-size: 2.75rem;
+    block-size: 2.75rem;
     flex: 0 0 auto;
     border-radius: var(--border-radius-full);
     object-fit: cover;
@@ -456,7 +456,9 @@
   }
 
   .testimonial__byline {
-    display: inline; // name and conference run together on one line
+    display: flex; // name stacked over conference beside the avatar
+    flex-direction: column;
+    line-height: var(--line-height-snug);
   }
 
   .testimonial__name {
@@ -466,10 +468,6 @@
 
   .testimonial__conference {
     color: var(--color-text-secondary);
-
-    &::before {
-      content: ", ";
-    }
   }
 
   // ── Inline tip callout ────────────────────────────────────────────────────
