@@ -13,7 +13,7 @@ The site will be available at `http://localhost:4000`.
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for details, or file an [issue](https://github.com/hschne/rubyevents-guides/issues).
+Contributions, issues, and feature requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for details, or file an [issue](https://github.com/rubyevents/guides/issues).
 
 ## License
 

@@ -17,6 +17,6 @@ Thanks for your interest in improving Ruby Community Guides! Contributions of al
 
 ## Reporting issues
 
-Found a problem or have a suggestion? [Open an issue](https://github.com/hschne/rubyevents-guides/issues) and describe it.
+Found a problem or have a suggestion? [Open an issue](https://github.com/rubyevents/guides/issues) and describe it.
 
 By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).

@@ -1,7 +1,7 @@
-url: "https://hansschnedlitz.com"
-github_repo: "hschne/rubyevents-guides"
+url: "https://rubyevents.github.io"
+github_repo: "rubyevents/guides"
 github_branch: "main"
-baseurl: ""
+baseurl: "/guides"
 title: "Ruby Community Guides"
 description: "Practical guides for starting and running Ruby communities."
 
