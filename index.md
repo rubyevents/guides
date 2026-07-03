@@ -71,9 +71,7 @@ These guides were built from conversations with organizers around the world — 
 
 ## Voices behind the guides
 
-<p class="voices-intro">These guides are built from full conversations with organizers who have started, sustained, revived, and scaled Ruby communities around the world.</p>
-
-<p class="voices-cta"><a href="{{ '/interviews/' | relative_url }}">Read the full interviews</a></p>
+<p class="voices-intro">These guides are built from full conversations with organizers who have started, sustained, revived, and scaled Ruby communities around the world. <a href="{{ '/interviews/' | relative_url }}">Read the interviews</a></p>
 
 <ul class="voices">
 {% for voice in site.data.voices %}
