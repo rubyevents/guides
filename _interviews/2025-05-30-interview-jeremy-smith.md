@@ -1,7 +1,7 @@
 ---
 title: Jeremy Smith and Blue Ridge Ruby
-voice: jeremy-smith
-host: travis-dockter
+voice: Jeremy Smith
+host: Travis Dockter
 date: 2025-05-30
 source_url: https://rubyconferenceproject.com/2025-05-30-interview-jeremy-smith/
 teaser: >-

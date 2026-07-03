@@ -1,7 +1,7 @@
 ---
 title: Cirdes Henrique and Tropical on Rails
-voice: cirdes-henrique
-host: travis-dockter
+voice: Cirdes Henrique
+host: Travis Dockter
 date: 2025-08-08
 source_url: https://rubyconferenceproject.com/2025-08-08-interview-cirdes-henrique/
 teaser: >-

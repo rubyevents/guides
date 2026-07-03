@@ -1,7 +1,7 @@
 ---
 title: Amanda Perino and Rails World
-voice: amanda-perino
-host: travis-dockter
+voice: Amanda Perino
+host: Travis Dockter
 date: 2025-10-03
 source_url: https://rubyconferenceproject.com/2025-10-03-amanda-perino/
 teaser: >-

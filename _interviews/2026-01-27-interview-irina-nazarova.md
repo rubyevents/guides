@@ -1,7 +1,7 @@
 ---
 title: Irina Nazarova and SF Ruby Conference
-voice: irina-nazarova
-host: travis-dockter
+voice: Irina Nazarova
+host: Travis Dockter
 date: 2026-01-27
 source_url: https://rubyconferenceproject.com/2026-01-27-interview-irina-nazarova/
 teaser: >-

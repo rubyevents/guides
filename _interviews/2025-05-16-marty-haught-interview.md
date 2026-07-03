@@ -1,7 +1,7 @@
 ---
 title: Marty Haught and Rocky Mountain Ruby
-voice: marty-haught
-host: travis-dockter
+voice: Marty Haught
+host: Travis Dockter
 date: 2025-05-16
 source_url: https://rubyconferenceproject.com/2025-05-16-marty-haught-interview/
 teaser: >-

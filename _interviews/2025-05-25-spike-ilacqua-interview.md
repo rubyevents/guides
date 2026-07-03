@@ -1,7 +1,7 @@
 ---
 title: Spike Ilacqua and Rocky Mountain Ruby
-voice: spike-ilacqua
-host: travis-dockter
+voice: Spike Ilacqua
+host: Travis Dockter
 date: 2025-05-25
 source_url: https://rubyconferenceproject.com/2025-05-25-spike-ilacqua-interview/
 teaser: >-

@@ -1,7 +1,7 @@
 ---
 title: Jason Charnes and Southeast Ruby
-voice: jason-charnes
-host: travis-dockter
+voice: Jason Charnes
+host: Travis Dockter
 date: 2025-06-13
 source_url: https://rubyconferenceproject.com/2025-06-13-interview-jason-charnes/
 teaser: >-

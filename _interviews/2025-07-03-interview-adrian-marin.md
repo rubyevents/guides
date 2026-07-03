@@ -1,7 +1,7 @@
 ---
 title: Adrian Marin and Friendly.rb
-voice: adrian-marin
-host: travis-dockter
+voice: Adrian Marin
+host: Travis Dockter
 date: 2025-07-03
 source_url: https://rubyconferenceproject.com/2025-07-03-interview-adrian-marin/
 teaser: >-

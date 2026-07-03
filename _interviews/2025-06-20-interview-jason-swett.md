@@ -1,7 +1,7 @@
 ---
 title: Jason Swett and Sin City Ruby
-voice: jason-swett
-host: travis-dockter
+voice: Jason Swett
+host: Travis Dockter
 date: 2025-06-20
 source_url: https://rubyconferenceproject.com/2025-06-20-interview-jason-swett/
 teaser: >-

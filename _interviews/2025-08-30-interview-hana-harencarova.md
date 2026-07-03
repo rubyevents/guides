@@ -1,7 +1,7 @@
 ---
 title: Hana Harencarova and Helvetic Ruby
-voice: hana-harencarova
-host: travis-dockter
+voice: Hana Harencarova
+host: Travis Dockter
 date: 2025-08-30
 source_url: https://rubyconferenceproject.com/2025-08-30-interview-hana-harencarova/
 teaser: >-

@@ -1,71 +1,59 @@
-- id: jeremy-smith
-  name: Jeremy Smith
+- name: Jeremy Smith
   conference: Blue Ridge Ruby
   initials: JS
   image: /assets/images/avatars/jeremy.jpg
 
-- id: spike-ilacqua
-  name: Spike Ilacqua
+- name: Spike Ilacqua
   conference: Rocky Mountain Ruby
   initials: SI
   image: /assets/images/avatars/spike.jpg
 
-- id: marty-haught
-  name: Marty Haught
+- name: Marty Haught
   conference: Rocky Mountain Ruby
   initials: MH
   image: /assets/images/avatars/marty.jpg
 
-- id: jason-charnes
-  name: Jason Charnes
+- name: Jason Charnes
   conference: Southeast Ruby
   initials: JC
   image: /assets/images/avatars/jasonc.png
 
-- id: jason-swett
-  name: Jason Swett
+- name: Jason Swett
   conference: Sin City Ruby
   initials: JS
   image: /assets/images/avatars/jasons.jpg
 
-- id: adrian-marin
-  name: Adrian Marin
+- name: Adrian Marin
   conference: Friendly.rb
   initials: AM
   image: /assets/images/avatars/adrian.jpg
 
-- id: andy-croll
-  name: Andy Croll
+- name: Andy Croll
   conference: Brighton Ruby
   initials: AC
   image: /assets/images/avatars/andy.jpg
 
-- id: cirdes-henrique
-  name: Cirdes Henrique
+- name: Cirdes Henrique
   conference: Tropical on Rails
   initials: CH
   image: /assets/images/avatars/cirdes.jpeg
 
-- id: hana-harencarova
-  name: Hana Harencarova
+- name: Hana Harencarova
   conference: Helvetic Ruby
   initials: HH
   image: /assets/images/avatars/hana.jpeg
 
-- id: amanda-perino
-  name: Amanda Perino
+- name: Amanda Perino
   conference: Rails World
   initials: AP
   image: /assets/images/avatars/amanda.jpg
 
-- id: irina-nazarova
-  name: Irina Nazarova
+- name: Irina Nazarova
   conference: SF Ruby Conference
   initials: IN
   image: /assets/images/avatars/irina.webp
 
-- id: hans-schnedlitz
-  name: Hans Schnedlitz
+- name: Hans Schnedlitz
   conference: Vienna.rb
   initials: HS
   image: /assets/images/avatars/hans.png

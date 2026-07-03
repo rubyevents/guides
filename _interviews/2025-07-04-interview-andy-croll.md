@@ -1,7 +1,7 @@
 ---
 title: Andy Croll and Brighton Ruby
-voice: andy-croll
-host: travis-dockter
+voice: Andy Croll
+host: Travis Dockter
 date: 2025-07-04
 source_url: https://rubyconferenceproject.com/2025-07-04-interview-andy-croll/
 teaser: >-
