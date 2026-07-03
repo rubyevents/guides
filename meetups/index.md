@@ -15,9 +15,9 @@ A practical guide for starting and sustaining a local Ruby meetup — from findi
 
 Ruby is more than a programming language - it's a community.
 
-Meetups are what keeps this community alive. An active meetup scene produces the people who later travel to conferences, give talks, build open source libraries, and bring others in.
+Meetups are what keeps this community alive. An active meetup scene produces the people who later travel to conferences, give talks, or build open source.
 
-A local meetup is where junior developers get to see what more experienced developers actually think about. Where someone gets a job because they handed out a sticker and had a conversation. Where someone on a bad project hears a talk that reframes what they have been struggling with. None of those things happen online.
+A local meetup is where a junior developers gets inspired. It's where someone gets a job because they had a conversation. And it's where someone on a bad project hears a talk that helps them with what they have been struggling with. None of those things happen online.
 
 You do not need a big reason to start a meetup. You just need to want one to exist.
 
@@ -30,15 +30,17 @@ You do not need a big reason to start a meetup. You just need to want one to exi
 
 ## Starting From Zero
 
-The first meetup is the hardest. You have no track record, no attendee list, and no idea if anyone will show up. The way through is to do the minimum that gets people into a room, and worry about everything else later.
+The first meetup is the hardest. You have no experience and no idea if anyone will show up.
+
+It's fine, we've all been there. Do the minimum that gets some Rubyists into a room, and worry about everything else later.
 
 ### Your first venue
 
-Secure a venue for a specific date. Everything else can be figured out on the fly. The venue cannot.
+Secure a venue for a specific date. Without a place to meet, there can be no meetup.
 
-The best first venue for a tech meetup is an office. After the pandemic, most companies have meeting rooms and common spaces sitting empty in the evenings. A Ruby or Rails shop is the obvious first call, but any tech company with a suitable space will often say yes. They get their name mentioned to a room full of developers; you get a free room.
+The best first venue for a tech meetup is often an office. Many companies have meeting rooms and common spaces sitting empty in the evenings. A Ruby shop is the obvious first call, but any tech company with a suitable space works. They get their name mentioned to a room full of developers and you get a free room.
 
-A university, a co-working space, or even a bar can all work for a first event. All you need is enough chairs for the people you expect, somewhere to plug in a laptop, and ideally a wall or screen to project on.
+Universities, co-working spaces - or even bars or bakeries - are other possible venues. All you need is enough chairs for the people you expect, somewhere to plug in a laptop, and ideally a wall or screen to project on.
 
 {% include testimonial.html
   name="Hans Schnedlitz"
@@ -47,7 +49,7 @@ A university, a co-working space, or even a bar can all work for a first event. 
 
 ### Create an event
 
-Once you have a venue, pick a date and create an event listing. The event listing needs only the basics: date, time, location, a sentence or two about what the meetup is. You can add speakers or other program details as they are confirmed.
+Once you have a venue, pick a date and create an event listing. The event listing needs only the basics - the date, time, location, a sentence or two about what the meetup is about. You can add speakers or other program details as they are confirmed.
 
 {% capture event_hosting_tip %}
 When choosing an event hosting platform, there's really only two options.
@@ -60,21 +62,21 @@ Do not expect these platform to promote the event for you they will not.
 
 ### Tell people
 
-Then start telling people directly. Post in any local developer Slack groups. Post in the Ruby Central Slack. Email and text people you know personally who might come. Post on LinkedIn if you have any network there.
+If you want people to come to your meetup you first have to tell them about it.
 
-Do not wait until the event feels polished or the lineup feels complete. The first event will be a bit rough no matter what, and the only way to have a second event is to have the first one.
+Find online places where your local community hangs out - and post there. This can be Slack, Discord, or social media. Email and text Rubyists you know personally. Post on LinkedIn if you have a network there.
 
 ### Five people is fine
 
-The first event will probably be small. That is not a failure; it is a first event. Some of the best ongoing meetups started with a handful of people in someone's office conference room. What matters is that the people who came had a decent time and would come again.
+The first event will probably be small. That's fine - it's a first event! Some of the best ongoing meetups started with a handful of people. What matters is that the people who came had a decent time and would come again.
 
-Don't measure the first event against a full room. You created something that didn't exist before, and some number of people showed up because of you.
+Don't measure the first event against a full room. You created something that didn't exist before, and people showed up and connected because of you.
 
 ---
 
 ## Your Format
 
-Every meetup is different - there is no format to rule them all. Find something that works for the specific group of people who show up in your specific city.
+Every meetup is different - there is no format to rule them all. Find something that works for the specific group of people who show up in your specific region.
 
 That said, some formats are more common than others.
 
