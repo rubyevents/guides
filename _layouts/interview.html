@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-{%- assign voice = site.data.voices | where: 'id', page.voice | first -%}
-{%- assign host = site.data.hosts | where: 'id', page.host | first -%}
+{%- assign voice = site.data.voices | where: 'name', page.voice | first -%}
+{%- assign host = site.data.hosts | where: 'name', page.host | first -%}
 {%- assign has_highlights = false -%}
 {%- if page.highlights.size > 0 -%}
   {%- assign has_highlights = true -%}

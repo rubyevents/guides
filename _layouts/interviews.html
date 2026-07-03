@@ -9,7 +9,7 @@ layout: default
 
     <ol class="interviews-list" aria-label="Interviews">
       {%- for interview in interviews -%}
-        {%- assign voice = site.data.voices | where: 'id', interview.voice | first -%}
+        {%- assign voice = site.data.voices | where: 'name', interview.voice | first -%}
         <li class="interviews-list__item">
           <a class="interview-card" href="{{ interview.url | relative_url }}">
             {%- if voice.image -%}
