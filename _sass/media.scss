@@ -99,9 +99,29 @@
 
   // Page layouts: tighter spacing on mobile
   .guide-layout,
-  .index-layout {
+  .index-layout,
+  .interviews-shell,
+  .interview-shell {
     padding-inline: var(--space-4);
     padding-block: var(--space-6) var(--space-8);
+  }
+
+  .interview-card {
+    gap: var(--space-3);
+  }
+
+  .interview-card__avatar {
+    inline-size: 3rem;
+    block-size: 3rem;
+  }
+
+  .interview-header {
+    grid-template-columns: 1fr;
+  }
+
+  .interview-header__avatar {
+    inline-size: 4.5rem;
+    block-size: 4.5rem;
   }
 
   .guide-content {
@@ -193,6 +213,28 @@
   }
 
   .toc--mobile {
+    display: none;
+  }
+
+  .interviews-shell,
+  .interview-shell {
+    grid-template-columns: minmax(0, 1fr) 18rem;
+    gap: var(--toc-gap);
+    align-items: start;
+  }
+
+  .interviews-aside,
+  .interview-aside {
+    display: block;
+    position: sticky;
+    top: var(--space-8);
+    max-height: calc(100vh - var(--space-10));
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+
+  .interview-mobile-aside {
     display: none;
   }
 

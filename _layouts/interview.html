@@ -1,0 +1,152 @@
+---
+layout: default
+---
+{%- assign voice = site.data.voices | where: 'id', page.voice | first -%}
+{%- assign host = site.data.hosts | where: 'id', page.host | first -%}
+{%- assign has_highlights = false -%}
+{%- if page.highlights.size > 0 -%}
+  {%- assign has_highlights = true -%}
+{%- endif -%}
+{%- assign has_links = false -%}
+{%- if page.links.size > 0 -%}
+  {%- assign has_links = true -%}
+{%- endif -%}
+
+<article class="interview-shell">
+  <div class="interview-main">
+    <header class="interview-header">
+      {%- if voice.image -%}
+        <img
+          class="interview-header__avatar"
+          src="{{ voice.image | relative_url }}"
+          alt=""
+          width="96"
+          height="96"
+        >
+      {%- elsif voice.initials -%}
+        <span class="interview-header__avatar interview-header__avatar--initials" aria-hidden="true">
+          {{- voice.initials -}}
+        </span>
+      {%- endif -%}
+
+      <div class="interview-header__body">
+        <p class="eyebrow">Interview</p>
+        <h1>{{ page.title }}</h1>
+
+        {%- if page.teaser -%}
+          <p class="interview-header__teaser">{{ page.teaser }}</p>
+        {%- endif -%}
+
+        <div class="interview-meta" aria-label="Interview metadata">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+
+          {%- if host -%}
+            <span class="interview-meta__host">
+              {%- if host.image -%}
+                <img
+                  class="interview-meta__host-avatar"
+                  src="{{ host.image | relative_url }}"
+                  alt=""
+                  width="24"
+                  height="24"
+                >
+              {%- endif -%}
+              <span>Host: {{ host.name }}</span>
+            </span>
+          {%- endif -%}
+        </div>
+      </div>
+    </header>
+
+    {%- if has_highlights or has_links or page.source_url -%}
+      <aside class="interview-mobile-aside" aria-label="Interview resources">
+        {%- if has_highlights -%}
+          <section class="interview-aside__section">
+            <p class="toc__heading">Highlights</p>
+            <ol class="interview-highlights">
+              {%- for highlight in page.highlights -%}
+                <li class="interview-highlights__item">
+                  <a class="interview-highlights__link" href="#{{ highlight.anchor | default: 'transcript' }}">
+                    <span class="interview-highlights__title">{{ highlight.title }}</span>
+                    {%- if highlight.summary -%}
+                      <span class="interview-highlights__summary">{{ highlight.summary }}</span>
+                    {%- endif -%}
+                  </a>
+                </li>
+              {%- endfor -%}
+            </ol>
+          </section>
+        {%- endif -%}
+
+        {%- if has_links -%}
+          <section class="interview-aside__section">
+            <p class="toc__heading">Related links</p>
+            <ul class="interview-links">
+              {%- for link in page.links -%}
+                <li>
+                  <a href="{{ link.url }}">{{ link.label }}</a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </section>
+        {%- endif -%}
+
+        {%- if page.source_url -%}
+          <section class="interview-aside__section">
+            <p class="toc__heading">Source</p>
+            <a class="interview-source" href="{{ page.source_url }}">Ruby Conference Project</a>
+          </section>
+        {%- endif -%}
+      </aside>
+    {%- endif -%}
+
+    <section class="interview-content" id="transcript" aria-label="Interview transcript">
+      {{ content }}
+    </section>
+  </div>
+
+  <aside class="interview-aside" aria-label="Interview resources">
+    {%- if has_highlights -%}
+      <section class="interview-aside__section">
+        <p class="toc__heading">Highlights</p>
+        <ol class="interview-highlights">
+          {%- for highlight in page.highlights -%}
+            <li class="interview-highlights__item">
+              <a class="interview-highlights__link" href="#{{ highlight.anchor | default: 'transcript' }}">
+                <span class="interview-highlights__title">{{ highlight.title }}</span>
+                {%- if highlight.summary -%}
+                  <span class="interview-highlights__summary">{{ highlight.summary }}</span>
+                {%- endif -%}
+              </a>
+            </li>
+          {%- endfor -%}
+        </ol>
+      </section>
+    {%- endif -%}
+
+    {%- if has_links -%}
+      <section class="interview-aside__section">
+        <p class="toc__heading">Related links</p>
+        <ul class="interview-links">
+          {%- for link in page.links -%}
+            <li>
+              <a href="{{ link.url }}">{{ link.label }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+    {%- endif -%}
+
+    {%- if page.source_url -%}
+      <section class="interview-aside__section">
+        <p class="toc__heading">Source</p>
+        <a class="interview-source" href="{{ page.source_url }}">Ruby Conference Project</a>
+      </section>
+    {%- endif -%}
+
+    <section class="interview-aside__section">
+      <p class="toc__heading">More</p>
+      <a class="interview-source" href="{{ '/interviews/' | relative_url }}">All interviews</a>
+    </section>
+  </aside>
+</article>

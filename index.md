@@ -25,6 +25,12 @@ These guides were built from conversations with organizers around the world — 
       <li class="toc__item"><a class="toc__link index-rail__link" href="{{ '/meetups/' | relative_url }}">Running Ruby Meetups</a></li>
       <li class="toc__item"><a class="toc__link index-rail__link" href="{{ '/conferences/' | relative_url }}">Running Ruby Conferences</a></li>
     </ul>
+
+    <p class="toc__heading index-rail__heading">Resources</p>
+    <ul class="toc__list">
+      <li class="toc__item"><a class="toc__link index-rail__link" href="{{ '/interviews/' | relative_url }}">The Interviews</a></li>
+    </ul>
+
   </div>
 
   <div class="index-note">
@@ -57,9 +63,17 @@ These guides were built from conversations with organizers around the world — 
     <span class="start-link__title">Running Ruby Conferences</span>
     <span class="start-link__description">From your first venue to a room full of people who came because of you.</span>
   </a>
+  <a class="start-link start-link--resource" href="{{ '/interviews/' | relative_url }}">
+    <span class="start-link__title">The Interviews</span>
+    <span class="start-link__description">Read the organizer conversations behind the guides.</span>
+  </a>
 </nav>
 
 ## Voices behind the guides
+
+<p class="voices-intro">These guides are built from full conversations with organizers who have started, sustained, revived, and scaled Ruby communities around the world.</p>
+
+<p class="voices-cta"><a href="{{ '/interviews/' | relative_url }}">Read the full interviews</a></p>
 
 <ul class="voices">
 {% for voice in site.data.voices %}

@@ -1,18 +1,18 @@
 ---
+title: Amanda Perino and Rails World
+voice: amanda-perino
+host: travis-dockter
+date: 2025-10-03
 source_url: https://rubyconferenceproject.com/2025-10-03-amanda-perino/
-title: Interview: Amanda Perino (Organizer)
-description: Organizer of Rails World
-image: https://rubyconferenceproject.com/images/amanda.jpg
+teaser: >-
+  Amanda Perino talks about bringing event experience from HashiConf to Rails World, choosing venues, managing risk, and creating spaces that make large conferences feel humane.
+links:
+  - label: "LinkedIn"
+    url: https://www.linkedin.com/in/amandabrookeperino/
+  - label: "Rails Foundation"
+    url: https://rubyonrails.org/foundation
+highlights: []
 ---
-
-### Links
-
-LinkedIn: <https://www.linkedin.com/in/amandabrookeperino/>
-
-Rails Foundation: <https://rubyonrails.org/foundation>
-
-## Transcript
-
 **Travis Dockter:** Alright, we are not live. I was going to say we're live, but we are started. Here we go. Welcome to my casual conference chats, where I interview conference organizers and ask them all the burning questions that I have about your experience and any guidance or knowledge that I can get to help me, and hopefully others, organize our own conferences.
 
 I'm going to start early in the timeline. I was looking at your history, and you had kind of a lot of event-oriented experience before Rails World. Can you give us a little bit of an overview of your experience before Rails World, to give us context before we jump into that? And quickly introduce yourself as well, if people...

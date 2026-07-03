@@ -1,19 +1,21 @@
 ---
+title: Marty Haught and Rocky Mountain Ruby
+voice: marty-haught
+host: travis-dockter
+date: 2025-05-16
 source_url: https://rubyconferenceproject.com/2025-05-16-marty-haught-interview/
-title: Interview: Marty Haught (Organizer)
-description: Organizer of Rocky Mountain Ruby
-image: https://rubyconferenceproject.com/images/marty.jpg
+teaser: >-
+  Marty Haught talks about bringing Rocky Mountain Ruby back, choosing the right venue, working within realistic constraints, and building an event around the community you already have.
+links:
+  - label: "Marty's Bluesky"
+    url: https://bsky.app/profile/mghaught.bsky.social
+  - label: "Marty's LinkedIn"
+    url: https://www.linkedin.com/in/martyhaught/
+highlights: []
 ---
-
 Previous Organizer of Rocky Mountain Ruby
 
-Marty's Bluesky: <https://bsky.app/profile/mghaught.bsky.social>
-
-Marty's LinkedIn: <https://www.linkedin.com/in/martyhaught/>
-
 Marty Haught was the first person to say yes to a call, and I’m so grateful. We had a great conversation about what it means to organize your first conference, and he generously shared insights from his years of organizing. Thank you, Marty, for taking a Zoom call with a total stranger, and for your patience with my "um"s and "uh"s during my first ever interview!
-
-## Transcript
 
 **Travis Dockter:** Are you ready?
 

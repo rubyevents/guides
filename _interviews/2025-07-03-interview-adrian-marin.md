@@ -1,18 +1,20 @@
 ---
+title: Adrian Marin and Friendly.rb
+voice: adrian-marin
+host: travis-dockter
+date: 2025-07-03
 source_url: https://rubyconferenceproject.com/2025-07-03-interview-adrian-marin/
-title: Interview: Adrian Marin (Organizer)
-description: Organizer of Friendy.rb
-image: https://rubyconferenceproject.com/images/adrian.jpg
+teaser: >-
+  Adrian Marin shares the thinking behind Friendly.rb, including intentional event design, community trust, and creating a conference people want to talk about.
+links:
+  - label: "Adrian's X"
+    url: https://twitter.com/adrianthedev
+  - label: "Adrian's BlueSky"
+    url: https://bsky.app/profile/adrianthedev.com
+  - label: "Adrian's LinkedIn"
+    url: https://linkedin.com/in/adrianthedev
+highlights: []
 ---
-
-Adrian's X: <https://twitter.com/adrianthedev>
-
-Adrian's BlueSky: <https://bsky.app/profile/adrianthedev.com>
-
-Adrian's LinkedIn: <https://linkedin.com/in/adrianthedev>
-
-## Transcript
-
 **Travis Dockter:** Okay, cool. So welcome to these casual, off-the-cuff conference organizing chats that I've been having. You are Adrian Marin, the organizer of Friendly.rb for the past couple years. I guess, to just start us off, I'd love to hear about your first conference, how that came about, maybe why you started it, and how it went.
 
 **Adrian Marin:** The first edition of Friendly? That's an interesting question. So that happened in 2023, and in 2022 I went, I think, to my first Ruby conference. It was Wroclove.rb in Poland. I went before to different web conferences and different technology conferences, but this was the first Ruby one, and I quite liked the vibe and the community, and everybody who put together that whole event and that whole experience.

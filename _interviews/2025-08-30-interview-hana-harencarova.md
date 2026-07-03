@@ -1,20 +1,20 @@
 ---
+title: Hana Harencarova and Helvetic Ruby
+voice: hana-harencarova
+host: travis-dockter
+date: 2025-08-30
 source_url: https://rubyconferenceproject.com/2025-08-30-interview-hana-harencarova/
-title: Interview: Hana Harencarova (Organizer)
-description: Organizer of Helvetic Ruby
-image: https://rubyconferenceproject.com/images/hana.jpeg
+teaser: >-
+  Hana Harencarova talks about launching Helvetic Ruby with a small team, splitting responsibilities, setting a realistic budget, and keeping the first year focused.
+links:
+  - label: "Helvetic Ruby"
+    url: https://helvetic-ruby.ch
+  - label: "Helvetic Ruby LinkedIn"
+    url: https://www.linkedin.com/company/helvetic-ruby
+  - label: "Hana's website"
+    url: https://hharen.com
+highlights: []
 ---
-
-### Links
-
-Helvetic Ruby: <https://helvetic-ruby.ch>
-
-Helvetic Ruby LinkedIn: <https://www.linkedin.com/company/helvetic-ruby>
-
-Hana's website: <https://hharen.com>
-
-## Transcript
-
 **Travis Dockter:** All right, welcome to the unprofessional, casual conference organizer chat that I've been doing. I want to say welcome, and thank you for taking the time. I'm going to try to say your name. I don't know if I'm going to pronounce it right, let me know. But it's Hana Harencarova?
 
 **Hana Harencarova:** Yep, that's pretty good.

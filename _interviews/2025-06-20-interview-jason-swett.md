@@ -1,16 +1,18 @@
 ---
+title: Jason Swett and Sin City Ruby
+voice: jason-swett
+host: travis-dockter
+date: 2025-06-20
 source_url: https://rubyconferenceproject.com/2025-06-20-interview-jason-swett/
-title: Interview: Jason Swett (Organizer)
-description: Organizer of Sin City Ruby
-image: https://rubyconferenceproject.com/images/jasons.jpg
+teaser: >-
+  Jason Swett discusses organizing Sin City Ruby, handling the uncertainty of a first event, and making clear choices about audience, venue, and scope.
+links:
+  - label: "Jason's X"
+    url: https://www.x.com/JasonSwett
+  - label: "Jason's LinkedIn"
+    url: https://www.linkedin.com/in/jasonswett/
+highlights: []
 ---
-
-Jason's X: <https://www.x.com/JasonSwett>
-
-Jason's LinkedIn: <https://www.linkedin.com/in/jasonswett/>
-
-## Transcript
-
 **Travis Dockter:** Okay, all right. Well, welcome to these. I've been saying many different adjectives, but impromptu, unofficial organizer chats that I've been having. A little bit of context for you. You are the organizer of, or former organizer, we'll say, of Sin City Ruby, which is going to be an interesting chat specifically because you're the first organizer that I'm speaking to that I actually have been to your conference multiple times. So I get to see a little bit of behind the scenes of a conference that I got to see from a firsthand perspective.
 
 You also have a kind of interesting origin story for your conference, because you never planned to have a conference. At first you booked space for a class, and then you found it hard to sell tickets for a class. And so you pivoted. What was that experience like? What was it like to have in mind, okay, I'm doing this class, and then all of a sudden, you're organizing a conference? What was that kind of like?

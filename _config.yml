@@ -1,9 +1,21 @@
 url: "https://rubyevents.github.io"
 github_repo: "rubyevents/guides"
 github_branch: "main"
-baseurl: "/guides"
+baseurl: ""
 title: "Ruby Community Guides"
 description: "Practical guides for starting and running Ruby communities."
+
+collections:
+  interviews:
+    output: true
+    permalink: /interviews/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: interviews
+    values:
+      layout: interview
 
 exclude:
   - vendor
@@ -11,4 +23,3 @@ exclude:
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-  - interviews

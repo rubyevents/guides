@@ -1,20 +1,29 @@
 ---
+title: Irina Nazarova and SF Ruby Conference
+voice: irina-nazarova
+host: travis-dockter
+date: 2026-01-27
 source_url: https://rubyconferenceproject.com/2026-01-27-interview-irina-nazarova/
-title: Interview: Irina Nazarova (Organizer)
-description: CEO of Evil Martians and Organizer of SF Ruby Conference
-image: https://rubyconferenceproject.com/images/irina.webp
+teaser: >-
+  Irina Nazarova reflects on launching SF Ruby Conference quickly, building momentum around a local meetup, attracting founders, and designing a big event around the Bay Area Ruby community.
+links:
+  - label: "SF Ruby"
+    url: https://sfruby.org
+  - label: "Evil Martians"
+    url: https://evilmartians.com
+  - label: "Irina's X"
+    url: https://x.com/inazarova
+highlights:
+  - title: "Launching a conference quickly"
+    anchor: transcript
+    summary: "How SF Ruby moved from meetup momentum to a large conference on a compressed timeline."
+  - title: "Local identity as event design"
+    anchor: transcript
+    summary: "Why venue, city, and Bay Area founder culture shaped the shape of the event."
+  - title: "Marketing experiments people share"
+    anchor: transcript
+    summary: "Cloud cards, short videos, and creative small bets that helped the event travel."
 ---
-
-### Links
-
-SF Ruby: <https://sfruby.org>
-
-Evil Martians: <https://evilmartians.com>
-
-Irina's X: <https://x.com/inazarova>
-
-## Transcript
-
 **Travis Dockter:** Okay. Well, welcome, Irina, to my conference chat. I am speaking to you today because of SF Ruby. You are CEO of Evil Martians, and Evil Martians is an agency known for the blog, open source contributions, and now for the SF Ruby Conference.
 
 So, just to give the quick recap of that: it was three days of 30-plus talks, 25 demos, 400-plus attendees, 30 sponsors. This was a very big, complex event that you put on in a pretty short amount of time. Could you give us the timeline of when you were kind of like, okay, we're going to do this, we're going to make a conference, until November? Because I think that was only a couple months, right?

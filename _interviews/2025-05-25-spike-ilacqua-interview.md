@@ -1,14 +1,16 @@
 ---
+title: Spike Ilacqua and Rocky Mountain Ruby
+voice: spike-ilacqua
+host: travis-dockter
+date: 2025-05-25
 source_url: https://rubyconferenceproject.com/2025-05-25-spike-ilacqua-interview/
-title: Interview: Spike Ilacqua (Organizer)
-description: Organizer of Rocky Mountain Ruby
-image: https://rubyconferenceproject.com/images/spike.jpg
+teaser: >-
+  Spike Ilacqua shares what makes small single-track conferences work, from long hallway breaks and local identity to the practical decisions behind Rocky Mountain Ruby.
+links:
+  - label: "Spike's Blog"
+    url: https://spikex.dev
+highlights: []
 ---
-
-Spike's Blog: <https://spikex.dev>
-
-## Transcript
-
 **Travis Dockter:** Okay, so this is pretty casual. First off, thank you so much for making the time. I think I heard your interview, I think it was last year, with Remote Ruby leading up to Rocky Mountain Ruby. I reached out because, to give a little background, I was kind of going to Sin City Ruby and RailsConf every year. Those were the main conferences that I started going to every year. And this year is the last year for both of those. So I was trying to think this year of like, okay, what do I want to go to next?
 
 Hopefully, Rocky Mountain Ruby will be one of those. But it also got me thinking, what if I organized my own? This is very early, kind of exploring that. I'm 95% sure I'm going to do it, but still just kind of exploring. I want to talk to as many people as I can that have organized their own conferences.

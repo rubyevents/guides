@@ -1,14 +1,16 @@
 ---
+title: Andy Croll and Brighton Ruby
+voice: andy-croll
+host: travis-dockter
+date: 2025-07-04
 source_url: https://rubyconferenceproject.com/2025-07-04-interview-andy-croll/
-title: Interview: Andy Croll (Organizer)
-description: Organizer of Brighton Ruby
-image: https://rubyconferenceproject.com/images/andy.jpg
+teaser: >-
+  Andy Croll reflects on years of running Brighton Ruby, keeping a conference sustainable, controlling costs, and knowing which parts of the format not to change.
+links:
+  - label: "Andy's Website"
+    url: https://andycroll.com/
+highlights: []
 ---
-
-Andy's Website: <https://andycroll.com/>
-
-## Transcript
-
 **Travis Dockter:** Okay. So Andy Croll, welcome to my kind of casual, off-the-cuff, very unprofessional, unofficial conference chats that I've been having.
 
 **Andy Croll:** Unprofessional is in my wheelhouse. So let's.

@@ -299,6 +299,10 @@
     }
   }
 
+  .index-rail__heading {
+    margin-top: var(--space-5);
+  }
+
   // The TOC-style guide list shows in the rail on desktop only; on mobile the
   // in-content .start-link block takes over, sitting just before Voices.
   .index-rail__guides {
@@ -347,6 +351,12 @@
     border-top: 1px solid var(--color-border);
     color: var(--color-text);
     text-decoration: none;
+
+    &--resource {
+      .start-link__title {
+        color: var(--color-link);
+      }
+    }
 
     &:hover {
       .start-link__title {
@@ -635,6 +645,17 @@
 
   // ── Voices behind the guides ───────────────────────────────────────────────
 
+  .voices-intro {
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-normal);
+  }
+
+  .voices-cta {
+    margin-bottom: var(--space-5);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+  }
+
   .voices {
     list-style: none;
     padding: 0;
@@ -689,6 +710,338 @@
   .voice__conference {
     font-size: var(--font-size-xs);
     color: var(--color-text-secondary);
+  }
+
+  // ── Interviews archive and detail pages ───────────────────────────────────
+
+  .interviews-shell,
+  .interview-shell {
+    max-width: var(--max-width-content);
+    margin-inline: auto;
+    padding-inline: var(--space-6);
+    padding-block: var(--space-8) var(--space-10);
+  }
+
+  .interviews-shell,
+  .interview-shell {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-7);
+  }
+
+  .interviews-main,
+  .interview-main {
+    min-width: 0;
+    max-width: var(--max-width-prose);
+  }
+
+  .interviews-header {
+    margin-bottom: var(--space-7);
+
+    h1 {
+      margin-bottom: var(--space-4);
+    }
+
+    p:not(.eyebrow) {
+      color: var(--color-text-secondary);
+      font-size: var(--font-size-lg);
+      line-height: var(--line-height-normal);
+    }
+  }
+
+  .interviews-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .interviews-list__item {
+    margin: 0;
+  }
+
+  .interview-card {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: var(--space-4);
+    padding-block: var(--space-5);
+    border-top: 1px solid var(--color-border);
+    color: var(--color-text);
+    text-decoration: none;
+
+    &:hover {
+      .interview-card__title {
+        color: var(--color-accent-hover);
+      }
+    }
+
+    &:focus-visible {
+      outline-offset: 4px;
+    }
+  }
+
+  .interview-card__avatar {
+    display: inline-grid;
+    place-items: center;
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+    border-radius: var(--border-radius-full);
+    object-fit: cover;
+    background: var(--color-bg-tertiary);
+  }
+
+  .interview-card__avatar--initials {
+    color: var(--color-text-inverse);
+    background: var(--color-accent);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-wide);
+  }
+
+  .interview-card__body {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .interview-card__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2) var(--space-3);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-snug);
+  }
+
+  .interview-card__title {
+    color: var(--color-link);
+    font-family: var(--font-display);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-snug);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color var(--duration-fast) var(--easing-out);
+  }
+
+  .interview-card__teaser {
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-normal);
+  }
+
+  .interview-card__highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
+  }
+
+  .interview-card__highlight {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-full);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    padding: var(--space-1) var(--space-3);
+  }
+
+  .interviews-aside,
+  .interview-aside {
+    display: none;
+  }
+
+  .interviews-aside__section,
+  .interview-aside__section {
+    & + & {
+      margin-top: var(--space-7);
+      padding-top: var(--space-5);
+      border-top: 1px solid var(--color-border-subtle);
+    }
+  }
+
+  .interviews-aside__text {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-normal);
+  }
+
+  .interview-header {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: var(--space-5);
+    align-items: start;
+    margin-bottom: var(--space-7);
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .interview-header__avatar {
+    display: inline-grid;
+    place-items: center;
+    inline-size: 6rem;
+    block-size: 6rem;
+    border-radius: var(--border-radius-full);
+    object-fit: cover;
+    background: var(--color-bg-tertiary);
+  }
+
+  .interview-header__avatar--initials {
+    color: var(--color-text-inverse);
+    background: var(--color-accent);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-wide);
+  }
+
+  .interview-header__body {
+    min-width: 0;
+  }
+
+  .interview-header__teaser {
+    margin-top: var(--space-4);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-normal);
+  }
+
+  .interview-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2) var(--space-4);
+    margin-top: var(--space-5);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-snug);
+  }
+
+  .interview-meta__host {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .interview-meta__host-avatar {
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    border-radius: var(--border-radius-full);
+    object-fit: cover;
+  }
+
+  .interview-mobile-aside {
+    margin-bottom: var(--space-7);
+    padding-block: var(--space-5);
+    border-block: 1px solid var(--color-border);
+  }
+
+  .interview-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .interview-highlights__item {
+    margin: 0;
+  }
+
+  .interview-highlights__link {
+    display: block;
+    color: var(--color-link);
+    text-decoration: none;
+
+    &:hover {
+      .interview-highlights__title {
+        color: var(--color-accent-hover);
+      }
+    }
+  }
+
+  .interview-highlights__title {
+    display: block;
+    color: var(--color-text);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-snug);
+    transition: color var(--duration-fast) var(--easing-out);
+  }
+
+  .interview-highlights__summary {
+    display: block;
+    margin-top: var(--space-1);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-normal);
+  }
+
+  .interview-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-snug);
+  }
+
+  .interview-links li {
+    margin: 0;
+  }
+
+  .interview-source {
+    color: var(--color-link);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+
+    &:hover {
+      color: var(--color-accent-hover);
+    }
+  }
+
+  .interview-content {
+    scroll-margin-top: var(--space-8);
+
+    h2 {
+      margin-top: var(--space-8);
+      margin-bottom: var(--space-4);
+      letter-spacing: var(--letter-spacing-tight);
+    }
+
+    h3 {
+      margin-top: var(--space-6);
+      margin-bottom: var(--space-3);
+    }
+
+    p {
+      line-height: var(--line-height-relaxed);
+    }
+
+    p:has(> strong:first-child) {
+      margin-top: var(--space-5);
+    }
+
+    p > strong:first-child {
+      display: block;
+      margin-bottom: var(--space-1);
+      color: var(--color-accent);
+      font-size: var(--font-size-sm);
+      font-weight: var(--font-weight-semibold);
+      letter-spacing: var(--letter-spacing-caps);
+      line-height: var(--line-height-snug);
+      text-transform: uppercase;
+    }
   }
 
   // Contribute callout sits inline in the homepage intro at every width.
