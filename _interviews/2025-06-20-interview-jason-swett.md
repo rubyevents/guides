@@ -11,73 +11,90 @@ links:
     url: https://www.x.com/JasonSwett
   - label: "Jason's LinkedIn"
     url: https://www.linkedin.com/in/jasonswett/
-highlights: []
+highlights:
+  - title: "Starting small and low-risk"
+    anchor: starting-small-low-risk
+  - title: "Handpicking speakers over a CFP"
+    anchor: handpicking-speakers
+  - title: "The first-year catering mistake"
+    anchor: first-year-catering-mistake
+  - title: "Dealing with hotel venues"
+    anchor: dealing-with-hotels
+  - title: "Keeping it simple without sponsors"
+    anchor: keeping-it-simple
 ---
-**Travis Dockter:** Okay, all right. Well, welcome to these. I've been saying many different adjectives, but impromptu, unofficial organizer chats that I've been having. A little bit of context for you. You are the organizer of, or former organizer, we'll say, of Sin City Ruby, which is going to be an interesting chat specifically because you're the first organizer that I'm speaking to that I actually have been to your conference multiple times. So I get to see a little bit of behind the scenes of a conference that I got to see from a firsthand perspective.
+
+**Travis:** Okay, all right. Well, welcome to these. I've been saying many different adjectives, but impromptu, unofficial organizer chats that I've been having. A little bit of context for you. You are the organizer of, or former organizer, we'll say, of Sin City Ruby, which is going to be an interesting chat specifically because you're the first organizer that I'm speaking to that I actually have been to your conference multiple times. So I get to see a little bit of behind the scenes of a conference that I got to see from a firsthand perspective.
 
 You also have a kind of interesting origin story for your conference, because you never planned to have a conference. At first you booked space for a class, and then you found it hard to sell tickets for a class. And so you pivoted. What was that experience like? What was it like to have in mind, okay, I'm doing this class, and then all of a sudden, you're organizing a conference? What was that kind of like?
 
-**Jason Swett:** Yeah, it was not as big of a deal as it might sound like, because conference doesn't have to mean a big RailsConf type thing or something like that. It can just be a small get-together. I had talked previously with Andy Croll, who organizes Brighton Ruby, and he had said that when he did the first Brighton Ruby, he planned it such that if only 50 people came, that would be okay. So I kept that in mind. And indeed we had maybe about 40 people ultimately come to that first one, and it was okay. I lost a little bit of money, but not much, and it felt kind of like a meetup, almost, because it was just small. I've certainly been to meetups that are a lot bigger than the first Sin City Ruby was. So yeah, it didn't feel like that big of a deal. There was some money on the line and all that stuff, but the numbers weren't huge, and it wasn't all that stressful.
+<span id="starting-small-low-risk" class="interview-anchor"></span>
 
-**Travis Dockter:** Once you knew you were organizing a conference, then you reached out to him? When did that conversation happen?
+**Jason:** Yeah, it was not as big of a deal as it might sound like, because conference doesn't have to mean a big RailsConf type thing or something like that. It can just be a small get-together. I had talked previously with Andy Croll, who organizes Brighton Ruby, and he had said that when he did the first Brighton Ruby, he planned it such that if only 50 people came, that would be okay. So I kept that in mind. And indeed we had maybe about 40 people ultimately come to that first one, and it was okay. I lost a little bit of money, but not much, and it felt kind of like a meetup, almost, because it was just small. I've certainly been to meetups that are a lot bigger than the first Sin City Ruby was. So yeah, it didn't feel like that big of a deal. There was some money on the line and all that stuff, but the numbers weren't huge, and it wasn't all that stressful.
 
-**Jason Swett:** Sorry, the connection's a little choppy. Can you say that again?
+**Travis:** Once you knew you were organizing a conference, then you reached out to him? When did that conversation happen?
 
-**Travis Dockter:** Okay, yeah. So when did you talk to Andy Croll? After the conference? Did you reach out to him?
+**Jason:** Sorry, the connection's a little choppy. Can you say that again?
 
-**Jason Swett:** No. I think I talked to him before, just on the podcast. On the Code with Jason podcast.
+**Travis:** Okay, yeah. So when did you talk to Andy Croll? After the conference? Did you reach out to him?
 
-**Travis Dockter:** Oh, okay, nice. Gotcha. How long did you have to pull that first one together? And was it kind of a rush to get speakers and sponsors and stuff? How much of that were you able to do?
+**Jason:** No. I think I talked to him before, just on the podcast. On the Code with Jason podcast.
 
-**Jason Swett:** I had a decent amount of time. I remember that it was 2022 when the conference occurred, and I had started planning it around the fall of 2021. So fall of 2021 to March or April of 2022. I had a number of months.
+**Travis:** Oh, okay, nice. Gotcha. How long did you have to pull that first one together? And was it kind of a rush to get speakers and sponsors and stuff? How much of that were you able to do?
+
+<span id="handpicking-speakers" class="interview-anchor"></span>
+
+**Jason:** I had a decent amount of time. I remember that it was 2022 when the conference occurred, and I had started planning it around the fall of 2021. So fall of 2021 to March or April of 2022. I had a number of months.
 
 For me, getting speakers was easy. I chose not to do a CFP or anything like that, because I wanted to keep the workload as light as possible. So I just handpicked the speakers. And I already knew people from my podcast, so that was pretty easy. And then, let's see, there was another part of your question, but I don't remember what it was.
 
-**Travis Dockter:** Were there any sponsors for that first one?
+**Travis:** Were there any sponsors for that first one?
 
-**Jason Swett:** No, I chose not to do sponsors, because again, I wanted to keep the workload light and keep it simple.
+**Jason:** No, I chose not to do sponsors, because again, I wanted to keep the workload light and keep it simple.
 
-**Travis Dockter:** Gotcha. So did you think that you could try to break even with just ticket sales for that first one?
+**Travis:** Gotcha. So did you think that you could try to break even with just ticket sales for that first one?
 
-**Jason Swett:** Yeah. I thought there was a good likelihood that I could break even, and I came pretty close. I think we lost like 2,000 bucks on that event. And here's a mistake that I made. My wife co-organizes the event. That's not the mistake; I'm just saying that for context. But we chose to do catering for that first conference, and it cost an insane amount. I don't remember, but it was like 40 bucks a person for a crappy sandwich and some chips, or something like that.
+<span id="first-year-catering-mistake" class="interview-anchor"></span>
+
+**Jason:** Yeah. I thought there was a good likelihood that I could break even, and I came pretty close. I think we lost like 2,000 bucks on that event. And here's a mistake that I made. My wife co-organizes the event. That's not the mistake; I'm just saying that for context. But we chose to do catering for that first conference, and it cost an insane amount. I don't remember, but it was like 40 bucks a person for a crappy sandwich and some chips, or something like that.
 
 40 times 40 is 1,600. It was, I think, more than that even. But it turns out nobody was expecting us to provide food, and hardly anybody even ate the food. They went out to lunch. And so that was kind of just a total waste. If we hadn't done that, we would have been in the black instead of in the red.
 
 For the following two years, because I did it a total of three times, I didn't do catering.
 
-**Travis Dockter:** Gotcha. When you went to do sponsors the second year, did that factor in? Did you come up with a budget of, okay, I'm going to set ticket prices here, and I have a goal of getting this much sponsorship money? Did you kind of plan that out that way, or how did you think about that?
+**Travis:** Gotcha. When you went to do sponsors the second year, did that factor in? Did you come up with a budget of, okay, I'm going to set ticket prices here, and I have a goal of getting this much sponsorship money? Did you kind of plan that out that way, or how did you think about that?
 
-**Jason Swett:** I didn't have a goal. I just wanted to get as many sponsors as I realistically could. So I did no sponsors the first two years, and then the third and final year was the only year in which I did sponsors. I just made a list of the places that I knew of that I thought might be sponsors. I looked at people who had sponsored other conferences and stuff like that, and I thought of people I knew and stuff like that.
+**Jason:** I didn't have a goal. I just wanted to get as many sponsors as I realistically could. So I did no sponsors the first two years, and then the third and final year was the only year in which I did sponsors. I just made a list of the places that I knew of that I thought might be sponsors. I looked at people who had sponsored other conferences and stuff like that, and I thought of people I knew and stuff like that.
 
 I think the first place I reached out to was Evil Martians, because I know Irina from Evil Martians, and I know that they sponsor a lot of conferences. So I reached out to her and she said yes. I got a couple other sponsors, too. Financially, that helped out a lot. I think I got somewhere in the neighborhood of $10,000 worth of sponsorship that third year. But the expenses for that third year were also really high, and I ended up losing a lot of money. But that's a different story.
 
 With the sponsors, I just kind of made a list, and then went through and asked people. Some people said no, and some people said yes.
 
-**Travis Dockter:** Was it a lot of connections with people you already knew? Or were you doing some cold outreach, just reaching out to people you didn't know, asking them to sponsor?
+**Travis:** Was it a lot of connections with people you already knew? Or were you doing some cold outreach, just reaching out to people you didn't know, asking them to sponsor?
 
-**Jason Swett:** I think both, but definitely mostly people I already knew. And in fact, maybe entirely people I already knew. I don't remember now, because it was a bit ago that I was going through all that. Let's see, there was Evil Martians, Cedarcode. Cisco Meraki sponsored, which is actually where I work now, incidentally. And I feel bad if I'm forgetting anybody, but I think those were the three.
+**Jason:** I think both, but definitely mostly people I already knew. And in fact, maybe entirely people I already knew. I don't remember now, because it was a bit ago that I was going through all that. Let's see, there was Evil Martians, Cedarcode. Cisco Meraki sponsored, which is actually where I work now, incidentally. And I feel bad if I'm forgetting anybody, but I think those were the three.
 
-**Travis Dockter:** Yeah. Okay. And you mentioned earlier that you didn't do a CFP, you just kind of chose your speakers. Did you have any kind of plan for when you were reaching out to people? Or did you just kind of reach out to people that you liked and ask them to do whatever talk?
+**Travis:** Yeah. Okay. And you mentioned earlier that you didn't do a CFP, you just kind of chose your speakers. Did you have any kind of plan for when you were reaching out to people? Or did you just kind of reach out to people that you liked and ask them to do whatever talk?
 
-**Jason Swett:** Yeah, I just reached out to people who I thought would make sense. Some people have kind of a draw. For example, I think I tried to get Chris Oliver to speak for at least two years, maybe even all three times. On the third time I finally got him, and he came and spoke. But I picked him largely because I thought he would have a draw. He's very much a known entity in the Ruby community. So I kind of did it like that. That's how it went. I really had no interest in ever doing a CFP, because that just sounds like a lot of work.
+**Jason:** Yeah, I just reached out to people who I thought would make sense. Some people have kind of a draw. For example, I think I tried to get Chris Oliver to speak for at least two years, maybe even all three times. On the third time I finally got him, and he came and spoke. But I picked him largely because I thought he would have a draw. He's very much a known entity in the Ruby community. So I kind of did it like that. That's how it went. I really had no interest in ever doing a CFP, because that just sounds like a lot of work.
 
-**Travis Dockter:** Did you give speakers any guidance on what their talk should be like? Or you just said, you have 30 minutes, whatever you want?
+**Travis:** Did you give speakers any guidance on what their talk should be like? Or you just said, you have 30 minutes, whatever you want?
 
-**Jason Swett:** If they asked for guidance, I would give that to them for sure. Most of the people were pretty experienced conference speakers, so they didn't really need it. They only asked questions like, how long do you want my talk to be? And stuff like that.
+**Jason:** If they asked for guidance, I would give that to them for sure. Most of the people were pretty experienced conference speakers, so they didn't really need it. They only asked questions like, how long do you want my talk to be? And stuff like that.
 
 I think probably every year I've had at least one first-time speaker, and sometimes they've asked for some guidance, like, hey, I'm thinking of speaking about this. Does that sound good? Whatever. So I gave them some feedback on that, and just in general, like how long their talk should be. I tell people that shorter is better. Don't feel like you have to fill 45 minutes or something like that. If you go and speak for 20 minutes, no one has ever been sad that a talk was too short.
 
 Something I heard once about public speaking is, people are just waiting for you to be done. It's kind of a sad truth. But yeah, I gave advice to those newer speakers, but again, a lot of them were already quite experienced.
 
-**Travis Dockter:** Gotcha. Did you pay for speakers' travel, or give them an honorarium, or anything like that?
+**Travis:** Gotcha. Did you pay for speakers' travel, or give them an honorarium, or anything like that?
 
-**Jason Swett:** Yeah, we did what we could for speakers, I think all three years. What we did was we just gave them an honorarium. I have never looked up the definition of honorarium, but I think it's kind of like, this is some money that we're giving you. We know that it's not nearly as much as we should be giving you, but here's something as a token of our appreciation that can at least help cover your travel a little bit.
+**Jason:** Yeah, we did what we could for speakers, I think all three years. What we did was we just gave them an honorarium. I have never looked up the definition of honorarium, but I think it's kind of like, this is some money that we're giving you. We know that it's not nearly as much as we should be giving you, but here's something as a token of our appreciation that can at least help cover your travel a little bit.
 
 I based the amount on what I had been paid at conferences that I've spoken at in past years, which is usually $0. But some conferences I've gone to, and they pay like a $500 honorarium or something like that. So I based that on that.
 
-**Travis Dockter:** Gotcha. Let's see, I have some other questions here. You have mentioned that you are done with Sin City Ruby. You might do other Ruby events in the future. Can you give us any idea of what you're thinking about, and how you're thinking about doing things differently from Sin City Ruby, or maybe just conferences in general?
+**Travis:** Gotcha. Let's see, I have some other questions here. You have mentioned that you are done with Sin City Ruby. You might do other Ruby events in the future. Can you give us any idea of what you're thinking about, and how you're thinking about doing things differently from Sin City Ruby, or maybe just conferences in general?
 
-**Jason Swett:** Yeah, there's two main reasons I'm not inclined to do more Sin City Ruby events. One is that Sin City Ruby happens in Las Vegas, and I live in Michigan, and that's a long ways away. The other is, in Las Vegas, it's hard to find a venue that is affordable and checks all the boxes we need to check and stuff like that. The third Sin City Ruby was just a big financial risk for us, and like I mentioned, we lost a lot of money. So I don't want to do that again.
+**Jason:** Yeah, there's two main reasons I'm not inclined to do more Sin City Ruby events. One is that Sin City Ruby happens in Las Vegas, and I live in Michigan, and that's a long ways away. The other is, in Las Vegas, it's hard to find a venue that is affordable and checks all the boxes we need to check and stuff like that. The third Sin City Ruby was just a big financial risk for us, and like I mentioned, we lost a lot of money. So I don't want to do that again.
 
 What I would entertain is the idea of doing a lower-risk event. Something where, to Andy Croll's point, if only 50 people show up, that's fine, it'll still be profitable, whatever. I don't want to pay a $26,000 food and beverage minimum for a two-day event like I had to for Sin City Ruby 2025. That was nuts.
 
@@ -85,9 +102,11 @@ If I were to have it in Michigan, like driving distance from my house, that woul
 
 So I don't want to have to do anything like that. I'd rather do something closer. I don't have anything specific in the works. Frankly, for the last few months I've been kind of burnt out, and so I'm not ready to think about anything like that. I'm trying to shed things and lighten my workload and not try to take on new things. But when I'm ready to think about that kind of stuff, I think it'll probably be in Michigan, if it happens at all.
 
-**Travis Dockter:** So I'm actually in the venue process right now. What was it like working with the venues for Sin City Ruby? I know you had the Tropicana the first two years, and I know Vegas is probably going to be different than a lot of places, because they do this, right? Conferences are a big thing there. So I'm sure it's a little bit different working with them. But what was the process like for getting a venue there?
+**Travis:** So I'm actually in the venue process right now. What was it like working with the venues for Sin City Ruby? I know you had the Tropicana the first two years, and I know Vegas is probably going to be different than a lot of places, because they do this, right? Conferences are a big thing there. So I'm sure it's a little bit different working with them. But what was the process like for getting a venue there?
 
-**Jason Swett:** It was positively awful. All of the hotel people are the absolute worst. You would think that this being their main job, they would be good at it. But no, they're terrible at it, like unbelievably. And actually, one year, instead of Las Vegas, we looked into doing it in Puerto Rico. Our experience in both places was similar. First of all, good luck even getting a response from the hotel. It's like, hey, we want to give you tens of thousands of dollars. Do you want to talk about that? No, they're not at all interested in that conversation.
+<span id="dealing-with-hotels" class="interview-anchor"></span>
+
+**Jason:** It was positively awful. All of the hotel people are the absolute worst. You would think that this being their main job, they would be good at it. But no, they're terrible at it, like unbelievably. And actually, one year, instead of Las Vegas, we looked into doing it in Puerto Rico. Our experience in both places was similar. First of all, good luck even getting a response from the hotel. It's like, hey, we want to give you tens of thousands of dollars. Do you want to talk about that? No, they're not at all interested in that conversation.
 
 And then, if you do get a response, it might be a really long time later, and they might just totally miss really important stuff, or ask inane questions. Ask you the same questions you already answered to them, and pass you around to different people and stuff like that. It's just an enormous hassle. I heard on a podcast once, this guy, Joe Polish, said a lot of businesses don't have a sales department. They have a sales prevention department. That's what it felt like I was dealing with. I was dealing with the sales prevention department.
 
@@ -99,124 +118,126 @@ So that's a big part of where the risk comes from. And this hotel, I don't remem
 
 I think we spent, I don't remember, but it was in the thousands. We spent thousands of dollars on bottled water. And water, quite a lot of the time, is free, just in the world. You can go to a drinking fountain and just drink some water. Nobody charges you. In this case, we paid thousands of dollars for water. So that was cool. So I don't really recommend working with hotels, because they're just the absolute worst. They're not nice, not friendly. It's just awful. So screw them. I'm never going to work with them again.
 
-**Travis Dockter:** Yeah, I've had a similar experience so far, where I also naively just thought this would be an easy part of the process, because I am going to give them thousands of dollars, and I thought they would be selling me. But instead, I'm chasing them, trying to give them money, which is confusing. How did you, you mentioned your wife was a co-organizer. How did you guys split responsibilities?
+**Travis:** Yeah, I've had a similar experience so far, where I also naively just thought this would be an easy part of the process, because I am going to give them thousands of dollars, and I thought they would be selling me. But instead, I'm chasing them, trying to give them money, which is confusing. How did you, you mentioned your wife was a co-organizer. How did you guys split responsibilities?
 
-**Jason Swett:** For 2025, she took care of almost all the hotel stuff. So she did a lot of very painful work coordinating with these hotels. She handled all the financial stuff and all that. Basically, I was responsible for the sales and marketing of it. And she was responsible for everything else. She made the website, everything else.
+**Jason:** For 2025, she took care of almost all the hotel stuff. So she did a lot of very painful work coordinating with these hotels. She handled all the financial stuff and all that. Basically, I was responsible for the sales and marketing of it. And she was responsible for everything else. She made the website, everything else.
 
-**Travis Dockter:** Nice. What did you do for marketing? And did that change from year to year?
+**Travis:** Nice. What did you do for marketing? And did that change from year to year?
 
-**Jason Swett:** Yeah, so kind of everything that I do is marketing, whether I intended it to be marketing for the conference at the time that I did it or not. The podcast that I've been doing for the last however many years, 250-plus episodes' worth, all that is marketing that benefited the conference. I didn't intend for it to be exactly that at the time I did it, except right before I did it, when I knew that I was going to do it. But that helped. All the writing that I've done, that helped. Again, choosing speakers that had a draw, that was intentional for marketing purposes.
+**Jason:** Yeah, so kind of everything that I do is marketing, whether I intended it to be marketing for the conference at the time that I did it or not. The podcast that I've been doing for the last however many years, 250-plus episodes' worth, all that is marketing that benefited the conference. I didn't intend for it to be exactly that at the time I did it, except right before I did it, when I knew that I was going to do it. But that helped. All the writing that I've done, that helped. Again, choosing speakers that had a draw, that was intentional for marketing purposes.
 
 On top of that, I would just manually tell people. I do a lot of networking calls. I email people and say, hey, it's been a while since we've talked. Want to have a call to catch up, or whatever. I do that because it has a lot of business benefits, and I enjoy talking to people and having relationships and stuff like that. So I did that before the conference. I'm like, hey, just so you know, I'm putting on this conference. A lot of people didn't know about it. Some people I told them about it, and then they bought a ticket.
 
 That definitely worked more than zero times. I don't remember how many people bought tickets because of that. Not a lot of people, but at least some. And I talked about the conference on my podcast and on social media, and sent emails to my email list, and sent letters in the mail to my snail-mail programming newsletter recipients. Basically, any way that I could tell people, I was using all the channels that I already had.
 
-**Travis Dockter:** Yeah. So you have a, you're probably the first organizer that I've talked to who has a real following online that you could kind of use to help market this. That definitely helps. But I love that, just telling people that you're putting on a conference. That's probably something that you wouldn't think of as a marketing tool. But it does work, and especially if you're just putting on a conference with a hundred people, every ticket counts. If you tell five people and they buy tickets, that was well worth the time.
+**Travis:** Yeah. So you have a, you're probably the first organizer that I've talked to who has a real following online that you could kind of use to help market this. That definitely helps. But I love that, just telling people that you're putting on a conference. That's probably something that you wouldn't think of as a marketing tool. But it does work, and especially if you're just putting on a conference with a hundred people, every ticket counts. If you tell five people and they buy tickets, that was well worth the time.
 
-**Jason Swett:** Yeah. And I was talking mainly about marketing. On the sales side, there wasn't a lot to that, because it's not like I was negotiating prices or anything like that. Although sometimes I did. Sometimes people were like, hey, I can't really afford 500 bucks, because that's how much the tickets were. I'm like, all right, you don't have a job right now, I get that. What could you afford? And maybe I'd give them the ticket for something less. And that's still fine, because that helps with the hotel room block obligation and stuff like that.
+**Jason:** Yeah. And I was talking mainly about marketing. On the sales side, there wasn't a lot to that, because it's not like I was negotiating prices or anything like that. Although sometimes I did. Sometimes people were like, hey, I can't really afford 500 bucks, because that's how much the tickets were. I'm like, all right, you don't have a job right now, I get that. What could you afford? And maybe I'd give them the ticket for something less. And that's still fine, because that helps with the hotel room block obligation and stuff like that.
 
 I had people ask for student discounts and stuff like that, and my policy was just like, whatever, I'll take some amount of money. Anything, whatever, just to get people there, because it was almost more helpful to have people there than to have the revenue, because every missing seat cost a lot of money. So just any way I could get people there.
 
-**Travis Dockter:** Yeah. You said you lost money the last year, just because of agreements with the hotel that were exorbitant. First year also just because it was small. Did you break even, or make a little bit of money? How did that go the second year?
+**Travis:** Yeah. You said you lost money the last year, just because of agreements with the hotel that were exorbitant. First year also just because it was small. Did you break even, or make a little bit of money? How did that go the second year?
 
-**Jason Swett:** First year lost about 2,000 bucks. I think the costs were around 10,000. The revenue was around 10,000, but they were a little bit off in such a way that I lost about 2,000 bucks. I don't remember the exact numbers, but it was roughly in that range.
+**Jason:** First year lost about 2,000 bucks. I think the costs were around 10,000. The revenue was around 10,000, but they were a little bit off in such a way that I lost about 2,000 bucks. I don't remember the exact numbers, but it was roughly in that range.
 
-**Travis Dockter:** And then how was the second year?
+**Travis:** And then how was the second year?
 
-**Jason Swett:** The second one was bigger. I think it was like 60 or so people who came to that one. The revenue and expenses were more. I don't remember. Maybe it was like $30,000 in and out, and then we ended up making a few thousand bucks on the second year.
+**Jason:** The second one was bigger. I think it was like 60 or so people who came to that one. The revenue and expenses were more. I don't remember. Maybe it was like $30,000 in and out, and then we ended up making a few thousand bucks on the second year.
 
 The third year was the worst. Well, actually, okay. So like 80 people or so ended up coming. So it was the best in that sense. Financially, it was the worst, because we couldn't do it at the Tropicana anymore. We did it at the MGM Grand, and there they were much more expensive. They were stricter on what we had to have. For example, at Tropicana we had no food and beverage minimum, but at MGM Grand we had that very large food and beverage minimum.
 
 I don't know the exact number, but when we settled up with the MGM Grand after the conference, so we paid them some amount up front, and then because we had people missing from the room block, and we had to spend money on food and beverage and stuff like that, we had to settle up after that. They gave us a final additional bill, and that additional bill was about 20,000 bucks. That doesn't mean we lost 20,000 bucks, but it was in that neighborhood. It was somewhere between 10 and 20,000 bucks is how much we lost.
 
-**Travis Dockter:** Was that why you knew it was going to be more expensive? Was that why you decided to have sponsors the third year, or would you have had sponsors the third year regardless? One of the things I like about your conference is you keep it very simple. You choose the speakers, you don't have catering, you keep it very simple, and that's inspiring. It's just like, oh, maybe I can do a conference, because I've been to Jason's conference, and it's amazing. And I know multiple people who have said it was their favorite conference, and it kind of shows you you don't need to have t-shirts and lunch and all this stuff to put on a good conference that people really enjoy. And maybe I could do it without a huge financial risk, or without having a full-time job of doing a conference.
+**Travis:** Was that why you knew it was going to be more expensive? Was that why you decided to have sponsors the third year, or would you have had sponsors the third year regardless? One of the things I like about your conference is you keep it very simple. You choose the speakers, you don't have catering, you keep it very simple, and that's inspiring. It's just like, oh, maybe I can do a conference, because I've been to Jason's conference, and it's amazing. And I know multiple people who have said it was their favorite conference, and it kind of shows you you don't need to have t-shirts and lunch and all this stuff to put on a good conference that people really enjoy. And maybe I could do it without a huge financial risk, or without having a full-time job of doing a conference.
 
 But did that, keeping it simple, not having sponsors those previous years, did that add a lot of work? And did you just do it because you knew the expenses were going to be more that year?
 
-**Jason Swett:** I actually don't remember, but I think so. I think I did that because I knew the expenses were going to be higher. And I don't think I would do sponsors again, because it did add more work. Not work as in a whole bunch of time, but it took up headspace. It took up a lot more headspace than the time it took, and it just felt kind of, I wouldn't say it wasn't worth it. Well, maybe I would say it wasn't worth it, because I don't really want to do it again.
+<span id="keeping-it-simple" class="interview-anchor"></span>
+
+**Jason:** I actually don't remember, but I think so. I think I did that because I knew the expenses were going to be higher. And I don't think I would do sponsors again, because it did add more work. Not work as in a whole bunch of time, but it took up headspace. It took up a lot more headspace than the time it took, and it just felt kind of, I wouldn't say it wasn't worth it. Well, maybe I would say it wasn't worth it, because I don't really want to do it again.
 
 To be honest, I don't feel like I served the sponsors all that well. I didn't have banners with the sponsor logos and stuff like that, and I think some of the sponsors were expecting that. So I felt bad about that, and I know that that kind of stuff is not a strength of mine. With all this stuff, I want to play to my strengths and not try to do these things that I'm not good at. That's a big part of the reason why I chose to do everything in such a simple way. Because I know that I don't like administrative detail and stuff like that. So I'm not going to try to take on a bunch of that stuff. If I do an event again, I would go back to making it even simpler, and just do no sponsors.
 
-**Travis Dockter:** Gotcha. That's an interesting approach, because it's almost like to have sponsors is almost required because of the expenses of putting on a conference. So it's interesting to think about, what can I do to make this simpler, and could I do it without sponsors? I want to think about that. I'll probably end up trying to get sponsors for my event. But it is interesting to have the option to not do that.
+**Travis:** Gotcha. That's an interesting approach, because it's almost like to have sponsors is almost required because of the expenses of putting on a conference. So it's interesting to think about, what can I do to make this simpler, and could I do it without sponsors? I want to think about that. I'll probably end up trying to get sponsors for my event. But it is interesting to have the option to not do that.
 
-**Jason Swett:** If I may ask, what stage are you at in the planning of your conference?
+**Jason:** If I may ask, what stage are you at in the planning of your conference?
 
-**Travis Dockter:** I am working on getting a venue right now. I haven't reached out to any sponsors. I haven't reached out to any speakers, so very early on. I'm planning to have it in about a year from now, so I'm giving myself a lot of time to plan it. And I'm glad, because obviously everything always takes longer than you think it's going to.
+**Travis:** I am working on getting a venue right now. I haven't reached out to any sponsors. I haven't reached out to any speakers, so very early on. I'm planning to have it in about a year from now, so I'm giving myself a lot of time to plan it. And I'm glad, because obviously everything always takes longer than you think it's going to.
 
 Already, I'm like, okay, the first step in a conference. I'm going to do this step by step. First step is to get a venue. I'm like, oh, that'll take a week, two weeks max, and that was a month ago that I started. So I'm glad I gave myself a year. But I want to nail down the venue and the date. First step is going to be sponsors, and trying to figure out, okay, this is how much the venue is. I want to set my ticket prices as low as possible, so that more people maybe can have the option of attending, so that's going to depend on how much sponsorship I can get.
 
 I am in the position of not having a following online at all, pretty much. I don't have social media. I have a LinkedIn. That's pretty much it. It's a thing to say, okay, what if only 20 people show up to this, and they're all my coworkers? So I want to look for sponsors because I don't think I can depend on ticket sales to any degree. I am going to be doing a lot more marketing because I don't have that following, and I want to be really creative with that and try to get this out to a lot of people. But yeah, I'm in the very, very beginning stages. I kind of have a picture of what is coming next, but very early stages.
 
-**Jason Swett:** Remind me, I think you told me, and maybe you even said, but again, the connection's been a little choppy. Are you having it in Albuquerque or somewhere else?
+**Jason:** Remind me, I think you told me, and maybe you even said, but again, the connection's been a little choppy. Are you having it in Albuquerque or somewhere else?
 
-**Travis Dockter:** Yes, I'm going to have it in Albuquerque.
+**Travis:** Yes, I'm going to have it in Albuquerque.
 
-**Jason Swett:** Okay. And for venues, have you looked at hotels, non-hotels? What have you looked at right now?
+**Jason:** Okay. And for venues, have you looked at hotels, non-hotels? What have you looked at right now?
 
-**Travis Dockter:** I'm talking with one hotel and one non-hotel. Weirdly, the hotel has actually been more responsive than the non-hotel. I really like both of them, particularly because of the area that they're in is very walkable. There's a lot of dining options. I've heard from you and multiple other organizers to not do catering if you can avoid it, and that area that they are in would be really easy, because there's a ton of dining options within a five-minute walk. So that's why I really like that area. It's a nice area. So I'm hoping to get one of those venues.
+**Travis:** I'm talking with one hotel and one non-hotel. Weirdly, the hotel has actually been more responsive than the non-hotel. I really like both of them, particularly because of the area that they're in is very walkable. There's a lot of dining options. I've heard from you and multiple other organizers to not do catering if you can avoid it, and that area that they are in would be really easy, because there's a ton of dining options within a five-minute walk. So that's why I really like that area. It's a nice area. So I'm hoping to get one of those venues.
 
 I'm hoping that Las Vegas is a lot more of a draw. But I think I've talked to a couple people, and they're like, oh yeah, I've driven through Albuquerque, or I've been once, and I really liked it. I think people do have an interest to come here. We'll see if it's strong enough that it'll get people out here. But I think that it's worth coming out here, and I'm hoping to put on a conference that will make it worth it. Because there's like two parts to every conference, right? It's the conference itself, but it's also the location. People would like to make a trip out of most conferences, so that you get the conference, but you also get to see a new city, or you get to visit some friends, or whatever it is.
 
 Part of it for me with Sin City Ruby was, I had family out there, so it's great for me because I went to the conference, and I would go visit my aunt and uncle for two days, stay the weekend with them. So we'll see if Albuquerque is a draw. Especially my first conference, I didn't want to organize it in a place far away, just to try to keep that as simple as possible, and not add any complications there that would make it harder than it needs to be on my first go-around.
 
-**Jason Swett:** Yeah, that'll be interesting to see. A hunch that I have had about Sin City Ruby, because you said that I have a following online and stuff, which is true, but I really struggled to sell tickets for Sin City Ruby. It's not because people don't like the conference, because like you said, a lot of people really are enthusiastic about Sin City Ruby. They love it. But the West is just really sparsely populated, other than the coast. The West is very sparse. And so I wondered, is it because there's not much local draw? There's not a big Nevada Ruby community, and I imagine there's not a huge New Mexico Ruby community.
+**Jason:** Yeah, that'll be interesting to see. A hunch that I have had about Sin City Ruby, because you said that I have a following online and stuff, which is true, but I really struggled to sell tickets for Sin City Ruby. It's not because people don't like the conference, because like you said, a lot of people really are enthusiastic about Sin City Ruby. They love it. But the West is just really sparsely populated, other than the coast. The West is very sparse. And so I wondered, is it because there's not much local draw? There's not a big Nevada Ruby community, and I imagine there's not a huge New Mexico Ruby community.
 
-**Travis Dockter:** Not huge. But there are a couple companies in Albuquerque that I'm going to reach out to and see if they will sponsor, see if they will send some people. And there's also a boot camp at a community college here that I want to reach out to. So I'm hoping I can get a good number of people locally to come. But yeah, we'll see.
+**Travis:** Not huge. But there are a couple companies in Albuquerque that I'm going to reach out to and see if they will sponsor, see if they will send some people. And there's also a boot camp at a community college here that I want to reach out to. So I'm hoping I can get a good number of people locally to come. But yeah, we'll see.
 
-**Jason Swett:** Yeah. And I do think people would find it an interesting place to visit. I think there's something to the idea of visiting a place that you might not have visited otherwise. Like when Adrian Marin had his conference in Romania, which is still going to happen this year, too. I never would have gone to Romania for any reason otherwise. Nothing against Romania, but it just wasn't high on the list. But I'm really glad I went, precisely because I never would have gone there otherwise.
+**Jason:** Yeah. And I do think people would find it an interesting place to visit. I think there's something to the idea of visiting a place that you might not have visited otherwise. Like when Adrian Marin had his conference in Romania, which is still going to happen this year, too. I never would have gone to Romania for any reason otherwise. Nothing against Romania, but it just wasn't high on the list. But I'm really glad I went, precisely because I never would have gone there otherwise.
 
 It's like Albuquerque. People might have a reason to go to Chicago or San Francisco, or whatever, but not always Albuquerque. But they might be interested to go there precisely because it's not somewhere that work would take them to for some other reason.
 
-**Travis Dockter:** Yeah, that's the hope. We'll see. Do you have any favorite conferences or favorite conference experiences as an attendee?
+**Travis:** Yeah, that's the hope. We'll see. Do you have any favorite conferences or favorite conference experiences as an attendee?
 
-**Jason Swett:** I really, really liked Friendly.rb. That's probably my favorite one, both because the organizers are great people and the location, Bucharest, Romania, is great. I took my family, and we took a trip up into the mountains in Romania and stuff like that. That was really cool. I think that's my favorite one.
+**Jason:** I really, really liked Friendly.rb. That's probably my favorite one, both because the organizers are great people and the location, Bucharest, Romania, is great. I took my family, and we took a trip up into the mountains in Romania and stuff like that. That was really cool. I think that's my favorite one.
 
 It doesn't happen anymore, but Southeast Ruby was really cool. Small conference that took place in Nashville. That was Jason Charnes's conference.
 
-**Travis Dockter:** Yep. I just talked to him.
+**Travis:** Yep. I just talked to him.
 
-**Jason Swett:** Yeah, I really like those small ones.
+**Jason:** Yeah, I really like those small ones.
 
-**Travis Dockter:** What do you feel like the differences are between a RailsConf or a Rails World, where there's thousands of people, and the smaller conferences? What do you like about each of those?
+**Travis:** What do you feel like the differences are between a RailsConf or a Rails World, where there's thousands of people, and the smaller conferences? What do you like about each of those?
 
-**Jason Swett:** With the big conferences, by the way, I really like Rails World. I've only been there once. I went to the one in Toronto, but I really liked that. I thought it was really well done. At the big conferences, like at Rails World, I was just flitting around from person to person, and I never got to spend a lot of time with any one person, because it was like everybody I've ever met is there. So I don't want to neglect people, but I also want to be able to spend more than five minutes with people, and it wasn't really possible. I was being bounced around like a pinball at the conference. I just kept running into people I knew.
+**Jason:** With the big conferences, by the way, I really like Rails World. I've only been there once. I went to the one in Toronto, but I really liked that. I thought it was really well done. At the big conferences, like at Rails World, I was just flitting around from person to person, and I never got to spend a lot of time with any one person, because it was like everybody I've ever met is there. So I don't want to neglect people, but I also want to be able to spend more than five minutes with people, and it wasn't really possible. I was being bounced around like a pinball at the conference. I just kept running into people I knew.
 
 So that's not exactly a good or bad thing. It's just very different. But what I like about small conferences is you can spend a lot of time with people. And ironically, you can meet more people at a small conference than at a big conference, because you're just in more contact with the same people. You're with the same group the entire time, and so you almost can't avoid meeting almost all the other people there. That's what I like about that.
 
-**Travis Dockter:** Yeah, love that. Were there any experiences specifically that you would like to see? Was there anything about Rails World you think we could replicate in smaller conferences? Or is it unique to that conference?
+**Travis:** Yeah, love that. Were there any experiences specifically that you would like to see? Was there anything about Rails World you think we could replicate in smaller conferences? Or is it unique to that conference?
 
-**Jason Swett:** I don't think it's unique to that conference. I really like Amanda Perino's mindset toward it. She's the organizer of Rails World and the Executive Director of the Rails Foundation. She places a high importance on the venue, on the physical space that people are in, and I think it makes a really big difference. And after that one in Toronto, DHH went on the Remote Ruby podcast, I believe it was, and he talked about how it really makes a big difference being in a nice venue.
+**Jason:** I don't think it's unique to that conference. I really like Amanda Perino's mindset toward it. She's the organizer of Rails World and the Executive Director of the Rails Foundation. She places a high importance on the venue, on the physical space that people are in, and I think it makes a really big difference. And after that one in Toronto, DHH went on the Remote Ruby podcast, I believe it was, and he talked about how it really makes a big difference being in a nice venue.
 
 That one in Toronto, it was like a kind of indoor-outdoor space. The weather just happened to be perfect. It was room temperature outside pretty much, so you kind of couldn't tell even if you were inside or outside. It's like, I'm inside, but we're breathing the fresh air of the outdoors. There were a bunch of trees inside, and so it was very green and verdant inside, and it was just really nice. It was like a pleasant, relaxing atmosphere. It wasn't some soulless, windowless basement or something like that, which most conferences are like. It's not the worst thing in the world, but it's just so cool to be in a cool space.
 
 My recollection is that Southeast Ruby in Nashville was in a pretty cool hotel in a cool spot that added a lot to it. Friendly.rb had a similar thing going. They had a cool venue. Being in Bucharest really added to it. So I think the physical feel of the venue makes a big difference.
 
-**Travis Dockter:** Nice. I haven't been to Rails World, and didn't get a ticket this year either. But I hope to make it one day, because I've heard a lot of good stuff about that conference.
+**Travis:** Nice. I haven't been to Rails World, and didn't get a ticket this year either. But I hope to make it one day, because I've heard a lot of good stuff about that conference.
 
-**Jason Swett:** And it's one of the few conferences that just sell out like that.
+**Jason:** And it's one of the few conferences that just sell out like that.
 
-**Travis Dockter:** Which is interesting. Why do you think that's because? That it's DHH and the Rails Foundation behind it? Or why does that sell out so quickly? Why are people so eager to go to that conference that it sells out within half an hour?
+**Travis:** Which is interesting. Why do you think that's because? That it's DHH and the Rails Foundation behind it? Or why does that sell out so quickly? Why are people so eager to go to that conference that it sells out within half an hour?
 
-**Jason Swett:** Yeah, I think it's DHH. I think it's because that is the flagship Rails conference. And again, Amanda does a really nice job of organizing the conference, but I don't know if people knew that that was going to happen. No one had ever attended one the first year that it happened, and I think it still sold out instantly. So I think it's just the draw of DHH and the fact that it's the flagship Rails conference.
+**Jason:** Yeah, I think it's DHH. I think it's because that is the flagship Rails conference. And again, Amanda does a really nice job of organizing the conference, but I don't know if people knew that that was going to happen. No one had ever attended one the first year that it happened, and I think it still sold out instantly. So I think it's just the draw of DHH and the fact that it's the flagship Rails conference.
 
-**Travis Dockter:** Yep. I'm going to put Amanda Perino on my list. I think she was already on there. I would love to talk to her about conference organizing. Are there any other people that you think I should talk to about conference organizing?
+**Travis:** Yep. I'm going to put Amanda Perino on my list. I think she was already on there. I would love to talk to her about conference organizing. Are there any other people that you think I should talk to about conference organizing?
 
-**Jason Swett:** I think you probably have all these people on your list already. But I mentioned Adrian. There's Jeremy Smith. Jason Charnes, who you mentioned you talked to. There's Spike. I'm not sure how to say his last name. Organizer of Rocky Mountain Ruby. So I think you probably already have most of the same people on your list.
+**Jason:** I think you probably have all these people on your list already. But I mentioned Adrian. There's Jeremy Smith. Jason Charnes, who you mentioned you talked to. There's Spike. I'm not sure how to say his last name. Organizer of Rocky Mountain Ruby. So I think you probably already have most of the same people on your list.
 
-**Travis Dockter:** Cool. Last bit. Any advice or words of wisdom or inspiration for any other conference organizers out there that you have?
+**Travis:** Cool. Last bit. Any advice or words of wisdom or inspiration for any other conference organizers out there that you have?
 
-**Jason Swett:** Don't do it! No, definitely do it. But I think a really good piece of advice is, again, the Andy Croll advice. He wasn't even intending it as advice, but design it so it'll work out okay, no matter how big or small it ends up being. I think that's a really smart way to approach it.
+**Jason:** Don't do it! No, definitely do it. But I think a really good piece of advice is, again, the Andy Croll advice. He wasn't even intending it as advice, but design it so it'll work out okay, no matter how big or small it ends up being. I think that's a really smart way to approach it.
 
-**Travis Dockter:** Yeah, I love that. Awesome. Alrighty, Jason. Well, I appreciate your time. Again, I loved Sin City Ruby. It was part of the inspiration for me to do this, because Sin City Ruby and RailsConf were the main conferences that I went to. Both of them ending this year kind of got me thinking, okay, what am I going to do next year? And then I was like, well, what if I try my own conference? Thank you again for your time and for Sin City Ruby itself. Are you going to RailsConf?
+**Travis:** Yeah, I love that. Awesome. Alrighty, Jason. Well, I appreciate your time. Again, I loved Sin City Ruby. It was part of the inspiration for me to do this, because Sin City Ruby and RailsConf were the main conferences that I went to. Both of them ending this year kind of got me thinking, okay, what am I going to do next year? And then I was like, well, what if I try my own conference? Thank you again for your time and for Sin City Ruby itself. Are you going to RailsConf?
 
-**Jason Swett:** No plans to as of now.
+**Jason:** No plans to as of now.
 
-**Travis Dockter:** Okay.
+**Travis:** Okay.
 
-**Jason Swett:** I'm not sure that I'm not going, but sadly, it looks like probably not.
+**Jason:** I'm not sure that I'm not going, but sadly, it looks like probably not.
 
-**Travis Dockter:** Okay. Well, I'm sure I'll see you around other places, and I'll talk to you later.
+**Travis:** Okay. Well, I'm sure I'll see you around other places, and I'll talk to you later.
 
-**Jason Swett:** Alright. Thanks a lot.
+**Jason:** Alright. Thanks a lot.
 
-**Travis Dockter:** Alrighty, thanks, Jason.
+**Travis:** Alrighty, thanks, Jason.

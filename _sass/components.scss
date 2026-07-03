@@ -832,25 +832,6 @@
     line-height: var(--line-height-normal);
   }
 
-  .interview-card__highlights {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-2);
-    margin-top: var(--space-2);
-  }
-
-  .interview-card__highlight {
-    display: inline-flex;
-    align-items: center;
-    border: 1px solid var(--color-border);
-    border-radius: var(--border-radius-full);
-    color: var(--color-text-secondary);
-    font-size: var(--font-size-xs);
-    font-weight: var(--font-weight-medium);
-    line-height: var(--line-height-snug);
-    padding: var(--space-1) var(--space-3);
-  }
-
   .interviews-aside,
   .interview-aside {
     display: none;
@@ -863,12 +844,6 @@
       padding-top: var(--space-5);
       border-top: 1px solid var(--color-border-subtle);
     }
-  }
-
-  .interviews-aside__text {
-    color: var(--color-text-secondary);
-    font-size: var(--font-size-sm);
-    line-height: var(--line-height-normal);
   }
 
   .interview-header {
@@ -934,80 +909,19 @@
     object-fit: cover;
   }
 
+  .interview-meta__sep {
+    color: var(--color-text-tertiary);
+  }
+
   .interview-mobile-aside {
     margin-bottom: var(--space-7);
     padding-block: var(--space-5);
     border-block: 1px solid var(--color-border);
   }
 
-  .interview-highlights {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-3);
-  }
-
-  .interview-highlights__item {
-    margin: 0;
-  }
-
-  .interview-highlights__link {
+  .interview-anchor {
     display: block;
-    color: var(--color-link);
-    text-decoration: none;
-
-    &:hover {
-      .interview-highlights__title {
-        color: var(--color-accent-hover);
-      }
-    }
-  }
-
-  .interview-highlights__title {
-    display: block;
-    color: var(--color-text);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-semibold);
-    line-height: var(--line-height-snug);
-    transition: color var(--duration-fast) var(--easing-out);
-  }
-
-  .interview-highlights__summary {
-    display: block;
-    margin-top: var(--space-1);
-    color: var(--color-text-secondary);
-    font-size: var(--font-size-sm);
-    line-height: var(--line-height-normal);
-  }
-
-  .interview-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-2);
-    font-size: var(--font-size-sm);
-    line-height: var(--line-height-snug);
-  }
-
-  .interview-links li {
-    margin: 0;
-  }
-
-  .interview-source {
-    color: var(--color-link);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-medium);
-    line-height: var(--line-height-snug);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
-
-    &:hover {
-      color: var(--color-accent-hover);
-    }
+    scroll-margin-top: var(--space-8);
   }
 
   .interview-content {
@@ -1033,14 +947,8 @@
     }
 
     p > strong:first-child {
-      display: block;
-      margin-bottom: var(--space-1);
       color: var(--color-accent);
-      font-size: var(--font-size-sm);
       font-weight: var(--font-weight-semibold);
-      letter-spacing: var(--letter-spacing-caps);
-      line-height: var(--line-height-snug);
-      text-transform: uppercase;
     }
   }
 

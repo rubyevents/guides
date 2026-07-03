@@ -10,7 +10,6 @@ layout: default
     <ol class="interviews-list" aria-label="Interviews">
       {%- for interview in interviews -%}
         {%- assign voice = site.data.voices | where: 'id', interview.voice | first -%}
-        {%- assign host = site.data.hosts | where: 'id', interview.host | first -%}
         <li class="interviews-list__item">
           <a class="interview-card" href="{{ interview.url | relative_url }}">
             {%- if voice.image -%}
@@ -32,23 +31,12 @@ layout: default
                 <time datetime="{{ interview.date | date_to_xmlschema }}">
                   {{ interview.date | date: '%B %-d, %Y' }}
                 </time>
-                {%- if host -%}
-                  <span>Host: {{ host.name }}</span>
-                {%- endif -%}
               </span>
 
               <span class="interview-card__title">{{ interview.title }}</span>
 
               {%- if interview.teaser -%}
                 <span class="interview-card__teaser">{{ interview.teaser }}</span>
-              {%- endif -%}
-
-              {%- if interview.highlights.size > 0 -%}
-                <span class="interview-card__highlights" aria-label="Highlights">
-                  {%- for highlight in interview.highlights limit: 3 -%}
-                    <span class="interview-card__highlight">{{ highlight.title }}</span>
-                  {%- endfor -%}
-                </span>
               {%- endif -%}
             </span>
           </a>
@@ -59,11 +47,6 @@ layout: default
 
   <aside class="interviews-aside" aria-label="Interviews navigation">
     <section class="interviews-aside__section">
-      <p class="toc__heading">Interviews</p>
-      <p class="interviews-aside__text">Organizer conversations behind the meetup and conference guides.</p>
-    </section>
-
-    <section class="interviews-aside__section">
       <p class="toc__heading">Recent</p>
       <ol class="toc__list">
         {%- for interview in interviews limit: 5 -%}
@@ -71,16 +54,6 @@ layout: default
             <a class="toc__link" href="{{ interview.url | relative_url }}">{{ interview.title }}</a>
           </li>
         {%- endfor -%}
-      </ol>
-    </section>
-
-    <section class="interviews-aside__section">
-      <p class="toc__heading">Guides</p>
-      <ol class="toc__list">
-        <li class="toc__item"><a class="toc__link" href="{{ '/meetups/' | relative_url }}">Running Ruby Meetups</a></li>
-        <li class="toc__item">
-          <a class="toc__link" href="{{ '/conferences/' | relative_url }}">Running Ruby Conferences</a>
-        </li>
       </ol>
     </section>
   </aside>

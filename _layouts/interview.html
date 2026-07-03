@@ -8,9 +8,38 @@ layout: default
   {%- assign has_highlights = true -%}
 {%- endif -%}
 {%- assign has_links = false -%}
-{%- if page.links.size > 0 -%}
+{%- if page.links.size > 0 or page.source_url -%}
   {%- assign has_links = true -%}
 {%- endif -%}
+
+{%- capture aside_sections -%}
+  {%- if has_highlights -%}
+    <section class="interview-aside__section">
+      <p class="toc__heading">Highlights</p>
+      <ol class="toc__list">
+        {%- for highlight in page.highlights -%}
+          <li class="toc__item">
+            <a class="toc__link" href="#{{ highlight.anchor | default: 'transcript' }}">{{ highlight.title }}</a>
+          </li>
+        {%- endfor -%}
+      </ol>
+    </section>
+  {%- endif -%}
+
+  {%- if has_links -%}
+    <section class="interview-aside__section">
+      <p class="toc__heading">Related links</p>
+      <ul class="toc__list">
+        {%- for link in page.links -%}
+          <li class="toc__item"><a class="toc__link" href="{{ link.url }}">{{ link.label }}</a></li>
+        {%- endfor -%}
+        {%- if page.source_url -%}
+          <li class="toc__item"><a class="toc__link" href="{{ page.source_url }}">Ruby Conference Project</a></li>
+        {%- endif -%}
+      </ul>
+    </section>
+  {%- endif -%}
+{%- endcapture -%}
 
 <article class="interview-shell">
   <div class="interview-main">
@@ -30,7 +59,6 @@ layout: default
       {%- endif -%}
 
       <div class="interview-header__body">
-        <p class="eyebrow">Interview</p>
         <h1>{{ page.title }}</h1>
 
         {%- if page.teaser -%}
@@ -38,8 +66,6 @@ layout: default
         {%- endif -%}
 
         <div class="interview-meta" aria-label="Interview metadata">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
-
           {%- if host -%}
             <span class="interview-meta__host">
               {%- if host.image -%}
@@ -51,52 +77,19 @@ layout: default
                   height="24"
                 >
               {%- endif -%}
-              <span>Host: {{ host.name }}</span>
+              <span>{{ host.name }}</span>
             </span>
+            <span class="interview-meta__sep" aria-hidden="true">&middot;</span>
           {%- endif -%}
+
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
         </div>
       </div>
     </header>
 
-    {%- if has_highlights or has_links or page.source_url -%}
+    {%- if has_highlights or has_links -%}
       <aside class="interview-mobile-aside" aria-label="Interview resources">
-        {%- if has_highlights -%}
-          <section class="interview-aside__section">
-            <p class="toc__heading">Highlights</p>
-            <ol class="interview-highlights">
-              {%- for highlight in page.highlights -%}
-                <li class="interview-highlights__item">
-                  <a class="interview-highlights__link" href="#{{ highlight.anchor | default: 'transcript' }}">
-                    <span class="interview-highlights__title">{{ highlight.title }}</span>
-                    {%- if highlight.summary -%}
-                      <span class="interview-highlights__summary">{{ highlight.summary }}</span>
-                    {%- endif -%}
-                  </a>
-                </li>
-              {%- endfor -%}
-            </ol>
-          </section>
-        {%- endif -%}
-
-        {%- if has_links -%}
-          <section class="interview-aside__section">
-            <p class="toc__heading">Related links</p>
-            <ul class="interview-links">
-              {%- for link in page.links -%}
-                <li>
-                  <a href="{{ link.url }}">{{ link.label }}</a>
-                </li>
-              {%- endfor -%}
-            </ul>
-          </section>
-        {%- endif -%}
-
-        {%- if page.source_url -%}
-          <section class="interview-aside__section">
-            <p class="toc__heading">Source</p>
-            <a class="interview-source" href="{{ page.source_url }}">Ruby Conference Project</a>
-          </section>
-        {%- endif -%}
+        {{ aside_sections }}
       </aside>
     {%- endif -%}
 
@@ -106,47 +99,10 @@ layout: default
   </div>
 
   <aside class="interview-aside" aria-label="Interview resources">
-    {%- if has_highlights -%}
-      <section class="interview-aside__section">
-        <p class="toc__heading">Highlights</p>
-        <ol class="interview-highlights">
-          {%- for highlight in page.highlights -%}
-            <li class="interview-highlights__item">
-              <a class="interview-highlights__link" href="#{{ highlight.anchor | default: 'transcript' }}">
-                <span class="interview-highlights__title">{{ highlight.title }}</span>
-                {%- if highlight.summary -%}
-                  <span class="interview-highlights__summary">{{ highlight.summary }}</span>
-                {%- endif -%}
-              </a>
-            </li>
-          {%- endfor -%}
-        </ol>
-      </section>
-    {%- endif -%}
-
-    {%- if has_links -%}
-      <section class="interview-aside__section">
-        <p class="toc__heading">Related links</p>
-        <ul class="interview-links">
-          {%- for link in page.links -%}
-            <li>
-              <a href="{{ link.url }}">{{ link.label }}</a>
-            </li>
-          {%- endfor -%}
-        </ul>
-      </section>
-    {%- endif -%}
-
-    {%- if page.source_url -%}
-      <section class="interview-aside__section">
-        <p class="toc__heading">Source</p>
-        <a class="interview-source" href="{{ page.source_url }}">Ruby Conference Project</a>
-      </section>
-    {%- endif -%}
-
-    <section class="interview-aside__section">
-      <p class="toc__heading">More</p>
-      <a class="interview-source" href="{{ '/interviews/' | relative_url }}">All interviews</a>
-    </section>
+    {{ aside_sections }}
   </aside>
 </article>
+
+{%- if has_highlights -%}
+  <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
+{%- endif -%}

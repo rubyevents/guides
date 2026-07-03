@@ -1,12 +1,12 @@
 function initToc() {
-  const headings = [...document.querySelectorAll(".guide-content h2[id]")];
+  const headings = [
+    ...document.querySelectorAll(
+      ".guide-content h2[id], .interview-anchor[id]",
+    ),
+  ];
   const links = [...document.querySelectorAll(".toc__link")];
 
-  if (
-    !headings.length ||
-    !links.length ||
-    !("IntersectionObserver" in window)
-  ) {
+  if (!headings.length || !links.length) {
     return;
   }
 
@@ -23,27 +23,37 @@ function initToc() {
     });
   };
 
-  const visibleHeadings = new Map();
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          visibleHeadings.set(entry.target.id, entry.boundingClientRect.top);
-        } else {
-          visibleHeadings.delete(entry.target.id);
-        }
-      });
+  // Active = the last heading whose top has scrolled above the activation line
+  // (20% down the viewport). Computed from live positions so it stays correct
+  // in both directions and regardless of how far apart the headings sit.
+  const updateActive = () => {
+    const line = window.innerHeight * 0.2;
+    let currentId = headings[0].id;
 
-      const current = [...visibleHeadings.entries()].sort(
-        (a, b) => a[1] - b[1],
-      )[0];
-      if (current) setActiveLink(current[0]);
-    },
-    { rootMargin: "-20% 0px -65% 0px", threshold: 0 },
-  );
+    for (const heading of headings) {
+      if (heading.getBoundingClientRect().top <= line) {
+        currentId = heading.id;
+      } else {
+        break;
+      }
+    }
 
-  headings.forEach((heading) => observer.observe(heading));
-  setActiveLink(headings[0].id);
+    setActiveLink(currentId);
+  };
+
+  let ticking = false;
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      updateActive();
+      ticking = false;
+    });
+  };
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll, { passive: true });
+  updateActive();
 }
 
 initToc();
