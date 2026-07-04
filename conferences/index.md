@@ -469,6 +469,24 @@ For a first conference, simpler is better. Fewer sponsors at higher amounts are 
 
 The most interesting sponsors are the ones who want to do something, not just appear on a page. A sponsor willing to cover a game night, fund an after-party, or bring something specific to the attendee experience is worth more than their logo placement. When you talk to potential sponsors, ask what they would want to do if they could do anything at the event. You will sometimes get an idea you would never have thought of on your own.
 
+### Partner with other events
+
+Other Ruby events are not your competition. A conference two countries over, or a meetup an hour down the road, is full of exactly the people you want in the room. Treat them as allies, not rivals.
+
+The simplest version is cross-promotion. You mention their event, they mention yours. Trade a handful of free tickets so their organizers can actually come, see the conference, and talk about it from experience afterwards.
+
+Going to nearby meetups in person is the higher-effort, higher-payoff version. A meetup an hour or two away is a room full of potential attendees, and it's also where you meet the people who might volunteer, speak, or help you pull the event off. This works best when there are communities close enough to reach. If the nearest Ruby group is a flight away, online cross-promotion still helps, but the in-person version is where the real connections happen.
+
+{% include testimonial.html
+  name="Hana Harencarova"
+  content="Partners are usually other conferences, and we cross-promote announcements. It's basically about informing the wider Ruby community, or the community of that conference, about the other event."
+%}
+
+{% capture triathlon %}
+The [Ruby Triathlon](https://rubytriathlon.com/) is a recurring community tradition where attendees hit three Ruby conferences in a row. In 2026 it took place across Rubycon Italy in Rimini, Balkan Ruby in Sofia, and RubyConf AT in Vienna. In 2025 it ran through Rails World in Amsterdam, Friendly.rb in Bucharest, and EuRuKo in Viana do Castelo. Conferences whose dates line up can lean into this — coordinate the calendar, cross-promote the route, and give people who complete all three a reason to travel that no single event could offer alone.
+{% endcapture %}
+{% include tip.html description=triathlon %}
+
 ---
 
 ## Volunteers & Team
@@ -498,12 +516,12 @@ On the day itself, you need people at registration, people keeping an eye on spe
 
 The hardest part of delegation for first-time conference organizers is that you often don't know what the job looks like well enough to explain it to someone else.
 
+The honest answer is that you learn by doing, and your volunteers learn alongside you. The important thing is to start early enough that mistakes can be corrected before the event rather than during it.
+
 {% include testimonial.html
   name="Jeremy Smith"
   content="If you've never done the job and you haven't seen it done well, how do you even know what needs to be done?"
 %}
-
-The honest answer is that you learn by doing, and your volunteers learn alongside you. The important thing is to start early enough that mistakes can be corrected before the event rather than during it.
 
 ### Building the team
 
