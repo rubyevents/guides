@@ -94,7 +94,7 @@ A **workshop** where one person leads a hands-on exercise. This requires more pr
 
 A **hangout** puts the focus on the community and nothing else. No talks, no workshops, no pressure - just drinks, food, and conversation.
 
-<!-- TODO: Add BARcelona RB interview/quote  -->
+{% comment %} TODO: Add BARcelona RB interview/quote {% endcomment %}
 
 ---
 
@@ -110,7 +110,7 @@ The single most effective thing you can do is invite people directly. A message 
 
 Go through LinkedIn and find Ruby developers in your city. Start with your own network - if you're thinking of starting a Ruby meetup, you almost certainly already know someone local. Reach out to them first. It's time-consuming, but it's the most reliable way to fill a first or second event.
 
-<!-- TODO: Interview Belfast Ruby Nick Schwaderer about this  -->
+{% comment %} TODO: Interview Belfast Ruby Nick Schwaderer about this {% endcomment %}
 
 ### Just keep posting
 
