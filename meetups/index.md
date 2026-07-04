@@ -13,13 +13,11 @@ A practical guide for starting and sustaining a local Ruby meetup — from findi
 
 ## Why Bother
 
-Ruby is more than a programming language - it's a community.
+Ruby is more than a programming language - it's a community. Meetups are what keep that community alive. An active meetup scene produces the people who later travel to conferences, give talks, and build open source.
 
-Meetups are what keep that community alive. An active meetup scene produces the people who later travel to conferences, give talks, and build open source.
+A local meetup is where a junior developer gets inspired. It's where someone lands a job because they had the right conversation. It's where someone stuck on a bad project hears a talk that finally cracks the thing they've been fighting for weeks.
 
-A local meetup is where a junior developer gets inspired. It's where someone lands a job because they had the right conversation. It's where someone stuck on a bad project hears a talk that finally cracks the thing they've been fighting for weeks. None of that happens online.
-
-You do not need a big reason to start a meetup. You just need to want one to exist.
+None of that happens online. You do not need a big reason to start a meetup - you just need to want one to exist.
 
 {% include testimonial.html
   name="Cirdes Henrique"
@@ -62,7 +60,7 @@ Do not expect these platforms to promote the event for you. They will not.
 
 ### Get the word out
 
-For the first event, promotion is simple: tell everyone you know! Email and text the Rubyists in your contacts. Message colleagues and former colleagues who write Ruby. Post in whatever Slack, Discord, or social channel your local community already uses.
+For the first event, promotion is simple. Just tell everyone you know! Email and text the Rubyists in your contacts. Message colleagues and former colleagues who write Ruby. Post in whatever Slack, Discord, or social channel your local community already uses.
 
 That is enough for starters. The systematic side of getting people through the door comes later, once the meetup is a recurring thing.
 
@@ -70,7 +68,7 @@ That is enough for starters. The systematic side of getting people through the d
 
 The first event will probably be small. That's fine - it's a first event. Some of the best ongoing meetups started with a handful of people. What matters is that the people who came had a decent time and would come again.
 
-Don't measure the first event against a full room. You created something that didn't exist before, and people showed up and connected because of you.
+Don't measure the first event against a full room. You created something that didn't exist before, and people showed up and connected because of you!
 
 ---
 
