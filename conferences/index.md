@@ -483,7 +483,7 @@ Going to nearby meetups in person is the higher-effort, higher-payoff version. A
 %}
 
 {% capture triathlon %}
-The [Ruby Triathlon](https://rubytriathlon.com/) is a recurring community tradition where attendees hit three Ruby conferences in a row. In 2026 it took place across Rubycon Italy in Rimini, Balkan Ruby in Sofia, and RubyConf AT in Vienna. In 2025 it ran through Rails World in Amsterdam, Friendly.rb in Bucharest, and EuRuKo in Viana do Castelo. Conferences whose dates line up can lean into this — coordinate the calendar, cross-promote the route, and give people who complete all three a reason to travel that no single event could offer alone.
+The [Ruby Triathlon](https://rubytriathlon.com/) is a recurring community tradition - happening since 2023 - where attendees hit three Ruby conferences in a row. In 2026 it took place across Rubycon Italy in Rimini, Balkan Ruby in Sofia, and RubyConf AT in Vienna. In 2025 it ran through Rails World in Amsterdam, Friendly.rb in Bucharest, and EuRuKo in Viana do Castelo. Conferences whose dates line up can lean into this. It give people a great reason to travel that no single event could offer alone.
 {% endcapture %}
 {% include tip.html description=triathlon %}
 
