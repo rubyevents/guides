@@ -281,7 +281,7 @@ Open the CFP four to six months before the event if you can. Keep it open for a 
 
 {% include testimonial.html
   name="Hana Harencarova"
-  content="When opening the CFP, it was always important for us to reach different groups of people... support or motivate people from underrepresented groups, or voices which are not always heard that much, that they also submit talks."
+  content="When opening a CFP, it was always important to us to reach different groups of people... support or motivate people from underrepresented groups, or voices which are not always heard that much, so that they also submit talks."
 %}
 
 {% capture speakers %}
