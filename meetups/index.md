@@ -173,7 +173,7 @@ Looking for sponsors? Use [usingrails.com](https://usingrails.com/) to find comp
 
 The logistics of a meetup are not complicated, but the ones that go wrong tend to go wrong quietly — you don't notice until you're standing in front of thirty people and the projector won't connect.
 
-### Beamers are Evil
+### Projectors are evil
 
 Bring an HDMI adapter, and a USB-C to HDMI adapter for good measure. Confirm before the event that the venue's projector or TV is accessible. Know where the input selector is and know how to turn up the volume. The question is not if you'll have AV problems - it's when.
 
