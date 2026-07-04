@@ -112,9 +112,9 @@ The single most effective thing you can do is invite people directly. A message 
 
 Go through LinkedIn and find Ruby developers in your city. Start with your own network - if you're thinking of starting a Ruby meetup, you almost certainly already know someone local. Reach out to them first. It's time-consuming, but it's the most reliable way to fill a first or second event.
 
-<!-- TODO: Interview Belfast Ruby Nick Schwaderer about this, he has great quotes  -->
+<!-- TODO: Interview Belfast Ruby Nick Schwaderer about this  -->
 
-### Post, Post, Post
+### Just keep posting
 
 Public posts still matter. You just have to accept that most people will see one of them, not all. Post when you open sign-ups and post when you confirm a speaker. Post the week of the event, and again the day of. It feels repetitive to you - it's not for everyone else.
 
@@ -124,51 +124,45 @@ Target places where your local community already gathers, for example Slack, Dis
 
 A meetup that happens every second month on the third Tuesday becomes a fixture. People know when it is and plan around it. They might even bring someone new!
 
-A meetup that happens sporadically, never becomes a habit for anyone and The group never builds momentum.
+A meetup that happens sporadically, never becomes a habit for anyone and the group never builds momentum.
 
 Pick a cadence - monthly is most common, but bi-monthly or even quarterly works too - and hold to it. Even when a given month is inconvenient, try to run something anyway. A small event beats no event at all.
 
 ### Word of mouth
 
-After six to twelve months of consistent events, promotion takes less effort. Regulars bring friends. People mention the meetup when a colleague asks where to meet developers. Someone posts about it after a good night and you wake up to twenty new sign-ups.
+After six to twelve months of consistent events, promotion takes less effort. People mention the meetup when a colleague asks where to meet other Rubyists - the word spreads.
 
-You cannot speed this up by posting more or spending money on ads. It happens because the meetup is good and the people who go want others to go too. The only way there is to run good events consistently and wait.
+You cannot speed this up. It happens because the meetup is fun and the people who go want others to go too. The only way there is to run good events consistently and wait.
 
 ---
 
 ## Speakers & Talks
 
-Getting speakers for a local meetup is less daunting than it seems, but it takes active effort. Sometimes volunteers appear on their own - you just shouldn't count on it.
+Getting speakers for a local meetup is less daunting than it seems, but it takes active effort. Sometimes volunteers appear on their own - just don't count on it.
 
 ### Ask directly
 
-The best way to get speakers is to find someone who has been working on something interesting and send them a message. Not a general "Anyone want to speak?", but a direct: "I think what you've been building with Hotwire would make a great fifteen-minute talk. Would you be up for it?"
+The best way to get speakers is to find someone who has been working on something interesting and send them a message. Not a general "Anyone want to speak?", but a direct: "I think what you've been building with Hotwire would make a great talk. Would you be up for it?"
 
 Someone who has never given a talk before will say yes far more readily to a specific invitation than to an open call. They know you want to hear about their thing in particular.
 
 ### Lightning talks
 
-A ten-to-fifteen-minute talk is approachable for a first-time speaker. They don't have to fill forty-five minutes. They can show something they built, walk through a problem they solved, or share a technique they've been using. That's a real talk.
+A ten-to-fifteen-minute talk is approachable for a first-time speaker. They don't have to fill forty minutes. They can show something they built, walk through a problem they solved, or share a technique they've been using.
 
-Short talks also fit more speakers per event, which means more people get the experience of speaking in front of a room. Speakers who start at meetups often go on to give conference talks. The meetup is the first rung.
+Short talks also fit more speakers per event, which means more people get the experience of speaking in front of a room. Speakers who start at meetups often go on to give conference talks. Your meetup is the first rung.
 
 ---
 
 ## Money & Sponsors
 
-Most meetups do not need much money. The venue is usually free. The only real cost is food and drink, and even that is optional.
+Most meetups do not need much money. The venue is usually free, so the only real cost is food and drink - and even that is optional.
 
 ### Do you actually need sponsors?
 
-Some meetups run with no budget at all: attendees find the venue, nobody eats or drinks anything in particular, the organizer covers a few dollars of incidental costs. This works. Many long-running meetups operate this way.
+Some meetups run with no budget at all. If you want to offer food and drink — which makes evenings more social and keeps people around longer — you will need either a small budget or a sponsor.
 
-If you want to offer food and drink — which makes evenings more social and keeps people around longer — you will need either a small budget or a sponsor.
-
-### The food-sponsor arrangement
-
-The most common model for meetup food is a single sponsor who covers pizza and soft drinks in exchange for a short mention or presentation at the start of the event. It's a clean exchange that has worked for decades. The sponsor gets their name and logo in front of a room of developers for a few minutes. You get $200 to $500 worth of food without fronting the money yourself.
-
-The most natural sponsors are the same people who host your venue. Keep the arrangement simple: food covered in exchange for a brief mention and their logo on the event page. You find sponsors much the same way you find speakers or venues - look around your local circle for companies that fit, and reach out.
+The most common model for meetup food is a single sponsor who covers pizza and soft drinks in exchange for a short mention or presentation at the start of the event. It's a clean exchange that has worked for decades. The most natural sponsors are the same people who host your venue. You find sponsors much the same way you find speakers or venues - look around your local circle for companies that fit, and reach out.
 
 {% capture companies %}
 Looking for sponsors? Use [usingrails.com](https://usingrails.com/) to find companies using Ruby on Rails in your area.
@@ -183,43 +177,41 @@ The logistics of a meetup are not complicated, but the ones that go wrong tend t
 
 ### Beamers are Evil
 
-Bring an HDMI adapter, and a USB-C to HDMI adapter for good measure. Confirm before the event that the venue's projector or TV is accessible. Know where the input selector is. Know how to turn up the volume. None of this is interesting, and all of it matters. The question is not if you'll have AV problems - it's when.
+Bring an HDMI adapter, and a USB-C to HDMI adapter for good measure. Confirm before the event that the venue's projector or TV is accessible. Know where the input selector is and know how to turn up the volume. The question is not if you'll have AV problems - it's when.
 
-If the venue has no projection setup, a large TV that speakers can connect to directly often works fine for a small room. Once you're over thirty people, some form of projection becomes important — people in the back can't see a laptop screen.
+If the venue has no projection setup, a large TV that speakers can connect to directly often works fine for a small room. Once you're over thirty people, some form of projection becomes necessary — people in the back can't see a laptop screen.
 
 ### Help people find you
 
-Even a perfect description of the location won't stop people from getting lost. Be reachable if someone can't find their way. Keep a sheet of paper and a marker handy to point people in the right direction, and post photos so people know what to look for. This matters most when the venue is inside an office building.
+Even a perfect description of the location won't stop people from getting lost. Be reachable if someone can't find their way. Keep a sheet of paper and a marker handy to point people in the right direction, and post photos of the entrance so people know what to look for. This matters most when the venue is inside an office building.
 
 ### Name tags
 
 When a meetup is new and attendees don't know each other, name tags genuinely help. They let people approach strangers without the awkwardness of asking for a name they missed. They also give introverts a lower-friction way to read the room and decide who to talk to.
 
-Once your meetup has a core of regulars who all know each other, name tags matter less. But for the first six to twelve months, they do real work.
+Once your meetup has a core of regulars who all know each other, name tags matter less. But in the beginning they do real work.
 
 ### Start on time
 
 Start within ten minutes of the announced time, even if not everyone has arrived. People who showed up on time shouldn't be penalized for the people who didn't. Starting late just trains everyone to arrive late.
 
-It's a small thing that signals something larger: you are organized, you respect people's time, and the meetup is a real event, not a hangout that drifts.
+It's a small thing that signals that you are organized, you respect people's time, and the meetup is a real event.
 
 ---
 
 ## Building Culture
 
-A meetup's culture is not what you write in the code of conduct. It is what happens when a newcomer arrives alone and doesn't know anyone. It is what happens when someone gives a talk that doesn't quite land. It is what happens when a regular says something dismissive to a first-timer.
-
-Culture is built by what is tolerated, what is celebrated, and what the organizer visibly cares about.
+A meetup's culture is not what you write in the code of conduct. Culture is built by what is tolerated, what is celebrated, and what the organizer visibly cares about.
 
 ### Make the code of conduct real
 
-Post it somewhere visible. Mention it briefly at the start of the event — not the legalese, just: here's what this community expects, here's how to reach me if something happens. People notice when an organizer takes this seriously. The people most likely to cause problems are the ones who most need to hear it said out loud.
+Post your code of conduct somewhere visible. Mention it briefly at the start of the event — not the legalese. Just tell people what this community expects, and what to do if something unpleasant happens. People notice when an organizer takes this seriously.
 
 ### Welcome new people explicitly
 
-At the start of each meetup, ask who is here for the first time and give those people a moment of recognition. Invite regulars to introduce themselves to newcomers. It's a small thing that dramatically changes the experience for someone arriving alone to a room where everyone else seems to know each other.
+At the start of each meetup, ask who is here for the first time and give those people a moment of recognition. Invite regulars to introduce themselves to newcomers. Make an effort to talk to newcomers specifically. It's a small thing that dramatically changes the experience for someone arriving alone.
 
-A meetup where regulars only talk to each other is not welcoming, even if it is technically open. The Pac-Man rule — leaving a gap in conversation circles so someone can join — is a simple norm worth promoting. So is the expectation that experienced developers talk to junior ones and take their questions seriously.
+A meetup where regulars only talk to each other is not welcoming, even if it is technically open.
 
 ### Model what you expect
 
@@ -231,42 +223,42 @@ You don't need a manifesto or an elaborate onboarding process. You need to show,
 
 ## Keeping It Fun
 
-The hardest part of organizing a meetup is not the first event. It is the tenth, when the novelty has worn off, you are tired, and you have to do it again.
+The hardest part of organizing a meetup is not the first event. It is the tenth, when the novelty has worn off, and you are tired, and you have to do it again.
 
 ### Burnout is real and predictable
 
 Running a meetup on any frequency costs time and energy, no matter how much you enjoy it. The preparation, the back-and-forth with speakers and venues, the promotion, the evening itself — it adds up. Most organizers who burn out do so quietly. They skip one month, find a reason to skip another, and just like that the meetup stops happening.
+
+The best prevention is to not organize the meetup alone.
 
 {% include testimonial.html
   name="Hans Schnedlitz"
   content="For me, running the meetup every quarter is the perfect frequency. It gives me enough time to prepare, but is regular enough to become a sort of constant in Vienna. Doing it more often would burn me out, and doing it less often would just lead to it fizzling out I think."
 %}
 
-The best prevention is to not organize the meetup alone.
-
 ### Find a co-organizer
 
-A co-organizer is not a helper. They are someone equally invested in the meetup continuing, who can run it when you cannot. They share the cognitive load of remembering what needs to happen and when. They cover for you when you are sick, traveling, or just depleted.
+A co-organizer is not your assistant. They are someone equally invested in the meetup continuing, who can run it when you cannot. They share the cognitive load of remembering what needs to happen and when and they cover for you when you are sick, traveling, or just depleted.
 
-Finding a co-organizer is easier if you look for one actively rather than waiting for someone to volunteer. Ask a regular who seems particularly engaged. Offer to share the role explicitly rather than asking if they "want to help out" — people are more likely to commit to a defined role than a vague offer of involvement.
+Finding a co-organizer is easier if you look for one actively rather than waiting for someone to volunteer. Ask a regular who seems particularly engaged and offer to share the role explicitly rather than asking if they "want to help out".
 
 ### Mix it up
 
-The surest way to keep going is to keep it interesting for yourself. Running the exact same evening on repeat is how it slowly turns into a chore. So change something. Swap talks for a hack night, move to a new venue, add a seasonal twist. Showing up with a batch of Christmas cookies costs almost nothing and livens up the whole room.
+The surest way to keep going is to keep it interesting for yourself. Running the exact same evening on repeat is how it turns into a chore. So change something! Swap talks for a hack night, move to a new venue, add a seasonal twist. Showing up with a batch of Christmas cookies costs almost nothing and livens up the whole room.
 
-You are the person most likely to get bored, and a bored organizer doesn't last. Keep it fun for yourself and the rest tends to follow.
+If you're getting bored, it's likely the rest of the attendees are too. Keeping it fun for yourself is a great way to keep it fun for everyone else.
 
 ---
 
 ## Growing & Evolving
 
-Most meetups that are doing well will, at some point, face the question of what comes next. More attendees, different formats, a spin-off event, a closer relationship with the broader Ruby community. These are good problems to have.
+Most meetups that are doing well will, at some point, face the question of what comes next. These are good problems to have.
 
 ### When to grow and when not to
 
-A meetup does not need to grow to succeed. A consistent forty-person event in a city is worth more to the community than a hundred-person event that happens twice and stops. Chasing attendance numbers pushes you toward decisions — bigger venues, more marketing, more elaborate programming — that add overhead without adding value.
+A meetup does not need to grow to succeed. A consistent twenty-person event in a city is worth more to the community than a hundred-person event that happens twice and stops. Chasing attendance numbers pushes you toward decisions — bigger venues, more marketing, more elaborate programming — that add overhead without adding value.
 
-Grow when you are turning people away, when you've found a venue that supports more people at no extra cost, or when the community explicitly wants more. Don't grow to prove that you are succeeding. The meetup's consistency is the proof.
+Grow when you are turning people away, when you've found a venue that supports more people at no extra cost, or when the community explicitly wants more. Don't try to grow to prove that you are succeeding.
 
 ### Connecting to the broader Ruby world
 
@@ -274,17 +266,17 @@ Your meetup does not exist in isolation. Ruby Central, which supports meetups an
 
 Connecting with regional conference organizers is worth doing too. Many conferences — Rocky Mountain Ruby, Blue Ridge Ruby, Helvetic Ruby, Tropical on Rails — have explicit relationships with local meetup communities. They promote each other and share audiences. Some conferences have grown directly out of meetups. Irina Nazarova started a monthly Ruby meetup in San Francisco, which eventually became the foundation for SF Ruby Conference.
 
+A meetup that stays connected to the broader Ruby community — through newsletters, Slack groups, conference cross-promotion, and relationships with other organizers — is less isolated when things get hard. And when things go well, that connection is how your local community becomes part of something larger.
+
 {% include testimonial.html
   name="Irina Nazarova"
   content="I was running a monthly meetup, and I thought, well, we need this kind of extra event for the meetup to also, once in a while, become something bigger... something more noticeable."
 %}
 
-A meetup that stays connected to the broader Ruby community — through newsletters, Slack groups, conference cross-promotion, and relationships with other organizers — is less isolated when things get hard. And when things go well, that connection is how your local community becomes part of something larger.
-
 ### Handing it over
 
 If you have been running a meetup for several years and are ready to stop, the best outcome is not for it to quietly die. It is for it to continue under someone else.
 
-The most natural successor is a regular who already cares about the meetup and knows how it works. The transition is easier if you have shared the organizing work rather than done everything yourself. Give someone responsibility for speaker coordination or venue booking for a few months before you hand over. By the time you step back, they will already know how the meetup works from the inside.
+The most natural successor is someone who already cares about the meetup and knows how it works. The transition is easier if you have shared the organizing work rather than done everything yourself. Give someone responsibility for speaker coordination or venue booking for a few months before you hand over. By the time you step back, they will already know how the meetup works from the inside.
 
 A meetup that has served a community for years deserves a real transition, not a slow fade.
