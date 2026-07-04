@@ -2,58 +2,70 @@
   conference: Blue Ridge Ruby
   initials: JS
   image: /assets/images/avatars/jeremy.jpg
+  rubyevents: https://www.rubyevents.org/profiles/jeremysmithco
 
 - name: Spike Ilacqua
   conference: Rocky Mountain Ruby
   initials: SI
   image: /assets/images/avatars/spike.jpg
+  rubyevents: https://www.rubyevents.org/profiles/spikex
 
 - name: Marty Haught
   conference: Rocky Mountain Ruby
   initials: MH
   image: /assets/images/avatars/marty.jpg
+  rubyevents: https://www.rubyevents.org/profiles/mghaught
 
 - name: Jason Charnes
   conference: Southeast Ruby
   initials: JC
   image: /assets/images/avatars/jasonc.png
+  rubyevents: https://www.rubyevents.org/profiles/jasoncharnes
 
 - name: Jason Swett
   conference: Sin City Ruby
   initials: JS
   image: /assets/images/avatars/jasons.jpg
+  rubyevents: https://www.rubyevents.org/profiles/jasonswett
 
 - name: Adrian Marin
   conference: Friendly.rb
   initials: AM
   image: /assets/images/avatars/adrian.jpg
+  rubyevents: https://www.rubyevents.org/profiles/adrianthedev
 
 - name: Andy Croll
   conference: Brighton Ruby
   initials: AC
   image: /assets/images/avatars/andy.jpg
+  rubyevents: https://www.rubyevents.org/profiles/andycroll
 
 - name: Cirdes Henrique
   conference: Tropical on Rails
   initials: CH
   image: /assets/images/avatars/cirdes.jpeg
+  rubyevents: https://www.rubyevents.org/profiles/cirdes
 
 - name: Hana Harencarova
   conference: Helvetic Ruby
   initials: HH
   image: /assets/images/avatars/hana.jpeg
+  rubyevents: https://www.rubyevents.org/profiles/hharen
 
 - name: Amanda Perino
   conference: Rails World
   initials: AP
   image: /assets/images/avatars/amanda.jpg
+  rubyevents: https://www.rubyevents.org/profiles/amandaperino
 
 - name: Irina Nazarova
   conference: SF Ruby Conference
   initials: IN
   image: /assets/images/avatars/irina.webp
+  rubyevents: https://www.rubyevents.org/profiles/irinanazarova
 
 - name: Hans Schnedlitz
   conference: Vienna.rb
   initials: HS
   image: /assets/images/avatars/hans.png
+  rubyevents: https://www.rubyevents.org/profiles/hschne

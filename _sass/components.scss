@@ -455,6 +455,18 @@
     object-fit: cover;
   }
 
+  .testimonial__profile-link {
+    display: block;
+    flex: 0 0 auto;
+    border-radius: var(--border-radius-full);
+    transition: opacity var(--transition-fast, 0.15s) ease;
+
+    &:hover,
+    &:focus-visible {
+      opacity: 0.85;
+    }
+  }
+
   .testimonial__avatar--initials {
     display: inline-grid;
     place-items: center;

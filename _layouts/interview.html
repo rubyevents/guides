@@ -8,7 +8,7 @@ layout: default
   {%- assign has_highlights = true -%}
 {%- endif -%}
 {%- assign has_links = false -%}
-{%- if page.links.size > 0 or page.source_url -%}
+{%- if page.links.size > 0 or page.source_url or voice.rubyevents -%}
   {%- assign has_links = true -%}
 {%- endif -%}
 
@@ -30,6 +30,9 @@ layout: default
     <section class="interview-aside__section">
       <p class="toc__heading">Related links</p>
       <ul class="toc__list">
+        {%- if voice.rubyevents -%}
+          <li class="toc__item"><a class="toc__link" href="{{ voice.rubyevents }}">{{ page.voice }} on RubyEvents</a></li>
+        {%- endif -%}
         {%- for link in page.links -%}
           <li class="toc__item"><a class="toc__link" href="{{ link.url }}">{{ link.label }}</a></li>
         {%- endfor -%}

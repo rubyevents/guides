@@ -9,6 +9,7 @@
 {%- assign conference = voice.conference | default: include.conference -%}
 {%- assign avatar = voice.image | default: include.avatar -%}
 {%- assign initials = voice.initials | default: include.initials -%}
+{%- assign profile = voice.rubyevents | default: include.rubyevents -%}
 
 <figure
   class="testimonial{% if include.class %} {{ include.class }}{% endif %}"
@@ -18,6 +19,13 @@
   </blockquote>
 
   <figcaption class="testimonial__person">
+    {% if profile %}
+      <a
+        class="testimonial__profile-link"
+        href="{{ profile }}"
+        title="{{ include.name }} on RubyEvents"
+      >
+    {% endif %}
     {% if avatar %}
       <img
         class="testimonial__avatar"
@@ -34,6 +42,9 @@
       >
         {{- initials -}}
       </span>
+    {% endif %}
+    {% if profile %}
+      </a>
     {% endif %}
 
     <span class="testimonial__byline">
