@@ -1,7 +1,7 @@
 ---
 layout: interviews
 title: The Interviews
-description: Full organizer conversations behind the Ruby Community Guides.
+description: Full organizer conversations behind RubyEvents Guides.
 ---
 
 <p class="eyebrow">Resources</p>

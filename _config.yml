@@ -2,8 +2,16 @@ url: "https://guides.rubyevents.org"
 github_repo: "rubyevents/guides"
 github_branch: "main"
 baseurl: ""
-title: "Ruby Community Guides"
+lang: en
+title: "RubyEvents Guides"
+tagline: "Start and run Ruby communities"
 description: "Practical guides for starting and running Ruby communities."
+author:
+  name: RubyEvents Guides
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
   interviews:
@@ -11,6 +19,10 @@ collections:
     permalink: /interviews/:name/
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og.png
   - scope:
       path: ""
       type: interviews

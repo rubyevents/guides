@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in improving Ruby Community Guides! Contributions of all kinds are welcome — fixing typos, clarifying advice, or sharing your own organizing experience.
+Thanks for your interest in improving RubyEvents Guides! Contributions of all kinds are welcome — fixing typos, clarifying advice, or sharing your own organizing experience.
 
 ## How to contribute
 

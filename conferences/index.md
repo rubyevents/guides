@@ -1,11 +1,13 @@
 ---
 layout: guide
-title: "Running Ruby Conferences"
+title: "How to Organize a Ruby Conference"
 description: "A practical guide for organizing your first regional Ruby conference — from the decision to commit to the room full of people who came because of you."
 toc: true
+seo:
+  type: Article
 ---
 
-# Running Ruby Conferences
+# How to Organize a Ruby Conference
 
 A practical guide for organizing your first regional Ruby conference — from the decision to commit to the room full of people who came because you made it happen.
 

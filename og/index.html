@@ -1,0 +1,129 @@
+---
+permalink: /og/
+sitemap: false
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>OG image preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800&display=swap"
+      rel="stylesheet"
+    >
+    <style>
+      /* Social card for guides.rubyevents.org — rendered at 1200x630.
+     Edit this file, preview at /og/, then run `bin/og-image` to export
+     assets/images/og.png. Avatars come from _data/voices.yml automatically. */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1200px;
+        height: 630px;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background:
+          radial-gradient(1100px 520px at 88% -15%, oklch(88% 0.07 27 / 0.38), transparent 62%),
+          linear-gradient(158deg, oklch(98.5% 0.005 68), oklch(93.5% 0.008 67));
+        color: oklch(14% 0.007 50);
+        padding: 76px 88px;
+        display: flex;
+        flex-direction: column;
+      }
+      .eyebrow {
+        font-weight: 600;
+        font-size: 23px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: oklch(47.5% 0.212 27);
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .eyebrow::before {
+        content: '';
+        width: 44px;
+        height: 5px;
+        border-radius: 3px;
+        background: oklch(47.5% 0.212 27);
+      }
+      .hero {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      h1 {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        font-size: 98px;
+        line-height: 1;
+        letter-spacing: -0.035em;
+        white-space: nowrap;
+      }
+      h1 .ruby {
+        color: oklch(47.5% 0.212 27);
+      }
+      p.sub {
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 1.4;
+        color: oklch(45% 0.01 60);
+        margin-top: 26px;
+        max-width: 30ch;
+      }
+      .foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+        border-top: 2px solid oklch(85% 0.01 65);
+      }
+      .avatars {
+        display: flex;
+      }
+      .avatars img {
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid oklch(98.5% 0.005 68);
+        margin-left: -18px;
+        box-shadow: 0 3px 10px oklch(14% 0.007 50 / 0.14);
+        background: oklch(91% 0.009 67);
+      }
+      .avatars img:first-child {
+        margin-left: 0;
+      }
+      .url {
+        font-weight: 700;
+        font-size: 25px;
+        color: oklch(31% 0.14 27);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="eyebrow">Living resources for organizers</div>
+    <div class="hero">
+      <h1>RubyEvents <span class="ruby">Guides</span></h1>
+      <p class="sub">Everything you need to start and run a Ruby community.</p>
+    </div>
+    <div class="foot">
+      <div class="avatars">
+        {% assign faces = site.data.voices | slice: 0, 11 %}
+        {% for voice in faces %}
+          {% if voice.image %}<img src="{{ voice.image | relative_url }}" alt="">{% endif %}
+        {% endfor %}
+      </div>
+      <div class="url">guides.rubyevents.org</div>
+    </div>
+  </body>
+</html>

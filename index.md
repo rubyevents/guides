@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Ruby Community Guides
+title: RubyEvents Guides
 ---
 
 <div class="index-intro" markdown="1">
@@ -8,7 +8,7 @@ title: Ruby Community Guides
 Living resources for organizers
 {: .eyebrow }
 
-# Ruby Community Guides
+# RubyEvents Guides
 
 Everything you need to start and run a Ruby community — written by people who've done it.
 

@@ -1,11 +1,13 @@
 ---
 layout: guide
-title: "Running Ruby Meetups"
+title: "How to Start a Ruby Meetup"
 description: "A practical guide for starting and sustaining a local Ruby meetup — from finding your first venue to keeping it going years later."
 toc: true
+seo:
+  type: Article
 ---
 
-# Running Ruby Meetups
+# How to Start a Ruby Meetup
 
 A practical guide for starting and sustaining a local Ruby meetup — from finding your first venue to keeping it going years later.
 

@@ -9,7 +9,15 @@
 {%- assign conference = voice.conference | default: include.conference -%}
 {%- assign avatar = voice.image | default: include.avatar -%}
 {%- assign initials = voice.initials | default: include.initials -%}
+{%- assign interview = voice.interview | default: include.interview -%}
 {%- assign profile = voice.rubyevents | default: include.rubyevents -%}
+{%- if interview -%}
+  {%- assign link_url = interview | relative_url -%}
+  {%- assign link_title = 'Read our interview with ' | append: include.name -%}
+{%- elsif profile -%}
+  {%- assign link_url = profile -%}
+  {%- assign link_title = include.name | append: ' on RubyEvents' -%}
+{%- endif -%}
 
 <figure
   class="testimonial{% if include.class %} {{ include.class }}{% endif %}"
@@ -18,14 +26,7 @@
     <p>&ldquo;{{ quote_content }}&rdquo;</p>
   </blockquote>
 
-  <figcaption class="testimonial__person">
-    {% if profile %}
-      <a
-        class="testimonial__profile-link"
-        href="{{ profile }}"
-        title="{{ include.name }} on RubyEvents"
-      >
-    {% endif %}
+  {%- capture person -%}
     {% if avatar %}
       <img
         class="testimonial__avatar"
@@ -43,15 +44,21 @@
         {{- initials -}}
       </span>
     {% endif %}
-    {% if profile %}
-      </a>
-    {% endif %}
-
     <span class="testimonial__byline">
       <span class="testimonial__name">{{ include.name }}</span>
       {% if conference %}
         <span class="testimonial__conference">{{ conference }}</span>
       {% endif %}
     </span>
+  {%- endcapture -%}
+
+  <figcaption class="testimonial__person">
+    {% if link_url %}
+      <a class="testimonial__profile-link" href="{{ link_url }}" title="{{ link_title }}">
+        {{ person }}
+      </a>
+    {% else %}
+      {{ person }}
+    {% endif %}
   </figcaption>
 </figure>

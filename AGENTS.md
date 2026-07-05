@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Ruby Community Guides is a small Jekyll site for practical, living guides about organizing Ruby communities.
+RubyEvents Guides is a small Jekyll site for practical, living guides about organizing Ruby communities.
 
 ## Project goal
 

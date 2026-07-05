@@ -1,4 +1,4 @@
-# Ruby Community Guides
+# RubyEvents Guides
 
 Practical guides for starting and running Ruby communities — meetups and conferences.
 
