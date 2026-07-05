@@ -10,7 +10,7 @@ links:
   - label: "@JasonSwett"
     url: https://www.x.com/JasonSwett
     icon: x
-  - label: "LinkedIn"
+  - label: "@jasonswett"
     url: https://www.linkedin.com/in/jasonswett/
     icon: linkedin
 highlights:

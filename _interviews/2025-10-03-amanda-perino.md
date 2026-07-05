@@ -7,7 +7,7 @@ source_url: https://rubyconferenceproject.com/2025-10-03-amanda-perino/
 teaser: >-
   Amanda Perino talks about bringing event experience from HashiConf to Rails World, choosing venues, managing risk, and creating spaces that make large conferences feel humane.
 links:
-  - label: "LinkedIn"
+  - label: "@amandabrookeperino"
     url: https://www.linkedin.com/in/amandabrookeperino/
     icon: linkedin
   - label: "Rails Foundation"

@@ -10,7 +10,7 @@ links:
   - label: "Helvetic Ruby"
     url: https://helvetic-ruby.ch
     icon: conference
-  - label: "LinkedIn"
+  - label: "@helvetic-ruby"
     url: https://www.linkedin.com/company/helvetic-ruby
     icon: linkedin
   - label: "hharen.com"

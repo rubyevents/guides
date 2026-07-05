@@ -10,7 +10,7 @@ links:
   - label: "@mghaught.bsky.social"
     url: https://bsky.app/profile/mghaught.bsky.social
     icon: bluesky
-  - label: "LinkedIn"
+  - label: "@martyhaught"
     url: https://www.linkedin.com/in/martyhaught/
     icon: linkedin
 highlights:

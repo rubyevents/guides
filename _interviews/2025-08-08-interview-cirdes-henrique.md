@@ -13,7 +13,7 @@ links:
   - label: "@cirdesh"
     url: https://x.com/cirdesh
     icon: x
-  - label: "LinkedIn"
+  - label: "@cirdesh"
     url: https://www.linkedin.com/in/cirdesh
     icon: linkedin
 highlights:

@@ -13,7 +13,7 @@ links:
   - label: "@adrianthedev.com"
     url: https://bsky.app/profile/adrianthedev.com
     icon: bluesky
-  - label: "LinkedIn"
+  - label: "@adrianthedev"
     url: https://linkedin.com/in/adrianthedev
     icon: linkedin
 highlights:
