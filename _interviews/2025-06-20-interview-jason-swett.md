@@ -7,10 +7,12 @@ source_url: https://rubyconferenceproject.com/2025-06-20-interview-jason-swett/
 teaser: >-
   Jason Swett discusses organizing Sin City Ruby, handling the uncertainty of a first event, and making clear choices about audience, venue, and scope.
 links:
-  - label: "Jason's X"
+  - label: "@JasonSwett"
     url: https://www.x.com/JasonSwett
-  - label: "Jason's LinkedIn"
+    icon: x
+  - label: "LinkedIn"
     url: https://www.linkedin.com/in/jasonswett/
+    icon: linkedin
 highlights:
   - title: "Starting small and low-risk"
     anchor: starting-small-low-risk
@@ -23,7 +25,6 @@ highlights:
   - title: "Keeping it simple without sponsors"
     anchor: keeping-it-simple
 ---
-
 **Travis:** Okay, all right. Well, welcome to these. I've been saying many different adjectives, but impromptu, unofficial organizer chats that I've been having. A little bit of context for you. You are the organizer of, or former organizer, we'll say, of Sin City Ruby, which is going to be an interesting chat specifically because you're the first organizer that I'm speaking to that I actually have been to your conference multiple times. So I get to see a little bit of behind the scenes of a conference that I got to see from a firsthand perspective.
 
 You also have a kind of interesting origin story for your conference, because you never planned to have a conference. At first you booked space for a class, and then you found it hard to sell tickets for a class. And so you pivoted. What was that experience like? What was it like to have in mind, okay, I'm doing this class, and then all of a sudden, you're organizing a conference? What was that kind of like?

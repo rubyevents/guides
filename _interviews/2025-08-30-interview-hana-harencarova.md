@@ -9,10 +9,13 @@ teaser: >-
 links:
   - label: "Helvetic Ruby"
     url: https://helvetic-ruby.ch
-  - label: "Helvetic Ruby LinkedIn"
+    icon: conference
+  - label: "LinkedIn"
     url: https://www.linkedin.com/company/helvetic-ruby
-  - label: "Hana's website"
+    icon: linkedin
+  - label: "hharen.com"
     url: https://hharen.com
+    icon: web
 highlights:
   - title: "Starting from a EuRuKo pitch"
     anchor: starting-from-a-euruko-pitch
@@ -25,7 +28,6 @@ highlights:
   - title: "Keep the core team small"
     anchor: keep-the-core-team-small
 ---
-
 **Travis:** All right, welcome to the unprofessional, casual conference organizer chat that I've been doing. I want to say welcome, and thank you for taking the time. I'm going to try to say your name. I don't know if I'm going to pronounce it right, let me know. But it's Hana Harencarova?
 
 **Hana:** Yep, that's pretty good.

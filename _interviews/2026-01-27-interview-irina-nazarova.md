@@ -7,12 +7,15 @@ source_url: https://rubyconferenceproject.com/2026-01-27-interview-irina-nazarov
 teaser: >-
   Irina Nazarova reflects on launching SF Ruby Conference quickly, building momentum around a local meetup, attracting founders, and designing a big event around the Bay Area Ruby community.
 links:
-  - label: "SF Ruby"
+  - label: "SF Ruby Conference"
     url: https://sfruby.org
+    icon: conference
+  - label: "@inazarova"
+    url: https://x.com/inazarova
+    icon: x
   - label: "Evil Martians"
     url: https://evilmartians.com
-  - label: "Irina's X"
-    url: https://x.com/inazarova
+    icon: web
 highlights:
   - title: "Deciding to launch quickly"
     anchor: deciding-to-launch-quickly
@@ -25,7 +28,6 @@ highlights:
   - title: "Don't count on last-minute tickets"
     anchor: dont-count-on-last-minute
 ---
-
 **Travis:** Okay. Well, welcome, Irina, to my conference chat. I am speaking to you today because of SF Ruby. You are CEO of Evil Martians, and Evil Martians is an agency known for the blog, open source contributions, and now for the SF Ruby Conference.
 
 So, just to give the quick recap of that: it was three days of 30-plus talks, 25 demos, 400-plus attendees, 30 sponsors. This was a very big, complex event that you put on in a pretty short amount of time. Could you give us the timeline of when you were kind of like, okay, we're going to do this, we're going to make a conference, until November? Because I think that was only a couple months, right?

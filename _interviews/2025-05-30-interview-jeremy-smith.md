@@ -7,12 +7,15 @@ source_url: https://rubyconferenceproject.com/2025-05-30-interview-jeremy-smith/
 teaser: >-
   Jeremy Smith explains how Blue Ridge Ruby grew out of Asheville, why place matters, and how conference organizers can design for relationships as much as talks.
 links:
-  - label: "Jeremy's Twitter"
+  - label: "@jeremysmithco"
     url: https://x.com/jeremysmithco
-  - label: "Jeremy's Bluesky"
+    icon: x
+  - label: "@jeremysmith.co"
     url: https://bsky.app/profile/jeremysmith.co
-  - label: "Jeremy's Rails studio"
+    icon: bluesky
+  - label: "Hybrd"
     url: https://hybrd.co/
+    icon: web
 highlights:
   - title: "Choosing Asheville and place"
     anchor: choosing-asheville-and-place
@@ -25,17 +28,6 @@ highlights:
   - title: "The gratitude mic moment"
     anchor: the-gratitude-mic-moment
 ---
-
-I had a very inspiring talk with Jeremy and he gave me a lot to think about. A couple things that stood out to me:
-
-On delegating tasks to other people when organizing a conference (or doing anything difficult really) he said, “I think that works really well when you know what the job is to do. But if you’ve never done the job and you haven’t seen it done well, how do you even know what needs to be done?” This is something that I have really been struggling with. I know I will need help but how to get that help and have it be effective is tough for me (a sign I need to build this skill obviously).
-
-Make marketing materials for other conferences! He put out mailers with custom made stickers on them on tables at RailsConf (maybe) and people picked them up! This is something I can definitely do.
-
-When talking about getting sponsors the first time, especially when you don’t have a network to tap into, he said the best advice he got was: “…brand or the conference itself is not what you are selling, you are selling you.” This is a great point. Because I don’t have a history of organizing conferences or a wide network or social media following, the sponsors are really taking a chance on me. I need to convince them that I am the one that will make the conference successful, not the other way around. Ask the sponsors, “What do you need from me to make this successful?”
-
-One thing that he thinks made a big impact on him and the conference itself was the period at the very beginning where he gave people the chance to get on the mic and say something positive that happened to them in the Ruby community. That sounds so cool. I really want to steal this for my conference.
-
 **Travis:** Alrighty, sounds good. Well, welcome to this very unofficial, unprofessional, off-the-cuff informational interview series that I'm doing here. I've just been reaching out to different conference organizers for context and doing these recorded interviews in hopes that I can soak up a little bit of your knowledge, and also that I can put these out for other people who are looking to organize conferences.
 
 **Jeremy:** Yeah, that's cool.

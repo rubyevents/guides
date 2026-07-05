@@ -28,16 +28,28 @@ layout: default
 
   {%- if has_links -%}
     <section class="interview-aside__section">
-      <p class="toc__heading">Related links</p>
+      <p class="toc__heading">Links</p>
       <ul class="toc__list">
         {%- if voice.rubyevents -%}
-          <li class="toc__item"><a class="toc__link" href="{{ voice.rubyevents }}">{{ page.voice }} on RubyEvents</a></li>
+          {%- include resource-link.html url=voice.rubyevents label=page.voice icon="profile" -%}
         {%- endif -%}
         {%- for link in page.links -%}
-          <li class="toc__item"><a class="toc__link" href="{{ link.url }}">{{ link.label }}</a></li>
+          {%- if link.icon == "conference" -%}
+            {%- include resource-link.html url=link.url label=link.label icon=link.icon -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- for link in page.links -%}
+          {%- if link.icon == "x" or link.icon == "bluesky" or link.icon == "linkedin" -%}
+            {%- include resource-link.html url=link.url label=link.label icon=link.icon -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- for link in page.links -%}
+          {%- unless link.icon == "conference" or link.icon == "x" or link.icon == "bluesky" or link.icon == "linkedin" -%}
+            {%- include resource-link.html url=link.url label=link.label icon=link.icon -%}
+          {%- endunless -%}
         {%- endfor -%}
         {%- if page.source_url -%}
-          <li class="toc__item"><a class="toc__link" href="{{ page.source_url }}">Ruby Conference Project</a></li>
+          {%- include resource-link.html url=page.source_url label="Ruby Conference Project" icon="link" -%}
         {%- endif -%}
       </ul>
     </section>

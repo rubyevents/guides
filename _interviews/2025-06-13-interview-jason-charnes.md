@@ -7,14 +7,18 @@ source_url: https://rubyconferenceproject.com/2025-06-13-interview-jason-charnes
 teaser: >-
   Jason Charnes talks through the early decisions behind Southeast Ruby, from starting small and finding sponsors to making a regional Ruby event feel real.
 links:
-  - label: "Jason's Blog"
-    url: https://www.jasoncharnes.com/
-  - label: "Jason's X"
+  - label: "@jmcharnes"
     url: https://www.x.com/jmcharnes
-  - label: "Jason's Blog Post after the first year of Southeast Ruby"
+    icon: x
+  - label: "jasoncharnes.com"
+    url: https://www.jasoncharnes.com/
+    icon: web
+  - label: "Organizing Southeast Ruby"
     url: https://jasoncharnes.com/organizing-southeast-ruby/
-  - label: "Jason's conversation with Jason about conferences"
+    icon: article
+  - label: "Code with Jason interview"
     url: https://www.codewithjason.com/podcast/10094963-134-behind-the-scenes-of-conference-organizing-with-jason-charnes/
+    icon: podcast
 highlights:
   - title: "Workshops as a separate day"
     anchor: workshops-separate-day
@@ -27,7 +31,6 @@ highlights:
   - title: "The 30-minute break format"
     anchor: thirty-minute-break-format
 ---
-
 **Travis:** Okay, cool. Well, welcome to what I've been calling my unofficial, unprofessional interviews of conference organizers. So, a little bit of context: I decided that I'm going to organize my own Rails conference, and I wanted to reach out to a bunch of other conference organizers and just try to soak up their knowledge, get their experience, and ask them all kinds of questions about how they did what they did.
 
 I know that you organized Southeast Ruby a couple times, and you actually wrote a really awesome blog post after the first one called "Organizing My First Conference: Southeast Ruby." I also listened to, I think, a podcast you did with Jason Swett on organizing Ruby conferences. So I think I'll skip over the whole story of you organizing that, but I want to dive a little bit deeper than maybe what that blog post was.

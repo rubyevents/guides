@@ -7,10 +7,12 @@ source_url: https://rubyconferenceproject.com/2025-05-16-marty-haught-interview/
 teaser: >-
   Marty Haught talks about bringing Rocky Mountain Ruby back, choosing the right venue, working within realistic constraints, and building an event around the community you already have.
 links:
-  - label: "Marty's Bluesky"
+  - label: "@mghaught.bsky.social"
     url: https://bsky.app/profile/mghaught.bsky.social
-  - label: "Marty's LinkedIn"
+    icon: bluesky
+  - label: "LinkedIn"
     url: https://www.linkedin.com/in/martyhaught/
+    icon: linkedin
 highlights:
   - title: "Get clear on your vision"
     anchor: get-clear-on-vision
@@ -23,11 +25,6 @@ highlights:
   - title: "The guides and scholars program"
     anchor: guides-and-scholars
 ---
-
-Previous Organizer of Rocky Mountain Ruby
-
-Marty Haught was the first person to say yes to a call, and I’m so grateful. We had a great conversation about what it means to organize your first conference, and he generously shared insights from his years of organizing. Thank you, Marty, for taking a Zoom call with a total stranger, and for your patience with my "um"s and "uh"s during my first ever interview!
-
 **Travis:** Are you ready?
 
 **Marty:** I'm ready.

@@ -7,12 +7,15 @@ source_url: https://rubyconferenceproject.com/2025-08-08-interview-cirdes-henriq
 teaser: >-
   Cirdes Henrique breaks down how Tropical on Rails returned with momentum, from early keynote outreach and community buzz to ticket sales, sponsors, and CFP timing.
 links:
-  - label: "Cirdes' X"
-    url: https://x.com/cirdesh
-  - label: "Cirdes' Linkedin"
-    url: https://www.linkedin.com/in/cirdesh
   - label: "Tropical on Rails"
     url: https://www.tropicalonrails.com
+    icon: conference
+  - label: "@cirdesh"
+    url: https://x.com/cirdesh
+    icon: x
+  - label: "LinkedIn"
+    url: https://www.linkedin.com/in/cirdesh
+    icon: linkedin
 highlights:
   - title: "Selling out in three days"
     anchor: selling-out-in-three-days
@@ -25,7 +28,6 @@ highlights:
   - title: "Opening the sponsor dinner"
     anchor: opening-the-sponsor-dinner
 ---
-
 **Travis:** Well, thank you, Cirdes, for joining me for my casual, unprofessional conference chats that I'm doing to record some of the knowledge of conference organizers, especially in the Ruby and Rails space, and put them all on a blog so that other people organizing conferences can see them and it can help them out.
 
 You actually wrote a really great blog post after your first time organizing Tropical on Rails. I read that, and I have a ton of questions for you. But the first one, actually, I want to go back before that, because you had some conference experience before you did Tropical on Rails specifically, because you had an event startup. Can you tell us about that, and what your experience was before getting to Tropical on Rails?

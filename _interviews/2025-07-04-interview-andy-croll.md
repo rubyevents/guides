@@ -7,8 +7,9 @@ source_url: https://rubyconferenceproject.com/2025-07-04-interview-andy-croll/
 teaser: >-
   Andy Croll reflects on years of running Brighton Ruby, keeping a conference sustainable, controlling costs, and knowing which parts of the format not to change.
 links:
-  - label: "Andy's Website"
+  - label: "andycroll.com"
     url: https://andycroll.com/
+    icon: web
 highlights:
   - title: "Starting with a conference"
     anchor: starting-with-a-conference
@@ -21,7 +22,6 @@ highlights:
   - title: "Paying your speakers"
     anchor: paying-your-speakers
 ---
-
 **Travis:** Okay. So Andy Croll, welcome to my kind of casual, off-the-cuff, very unprofessional, unofficial conference chats that I've been having.
 
 **Andy:** Unprofessional is in my wheelhouse. So let's.

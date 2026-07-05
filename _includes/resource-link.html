@@ -1,0 +1,16 @@
+{%- comment -%}
+  Renders an icon-prefixed interview resource link.
+
+  Parameters:
+    url   – link URL (required)
+    label – visible link text (required)
+    icon  – icon key (optional, default: web)
+{%- endcomment -%}
+{%- assign link_icon = include.icon | default: 'web' -%}
+{%- capture icon_path -%}icons/{{ link_icon }}.svg{%- endcapture -%}
+<li class="toc__item">
+  <a class="toc__link toc__link--icon" href="{{ include.url }}">
+    <span class="toc__link-icon" aria-hidden="true">{%- include {{ icon_path }} -%}</span>
+    <span>{{ include.label }}</span>
+  </a>
+</li>
