@@ -352,12 +352,6 @@
     color: var(--color-text);
     text-decoration: none;
 
-    &--resource {
-      .start-link__title {
-        color: var(--color-link);
-      }
-    }
-
     &:hover {
       .start-link__title {
         color: var(--color-accent-hover);

@@ -75,6 +75,13 @@
   rubyevents: https://www.rubyevents.org/profiles/irinanazarova
   interview: /interviews/2026-01-27-interview-irina-nazarova/
 
+- name: Aron Wolf
+  conference: Munich Rubyshift
+  initials: AW
+  image: /assets/images/avatars/aron.png
+  rubyevents: https://www.rubyevents.org/profiles/aronwolf90
+  interview: /interviews/2026-07-07-interview-aron-wolf/
+
 - name: Hans Schnedlitz
   conference: Vienna.rb
   initials: HS
