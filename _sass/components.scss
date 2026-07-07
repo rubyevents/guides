@@ -563,6 +563,10 @@
     text-transform: uppercase;
   }
 
+  .tip + hr {
+    display: none;
+  }
+
   .tip__description {
     color: var(--color-text);
     font-size: var(--font-size-base);
@@ -1114,7 +1118,7 @@
   .interview-mobile-aside {
     margin-bottom: var(--space-7);
     padding-block: var(--space-5);
-    border-block: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
   }
 
   .interview-anchor {
