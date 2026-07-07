@@ -126,8 +126,6 @@ At minimum, the site should say when and where the conference is, who it is for 
 
 The website is for more than attendees. Sponsors use it to decide whether you look credible. Speakers use it to decide whether submitting is worth their time. Employees forwarding the event to their manager need a page that explains why they should go.
 
-{% comment %} TODO: Add a website checklist resource {% endcomment %}
-
 {% include testimonial.html
   name="Spike Ilacqua"
   content="Build a website and put up your sponsor sheet... Once you have a site and you have a sponsor sheet, that's when I started reaching out to people."
@@ -295,8 +293,6 @@ Looking for <del>hot</del> great speakers in your area? [RubyEvents](https://www
 
 Accepted speakers should get one clear email that they've been accepted. Include information such as event date, speaker benefits, travel or hotel details, slide or rehearsal deadlines, and what you need from them next. Declined speakers deserve a clear answer too. Keep a short waitlist - Speakers cancel more often than you'd think - and having some backup speakers to fall back on gives you some peace of mind.
 
-{% comment %} TODO: add email template to contact speakers {% endcomment %}
-
 ### What speakers need
 
 Speakers are putting in work to speak at your event. A 30-minute conference talk can represent many hours of preparation. The minimum you can offer is a free ticket, a clear answer to every logistical question before they have to ask it, and a response when they email you.
@@ -427,8 +423,6 @@ If you use tiers, keep them flexible. If a sponsor wants a custom arrangement, m
 ### Beyond the logo
 
 The most interesting sponsors are the ones who want to do something, not just appear on a page. A sponsor willing to cover a game night, fund an after-party, or bring something specific to the attendee experience is worth more than their logo placement. When you talk to potential sponsors, ask what they would want to do if they could do anything at the event. You will sometimes get an idea you would never have thought of on your own.
-
-{% comment %} TODO: add inspiration/examples {% endcomment %}
 
 ### Partner with other events
 

@@ -96,8 +96,6 @@ A **workshop** where one person leads a hands-on exercise. This requires more pr
 
 A **hangout** puts the focus on the community and nothing else. No talks, no workshops, no pressure - just drinks, food, and conversation.
 
-{% comment %} TODO: Add BARcelona RB interview/quote {% endcomment %}
-
 ---
 
 ## Promotion
@@ -111,8 +109,6 @@ Promotion isn't most developers' idea of fun. The good news is that meetup promo
 The single most effective thing you can do is invite people directly. A message from a real person - "we're running a Ruby meetup on the 14th, you should come" - lands in a way no public post does. It says the event is worth showing up to, from someone who would know.
 
 Go through LinkedIn and find Ruby developers in your city. Start with your own network - if you're thinking of starting a Ruby meetup, you almost certainly already know someone local. Reach out to them first. It's time-consuming, but it's the most reliable way to fill a first or second event.
-
-{% comment %} TODO: Interview Belfast Ruby Nick Schwaderer about this {% endcomment %}
 
 ### Just keep posting
 
