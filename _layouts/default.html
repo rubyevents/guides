@@ -20,7 +20,10 @@
   <body>
     <header class="site-header" role="banner">
       <nav class="nav" aria-label="Main navigation">
-        <a class="nav__title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        <a class="nav__title" href="{{ "/" | relative_url }}">
+          <img class="nav__logo" src="{{ "/assets/rubyevents-logo.png" | relative_url }}" alt="RubyEvents">
+          <span>Guides</span>
+        </a>
         <div class="nav__links">
           <a
             href="{{ "/meetups/" | relative_url }}"
@@ -54,9 +57,16 @@
       </nav>
     </header>
 
-    {% if page.toc %}
-      <div class="mobile-sticky-header" aria-label="Guide contents menu" data-mobile-sticky-header>
-        <a class="mobile-sticky-header__title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    {% if page.toc or page.layout == 'interviews' or page.layout == 'interview' %}
+      <div class="mobile-sticky-header" aria-label="Page navigation menu" data-mobile-sticky-header>
+        <a class="mobile-sticky-header__title" href="{{ "/" | relative_url }}">
+          <img
+            class="mobile-sticky-header__logo"
+            src="{{ "/assets/rubyevents-logo.png" | relative_url }}"
+            alt="RubyEvents"
+          >
+          <span>Guides</span>
+        </a>
         <button
           class="mobile-sticky-header__toggle"
           type="button"
@@ -65,10 +75,18 @@
           data-mobile-menu-toggle
         >
           <span class="mobile-sticky-header__toggle-icon" aria-hidden="true"></span>
-          <span class="mobile-sticky-header__toggle-label">Contents</span>
+          <span class="mobile-sticky-header__toggle-label">
+            {% if page.layout == 'interviews' %}
+              Recent
+            {% elsif page.layout == 'interview' %}
+              Highlights
+            {% else %}
+              Contents
+            {% endif %}
+          </span>
         </button>
         <div class="mobile-sticky-header__menu" id="mobile-sticky-menu" data-mobile-menu hidden>
-          <nav class="mobile-sticky-header__links" aria-label="Guide navigation">
+          <nav class="mobile-sticky-header__links" aria-label="Section navigation">
             <a
               href="{{ "/meetups/" | relative_url }}"
               {% if page.url contains '/meetups/' %}
@@ -86,7 +104,37 @@
               Conferences
             </a>
           </nav>
-          {% include toc.html variant="toc--sticky" heading="Contents" %}
+
+          {% if page.toc %}
+            {% include toc.html variant="toc--sticky" heading="Contents" %}
+          {% elsif page.layout == 'interviews' %}
+            {% assign recent_interviews = site.interviews | sort: 'date' | reverse %}
+            <nav class="toc toc--sticky" aria-label="Recent interviews">
+              <p class="toc__heading">Recent</p>
+              <ol class="toc__list">
+                {% for interview in recent_interviews limit: 5 %}
+                  <li class="toc__item">
+                    <a class="toc__link" href="{{ interview.url | relative_url }}">{{ interview.title }}</a>
+                  </li>
+                {% endfor %}
+              </ol>
+            </nav>
+          {% elsif page.layout == 'interview' %}
+            <nav class="toc toc--sticky" aria-label="Interview highlights">
+              <p class="toc__heading">Highlights</p>
+              <ol class="toc__list">
+                {% if page.highlights.size > 0 %}
+                  {% for highlight in page.highlights %}
+                    <li class="toc__item">
+                      <a class="toc__link" href="#{{ highlight.anchor | default: 'transcript' }}">
+                        {{- highlight.title -}}
+                      </a>
+                    </li>
+                  {% endfor %}
+                {% endif %}
+              </ol>
+            </nav>
+          {% endif %}
         </div>
       </div>
     {% endif %}
