@@ -36,7 +36,7 @@ highlights:
 
 **Hans:** We'll keep this super light and informal. Let's have some fun. So do you want to maybe just start with who you are and what kind of community or what events you organize in the Ruby scene?
 
-**Aron:** My name is Aron Wolf. I'm a Ruby on Rails developer and one of the organizers of Munich Rubyshift, a Ruby meetup in Munich. I've been organizing it for about one year now. I took it over from Karsten, who was the previous organizer. I work remotely for a company named Fortitools, which is located in Hamburg. I live in Augsburg, which is near Munich. Maybe one curiosity about me is that I lived in Spain for 13 years when I was very young.
+**Aron:** My name is Aron Wolf. I'm a Ruby on Rails developer and one of the organizers of Munich Rubyshift, a Ruby meetup in Munich. I've been organizing it for about one year now. I took it over from Clemens, who was the previous organizer. I work remotely for a company named Fortitools, which is located in Hamburg. I live in Augsburg, which is near Munich. Maybe one curiosity about me is that I lived in Spain for 13 years when I was very young.
 
 **Hans:** Nice.
 
@@ -46,7 +46,7 @@ highlights:
 
 <span id="taking-over-the-meetup" class="interview-anchor"></span>
 
-**Aron:** Karsten didn't want to continue because he was no longer developing in Ruby, but he was still organizing the meetup so it wouldn't die. He had been saying for some time that he wanted to give it to someone else, but no one wanted to do it. In the end, I did it because I didn't want to let it die either. Maybe someone else would have picked it up eventually, but in that moment I thought, okay, I'll do it. At first it was just, okay, I'll pay the Meetup fees. But from just paying the Meetup fees, I ended up as the organizer. Other people are helping too, so it's fine.
+**Aron:** Clemens didn't want to continue because he was no longer developing in Ruby, but he was still organizing the meetup so it wouldn't die. He had been saying for some time that he wanted to give it to someone else, but no one wanted to do it. In the end, I did it because I didn't want to let it die either. Maybe someone else would have picked it up eventually, but in that moment I thought, okay, I'll do it. At first it was just, okay, I'll pay the Meetup fees. But from just paying the Meetup fees, I ended up as the organizer. Other people are helping too, so it's fine.
 
 **Hans:** You have a co-organizer, right?
 
