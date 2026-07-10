@@ -75,17 +75,7 @@ These guides were built from conversations with organizers around the world — 
 
 <ul class="voices">
 {% for voice in site.data.voices %}
-  <li class="voice">
-    {% if voice.image %}
-    <img class="voice__avatar" src="{{ voice.image | relative_url }}" alt="" width="32" height="32" loading="lazy">
-    {% else %}
-    <span class="voice__avatar voice__avatar--initials" aria-hidden="true">{{ voice.initials }}</span>
-    {% endif %}
-    <span class="voice__info">
-      <span class="voice__name">{{ voice.name }}</span>
-      <span class="voice__conference">{{ voice.conference }}</span>
-    </span>
-  </li>
+  {% include voice.html voice=voice %}
 {% endfor %}
 </ul>
 

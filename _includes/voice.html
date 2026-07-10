@@ -1,0 +1,29 @@
+{%- comment -%}
+  Renders one voice entry.
+
+  Parameters:
+    voice – voice data from _data/voices.yml (required)
+{%- endcomment -%}
+{%- assign voice = include.voice -%}
+
+<li class="voice">
+  {%- capture voice_person -%}
+    {%- if voice.image -%}
+      <img class="voice__avatar" src="{{ voice.image | relative_url }}" alt="" width="32" height="32" loading="lazy">
+    {%- else -%}
+      <span class="voice__avatar voice__avatar--initials" aria-hidden="true">{{ voice.initials }}</span>
+    {%- endif -%}
+    <span class="voice__info">
+      <span class="voice__name">{{ voice.name }}</span>
+      <span class="voice__conference">{{ voice.conference }}</span>
+    </span>
+  {%- endcapture -%}
+
+  {%- if voice.interview -%}
+    <a class="voice__link" href="{{ voice.interview | relative_url }}" title="Read our interview with {{ voice.name }}">
+      {{ voice_person }}
+    </a>
+  {%- else -%}
+    {{ voice_person }}
+  {%- endif -%}
+</li>
