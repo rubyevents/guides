@@ -42,11 +42,6 @@ The best first venue for a tech meetup is often an office. Many companies have m
 
 Universities, co-working spaces - or even bars or bakeries - are other options. All you need is enough chairs, somewhere to plug in a laptop, and ideally a wall or screen to project on.
 
-{% include testimonial.html
-  name="Hans Schnedlitz"
-  content="When I started these meetups, my first call was to one of my former employers. They are a Ruby shop, and I knew they had a pretty nice meeting room."
-%}
-
 ### Create an event
 
 Once you have a venue, pick a date and put up an event listing. It needs only the basics - the date, time, location, and a sentence or two about what the meetup is. You can add speakers and program details as they are confirmed.
@@ -226,11 +221,6 @@ The hardest part of organizing a meetup is not the first event. It is the tenth,
 Running a meetup on any frequency costs time and energy, no matter how much you enjoy it. The preparation, the back-and-forth with speakers and venues, the promotion, the evening itself — it adds up. Most organizers who burn out do so quietly. They skip one month, find a reason to skip another, and just like that the meetup stops happening.
 
 The best prevention is to not organize the meetup alone.
-
-{% include testimonial.html
-  name="Hans Schnedlitz"
-  content="For me, running the meetup every quarter is the perfect frequency. It gives me enough time to prepare, but is regular enough to become a sort of constant in Vienna. Doing it more often would burn me out, and doing it less often would just lead to it fizzling out I think."
-%}
 
 ### Find a co-organizer
 

@@ -27,24 +27,24 @@
 
   {%- capture person -%}
     <img
-      class="avatar testimonial__avatar"
+      class="avatar person__avatar"
       src="{{ avatar | relative_url }}"
       alt=""
       width="32"
       height="32"
       loading="lazy"
     >
-    <span class="testimonial__byline">
-      <span class="testimonial__name">{{ include.name }}</span>
+    <span class="person__info">
+      <span class="person__name">{{ include.name }}</span>
       {% if conference %}
-        <span class="testimonial__conference">{{ conference }}</span>
+        <span class="person__meta">{{ conference }}</span>
       {% endif %}
     </span>
   {%- endcapture -%}
 
-  <figcaption class="testimonial__person">
+  <figcaption class="person person--lg">
     {% if link_url %}
-      <a class="testimonial__profile-link" href="{{ link_url }}" title="{{ link_title }}">
+      <a class="person__link" href="{{ link_url }}" title="{{ link_title }}">
         {{ person }}
       </a>
     {% else %}

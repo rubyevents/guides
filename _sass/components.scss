@@ -442,57 +442,7 @@
     }
   }
 
-  .testimonial__person {
-    display: flex;
-    align-items: center;
-    gap: var(--space-4);
-    color: var(--color-text-secondary);
-    font-size: var(--font-size-sm);
-    line-height: var(--line-height-snug);
-  }
-
-  .testimonial__avatar {
-    --avatar-size: 2.75rem;
-  }
-
-  .testimonial__profile-link {
-    display: flex;
-    align-items: center;
-    gap: var(--space-4);
-    color: inherit;
-    text-decoration: none;
-    transition: opacity var(--transition-fast, 0.15s) ease;
-
-    &:hover,
-    &:focus-visible {
-      opacity: 0.85;
-
-      .testimonial__name {
-        text-decoration: underline;
-      }
-    }
-  }
-
-  .testimonial__byline {
-    display: flex; // name stacked over conference beside the avatar
-    flex-direction: column;
-    line-height: var(--line-height-snug);
-  }
-
-  .testimonial__name {
-    color: var(--color-text);
-    font-weight: var(--font-weight-semibold);
-  }
-
-  .testimonial__conference {
-    color: var(--color-text-secondary);
-  }
-
   // ── Inline tip callout — "field note" ─────────────────────────────────────
-  // Unfilled aside, ruled top and bottom, led by an uppercase rubric. Reads as
-  // an editorial column rather than a boxed docs admonition, and stays in the
-  // warm + ruby system so it never competes with the interview quotes.
-
   .tip {
     margin-block: var(--space-7);
     padding-block: var(--space-5);
@@ -504,7 +454,6 @@
     align-items: center;
     gap: var(--space-2);
     margin: 0 0 var(--space-3);
-    // Ideas speak in the ruby accent; tools are a quieter, utilitarian rubric.
     color: var(--color-accent);
   }
 
@@ -655,6 +604,69 @@
     text-transform: uppercase;
   }
 
+  // ── Person ─────────────────────────────────────────────────────────────────
+
+  .person {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin: 0;
+  }
+
+  .person__link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    color: inherit;
+    text-decoration: none;
+    transition: opacity var(--transition-fast, 0.15s) ease;
+
+    &:hover,
+    &:focus-visible {
+      opacity: 0.85;
+
+      .person__name {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .person__avatar {
+    --avatar-size: 2rem;
+  }
+
+  .person__info {
+    display: flex;
+    flex-direction: column;
+    min-inline-size: 0;
+    line-height: var(--line-height-snug);
+  }
+
+  .person__name {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
+  }
+
+  .person__meta {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+  }
+
+  .person--lg {
+    .person__avatar {
+      --avatar-size: 2.75rem;
+    }
+
+    .person__name {
+      font-weight: var(--font-weight-semibold);
+    }
+
+    .person__meta {
+      font-size: var(--font-size-sm);
+    }
+  }
+
   // ── Voices behind the guides ───────────────────────────────────────────────
 
   .voices-intro {
@@ -679,80 +691,25 @@
     gap: var(--space-4) var(--space-5);
   }
 
-  .voice {
-    display: flex;
-    align-items: center;
-    gap: var(--space-3);
-    margin: 0;
-  }
-
-  .voice__link {
-    display: flex;
-    align-items: center;
-    gap: var(--space-3);
-    color: inherit;
-    text-decoration: none;
-    transition: opacity var(--transition-fast, 0.15s) ease;
-
-    &:hover,
-    &:focus-visible {
-      opacity: 0.85;
-
-      .voice__name {
-        text-decoration: underline;
-      }
-    }
-  }
-
-  .voice__avatar {
-    --avatar-size: 2rem;
-  }
-
-  .voice__info {
-    display: flex;
-    flex-direction: column;
-    line-height: var(--line-height-snug);
-  }
-
-  .voice__name {
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-medium);
-    color: var(--color-text);
-  }
-
-  .voice__conference {
-    font-size: var(--font-size-xs);
-    color: var(--color-text-secondary);
-  }
-
   @media (max-width: 31.75rem) {
     .voices {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: var(--space-3) var(--space-4);
     }
 
-    .voice {
+    .voice,
+    .voice .person__link {
       align-items: flex-start;
       gap: var(--space-2);
       min-inline-size: 0;
     }
 
-    .voice__link {
-      align-items: flex-start;
-      gap: var(--space-2);
-      min-inline-size: 0;
-    }
-
-    .voice__avatar {
+    .voice .person__avatar {
       --avatar-size: 1.75rem;
     }
 
-    .voice__info {
-      min-inline-size: 0;
-    }
-
-    .voice__name,
-    .voice__conference {
+    .voice .person__name,
+    .voice .person__meta {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -760,7 +717,7 @@
   }
 
   @media (max-width: 23rem) {
-    .voice__conference {
+    .voice .person__meta {
       display: none;
     }
   }

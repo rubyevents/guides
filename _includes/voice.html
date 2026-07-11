@@ -6,17 +6,17 @@
 {%- endcomment -%}
 {%- assign voice = include.voice -%}
 
-<li class="voice">
+<li class="voice person">
   {%- capture voice_person -%}
-    <img class="avatar voice__avatar" src="{{ voice.image | relative_url }}" alt="" width="32" height="32" loading="lazy">
-    <span class="voice__info">
-      <span class="voice__name">{{ voice.name }}</span>
-      <span class="voice__conference">{{ voice.conference }}</span>
+    <img class="avatar person__avatar" src="{{ voice.image | relative_url }}" alt="" width="32" height="32" loading="lazy">
+    <span class="person__info">
+      <span class="person__name">{{ voice.name }}</span>
+      <span class="person__meta">{{ voice.conference }}</span>
     </span>
   {%- endcapture -%}
 
   {%- if voice.interview -%}
-    <a class="voice__link" href="{{ voice.interview | relative_url }}" title="Read our interview with {{ voice.name }}">
+    <a class="person__link" href="{{ voice.interview | relative_url }}" title="Read our interview with {{ voice.name }}">
       {{ voice_person }}
     </a>
   {%- else -%}
