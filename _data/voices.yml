@@ -1,83 +1,71 @@
 - name: Jeremy Smith
   conference: Blue Ridge Ruby
-  initials: JS
   image: /assets/images/avatars/jeremy.jpg
   rubyevents: https://www.rubyevents.org/profiles/jeremysmithco
   interview: /interviews/2025-05-30-interview-jeremy-smith/
 
 - name: Spike Ilacqua
   conference: Rocky Mountain Ruby
-  initials: SI
   image: /assets/images/avatars/spike.jpg
   rubyevents: https://www.rubyevents.org/profiles/spikex
   interview: /interviews/2025-05-25-spike-ilacqua-interview/
 
 - name: Marty Haught
   conference: Rocky Mountain Ruby
-  initials: MH
   image: /assets/images/avatars/marty.jpg
   rubyevents: https://www.rubyevents.org/profiles/mghaught
   interview: /interviews/2025-05-16-marty-haught-interview/
 
 - name: Jason Charnes
   conference: Southeast Ruby
-  initials: JC
   image: /assets/images/avatars/jasonc.png
   rubyevents: https://www.rubyevents.org/profiles/jasoncharnes
   interview: /interviews/2025-06-13-interview-jason-charnes/
 
 - name: Jason Swett
   conference: Sin City Ruby
-  initials: JS
   image: /assets/images/avatars/jasons.jpg
   rubyevents: https://www.rubyevents.org/profiles/jasonswett
   interview: /interviews/2025-06-20-interview-jason-swett/
 
 - name: Adrian Marin
   conference: Friendly.rb
-  initials: AM
   image: /assets/images/avatars/adrian.jpg
   rubyevents: https://www.rubyevents.org/profiles/adrianthedev
   interview: /interviews/2025-07-03-interview-adrian-marin/
 
 - name: Andy Croll
   conference: Brighton Ruby
-  initials: AC
   image: /assets/images/avatars/andy.jpg
   rubyevents: https://www.rubyevents.org/profiles/andycroll
   interview: /interviews/2025-07-04-interview-andy-croll/
 
 - name: Cirdes Henrique
   conference: Tropical on Rails
-  initials: CH
   image: /assets/images/avatars/cirdes.jpeg
   rubyevents: https://www.rubyevents.org/profiles/cirdes
   interview: /interviews/2025-08-08-interview-cirdes-henrique/
 
 - name: Hana Harencarova
   conference: Helvetic Ruby
-  initials: HH
   image: /assets/images/avatars/hana.jpeg
   rubyevents: https://www.rubyevents.org/profiles/hharen
   interview: /interviews/2025-08-30-interview-hana-harencarova/
 
 - name: Amanda Perino
   conference: Rails World
-  initials: AP
   image: /assets/images/avatars/amanda.jpg
   rubyevents: https://www.rubyevents.org/profiles/amandaperino
   interview: /interviews/2025-10-03-amanda-perino/
 
 - name: Irina Nazarova
   conference: SF Ruby Conference
-  initials: IN
   image: /assets/images/avatars/irina.webp
   rubyevents: https://www.rubyevents.org/profiles/irinanazarova
   interview: /interviews/2026-01-27-interview-irina-nazarova/
 
 - name: Aron Wolf
   conference: Munich Rubyshift
-  initials: AW
   image: /assets/images/avatars/aron.png
   rubyevents: https://www.rubyevents.org/profiles/aronwolf90
   interview: /interviews/2026-07-07-interview-aron-wolf/

@@ -3,6 +3,20 @@
 // =============================================================================
 
 @layer components {
+  // ── Avatar ─────────────────────────────────────────────────────────────────
+
+  .avatar {
+    --avatar-size: 2.5rem;
+    display: block;
+    flex: 0 0 auto;
+    inline-size: var(--avatar-size);
+    block-size: var(--avatar-size);
+    border-radius: var(--border-radius-full);
+    object-fit: cover;
+    background: var(--color-bg-tertiary);
+    outline: 1px solid oklch(from var(--color-border) l c h / 25%);
+  }
+
   // ── Site header ────────────────────────────────────────────────────────────
 
   .site-header {
@@ -458,12 +472,7 @@
   }
 
   .testimonial__avatar {
-    display: block; // override base img rule so flex sizing works
-    inline-size: 2.75rem;
-    block-size: 2.75rem;
-    flex: 0 0 auto;
-    border-radius: var(--border-radius-full);
-    object-fit: cover;
+    --avatar-size: 2.75rem;
   }
 
   .testimonial__profile-link {
@@ -482,16 +491,6 @@
         text-decoration: underline;
       }
     }
-  }
-
-  .testimonial__avatar--initials {
-    display: inline-grid;
-    place-items: center;
-    background: var(--color-accent);
-    color: var(--color-text-inverse);
-    font-size: var(--font-size-xs);
-    font-weight: var(--font-weight-bold);
-    letter-spacing: var(--letter-spacing-wide);
   }
 
   .testimonial__byline {
@@ -726,24 +725,7 @@
   }
 
   .voice__avatar {
-    display: inline-grid;
-    place-items: center;
-    flex: 0 0 auto;
-    inline-size: 2rem;
-    block-size: 2rem;
-    border-radius: var(--border-radius-full);
-    object-fit: cover;
-    // Neutral placeholder so a missing photo shows a quiet disc, not a red blob.
-    background: var(--color-bg-tertiary);
-  }
-
-  // Ruby badge only for the initials fallback, never for <img> avatars.
-  .voice__avatar--initials {
-    background: var(--color-accent);
-    color: var(--color-text-inverse);
-    font-size: var(--font-size-xs);
-    font-weight: var(--font-weight-bold);
-    letter-spacing: var(--letter-spacing-wide);
+    --avatar-size: 2rem;
   }
 
   .voice__info {
@@ -782,8 +764,7 @@
     }
 
     .voice__avatar {
-      inline-size: 1.75rem;
-      block-size: 1.75rem;
+      --avatar-size: 1.75rem;
     }
 
     .voice__info {
@@ -1007,21 +988,7 @@
   }
 
   .interview-card__avatar {
-    display: inline-grid;
-    place-items: center;
-    inline-size: 3.5rem;
-    block-size: 3.5rem;
-    border-radius: var(--border-radius-full);
-    object-fit: cover;
-    background: var(--color-bg-tertiary);
-  }
-
-  .interview-card__avatar--initials {
-    color: var(--color-text-inverse);
-    background: var(--color-accent);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
-    letter-spacing: var(--letter-spacing-wide);
+    --avatar-size: 3.5rem;
   }
 
   .interview-card__body {
@@ -1083,21 +1050,7 @@
   }
 
   .interview-header__avatar {
-    display: inline-grid;
-    place-items: center;
-    inline-size: 6rem;
-    block-size: 6rem;
-    border-radius: var(--border-radius-full);
-    object-fit: cover;
-    background: var(--color-bg-tertiary);
-  }
-
-  .interview-header__avatar--initials {
-    color: var(--color-text-inverse);
-    background: var(--color-accent);
-    font-size: var(--font-size-xl);
-    font-weight: var(--font-weight-bold);
-    letter-spacing: var(--letter-spacing-wide);
+    --avatar-size: 6rem;
   }
 
   .interview-header__body {
@@ -1129,10 +1082,7 @@
   }
 
   .interview-meta__host-avatar {
-    inline-size: 1.5rem;
-    block-size: 1.5rem;
-    border-radius: var(--border-radius-full);
-    object-fit: cover;
+    --avatar-size: 1.5rem;
   }
 
   .interview-meta__sep {

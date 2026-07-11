@@ -8,11 +8,7 @@
 
 <li class="voice">
   {%- capture voice_person -%}
-    {%- if voice.image -%}
-      <img class="voice__avatar" src="{{ voice.image | relative_url }}" alt="" width="32" height="32" loading="lazy">
-    {%- else -%}
-      <span class="voice__avatar voice__avatar--initials" aria-hidden="true">{{ voice.initials }}</span>
-    {%- endif -%}
+    <img class="avatar voice__avatar" src="{{ voice.image | relative_url }}" alt="" width="32" height="32" loading="lazy">
     <span class="voice__info">
       <span class="voice__name">{{ voice.name }}</span>
       <span class="voice__conference">{{ voice.conference }}</span>

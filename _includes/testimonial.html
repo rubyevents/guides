@@ -8,7 +8,6 @@
 {%- assign quote_content = include.content | default: include.quote -%}
 {%- assign conference = voice.conference | default: include.conference -%}
 {%- assign avatar = voice.image | default: include.avatar -%}
-{%- assign initials = voice.initials | default: include.initials -%}
 {%- assign interview = voice.interview | default: include.interview -%}
 {%- assign profile = voice.rubyevents | default: include.rubyevents -%}
 {%- if interview -%}
@@ -27,23 +26,14 @@
   </blockquote>
 
   {%- capture person -%}
-    {% if avatar %}
-      <img
-        class="testimonial__avatar"
-        src="{{ avatar | relative_url }}"
-        alt=""
-        width="32"
-        height="32"
-        loading="lazy"
-      >
-    {% elsif initials %}
-      <span
-        class="testimonial__avatar testimonial__avatar--initials"
-        aria-hidden="true"
-      >
-        {{- initials -}}
-      </span>
-    {% endif %}
+    <img
+      class="avatar testimonial__avatar"
+      src="{{ avatar | relative_url }}"
+      alt=""
+      width="32"
+      height="32"
+      loading="lazy"
+    >
     <span class="testimonial__byline">
       <span class="testimonial__name">{{ include.name }}</span>
       {% if conference %}
