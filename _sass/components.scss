@@ -413,10 +413,7 @@
     }
   }
 
-  // Interview testimonial — shares the restrained editorial language of .quote:
-  // a quiet left-ruled panel with an italic excerpt, kept below headings in the
-  // type hierarchy so voices support the prose rather than shout over it.
-  .testimonial {
+  .pullquote {
     margin-block: var(--space-7);
     border-inline-start: 3px solid var(--color-quote-border);
     background-color: var(--color-quote-bg);
@@ -424,8 +421,6 @@
     border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
   }
 
-  // Quiet variant for the homepage: drops the fill so the excerpt reads as
-  // editorial evidence in the prose rather than a callout panel.
   .testimonial--plain {
     background-color: transparent;
     border-radius: 0;
@@ -1206,12 +1201,6 @@
   // ── Inline interview quote ─────────────────────────────────────────────────
 
   .quote {
-    margin-block: var(--space-7);
-    border-inline-start: 3px solid var(--color-quote-border);
-    background-color: var(--color-quote-bg);
-    padding: var(--space-5) var(--space-5) var(--space-5) var(--space-6);
-    border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
-
     &__text {
       font-size: var(--font-size-md);
       font-style: italic;
