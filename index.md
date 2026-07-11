@@ -3,7 +3,7 @@ layout: home
 title: RubyEvents Guides
 ---
 
-<div class="index-intro" markdown="1">
+<div class="index-intro reading-column" markdown="1">
 
 Living resources for organizers
 {: .eyebrow }
@@ -43,7 +43,7 @@ These guides were built from conversations with organizers around the world — 
   </div>
 </aside>
 
-<div class="index-body" markdown="1">
+<div class="index-body reading-column" markdown="1">
 
 {% include testimonial.html
   class="testimonial--plain"
