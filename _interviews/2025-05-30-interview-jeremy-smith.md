@@ -134,7 +134,7 @@ Trying to manage all of those, and figure out what people's expectations are, an
 
 **Travis:** A certain expectation, and you didn't know that or didn't meet that for some reason.
 
-**Jeremy:** Yeah. In each situation, it did work out, but in the moment it was high anxiety for me. I found I'd really messed up and not knowing what to do with myself. That's again where having someone like Mark, who was pretty steady and like, you know what, we're going to be okay, that kind of person, not as phased by some of those things, really helped. But for me, that can be a real emotional roller coaster.
+**Jeremy:** Yeah. In each situation, it did work out, but in the moment it was high anxiety for me. I found I'd really messed up and not knowing what to do with myself. That's again where having someone like Mark, who was pretty steady and like, you know what, we're going to be okay, that kind of person, not as fazed by some of those things, really helped. But for me, that can be a real emotional roller coaster.
 
 **Travis:** Right.
 

@@ -156,7 +156,7 @@ That happened a bunch of times, that the catering, either they forgot, or they m
 
 **Hana:** I think, again, it's a mix of things. First, we really want that people feel welcome and safe, and that the talks are for a wide range of audience. Either it can be the topic itself, or it can be a talk which is structured so that the beginning is accessible, or it makes sense for all levels, also juniors and mid-career levels, and then at the end there may be more of a deep dive. So that people, if they come from any backgrounds or with different years of experience, feel like they learned something, and that it was worth coming.
 
-Networking was always important for us, so we actually have breaks after every talk. Those breaks are usually at least 20 minutes. So this gives opportunity for people first to ask follow-up questions to the speakers, but also catch up with other attendees, take a break, and come back refreshed for another talk. We also wanted to have a balanced lineup, and that the talks are about different topics for different audiences from different people.
+Networking was always important for us, so we actually have breaks after every talk. Those breaks are usually at least 20 minutes. So this gives an opportunity for people first to ask follow-up questions to the speakers, but also catch up with other attendees, take a break, and come back refreshed for another talk. We also wanted to have a balanced lineup, and that the talks are about different topics for different audiences from different people.
 
 **Travis:** Gotcha. So it's like they're not all technical talks. You have some programming philosophy, or career advice, those kind of different categories.
 
@@ -198,11 +198,11 @@ It means even more for those people that they can. And I was really super happy 
 
 **Travis:** That's cool, because childcare is, I kind of looked into this a little bit, and it's hard to get that set up, and then you don't know if people are going to even use it or not. But just saying, hey, you can bring your kids, there's nothing wrong with that. I feel like that's a cool norm to promote, that it's an environment that you can bring your kids if you need to. Maybe they'll get bored. But, you know, if the talks are only 30, 40 minutes, and you have breaks in between, maybe that's an environment that you could bring your kids to, and maybe they might learn something, maybe they might get into programming.
 
-**Hana:** Usually they were rather small, under one year, so they either sleep, or they're happy, or especially when they're both parents there, then they sometimes just take turns. If the baby or the kid needs something, they take it out of the hall, and the other parent can continue watching, and then they swap. It's not expected that the kids would sit there silently. But finding ways how that can work is always nice.
+**Hana:** Usually they were rather small, under one year, so they either sleep, or they're happy, or especially when both parents are there, then they sometimes just take turns. If the baby or the kid needs something, they take it out of the hall, and the other parent can continue watching, and then they swap. It's not expected that the kids would sit there silently. But finding ways how that can work is always nice.
 
 **Travis:** That's cool, though. I hadn't heard much about that, but I like that. Is there anything that you wish you could do better? Anything that you guys are trying to improve, or just something that you wish you could do better at Helvetic Ruby?
 
-**Hana:** Again, without having a really thought-through answer, I think every year we did provide some community tickets, so heavily discounted tickets for people early in career, or people who wouldn't be able to attend otherwise. We always had some of them, but we had to also reach to different communities. So I think one part in which we could still improve would be to communicate this to people who would benefit from it more, or better to the wider community.
+**Hana:** Again, without having a really thought-through answer, I think every year we did provide some community tickets, so heavily discounted tickets for people early in career, or people who wouldn't be able to attend otherwise. We always had some of them, but we also had to reach out to different communities. So I think one part in which we could still improve would be to communicate this to people who would benefit from it more, or better to the wider community.
 
 But the thing is, often, as we know when traveling to conferences, that the conference ticket is usually still the cheapest part. It does help.
 
@@ -220,7 +220,7 @@ And the nice thing is, even though between Zurich and Geneva it's like a three-h
 
 But to answer your original question, we did reach out to the communities, we didn't reach out to schools. I think one of the reasons we were really focused on people who already work with Ruby, because the talks are very Ruby-oriented. Not that we wouldn't welcome other people, but we thought that's really our target group, or the people who are interested most. And here in Switzerland, I don't know how it's elsewhere, but they usually don't teach Ruby. I think, generally, at universities, they don't teach Ruby that much, so people don't know about it.
 
-But what we did do, for a couple of years, we had Le Wagon bootcamp, which does teach Ruby and Rails, and so we also reached to that community and we offered them community tickets. That was kind of like, it wasn't a school, but it was a place where we could reach people who just started programming.
+But what we did do, for a couple of years, we had Le Wagon bootcamp, which does teach Ruby and Rails, and so we also reached out to that community and we offered them community tickets. That was kind of like, it wasn't a school, but it was a place where we could reach people who just started programming.
 
 **Travis:** Yeah. And you have some experience teaching in bootcamps, right?
 

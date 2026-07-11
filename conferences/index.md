@@ -44,11 +44,11 @@ If you're shooting for spring or fall, give yourself plenty of runway on either 
 
 Once you have possible dates, find the venue. Everything else, including your budget and your ticket price, depends on what the venue costs and what it includes.
 
-The venues that work best for 100–200 person single-track conferences are usually not hotels. They are theaters, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and nice staff.
+The venues that work best for 100–200-person single-track conferences are usually not hotels. They are theaters, old music venues, cultural spaces — places that sit empty during the day and have an actual stage, fixed seating or flexible floor space, decent AV, and nice staff.
 
-Hotels work but are tricky for various reason. They are almost always the wrong choice for a first conference. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up.
+Hotels work but are tricky for various reasons. They are almost always the wrong choice for a first conference. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up.
 
-Regardless of venue type, before locking in check them out in person. While you're there, ask about what's included in the day rate. Clarify AV setup and internet access, setup and teardown time before and after the event, catering requirements, and what their staff handles versus what falls to you.
+Regardless of venue type, before locking in, check them out in person. While you're there, ask about what's included in the day rate. Clarify AV setup and internet access, setup and teardown time before and after the event, catering requirements, and what their staff handles versus what falls to you.
 
 {% capture venue %}
 Boulder Theater was Rocky Mountain Ruby's original home. eTown Hall — an old church converted into a radio studio and performance space — is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple. Balkan Ruby's latest venue is a geology museum. These are not conference centers — they are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
@@ -297,7 +297,7 @@ Accepted speakers should get one clear email that they've been accepted. Include
 
 Speakers are putting in work to speak at your event. A 30-minute conference talk can represent many hours of preparation. The minimum you can offer is a free ticket, a clear answer to every logistical question before they have to ask it, and a response when they email you.
 
-You may also consider a honorarium. Even if it does not cover much of a flight, it is a gesture of respect. Many speakers don't take it, particularly if their company is paying for travel — in that case, offer to list their company as a sponsor.
+You may also consider an honorarium. Even if it does not cover much of a flight, it is a gesture of respect. Many speakers don't take it, particularly if their company is paying for travel — in that case, offer to list their company as a sponsor.
 
 If you can cover hotel, do it, especially for speakers coming from far away. If you can't cover travel, be honest about that upfront so people can make an informed decision.
 
@@ -329,7 +329,7 @@ The most widely-used format is 30 minutes of talk, 30 minutes of break, repeat. 
   content="If anybody talked to me about Southeast Ruby, it was always: I love how much time there is to talk to people."
 %}
 
-For a one-day conference with six to eight talks, this gives you roughly four to five hours of actual talks and three to four hours of structured break time. That feels like a lot of downtime on paper. In practice, it gives the conference an attendees some space to breathe.
+For a one-day conference with six to eight talks, this gives you roughly four to five hours of actual talks and three to four hours of structured break time. That feels like a lot of downtime on paper. In practice, it gives the conference attendees some space to breathe.
 
 ### Lunch
 
@@ -438,7 +438,7 @@ Going to nearby meetups in person is the higher-effort, higher-payoff version. A
 %}
 
 {% capture triathlon %}
-The [Ruby Triathlon](https://rubytriathlon.com/) is a recurring community tradition - happening since 2023 - where attendees hit three Ruby conferences in a row. In 2026 it took place across Rubycon Italy in Rimini, Balkan Ruby in Sofia, and RubyConf AT in Vienna. In 2025 it ran through Rails World in Amsterdam, Friendly.rb in Bucharest, and EuRuKo in Viana do Castelo. Conferences whose dates line up can lean into this. It give people a great reason to travel that no single event could offer alone.
+The [Ruby Triathlon](https://rubytriathlon.com/) is a recurring community tradition - happening since 2023 - where attendees hit three Ruby conferences in a row. In 2026 it took place across Rubycon Italy in Rimini, Balkan Ruby in Sofia, and RubyConf AT in Vienna. In 2025 it ran through Rails World in Amsterdam, Friendly.rb in Bucharest, and EuRuKo in Viana do Castelo. Conferences whose dates line up can lean into this. It gives people a great reason to travel that no single event could offer alone.
 {% endcapture %}
 {% include tip.html description=triathlon %}
 
@@ -473,7 +473,7 @@ You learn by doing, and your volunteers learn alongside you. The important thing
 
 ### Building the team
 
-One thing that pays off disproportionately is getting your volunteer team to know each other before the conference. A weekly or bi-weekly call in the months leading up to the event, even if it's short, means that on the day itself people know how each other communicate, who handles what, and who to go to when something unexpected happens.
+One thing that pays off disproportionately is getting your volunteer team to know each other before the conference. A weekly or bi-weekly call in the months leading up to the event, even if it's short, means that on the day itself people know how to communicate with each other, who handles what, and who to go to when something unexpected happens.
 
 ### Your co-organizer
 
@@ -565,6 +565,6 @@ If you throw in the towel, you'll need a successor - they will likely come from 
 
 ### What sustainability actually looks like
 
-A sustainable conference is not necessarily a growing one. Sustainability means the conference can keep running without burning out the people who run it. That might mean it stays at 150 people forever. It might mean someone else eventually takes it over, or it it might mean it runs five years and stops.
+A sustainable conference is not necessarily a growing one. Sustainability means the conference can keep running without burning out the people who run it. That might mean it stays at 150 people forever. It might mean someone else eventually takes it over, or it might mean it runs five years and stops.
 
 The goal is not permanence for its own sake. It is that the community the conference serves gets what it needs, for as long as it needs it, from people who are not destroying themselves to provide it.

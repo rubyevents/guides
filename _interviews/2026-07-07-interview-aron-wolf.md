@@ -156,7 +156,7 @@ highlights:
 
 **Hans:** Yeah, Ruby events, right?
 
-**Aron:** Yes, so yes, this is the two backup plans, but of course then you need to migrate all these people somehow there, so I'm a little bit scared.
+**Aron:** Yes, so yes, these are the two backup plans, but of course then you need to migrate all these people somehow there, so I'm a little bit scared.
 
 **Hans:** And you do all of it, right? But that's that's work.
 
@@ -240,7 +240,7 @@ highlights:
 
 **Hans:** Yeah. One more thing that I found interesting, you said you have a lot of contacts to the Hamburg scene, right?
 
-**Aron:** Yes. This comes because, for the first company I worked, I got contracted to companies in Hamburg. And then also later switched to a Hamburg company. So this is why I had this context. Also, my impression is the Ruby community is bigger in Hamburg than in Munich. Berlin is very big Ruby community. So I think normally when you have one or two postings here in Munich, you maybe have three or four job postings in Hamburg. So I think this is the reason why I have this contact there. Also, I'm in the Discord from the Hamburg Ruby Meetup. I also try to attend there one or two times a year, also because I meet there a lot of people I know from previous job.
+**Aron:** Yes. This comes because, for the first company I worked for, I got contracted to companies in Hamburg. And then also later switched to a Hamburg company. So this is why I had this context. Also, my impression is the Ruby community is bigger in Hamburg than in Munich. Berlin is very big Ruby community. So I think normally when you have one or two postings here in Munich, you maybe have three or four job postings in Hamburg. So I think this is the reason why I have this contact there. Also, I'm in the Discord from the Hamburg Ruby Meetup. I also try to attend there one or two times a year, also because I meet there a lot of people I know from previous job.
 
 **Hans:** Right. So you go to Hamburg for the meetup?
 

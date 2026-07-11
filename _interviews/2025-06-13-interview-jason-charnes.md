@@ -37,9 +37,9 @@ I know that you organized Southeast Ruby a couple times, and you actually wrote 
 
 Just to clarify, though, was that first one a two-day conference or a one-day conference?
 
-**Jason:** It was two-day. I think all of them were two-day.
+**Jason:** It was two days. I think all of them were two days.
 
-**Travis:** They were two days. Okay. How many speakers did you have? I think it was like four keynote and then ten other talks. Did you have like fourteen speakers in two days?
+**Travis:** They were two days. Okay. How many speakers did you have? I think it was like four keynotes and then ten other talks. Did you have like fourteen speakers in two days?
 
 **Jason:** Roughly, yeah. It alternated. I want to say it probably alternated some each year. The last year, we added some workshops in.
 
@@ -95,7 +95,7 @@ But yeah, if I did know anyone, it couldn't have been like we were at this level
 
 **Jason:** We started pretty early in the year. There was only so much upfront we could do. Once we locked down the dates and the venue, we did that as early as we could. As an important thing to maybe note, it doesn't really matter, but we live in Memphis and the conference was in Nashville, and that's like a three-hour drive from us. So we went up there, looked at a venue, things like that, and locked that down probably March or April, if I had to guess.
 
-Then it was a lot of sitting and waiting, watching ticket sales. They trickled in slowly. They kind of didn't ramp up till towards the end. So it's kind of like, oh, shit, is anyone going to be here? On and off throughout the year, but really the majority of work was at the beginning, and then definitely a couple of days before the conference, we were just in go mode.
+Then it was a lot of sitting and waiting, watching ticket sales. They trickled in slowly. They kind of didn't ramp up until toward the end. So it's kind of like, oh, shit, is anyone going to be here? On and off throughout the year, but really the majority of work was at the beginning, and then definitely a couple of days before the conference, we were just in go mode.
 
 **Travis:** Gotcha. How did you market it? In the blog post, it says you had some social media, RubyFlow, Reddit.
 
@@ -107,7 +107,7 @@ Then it was a lot of sitting and waiting, watching ticket sales. They trickled i
 
 **Travis:** Right. Gotcha. At the end of your post, you wrote a couple ideas that I wanted to ask you about now, to see if you applied them or had changed your mind on them or anything. So at the end of the post, one of the ideas you put was you wish you would have offered more tickets to people who wouldn't be able to attend conferences normally. Were you able to do that in later years? And how did you?
 
-**Jason:** I'm trying to think. We were able to work with people with discounts and stuff if they write in. We gave away some sponsorship. One thing we actually did was bake in sponsorships, like, if you want to donate, giving away a ticket, things like that.
+**Jason:** I'm trying to think. We were able to work with people with discounts and stuff if they write in. We gave away some scholarships. One thing we actually did was bake in sponsorships, like, if you want to donate, giving away a ticket, things like that.
 
 **Travis:** Right.
 

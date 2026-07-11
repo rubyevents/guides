@@ -218,7 +218,7 @@ The advantage of a small conference like Rocky Mountain Ruby is we can do both. 
 
 Colorado in October is one of our best months weather-wise. Probably similar to New Mexico: just not too hot, it's sunny, it doesn't rain. People will go hang out outside.
 
-The other thing, and I totally stole this from Blue Ridge, and I think they stole it from Brighton Ruby, is we just do open lunch. We have a two-hour block. Just go out in the world and have lunch. We have a list of restaurants. Boulder is a big foodie town, so it's super easy for people to just go out. We actively help try to find people groups. That's really great for the social aspect. It's also great for the budget, because catering lunch is expensive and usually not great.
+The other thing, and I totally stole this from Blue Ridge, and I think they stole it from Brighton Ruby, is we just do open lunch. We have a two-hour block. Just go out in the world and have lunch. We have a list of restaurants. Boulder is a big foodie town, so it's super easy for people to just go out. We actively help people find groups. That's really great for the social aspect. It's also great for the budget, because catering lunch is expensive and usually not great.
 
 That is a big part of what we do. Then in the afternoon, we again continue to have big breaks. That's easier to do in a small conference when it's single track. You're going to see all the talks. I think there's something to people in a single-track conference all seeing the same talks. They all have the same frame of reference when they're talking in between, whereas at RubyConf or RailsConf, where there's three or five tracks, you're more scattered if you're going to all the talks.
 

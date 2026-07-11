@@ -240,7 +240,7 @@ I also asked Brittany Martin, Brittany Martin Springer, the host of The Ruby on 
 
 Anyway, then I reached out again and asked, look, would you come, and would you be the MC? And she agreed. That was a big highlight for me, a huge one, really. Because I really longed to see her, and I was so proud of myself that I wrote this email. That was great. It was fantastic.
 
-A lot of that experience was reaching out to somebody, not expecting anything, and then, bam! People are like, we want to support it, we want to do it. Bolt.new did it, Chime did it, Cisco did it, our big sponsors. They were like, where do we send money? Super supported by the companies. Without them, we could not really be able to make it.
+A lot of that experience was reaching out to somebody, not expecting anything, and then, bam! People are like, we want to support it, we want to do it. Bolt.new did it, Chime did it, Cisco did it, our big sponsors. They were like, where do we send money? Super supported by the companies. Without them, we would not really have been able to make it.
 
 On the other side, the startups, we had links somewhere. Usually I reach out to people, and I just send them the link to fill out after they already agreed with me, so it's not organic. But then a few fantastic founders just found out about it, and that's when I felt, okay, something is working a little bit.
 

@@ -44,7 +44,7 @@ So I was lucky to have the opportunity to go to a lot of events, and not only as
 
 **Cirdes:** Yeah, that was unexpected. I wasn't aware that it was going to happen. But looking back, I believe that what made the event sell out so quickly is because I did something in a certain way. For example, usually I go to other events and try to find the keynotes, and I did that on the first edition. We managed to have awesome keynotes like Aaron, like Eileen, that are the keynotes for Rails World, for example.
 
-So I had them on my webpage before I had a button to buy the tickets. Also, I was lucky enough to have Rafael França as a friend of mine, and he was able to step in and help me out with the event. Because he's so well known inside the community, people got aware of the event, and he also was responsible for bringing Aaron and bringing Eileen to a new conference here in Brazil.
+So I had them on my webpage before I had a button to buy the tickets. Also, I was lucky enough to have Rafael França as a friend of mine, and he was able to step in and help me out with the event. Because he's so well known inside the community, people became aware of the event, and he also was responsible for bringing Aaron and bringing Eileen to a new conference here in Brazil.
 
 And then, when I had that on a webpage, I spent, I think, six months going to other events to speak there. I was talking about the conference. I was trying to post about the conference. I was trying to create social media content to say, oh, we're going to bring Tropical back. Be prepared.
 
@@ -60,7 +60,7 @@ So before that first one we were just talking about, how you did this marketing 
 
 **Cirdes:** Okay. First thing, that conference used to be organized 10 years before in the northeast of Brazil, and that's why we call it Tropical. Right now we are doing the conference in São Paulo, not tropical that much, but we used to have that conference back then 10 years before. We stopped doing that because the main organizer of the conference lost a lot of money during the first conference.
 
-Then we used to have here in Brazil RubyConf Brazil. It was the main Ruby conference here, and after the pandemic they decided not to organize the conference anymore. So I have a company here as well, and I love working with Ruby and Rails. I realized that we were in a bad, I think, not in a good spot. We weren't seeing that much of people talking about Ruby, talking about Rails. So I was worried that I would have to go to another stack.
+Then we used to have here in Brazil RubyConf Brazil. It was the main Ruby conference here, and after the pandemic they decided not to organize the conference anymore. So I have a company here as well, and I love working with Ruby and Rails. I realized that we were in a bad, I think, not in a good spot. We weren't seeing that many people talking about Ruby, talking about Rails. So I was worried that I would have to go to another stack.
 
 I realized, one year before I did the conference, that something needed to be done. I had the experience of running conferences, because I helped to organize Tropical past editions. I had the network, because I knew Rafael França. I knew a lot of Rubyists here in Brazil. And I was lucky that I had my own company that was willing to pay for the bill if I couldn't raise enough money to organize the conference.
 
@@ -88,7 +88,7 @@ Just after the sales, then I start thinking about sponsors, because another thin
 
 So I was looking for some kind of leverage. "Oh, I have all tickets sold out. Do you want to send your employees to the conference? I have that badge reserved for sponsors. Do you want to promote your branding for Ruby developers? That would be the best place, because I already have a lot of attendees there."
 
-I got that leverage because I was not willing to bargain, because that's so hard, man. I'm not a salesperson. I don't want to negotiate with companies where they usually send me sales guys on the other side. They are much better than me to negotiate. So my strategy was, I will not negotiate. That's not for profit. That's something that I'm planning, that I want to do for the community. They want that terms or not. So that's one of the trickiest parts that I had to deal with.
+I got that leverage because I was not willing to bargain, because that's so hard, man. I'm not a salesperson. I don't want to negotiate with companies where they usually send me sales guys on the other side. They are much better than me at negotiating. So my strategy was, I will not negotiate. That's not for profit. That's something that I'm planning, that I want to do for the community. They want those terms or not. So that's one of the trickiest parts that I had to deal with.
 
 **Travis:** Yeah. When did you have your CFP?
 
@@ -202,7 +202,7 @@ For every speaker that doesn't speak Portuguese, me myself, I go to the airport,
 
 We usually prepare a lot of gifts for the speakers, some for sponsors. I was trying to do those kinds of things so they can feel good about coming to the conference, about coming to Brazil. That's another thing that is important. It's not going to a conference. It's going to a different place. I was in Philly for the first time, and it was awesome, the city and the guy there just organized a walking tour to the city. It's the whole city experience and the whole "come to Brazil" experience.
 
-So I try to provide Brazilian food for the speakers, for the sponsors, in the meeting room outside. I try to engage with them. I have one guy, Tiago, that's a friend of mine for a long date, and he was organizing the conference back then as well. He's responsible for hanging out with everyone. His role is to go to a restaurant, to go to have dinner, to prepare a lot of events for the people that are coming to Brazil for the first time. I believe it's one of the most important roles, because it's not just the conference. It's the whole travel experience.
+So I try to provide Brazilian food for the speakers, for the sponsors, in the meeting room outside. I try to engage with them. I have one guy, Tiago, that's a friend of mine for a long time, and he was organizing the conference back then as well. He's responsible for hanging out with everyone. His role is to go to a restaurant, to go to have dinner, to prepare a lot of events for the people that are coming to Brazil for the first time. I believe it's one of the most important roles, because it's not just the conference. It's the whole travel experience.
 
 **Travis:** Yeah, definitely. Kind of along those lines, can you think of something that you did that maybe had an unexpected impact? Maybe it was something that you thought was small at the time, but afterwards people would come up to you and say, "Oh, I'm so glad you did this." Something like that.
 

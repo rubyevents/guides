@@ -175,7 +175,7 @@ I enjoyed New Orleans 2010, RubyConf. It really stood out for me.
 
 **Travis:** Is that again because of the local piece, how it tied into where it was?
 
-**Marty:** Yeah, definitely. I think the events that really stood out, it was a number of factors for me. One, it was the location and what it brought to the event, but also what was happening in the program, in the hallway track, sort of things that happened after the event, hanging out with folks. The 2010, there's still a pretty heavy drinking culture. That was maybe a little excessive. Of course, we're in New Orleans, so I guess maybe that's on par. But it was just a lot of fun.
+**Marty:** Yeah, definitely. I think the events that really stood out, it was a number of factors for me. One, it was the location and what it brought to the event, but also what was happening in the program, in the hallway track, sort of things that happened after the event, hanging out with folks. In 2010, there was still a pretty heavy drinking culture. That was maybe a little excessive. Of course, we're in New Orleans, so I guess maybe that's on par. But it was just a lot of fun.
 
 I think it was that connection to people. Usually, for me, the conferences that make the most impact are that connection to people. I think that's important. There's a book, by the way, if you like reading, called _The Art of Gathering_ by Priya Parker. This really talks about the intentions of when you're putting together an event, what you want the experience to be and why, and how you go about being intentional with the logistics of an event to really have that impact. I think that's something that, as a smaller event, you have more control over.
 
@@ -191,7 +191,7 @@ The thing is, once you set the space, it just happens. Magic happens. That's tru
 
 **Travis:** No, I like that. Okay. Last question. Who should I talk to next? Specifically organizers, I guess people that—
 
-**Marty:** I think Spike Ilacqua at Rocky Mountain Ruby is a great person to talk to, because he's doing it. He's been dealing with all these things, and it'd be a similar size. I think there's a channel in the Ruby Central community Slack for event organizers. I'll have to look to see if that's true. I remember we have one for an organizer; it was just meetup organizers. But that Slack has all those organizers there. Even if there isn't a channel dedicated to it, I'm sure you could just post in the social random channel. That's where I would seek them out, because there's plenty of their organizers that have done this lately at this size.
+**Marty:** I think Spike Ilacqua at Rocky Mountain Ruby is a great person to talk to, because he's doing it. He's been dealing with all these things, and it'd be a similar size. I think there's a channel in the Ruby Central community Slack for event organizers. I'll have to look to see if that's true. I remember we have one for an organizer; it was just meetup organizers. But that Slack has all those organizers there. Even if there isn't a channel dedicated to it, I'm sure you could just post in the social random channel. That's where I would seek them out, because there are plenty of other organizers that have done this lately at this size.
 
 **Travis:** Awesome, I will do that. All right. Thank you so much for your time, Marty.
 

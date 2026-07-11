@@ -220,7 +220,7 @@ I can't in all good conscience put my own financial and my family's financial sa
 
 <span id="holding-back-the-videos" class="interview-anchor"></span>
 
-**Andy:** After a fashion. I think there's way too much focus on, "I'll watch the videos later," because honestly, the people who watch videos on YouTube, speaker videos, rounds to zero. It's a lot of effort and cost for people who have not invested in your event.
+**Andy:** After a fashion. I think there's way too much focus on, "I'll watch the videos later," because honestly, the number of people who watch speaker videos on YouTube rounds to zero. It's a lot of effort and cost for people who have not invested in your event.
 
 I'm weirdly selfish about this, with good reason. I'm not just trying to be an idiot. But the Ruby Events thing which Marco Roth and some of the other chaps put together is great and it's a brilliant resource. They were like, can we put the Brighton Ruby videos? And I was like, no. Not because I don't think it's a good thing, and I'm happy for you to link to them, but I host the videos myself because I don't want them on YouTube. And I also consider them to be somewhat of a marketing benefit.
 

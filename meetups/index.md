@@ -52,7 +52,7 @@ Universities, co-working spaces - or even bars or bakeries - are other options. 
 Once you have a venue, pick a date and put up an event listing. It needs only the basics - the date, time, location, and a sentence or two about what the meetup is. You can add speakers and program details as they are confirmed.
 
 {% capture event_hosting_tip %}
-When choosing an event hosting platform, there's really only two options.
+When choosing an event hosting platform, there are really only two options.
 
 **[Luma](https://luma.com/)** is lightweight and works well when you already know how you will promote the event. **[Meetup.com](https://www.meetup.com/home/)** costs money, but can help people who search for local groups discover you.
 
@@ -92,7 +92,7 @@ Talks may be the reason people come to the meetup, but the conversations are the
 
 A **hack night** where people bring projects to work on and help each other. This works well for communities where developers already know each other well enough to be comfortable working alongside strangers. It is harder to run cold, because newcomers don't know what to work on or who to ask for help, but it can be a great change of pace for a group that's been running a while and wants variety.
 
-A **workshop** where one person leads a hands-on exercise. This requires more preparation assumes attendees have laptops and - most importantly - a willingness to code with others. It's great when it lands, but harder to run than the alternatives.
+A **workshop** where one person leads a hands-on exercise. This requires more preparation and assumes attendees have laptops and - most importantly - a willingness to code with others. It's great when it lands, but harder to run than the alternatives.
 
 A **hangout** puts the focus on the community and nothing else. No talks, no workshops, no pressure - just drinks, food, and conversation.
 
