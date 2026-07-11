@@ -2,14 +2,12 @@
 // Design Tokens — Ruby Community Guides
 // Aesthetic: Literary/editorial field guide
 // Derived from: RubyEvents visual identity (Inter + Nunito, crimson primary)
-// Adapted for: Long-form reading, Jekyll + plain SCSS
 //
 // Font loading: Inter and Nunito loaded via Google Fonts in default.html.
 // Space Mono is self-hosted at /assets/fonts/SpaceMono.woff2.
 // =============================================================================
 
 @layer theme {
-  // ── Light mode (default) ───────────────────────────────────────────────────
 
   :root {
     // Typography
@@ -143,10 +141,6 @@
     --easing-out: cubic-bezier(0, 0, 0.2, 1);
   }
 
-  // ── Dark mode ─────────────────────────────────────────────────────────────
-  // Supports system preference AND explicit [data-theme="dark"] for manual toggle.
-  // Override only what changes — palette primitives are inherited.
-
   @mixin dark {
     --color-bg: var(--palette-warm-900);
     --color-bg-secondary: var(--palette-warm-850);
@@ -195,8 +189,6 @@
   [data-theme="dark"] {
     @include dark;
   }
-
-  // ── Font loading ──────────────────────────────────────────────────────────
 
   @font-face {
     font-family: "Space Mono";
