@@ -47,11 +47,8 @@ Universities, co-working spaces - or even bars or bakeries - are other options. 
 Once you have a venue, pick a date and put up an event listing. It needs only the basics - the date, time, location, and a sentence or two about what the meetup is. You can add speakers and program details as they are confirmed.
 
 {% capture event_hosting_tip %}
-When choosing an event hosting platform, there are really only two options.
+When choosing an event hosting platform, you have several options. **[Luma](https://luma.com/)** is lightweight and works well when you already know how you will promote the event. **[Meetup.com](https://www.meetup.com/home/)** costs money, but can help people who search for local groups discover you. There is also **[onruby.eu](https://www.onruby.eu/)** which already hosts several Ruby user groups - and they'll be more than happy to onboard yours as well!
 
-**[Luma](https://luma.com/)** is lightweight and works well when you already know how you will promote the event. **[Meetup.com](https://www.meetup.com/home/)** costs money, but can help people who search for local groups discover you.
-
-Do not expect these platforms to promote the event for you. They will not.
 {% endcapture %}
 {% include tip.html type="tools" description=event_hosting_tip %}
 
