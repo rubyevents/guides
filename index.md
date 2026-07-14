@@ -10,11 +10,11 @@ Living resources for organizers
 
 # RubyEvents Guides
 
-Everything you need to start and run a Ruby community — written by people who've done it.
+Everything you need to start and run a Ruby community, written by people who’ve done it.
 
-You don't need a big budget, a large following, or years of event experience. You need a room, a few friendly people, and the willingness to keep showing up.
+Building a community - whether it’s a local meetup or a conference with hundreds of attendees - is both easy and hard. Getting started doesn’t take much. You need an idea, a few friendly people, and the will to make something happen. Building something that lasts is harder. It takes effort, experience, and know-how. These guides exist to make those hard parts easier.
 
-These guides were built from conversations with organizers around the world — people who booked their first venue not knowing what they were doing, cold-emailed their first speaker, and somehow ended up building lifelong connections.
+No two communities are alike, and these guides reflect that. Built on conversations with organizers from around the world, they’re more than a checklist. They bring together the hard-won experience of people who love Ruby and put in the work to grow its community.
 
 </div>
 

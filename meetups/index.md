@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "How to Start a Ruby Meetup"
-description: "A practical guide for starting and sustaining a local Ruby meetup — from finding your first venue to keeping it going years later."
+description: "A practical guide for starting and sustaining a local Ruby meetup."
 toc: true
 seo:
   type: Article
@@ -9,17 +9,17 @@ seo:
 
 # How to Start a Ruby Meetup
 
-A practical guide for starting and sustaining a local Ruby meetup — from finding your first venue to keeping it going years later.
+Thinking of running your local Ruby user group? This guide has you covered. 
 
 {% include toc.html variant="toc--mobile" heading="Contents" %}
 
 ## Why Bother
 
-Ruby is more than a programming language - it's a community. Meetups are what keep that community alive. An active meetup scene produces the people who later travel to conferences, give talks, and build open source.
+We love Ruby because not only is it a great programming language - it also has a wonderful community. And Meetups are the grass-roots that keep this community alive. An active meetup scene produces the people who later travel to conferences, give talks, and build open source.
 
-A local meetup is where a junior developer gets inspired. It's where someone lands a job because they had the right conversation. It's where someone stuck on a bad project hears a talk that finally cracks the thing they've been fighting for weeks.
+A local meetup is where a junior developer gets inspired. It's where someone lands a job because they had the right conversation. It's where someone stuck on a bad project hears a talk that finally cracks the thing they've been fighting for weeks. None of that happens online.
 
-None of that happens online. You do not need a big reason to start a meetup - you just need to want one to exist.
+You do not need big aspirations to start a meetup. All you need is to want one to exist.
 
 {% include testimonial.html
   name="Cirdes Henrique"
@@ -193,7 +193,7 @@ A meetup's culture is not what you write in the code of conduct. Culture is buil
 
 ### Make the code of conduct real
 
-Post your code of conduct somewhere visible. Mention it briefly at the start of the event — not the legalese. Just tell people what this community expects, and what to do if something unpleasant happens. People notice when an organizer takes this seriously.
+Post your code of conduct somewhere visible and mention it briefly at the start of the event. It doesn't have to be detailed. Just tell people what this community expects, and what to do if something unpleasant happens. You'll find that people notice when an organizer takes this seriously.
 
 ### Welcome new people explicitly
 
@@ -203,9 +203,9 @@ A meetup where regulars only talk to each other is not welcoming, even if it is 
 
 ### Model what you expect
 
-The standards of the room come from what you model and what you permit. If you treat speakers with visible respect, attendees follow. If you shut down a dismissive comment in the Q&A, you signal what the community values. If you publicly thank the people who do the unglamorous work — booking the venue, buying the food, setting up chairs — you reinforce that those contributions matter.
+The standards of the room come from what you do what you permit. If you treat speakers with visible respect, your attendees will follow. If you shut down a dismissive comment in the Q&A, you signal what tone the community values. If you publicly thank the people for doing work — booking the venue, buying the food, setting up chairs — you reinforce that those contributions matter.
 
-You don't need a manifesto or an elaborate onboarding process. You need to show, consistently, what kind of room this is.
+Consistency is key. Lead by example and show, whenever you can, what culture you'd like to build.
 
 ---
 
@@ -258,8 +258,7 @@ A meetup that stays connected to the broader Ruby community — through newslett
 
 ### Handing it over
 
-If you have been running a meetup for several years and are ready to stop, the best outcome is not for it to quietly die. It is for it to continue under someone else.
+If you have been running a meetup for several years and are ready to stop, don't just let it die. Figure out a way for it to continue under someone else.
 
-The most natural successor is someone who already cares about the meetup and knows how it works. The transition is easier if you have shared the organizing work rather than done everything yourself. Give someone responsibility for speaker coordination or venue booking for a few months before you hand over. By the time you step back, they will already know how the meetup works from the inside.
+The most natural successor is someone who already cares about the meetup and knows how it works. The transition is easier if you have shared the organizing work rather than done everything yourself. Give someone responsibility for speaker coordination or venue booking for a few months before you hand over. By the time you step back, they will already know how the meetup works.
 
-A meetup that has served a community for years deserves a real transition, not a slow fade.
