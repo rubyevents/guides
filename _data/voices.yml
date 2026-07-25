@@ -76,3 +76,9 @@
   rubyevents: https://www.rubyevents.org/profiles/julienmarseille
   interview: /interviews/2026-07-20-interview-julien-marseille/
 
+- name: Dan Moore
+  conference: Boulder Ruby
+  image: /assets/images/avatars/dan.jpg
+  rubyevents: https://www.rubyevents.org/profiles/mooreds
+  interview: /interviews/2026-07-24-interview-dan-moore/
+
