@@ -15,6 +15,9 @@ links:
   - label: "mooreds.com"
     url: https://www.mooreds.com/wordpress/
     icon: web
+  - label: "CIAM Weekly"
+    url: https://ciamweekly.substack.com/
+    icon: web
 highlights:
   - title: "Choosing speaker wrangling"
     anchor: choosing-speaker-wrangling
@@ -42,7 +45,7 @@ highlights:
 
 **Hans:** Yeah. So what made you decide you wanted to contribute to the meetup? Or maybe we can—because you posted this thing like for meetup speakers and you said, I think, you're the speaker wrangler, something along those lines, right? So maybe we can— so it's Boulder Ruby, right? How do you organize? Like, are you a team? Yeah.
 
-**Dan:** And just to be clear, I'm not on the organizing team anymore, but there were between three and four folks. And the main roles we saw were someone to deal with sponsors, which really is space and money, someone to deal with speakers, someone to kind of float in and out and be extra help, and then someone to help you set up. I would say those are kind of the main setup and breakdown, right? Make sure you leave the space in as good a condition as you found it.
+**Dan:** And just to be clear, I'm not on the organizing team anymore, but there were between three and four folks. And the main roles we saw were someone to deal with sponsors, which really is space and money, someone to deal with speakers, someone to kind of float in and out and be extra help, and then someone to help you set up. I would say those are kind of the main setup and breakdown. Make sure you leave the space in as good a condition as you found it.
 
 **Hans:** Yeah, nice.
 
@@ -60,19 +63,19 @@ highlights:
 
 <span id="choosing-speaker-wrangling" class="interview-anchor"></span>
 
-**Dan:** Sure, yeah, and I do want to kind of address your earlier question, which we kind of skipped over, is about why did I join. And I think that the answer was I got a lot of value and I liked the meetup, and they were just asking for volunteers. Those kind of organizations are always you know, skimping by on as few volunteers as they can. And so they said that. And the other reason, the particular role that I picked is because when you are a meetup speaker wrangler, you have—how do I put this? I think I put this in the blog post, but it is astonishing the difference in reception you'll get between, hey, Aaron Patterson, right? Tenderlove. I just want to meet you, right? Like, ask you questions or just kind of get some kind of relationship with you.
+**Dan:** Sure, yeah, and I do want to kind of address your earlier question, which we kind of skipped over, is about why did I join. And I think that the answer was I got a lot of value and I liked the meetup, and they were just asking for volunteers. Those kind of organizations are always you know, skimping by on as few volunteers as they can. And so they said that. And the other reason, the particular role that I picked is because when you are a meetup speaker wrangler, you have—how do I put this? I think I put this in the blog post, but it is astonishing the difference in reception you'll get between, hey, Aaron Patterson - Tenderlove. I just want to meet you, ask you questions, or just kind of get some kind of relationship with you.
 
 **Hans:** Right.
 
-**Dan:** That's one kind of ask. And then another kind of ask is, hey, we have a meetup. It's, you know, been running for 10 years and it's non-commercial. Would you be willing to come talk? Right. And it's not like we're buddies, right? I don't even know if he'd recognize me, but like, it's a stronger connection than it was before. And the other thing you can do as a meetup wrangler is, and I tried to do this, it was difficult sometimes, is like just highlight different voices, right?
+**Dan:** That's one kind of ask. And then another kind of ask is, hey, we have a meetup. It's, you know, been running for 10 years and it's non-commercial. Would you be willing to come talk? And it's not like we're buddies. I don't even know if he'd recognize me, but like, it's a stronger connection than it was before. And the other thing you can do as a meetup wrangler is, and I tried to do this, it was difficult sometimes, is like just highlight different voices.
 
 **Hans:** Mm-hmm.
 
-**Dan:** So I definitely had people that were, you know, straight white males, people that were just out of coding school, where this was their first experience. I definitely had some people who were more experienced speakers. It doesn't really matter who, but I get to curate that, right?
+**Dan:** So I definitely had people that were, you know, straight white males, people that were just out of coding school, where this was their first experience. I definitely had some people who were more experienced speakers. It doesn't really matter who, but I get to curate that.
 
 **Hans:** Yeah.
 
-**Dan:** And to some extent I get to see if someone's saying something interesting online. And I did this a couple of times where I was like, hey, you wrote a really interesting article. Honestly, if I was still running speaker wrangling, I might ask you, right? I might be like, hey, why don't you talk to us about this, right? That intellectual part was way more fun for me than like helping find sponsors or setting up chairs. So that was one of the reasons I was into it.
+**Dan:** And to some extent I get to see if someone's saying something interesting online. And I did this a couple of times where I was like, hey, you wrote a really interesting article. Honestly, if I was still running speaker wrangling, I might ask you. I might be like, hey, why don't you talk to us about this? That intellectual part was way more fun for me than like helping find sponsors or setting up chairs. So that was one of the reasons I was into it.
 
 **Hans:** That's super interesting. It's the same for me. Like I did last December for Vienna Ruby, I got Rosa Gutierrez, right, to come visit Vienna. She loves Vienna, so that was easy. But it's also the same, like, I want to meet those people. I want to experience those people at the talks, right? I might see them at the conference, but it's a different thing if, like, it's a 30-person meetup. So it's kind of self-serving in that way. But yeah, it also serves the community, right? So why not? And it's fun.
 
@@ -80,13 +83,13 @@ highlights:
 
 **Hans:** Yeah, you mentioned you also made an effort to, like, have a fairly diverse group. Like, okay, I relate to that. I know people in the Ruby ecosystem and I read interesting things. But how do you get people straight out of coding school? Like, how did you approach that?
 
-**Dan:** Yeah, I mean, and it even extended to things that were beyond Ruby too, right? If someone gave an interesting talk about machine learning, I might have them talk there. But yeah, I mean, coding schools, like, it's pretty— I actually wrote a book that's aimed at, like, helping new developers. And so after the book came out, I was on kind of a tour of the coding schools because that was a logical place to do some marketing. And I had a little talk that I would give. And so from that, you know, as long as it was a coding school that focused on Ruby, which few do nowadays, right? But there used to be more.
+**Dan:** Yeah, I mean, and it even extended to things that were beyond Ruby too. If someone gave an interesting talk about machine learning, I might have them talk there. But yeah, I mean, coding schools, like, it's pretty— I actually wrote a book that's aimed at, like, helping new developers. And so after the book came out, I was on kind of a tour of the coding schools because that was a logical place to do some marketing. And I had a little talk that I would give. And so from that, you know, as long as it was a coding school that focused on Ruby, which few do nowadays. But there used to be more.
 
 **Hans:** Yeah.
 
 <span id="helping-new-speakers-get-started" class="interview-anchor"></span>
 
-**Dan:** It was fairly easy. And, you know, I mean, we did lightning talks and we also did kind of full-length talks. And there were times when I coached people, but a lot of times for a lightning talk, the real thing is like, explain it like you would to a senior developer, like the problem that you solved. And it could be, I mean, I think one person gave a talk about RSS. It doesn't need to be a huge thing. And I think that's one of the big things you can do as someone talking about meetups is people have this image, and I definitely did before I kind of got into this, of like the conference speaker, right? They're polished, they're experts, and their slides are amazing, and I've definitely seen some amazing conference speakers, but like, they didn't start out like that. They started out kind of crawling, walking, and then running too.
+**Dan:** It was fairly easy. And, you know, I mean, we did lightning talks and we also did kind of full-length talks. And there were times when I coached people, but a lot of times for a lightning talk, the real thing is like, explain it like you would to a senior developer, like the problem that you solved. And it could be, I mean, I think one person gave a talk about RSS. It doesn't need to be a huge thing. And I think that's one of the big things you can do as someone talking about meetups is people have this image, and I definitely did before I kind of got into this, of like the conference speaker. They're polished, they're experts, and their slides are amazing, and I've definitely seen some amazing conference speakers, but like, they didn't start out like that. They started out kind of crawling, walking, and then running too.
 
 **Hans:** Right.
 
@@ -114,7 +117,7 @@ highlights:
 
 **Hans:** Yep.
 
-**Dan:** So there's a couple— it's actually a really interesting thing here. And I will say that as an aside, I think once a month is the minimum amount of time you need to meet. I feel like if you're doing once a quarter or once every couple of months, you're just gonna lose momentum. It's hard to build community in general, but you're gonna— I think it's easier to build community if people are like— and I pick the same day of the week and same time and preferably the same place if you can every month, because, you know, you're competing with people's precious time. So, but as far as that spreadsheet goes, so we were lucky enough that we had kind of, so first of all, it just helps you plan out the year, right? And you can say, oh, you know, June and December are gonna be our social months, right?
+**Dan:** So there's a couple— it's actually a really interesting thing here. And I will say that as an aside, I think once a month is the minimum amount of time you need to meet. I feel like if you're doing once a quarter or once every couple of months, you're just gonna lose momentum. It's hard to build community in general, but you're gonna— I think it's easier to build community if people are like— and I pick the same day of the week and same time and preferably the same place if you can every month, because, you know, you're competing with people's precious time. So, but as far as that spreadsheet goes, so we were lucky enough that we had kind of, so first of all, it just helps you plan out the year. And you can say, oh, you know, June and December are gonna be our social months.
 
 **Hans:** Mm-hmm.
 
@@ -122,7 +125,7 @@ highlights:
 
 **Hans:** Interesting.
 
-**Dan:** Yes, his RailsConf submission. He didn't always get guaranteed a talk by any means. But so yeah, so I quickly learned that it's one of the things about being a speaker wrangler is it's really stressful if you don't have some people lined up because, again, talking about, you know, how much effort it can be to put a talk together, people don't want to just do this kind of like off the cuff. Some people will, right? And some senior folks definitely can. They just dust off something they had before. What I would do is, at every meetup, we would have like a little announcement section. I'd be like, hey, I'm booking out till X time. And it's actually kind of a double-edged sword because I think it's much easier to get people to commit to something that's three months out.
+**Dan:** Yes, his RailsConf submission. He didn't always get guaranteed a talk by any means. But so yeah, so I quickly learned that it's one of the things about being a speaker wrangler is it's really stressful if you don't have some people lined up because, again, talking about, you know, how much effort it can be to put a talk together, people don't want to just do this kind of like off the cuff. Some people will. And some senior folks definitely can. They just dust off something they had before. What I would do is, at every meetup, we would have like a little announcement section. I'd be like, hey, I'm booking out till X time. And it's actually kind of a double-edged sword because I think it's much easier to get people to commit to something that's three months out.
 
 **Hans:** Yeah.
 
@@ -144,11 +147,11 @@ highlights:
 
 **Hans:** Yeah.
 
-**Dan:** So that made it pretty easy because I kind of was able to source the emergency requests from people who are there. Or you go to the regulars, right? You're like, oh, you know, you have been to the past, you know, five Ruby meetups. And even if you haven't talked before, like, you know this community, you know how welcoming it is. It's easier to kind of do an ask for that. A couple of times, I just did a panel. And panels are really fun because either they can be kind of ad hoc, in which case you just kind of grab like members of the community that you know are gonna show up and like have an interesting viewpoint on something. It could be like software techniques or, you know, career stuff. Or one time I did a panel where I did a lot of outreach and we actually had some people dial in from Silicon Valley.
+**Dan:** So that made it pretty easy because I kind of was able to source the emergency requests from people who are there. Or you go to the regulars. You're like, oh, you know, you have been to the past, you know, five Ruby meetups. And even if you haven't talked before, like, you know this community, you know how welcoming it is. It's easier to kind of do an ask for that. A couple of times, I just did a panel. And panels are really fun because either they can be kind of ad hoc, in which case you just kind of grab like members of the community that you know are gonna show up and like have an interesting viewpoint on something. It could be like software techniques or, you know, career stuff. Or one time I did a panel where I did a lot of outreach and we actually had some people dial in from Silicon Valley.
 
 **Hans:** Mm-hmm.
 
-**Dan:** And I think that was about being an early startup employee. So that actually points to a different topic. Like, I think that programming— I mean, obviously it's great if something's specific around Ruby, but I think that there was some hunger for other topics too, right? Like career development or even, I'm sure you could do a talk about talks. So I don't think it needs to be 50%. I think that probably 70% of talks should be Ruby-focused, but like it's always good to kind of bring in some interesting folks. Yeah.
+**Dan:** And I think that was about being an early startup employee. So that actually points to a different topic. Like, I think that programming— I mean, obviously it's great if something's specific around Ruby, but I think that there was some hunger for other topics too. Like career development or even, I'm sure you could do a talk about talks. So I don't think it needs to be 50%. I think that probably 70% of talks should be Ruby-focused, but like it's always good to kind of bring in some interesting folks. Yeah.
 
 **Hans:** Yeah, I agree. That's also something that I've heard, like, something that I try to do, like keep things fresh. For me, when you said once a month, right, we do it quarterly. And I find that works for us, right? Because maybe I think the European or Viennese community is just more laid back and whatever. And it's, in my experience, we also had this thing where like, But that was in the past, right? Before I took over them, because the meetups became kind of monotonous, right? It's always the same thing. And also not enough effort spent on getting talks that wasn't fresh, right? And it wasn't, like you said, not a nice mix of topics. It'd be like maybe the same person speaking and so on, right?
 
@@ -170,11 +173,11 @@ highlights:
 
 <span id="staying-flexible-with-meetup-formats" class="interview-anchor"></span>
 
-**Dan:** Oh, I just want to say, yeah, we definitely did lightning talks. I think we kind of like pared that back because there were fewer people interested in doing it. And for a while last year, we were actually doing two full-length talks because we had enough interest. And so I think that the lesson there is less, “Do this all the time,” and more, “Do what works,” and be flexible, right? Like if you have a whole influx of new people that are interested in talking, lightning talks are great. Oh, we always did like a ten-minute lightning talk and then a regular talk. I don't think we ever did like an entire session of lightning talks that I was there.
+**Dan:** Oh, I just want to say, yeah, we definitely did lightning talks. I think we kind of like pared that back because there were fewer people interested in doing it. And for a while last year, we were actually doing two full-length talks because we had enough interest. And so I think that the lesson there is less, “Do this all the time,” and more, “Do what works,” and be flexible. If you have a whole influx of new people that are interested in talking, lightning talks are great. Oh, we always did like a ten-minute lightning talk and then a regular talk. I don't think we ever did like an entire session of lightning talks that I was there.
 
 **Hans:** Yeah.
 
-**Dan:** You totally could. That to me is like even more organization. So I don't know whether that'd be worth it. But you could try to do an unconference style, right? Where you're like, just put up a— have everyone arrive like 15 minutes early and just say, hey, you know, talk about what you want to talk about for five minutes in front of everybody. Never thought about doing that, but that'd be fun to do.
+**Dan:** You totally could. That to me is like even more organization. So I don't know whether that'd be worth it. But you could try to do an unconference style. You're like, just put up a— have everyone arrive like 15 minutes early and just say, hey, you know, talk about what you want to talk about for five minutes in front of everybody. Never thought about doing that, but that'd be fun to do.
 
 **Hans:** Yeah, for sure. Now we had that lightning— we had four lightning talks once, like a nice section and a big one. But that was prepared. But I think there was like the second meetup after it was like revived, like bit of history, right? Vienna Ruby has been going for since 2006 or so, I think.
 
@@ -192,23 +195,23 @@ highlights:
 
 <span id="when-a-speaker-cancels" class="interview-anchor"></span>
 
-**Dan:** Yeah, I think there are three options, right? The first is it just has to be a social, and that's actually kind of nice as long as you don't do it regularly. It's kind of nice because it kind of reminds people, hey, we're doing a social because no one stepped up, right?
+**Dan:** Yeah, I think there are three options. The first is it just has to be a social, and that's actually kind of nice as long as you don't do it regularly. It's kind of nice because it kind of reminds people, hey, we're doing a social because no one stepped up.
 
 **Hans:** Oh.
 
-**Dan:** So that's the last option, right? That's option C. Option B is definitely you go into that Slack or you like do direct outreach to people, maybe people that have talked in the past or maybe people that, you know, are just experienced Ruby devs and you say, hey, you know, we just had so-and-so back out because of reason XYZ, you know, can you help out? Obviously, the sooner you can get that, like, I'm trying to think, I don't have firm recollection, but I wanna say I had someone step in on like five days' notice or something like that, which is pretty short. Oh yeah, that's pretty good. But a lot of senior devs, you know, especially if they're talking about like a project or a problem they've encountered at work, don't have a hard time like throwing together a couple of slides as long as you set the expectations like, hey, this is a meetup, blah, blah, blah. I gave a couple of talks after I started organizing. I think I only gave one because I felt like it was kind of weird to, like, do that. And the role I was in, I was in a DevRel role. And so it was kind of like, I know what you mean. You know, I didn't.
+**Dan:** So that's the last option. That's option C. Option B is definitely you go into that Slack or you like do direct outreach to people, maybe people that have talked in the past or maybe people that, you know, are just experienced Ruby devs and you say, hey, you know, we just had so-and-so back out because of reason XYZ, you know, can you help out? Obviously, the sooner you can get that, like, I'm trying to think, I don't have firm recollection, but I wanna say I had someone step in on like five days' notice or something like that, which is pretty short. Oh yeah, that's pretty good. But a lot of senior devs, you know, especially if they're talking about like a project or a problem they've encountered at work, don't have a hard time like throwing together a couple of slides as long as you set the expectations like, hey, this is a meetup, blah, blah, blah. I gave a couple of talks after I started organizing. I think I only gave one because I felt like it was kind of weird to, like, do that. And the role I was in, I was in a DevRel role. And so it was kind of like, I know what you mean. You know, I didn't.
 
 **Hans:** Yeah.
 
-**Dan:** But definitely some of the other organizers were on panels or gave lightning talks or things like that. So they're backup. But again, you don't really wanna rely on them because they're already doing so much other stuff, right? Like, you don't wanna be like, oh, you're helping find sponsors and I'm gonna ask you to do a talk once a quarter or something like that.
+**Dan:** But definitely some of the other organizers were on panels or gave lightning talks or things like that. So they're backup. But again, you don't really wanna rely on them because they're already doing so much other stuff. You don't wanna be like, oh, you're helping find sponsors and I'm gonna ask you to do a talk once a quarter or something like that.
 
 **Hans:** Yeah.
 
-**Dan:** But yeah, so those are kind of the three levels I think about in terms of if someone bails. And by the way, like, I think that, and this is something I'd probably put in the guide, I'm like, if you are talking to a—if you're volunteering to give a talk and you can't, give as much notice as you can. We all understand it's a volunteer activity. If you bail, like, yeah, first of all, definitely give notice, right? Because the last thing you want to do is have someone waiting around and this person's not showing up. That sucks. And then I tend to give like one mulligan. Like, I understand if some family situation happens and you can't make a commitment or just other things. But like, I think— I don't know if I kept track of this, but in my mind I'm like, if I asked you to talk twice and you bailed both times, then I just wasn't gonna ask you to talk again.
+**Dan:** But yeah, so those are kind of the three levels I think about in terms of if someone bails. And by the way, like, I think that, and this is something I'd probably put in the guide, I'm like, if you are talking to a—if you're volunteering to give a talk and you can't, give as much notice as you can. We all understand it's a volunteer activity. If you bail, like, yeah, first of all, definitely give notice. The last thing you want to do is have someone waiting around and this person's not showing up. That sucks. And then I tend to give like one mulligan. Like, I understand if some family situation happens and you can't make a commitment or just other things. But like, I think— I don't know if I kept track of this, but in my mind I'm like, if I asked you to talk twice and you bailed both times, then I just wasn't gonna ask you to talk again.
 
 **Hans:** You're dead to me.
 
-**Dan:** Wait, come to the community, come hang out. But like, you know, if you can't commit, like, you can't commit. And that— I get it. Like, we're all volunteers. I understand I'm not paying you money. Like, but I gotta put the show together, right?
+**Dan:** Wait, come to the community, come hang out. But like, you know, if you can't commit, like, you can't commit. And that— I get it. Like, we're all volunteers. I understand I'm not paying you money. Like, but I gotta put the show together.
 
 **Hans:** So you've gotta be reliable at the very least. Yeah.
 
@@ -222,7 +225,7 @@ highlights:
 
 **Hans:** Absolutely.
 
-**Dan:** And certainly with a larger speaker, you can. And then there's the communities. So, you know, multiple Slack communities or other Discords or anything like that that you have that, you know, and there you wanna be conscious that you're not spamming. So do it in the right channel, do it in communities you're part of, or, you know, sometimes communities will have channels that are like, share anything, we don't care. And that's fine to do that, but you want to understand and respect the community's norms. And then there's always social media. So that would be LinkedIn, Bluesky, Twitter, if you're on Twitter. I'm not on Twitter anymore. I use something for my own personal stuff. And if I was going back to organizing, I'd probably just schedule it out. Make sure you tag the speaker if you can. They have a vested interest in making sure they have an audience and it's another benefit for them, right? Like, hey, I'm a Boulder Ruby speaker. It says so right here. I'm trying to think if there's any other ways that we— so we didn't do anything physical. You know, I'm sure you could, but because it wasn't making money, we didn't really have an incentive to do more than that.
+**Dan:** And certainly with a larger speaker, you can. And then there's the communities. So, you know, multiple Slack communities or other Discords or anything like that that you have that, you know, and there you wanna be conscious that you're not spamming. So do it in the right channel, do it in communities you're part of, or, you know, sometimes communities will have channels that are like, share anything, we don't care. And that's fine to do that, but you want to understand and respect the community's norms. And then there's always social media. So that would be LinkedIn, Bluesky, Twitter, if you're on Twitter. I'm not on Twitter anymore. I use Buffer for scheduling my own personal stuff. And if I was going back to organizing, I'd probably just schedule it out. Make sure you tag the speaker if you can. They have a vested interest in making sure they have an audience and it's another benefit for them. Like, hey, I'm a Boulder Ruby speaker. It says so right here. I'm trying to think if there's any other ways that we— so we didn't do anything physical. You know, I'm sure you could, but because it wasn't making money, we didn't really have an incentive to do more than that.
 
 **Hans:** So. Right, for sure. There's something in there that I've never, or maybe I'm misunderstanding. What do you mean like local communities? Like, do you have like a bunch of Slack channels of the Boulder community in general, where there's other programming languages? Like, do you cross-promote? Because this is foreign to me, right? I don't have an overview of other online spaces in Vienna. I'm sure there are. But they're not really visible to me. So would you go to like a JavaScript, I don't know, Slack channel for Boulder Ruby and be like, hey, there's this speaker that does something for Hotwire and it might be interesting? Or how can I imagine that?
 
@@ -230,31 +233,23 @@ highlights:
 
 **Hans:** You can still announce them, right? Because I'm hesitant about like writing about the Vienna.rb meetup in like Ruby Central Slack or whatever, because like how many people are there that that's actually relevant to, right? Because like—
 
-**Dan:** Sure, yeah. You gotta pick the channel, right? So if there's a Ruby Central Slack and there's an Eastern European or Central European, I'm not sure where exactly Austria fits in.
+**Dan:** Sure, yeah. You gotta pick the channel. So if there's a Ruby Central Slack and there's an Eastern European or Central European, I'm not sure where exactly Austria fits in.
 
 **Hans:** I think there is literally an events—wait.
 
-**Dan:** But I think then the question becomes, and this is actually a good, an interesting segue we haven't really talked about yet. We, after COVID, another meetup organizer responsibility was to make sure we had a Zoom channel, which is like another form of sponsorship. And so we would actually record all of our talks. And someone else's job was turning them into videos and putting them on our website. And that's another way you can get publicity about it. And it's another benefit for the speakers is they get this recording of them talking. But that means if you meet up online, we actually had a couple community members who moved out of town, and that could mean moving a forty-minute drive away. So they just don't wanna come up every month. Or some people moved to different states, right, where they're hours away. And in either case, they could actually still feel part of the community by like dialing in. And I think if you have an online version where you're screen sharing and it's not as deep an experience for sure. But like, that means that you can publish anywhere because anyone can go to it if they're interested in the topic, specifically about the events channel. To me, put it there, right? People can leave the channel, right? And again, you always want to follow the rules of the norms of the community, but like, people are in that channel so they can learn about interesting events.
+**Dan:** But I think then the question becomes, and this is actually a good, an interesting segue we haven't really talked about yet. We, after COVID, another meetup organizer responsibility was to make sure we had a Zoom channel, which is like another form of sponsorship. And so we would actually record all of our talks. And someone else's job was turning them into videos and putting them on our website. And that's another way you can get publicity about it. And it's another benefit for the speakers is they get this recording of them talking. But that means if you meet up online, we actually had a couple community members who moved out of town, and that could mean moving a forty-minute drive away. So they just don't wanna come up every month. Or some people moved to different states, right, where they're hours away. And in either case, they could actually still feel part of the community by like dialing in. And I think if you have an online version where you're screen sharing and it's not as deep an experience for sure. But like, that means that you can publish anywhere because anyone can go to it if they're interested in the topic, specifically about the events channel. To me, put it there. People can leave the channel. And again, you always want to follow the rules of the norms of the community, but like, people are in that channel so they can learn about interesting events.
 
 **Hans:** Yeah.
 
-**Dan:** And you're actually doing them a service by sharing that. This is my wife. I gotta grab it real quick.
+**Dan:** And you're actually doing them a service by sharing that.
 
-**Hans:** Sorry. Yeah, sure. No worries.
+**Hans:** We're just gonna wrap it up, I think. Then two things maybe for first-time organizers or inexperienced organizers. It's interesting, like, was there anything about organizing a meetup or speaker wrangling that surprised you, like nobody warned you about this and like, oh shit, no?
 
-**Dan:** Cool. I gotta wrap up in like five or ten minutes, but, all right.
-
-**Hans:** Oh shit! Okay, then we do a quick one, and because yeah, I should schedule. I need to change the Google thing because I think an hour is more apt. Like half an hour is not nearly enough time. If you gotta go in five, yeah, then maybe we have five or ten.
-
-**Dan:** I have something at 8:45. I just need to walk upstairs and make sure I'm ready for it.
-
-**Hans:** No, that's completely fine. We're just gonna wrap it up, I think. Then two things maybe for first-time organizers or inexperienced organizers. It's interesting, like, was there anything about organizing a meetup or speaker wrangling that surprised you, like nobody warned you about this and like, oh shit, no?
-
-**Dan:** I mean, I think I was surprised that people would take your calls. We kind of talked about that earlier, right? You know, when all you're doing is like, it's a ten-person meetup. I was also, I think, surprised at the variety of topics and a variety of, like, expertise that people have.
+**Dan:** I mean, I think I was surprised that people would take your calls. We kind of talked about that earlier. You know, when all you're doing is like, it's a ten-person meetup. I was also, I think, surprised at the variety of topics and a variety of, like, expertise that people have.
 
 **Hans:** Mm-hmm.
 
-**Dan:** Even in a community that's, you know, I mean, Ruby's a big community, but, like, you get super interesting specializations. Like, we had some talks that weren't about Rails at all, right? And the other thing that surprised me, which probably shouldn't, is just how passionate people are about Ruby. Like, people just love, love the language. And I don't think I've ever been part of a community that was as— and sometimes it's a love that's like based on like not being impressed by other options, but lots of times it's just like a love, right?
+**Dan:** Even in a community that's, you know, I mean, Ruby's a big community, but, like, you get super interesting specializations. Like, we had some talks that weren't about Rails at all. And the other thing that surprised me, which probably shouldn't, is just how passionate people are about Ruby. Like, people just love, love the language. And I don't think I've ever been part of a community that was as— and sometimes it's a love that's like based on like not being impressed by other options, but lots of times it's just like a love.
 
 **Hans:** Yeah.
 
@@ -286,27 +281,7 @@ highlights:
 
 **Dan:** I love it. Awesome.
 
-**Hans:** So I want to talk to more people. Who should I talk to next? One name that comes to mind.
-
-**Dan:** Yeah, I mean, I think that there's the Boulder— like, the two organizers of Boulder Ruby will give you totally different perspectives. Because one guy does probably 70% of the work, and he is like also involved in other aspects of the Boulder community. And so he thinks he can bring that in. And the other guy, Marty, you might know, is one of the—yeah.
-
-**Hans:** Yep. So he already did an interview with Travis. So if you like, one of the interviews we already have is with Marty. Can you give me the name of the first person once again?
-
-**Dan:** Yeah, Ryland Bowers.
-
-**Hans:** Ryland Bowers.
-
-**Dan:** All right. Here, let me— I'll just type it easier because—
-
-**Hans:** Ryland Bowers. Awesome. Thank you so much. Yeah.
-
-**Dan:** And as far as I know, he's like never— like he gave like— he's given like one lightning talk or something like that, but he just loves building community. He's just a nice guy.
-
-**Hans:** So awesome. Cool. I'll try to get him then. If I can't find his details, I would reach out to you on Bluesky again.
-
-**Dan:** Yeah, I can give you his email address, and you can like chat with him and see if he wants to chat with you.
-
-**Hans:** So that's great. Cool. Oh, like, okay, this is obviously recorded. I'll give you a ping once it's up on the website. I'm going to do some corrections and stuff just so you can look over it again, and you let me know if it's good.
+**Hans:** Cool. Oh, like, okay, this is obviously recorded. I'll give you a ping once it's up on the website. I'm going to do some corrections and stuff just so you can look over it again, and you let me know if it's good.
 
 **Dan:** And yeah, and is it recording— it's gonna be the video, or is it gonna be the—
 
