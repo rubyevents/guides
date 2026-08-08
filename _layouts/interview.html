@@ -8,7 +8,7 @@ layout: default
   {%- assign has_highlights = true -%}
 {%- endif -%}
 {%- assign has_links = false -%}
-{%- if page.links.size > 0 or page.source_url or voice.rubyevents -%}
+{%- if page.links.size > 0 or page.source_url or voice.rubyevents or page.voices.size > 0 -%}
   {%- assign has_links = true -%}
 {%- endif -%}
 
@@ -30,7 +30,14 @@ layout: default
     <section class="interview-aside__section">
       <p class="toc__heading">Links</p>
       <ul class="toc__list">
-        {%- if voice.rubyevents -%}
+        {%- if page.voices.size > 0 -%}
+          {%- for voice_name in page.voices -%}
+            {%- assign interview_voice = site.data.voices | where: 'name', voice_name | first -%}
+            {%- if interview_voice.rubyevents -%}
+              {%- include resource-link.html url=interview_voice.rubyevents label=voice_name icon="profile" -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- elsif voice.rubyevents -%}
           {%- include resource-link.html url=voice.rubyevents label=page.voice icon="profile" -%}
         {%- endif -%}
         {%- for link in page.links -%}
@@ -59,13 +66,28 @@ layout: default
 <article class="interview-shell shell">
   <div class="interview-main reading-column">
     <header class="interview-header">
-      <img
-        class="avatar interview-header__avatar"
-        src="{{ voice.image | relative_url }}"
-        alt=""
-        width="96"
-        height="96"
-      >
+      {%- if page.voices.size > 0 -%}
+        <div class="interview-header__avatars" aria-hidden="true">
+          {%- for voice_name in page.voices -%}
+            {%- assign interview_voice = site.data.voices | where: 'name', voice_name | first -%}
+            <img
+              class="avatar interview-header__avatar"
+              src="{{ interview_voice.image | relative_url }}"
+              alt=""
+              width="96"
+              height="96"
+            >
+          {%- endfor -%}
+        </div>
+      {%- else -%}
+        <img
+          class="avatar interview-header__avatar"
+          src="{{ voice.image | relative_url }}"
+          alt=""
+          width="96"
+          height="96"
+        >
+      {%- endif -%}
 
       <div class="interview-header__body">
         <h1>{{ page.title }}</h1>

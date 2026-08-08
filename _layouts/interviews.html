@@ -12,13 +12,28 @@ layout: default
         {%- assign voice = site.data.voices | where: 'name', interview.voice | first -%}
         <li class="interviews-list__item">
           <a class="interview-card" href="{{ interview.url | relative_url }}">
-            <img
-              class="avatar interview-card__avatar"
-              src="{{ voice.image | relative_url }}"
-              alt=""
-              width="56"
-              height="56"
-            >
+            {%- if interview.voices.size > 0 -%}
+              <span class="interview-card__avatars" aria-hidden="true">
+                {%- for voice_name in interview.voices -%}
+                  {%- assign interview_voice = site.data.voices | where: 'name', voice_name | first -%}
+                  <img
+                    class="avatar interview-card__avatar"
+                    src="{{ interview_voice.image | relative_url }}"
+                    alt=""
+                    width="56"
+                    height="56"
+                  >
+                {%- endfor -%}
+              </span>
+            {%- else -%}
+              <img
+                class="avatar interview-card__avatar"
+                src="{{ voice.image | relative_url }}"
+                alt=""
+                width="56"
+                height="56"
+              >
+            {%- endif -%}
 
             <span class="interview-card__body">
               <span class="interview-card__meta">

@@ -82,3 +82,14 @@
   rubyevents: https://www.rubyevents.org/profiles/mooreds
   interview: /interviews/2026-07-24-interview-dan-moore/
 
+- name: Michelle Yuen
+  conference: ChicagoRuby
+  image: /assets/images/avatars/michelle-yuen.jpg
+  rubyevents: https://www.rubyevents.org/profiles/yuenmichelle1
+  interview: /interviews/2026-08-07-interview-michelle-yuen-anton-tkachov/
+
+- name: Anton Tkachov
+  conference: ChicagoRuby
+  image: /assets/images/avatars/anton-tkachov.jpg
+  rubyevents: https://www.rubyevents.org/profiles/AntonTkachov
+  interview: /interviews/2026-08-07-interview-michelle-yuen-anton-tkachov/

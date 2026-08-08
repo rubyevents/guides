@@ -118,21 +118,34 @@
   }
 
   .interview-card {
+    grid-template-columns: 4.5rem minmax(0, 1fr);
     gap: var(--space-3);
   }
 
-  .interview-card__avatar {
-    inline-size: 3rem;
-    block-size: 3rem;
+  .interview-card__avatars {
+    inline-size: 4.5rem;
+  }
+
+  .interview-card__avatar,
+  .interview-card__avatars .interview-card__avatar {
+    --avatar-size: 2.5rem;
+  }
+
+  .interview-card__avatars .interview-card__avatar + .interview-card__avatar {
+    margin-inline-start: -0.75rem;
   }
 
   .interview-header {
     grid-template-columns: 1fr;
   }
 
-  .interview-header__avatar {
-    inline-size: 4.5rem;
-    block-size: 4.5rem;
+  .interview-header__avatars {
+    inline-size: 7.25rem;
+  }
+
+  .interview-header__avatar,
+  .interview-header__avatars .interview-header__avatar {
+    --avatar-size: 4rem;
   }
 
   .guide-content {
