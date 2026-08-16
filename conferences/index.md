@@ -48,7 +48,9 @@ The venues that work best for 100–200-person single-track conferences are usua
 
 Hotels work but are tricky for various reasons. They are almost always the wrong choice for a first conference. Most hotel venues require a room block commitment alongside their event space — meaning if you expect 100 attendees and they make you hold 80 rooms, you are on the hook for any rooms that don't fill. Add a food-and-beverage minimum on top of that and you can find yourself owing tens of thousands of dollars regardless of how many people show up.
 
-Regardless of venue type, before locking in, check them out in person. While you're there, ask about what's included in the day rate. Clarify AV setup and internet access, setup and teardown time before and after the event, catering requirements, and what their staff handles versus what falls to you. Check if there's step-free access and lifts. If the venue is accessible - and it should be - then publish the specifics on your website. Attendees should be able to decide whether they can come without first having to contact you.
+Regardless of venue type, before locking in, check it out in person. While you're there, ask about what's included in the day rate. Clarify AV setup and internet access, setup and teardown time before and after the event, catering requirements, and what the venue staff handles versus what falls to you.
+
+Don't forget about accessibility. Check the routes attendees will actually use and record both the barriers. A couple of stairs, a narrow doorway, or the lack of an accessible toilet do not affect everyone in the same way. Publish the specifics even when the venue is not fully accessible, so attendees can decide whether they can come without first having to contact you.
 
 {% capture venue %}
 Boulder Theater was Rocky Mountain Ruby's original home. eTown Hall — an old church converted into a radio studio and performance space — is where it lives now. Blue Ridge Ruby's first venue was a theater in a Masonic temple. Balkan Ruby's latest venue is a geology museum. These are not conference centers — they are interesting spaces that happen to work for a conference, and they tend to cost dramatically less.
@@ -122,7 +124,9 @@ Marketing is vital, and it's also what a lot of first-time conference organizers
 
 As soon as you have a date and venue, put up a simple website. It does not need a complicated design, it just needs to make the conference feel real.
 
-At minimum, the site should say when and where the conference is, who it is for and why someone should come. Later you can include infos like how tickets work, whether the CFP is open, how sponsors can get in touch, and how to contact the organizers. Add the code of conduct early and add travel basics as soon as you can. Include the nearest airport or train station, what part of town to stay in, whether there is a hotel recommendation, and anything attendees need to know about accessibility.
+At minimum, the site should say when and where the conference is, who it is for and why someone should come. Later you can include infos like how tickets work, whether the CFP is open, how sponsors can get in touch, and how to contact the organizers. Add the code of conduct early and add travel basics as soon as you can. Include the nearest airport or train station, what part of town to stay in, and whether there is a hotel recommendation.
+
+Give accessibility information its own section or page. List what is present and what is not, with useful details such as lift access, accessible toilets, and accessible parking or transit. Contact details are still useful for questions, but they are not a substitute for publishing what you already know.
 
 The website is for more than attendees. Sponsors use it to decide whether you look credible. Speakers use it to decide whether submitting is worth their time. Employees forwarding the event to their manager need a page that explains why they should go.
 

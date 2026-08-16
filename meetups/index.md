@@ -224,6 +224,8 @@ If the venue has no projection setup, a large TV that speakers can connect to di
 
 Even a perfect description of the location won't stop people from getting lost. Be reachable if someone can't find their way. Keep a sheet of paper and a marker handy to point people in the right direction, and post photos of the entrance so people know what to look for. This matters most when the venue is inside an office building.
 
+Publish specific accessibility information alongside the directions. Say what is available and what is not, including known barriers such as a step at the entrance or an inaccessible toilet. Do not make people contact you to learn facts you could have published. 
+
 A shared Slack or Discord can help here even if it never becomes a thriving online community. It gives attendees somewhere to ask which entrance is open without requiring you to publish your phone number.
 
 ### Share the evening
