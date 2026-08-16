@@ -1,22 +1,18 @@
-# AGENTS.md
+# RubyEvents Guides
 
-RubyEvents Guides is a small Jekyll site for practical, living guides about organizing Ruby communities.
-
-## Project goal
-
-Lower the activation energy for people who want to start and sustain Ruby meetups and conferences.
+Practical, living guides that lower the activation energy for people starting and sustaining Ruby meetups and conferences.
 
 ## Content direction
 
-- Two separate guides: one for meetups, one for conferences.
-- Keep pages simple and readable; avoid complex structure unless asked.
-- Prefer practical advice, checklists, and real organizer experience.
-- Community voices should be embedded as short quotes or interview excerpts inside chapters.
-- Some duplication between meetup and conference guides is fine.
-- Fill gaps in existing resources: non-US/European perspective, full arc from zero to sustainability, and lived experience.
+- Keep separate meetup and conference guides.
+- Keep pages simple and readable; add structural complexity only when the task requires it.
+- Prefer practical advice and checklists grounded in organizer experience.
+- Embed community voices as short quotes or interview excerpts inside chapters.
+- Allow duplication between the meetup and conference guides when it helps each guide stand alone.
+- Fill gaps in existing resources: perspectives outside the US and Europe, the full arc from starting to sustainability, and lived experience.
 
-## Site conventions
+## Implementation
 
-- Jekyll site, minimal Bundler setup.
-- Run with `bundle exec jekyll serve`.
 - Keep layouts and data files minimal.
+- Use `README.md` for setup and local serving commands.
+- Verify site changes with `bundle exec jekyll build` and `git diff --check`.
